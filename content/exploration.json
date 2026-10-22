@@ -1,0 +1,845 @@
+{
+  "habitats": {
+    "mouth": {
+      "title": "An oral biofilm",
+      "description": "Sugars enter the plaque; neighbouring organisms exchange the acids they produce.",
+      "surface": "Oral surface",
+      "mucus": "Biofilm matrix",
+      "zones": [
+        {
+          "id": "food",
+          "name": "Food & sugars",
+          "text": "Sugar becomes fuel for streptococci, which release lactate into the biofilm.",
+          "residents": [
+            "streptococcus"
+          ],
+          "papers": [
+            "oral"
+          ]
+        },
+        {
+          "id": "fluid",
+          "name": "Saliva",
+          "text": "Saliva moves food and microbes between oral surfaces.",
+          "residents": [
+            "streptococcus",
+            "veillonella"
+          ],
+          "papers": [
+            "oral"
+          ]
+        },
+        {
+          "id": "mucus",
+          "name": "Biofilm",
+          "text": "Veillonella consumes lactate from neighbouring fermenters. Microscopy reveals organised communities around these exchanges.",
+          "residents": [
+            "veillonella",
+            "streptococcus"
+          ],
+          "papers": [
+            "oral"
+          ]
+        }
+      ]
+    },
+    "oesophagus": {
+      "title": "A living passage",
+      "description": "Swallowed organisms meet a surface shaped by movement, mucus, and reflux.",
+      "surface": "Oesophageal lining",
+      "mucus": "Mucus",
+      "zones": [
+        {
+          "id": "food",
+          "name": "Passing contents",
+          "text": "Swallowing continually delivers oral bacteria and food.",
+          "residents": [
+            "streptococcus",
+            "veillonella"
+          ],
+          "papers": [
+            "oesoph-community"
+          ]
+        },
+        {
+          "id": "fluid",
+          "name": "Moving fluid",
+          "text": "Coordinated muscular movement carries this material toward the stomach.",
+          "residents": [
+            "streptococcus",
+            "veillonella"
+          ],
+          "papers": [
+            "oesoph-community"
+          ]
+        },
+        {
+          "id": "mucus",
+          "name": "At the surface",
+          "text": "Biopsies recovered Streptococcus and Veillonella from distal oesophageal tissue.",
+          "residents": [
+            "streptococcus",
+            "veillonella"
+          ],
+          "papers": [
+            "oesoph-community"
+          ]
+        }
+      ]
+    },
+    "stomach": {
+      "title": "Life at an acid boundary",
+      "description": "Meals, acid and mucus create several habitats inside one chamber. The contents are mixed and emptied, while the wall maintains a protective boundary.",
+      "surface": "Gastric lining",
+      "mucus": "Gastric mucus",
+      "zones": [
+        {
+          "id": "food",
+          "name": "Food arrivals",
+          "text": "Meals and swallowed saliva introduce microbes alongside nutrients. Food temporarily changes acidity, and survival through this chamber affects which organisms reach the intestine.",
+          "residents": [
+            "lactobacillus",
+            "streptococcus"
+          ],
+          "papers": [
+            "gastric-community"
+          ]
+        },
+        {
+          "id": "fluid",
+          "name": "Acidic contents",
+          "text": "Acid and digestive enzymes act on the moving contents. Changing acid production changes this ecological filter, with effects that can extend into the intestinal community.",
+          "residents": [
+            "streptococcus"
+          ],
+          "papers": [
+            "acid-suppression"
+          ]
+        },
+        {
+          "id": "mucus",
+          "name": "Mucus & lining",
+          "text": "Mucus and bicarbonate protect the stomach wall from its own acid. This creates a gradient between the contents and the cells, giving surface-associated organisms a different environment. H. pylori is one well-studied specialist of this niche.",
+          "residents": [
+            "helicobacter"
+          ],
+          "papers": [
+            "gastric"
+          ]
+        }
+      ]
+    },
+    "small": {
+      "title": "A moving food landscape",
+      "description": "Microbes intercept sugars while the host absorbs nutrients. Bile and movement continually reshape the habitat.",
+      "surface": "Intestinal lining",
+      "mucus": "Mucus",
+      "zones": [
+        {
+          "id": "food",
+          "name": "Meal-derived sugars",
+          "text": "Small-intestinal Streptococcus actively expresses systems for taking up and processing carbohydrates.",
+          "residents": [
+            "streptococcus"
+          ],
+          "papers": [
+            "small-sugars"
+          ]
+        },
+        {
+          "id": "fluid",
+          "name": "Flowing contents",
+          "text": "Veillonella consumes lactate produced by neighbouring fermenters.",
+          "residents": [
+            "veillonella",
+            "streptococcus"
+          ],
+          "papers": [
+            "small-immune"
+          ]
+        },
+        {
+          "id": "mucus",
+          "name": "At the lining",
+          "text": "Introduced probiotic organisms settle unevenly across people and intestinal sites.",
+          "residents": [
+            "lactobacillus"
+          ],
+          "papers": [
+            "probiotic-colonisation"
+          ]
+        }
+      ]
+    },
+    "colon": {
+      "title": "A landscape of exchange",
+      "description": "Food particles, flowing contents, and mucus each offer different resources and neighbours.",
+      "surface": "Colonic lining",
+      "mucus": "Mucus",
+      "zones": [
+        {
+          "id": "food",
+          "name": "On food particles",
+          "text": "Bacteroides breaks down complex sugars. Bifidobacteria produce acetate and lactate that feed other organisms.",
+          "residents": [
+            "bacteroides",
+            "bifidobacterium"
+          ],
+          "papers": [
+            "bacteroides-glycans",
+            "cross-feeding"
+          ]
+        },
+        {
+          "id": "fluid",
+          "name": "In the contents",
+          "text": "Fermentation products move between cells. Methanobrevibacter consumes hydrogen and formate; phages follow their bacterial hosts.",
+          "residents": [
+            "faecalibacterium",
+            "methanobrevibacter",
+            "phages"
+          ],
+          "papers": [
+            "methane-partners",
+            "phages-new"
+          ]
+        },
+        {
+          "id": "mucus",
+          "name": "Mucus & lining",
+          "text": "Akkermansia uses mucin. Fungi and bacterial products interact with the barrier and its immune cells.",
+          "residents": [
+            "akkermansia",
+            "fungi",
+            "faecalibacterium"
+          ],
+          "papers": [
+            "akk-mucus",
+            "fungi",
+            "faecali-protein"
+          ]
+        }
+      ]
+    },
+    "rectum": {
+      "title": "The downstream community",
+      "description": "Stool carries cells and fermentation products from colonic communities into the final passage.",
+      "surface": "Rectal lining",
+      "mucus": "Mucus",
+      "zones": [
+        {
+          "id": "food",
+          "name": "Remaining material",
+          "text": "Remaining substrates and microbial cells arrive after fermentation upstream.",
+          "residents": [
+            "bacteroides",
+            "bifidobacterium"
+          ],
+          "papers": [
+            "transit"
+          ]
+        },
+        {
+          "id": "fluid",
+          "name": "Cells & gases",
+          "text": "Transit changes how long substrates remain available. Breath methane is associated with constipation.",
+          "residents": [
+            "methanobrevibacter",
+            "bifidobacterium"
+          ],
+          "papers": [
+            "methane-transit"
+          ]
+        },
+        {
+          "id": "mucus",
+          "name": "The final surface",
+          "text": "A stool sample is a downstream collection of a spatially varied gut ecosystem.",
+          "residents": [
+            "bacteroides",
+            "methanobrevibacter"
+          ],
+          "papers": [
+            "transit"
+          ]
+        }
+      ]
+    }
+  },
+  "stories": [
+    {
+      "id": "oral-acid",
+      "title": "Sugar, acid & teeth",
+      "subtitle": "Repeated sugar exposure changes plaque chemistry and the minerals in enamel.",
+      "regions": [
+        "mouth"
+      ],
+      "evidence": "Laboratory biofilms · human intra-oral enamel experiments",
+      "papers": [
+        "oral-sugar",
+        "oral-sucrose"
+      ],
+      "steps": [
+        {
+          "label": "Dietary sugars",
+          "detail": "Sugar reaching plaque supplies fermentable carbohydrate. Sucrose also supports the sticky material that holds biofilms together.",
+          "kind": "food",
+          "papers": [
+            "oral-sucrose"
+          ],
+          "microbe": null
+        },
+        {
+          "label": "Streptococcus",
+          "detail": "S. mutans ferments sugar in the experimental biofilm. Frequent sucrose exposures change its acid-producing behaviour.",
+          "kind": "bacterium",
+          "papers": [
+            "oral-sugar"
+          ],
+          "microbe": "streptococcus"
+        },
+        {
+          "label": "Organic acids",
+          "detail": "Bacterial fermentation releases acids, including lactate. With repeated sugar exposure, the biofilm spends more time in acidic conditions.",
+          "kind": "molecule",
+          "papers": [
+            "oral-sugar"
+          ],
+          "microbe": null
+        },
+        {
+          "label": "Plaque acidity",
+          "detail": "The acidic environment reaches the enamel below the biofilm. Saliva flow, the meal pattern and the surrounding community influence this environment.",
+          "kind": "host",
+          "papers": [
+            "oral-sugar",
+            "oral-sucrose"
+          ],
+          "microbe": null
+        },
+        {
+          "label": "Enamel minerals",
+          "detail": "The studies measured enamel demineralisation alongside changes in plaque. This connects microbial sugar use to the process leading to dental decay.",
+          "kind": "host",
+          "papers": [
+            "oral-sugar",
+            "oral-sucrose"
+          ],
+          "microbe": null
+        }
+      ]
+    },
+    {
+      "id": "oral-sharing",
+      "title": "One microbe feeds another",
+      "subtitle": "Lactate connects sugar-fermenting bacteria with neighbours in the same biofilm.",
+      "regions": [
+        "mouth"
+      ],
+      "evidence": "Saliva-fed flow-cell biofilms · defined bacterial communities",
+      "papers": [
+        "oral-lactate",
+        "oral"
+      ],
+      "steps": [
+        {
+          "label": "Salivary nutrients",
+          "detail": "Researchers supplied saliva to small, defined bacterial communities on a surface.",
+          "kind": "food",
+          "papers": [
+            "oral-lactate"
+          ],
+          "microbe": null
+        },
+        {
+          "label": "Streptococcus",
+          "detail": "S. oralis produced lactate while growing on nutrients in saliva.",
+          "kind": "bacterium",
+          "papers": [
+            "oral-lactate"
+          ],
+          "microbe": "streptococcus"
+        },
+        {
+          "label": "Lactate",
+          "detail": "The fermentation product becomes a food source for another organism in the same neighbourhood.",
+          "kind": "molecule",
+          "papers": [
+            "oral-lactate"
+          ],
+          "microbe": null
+        },
+        {
+          "label": "Veillonella",
+          "detail": "Veillonella consumed lactate and supported growth in paired communities.",
+          "kind": "bacterium",
+          "papers": [
+            "oral-lactate"
+          ],
+          "microbe": "veillonella"
+        },
+        {
+          "label": "A growing biofilm",
+          "detail": "The partnership helped mixed communities develop. Imaging of human plaque reveals the spatial neighbourhoods in which such exchanges take place.",
+          "kind": "host",
+          "papers": [
+            "oral-lactate",
+            "oral"
+          ],
+          "microbe": null
+        }
+      ]
+    },
+    {
+      "id": "nitrate",
+      "title": "From tongue to stomach",
+      "subtitle": "Oral microbes start a chemical journey that crosses the oesophagus.",
+      "regions": [
+        "mouth",
+        "oesophagus"
+      ],
+      "evidence": "Human tongue isolates · dietary nitrate experiments · junction microsensors",
+      "papers": [
+        "oral-nitrate",
+        "gastric-nitric",
+        "junction-nitric"
+      ],
+      "steps": [
+        {
+          "label": "Salivary nitrate",
+          "detail": "After a dietary nitrate load, nitrate becomes concentrated in saliva and reaches bacteria on the tongue.",
+          "kind": "food",
+          "papers": [
+            "gastric-nitric"
+          ]
+        },
+        {
+          "label": "Tongue bacteria",
+          "detail": "Veillonella, Rothia and Actinomyces isolates reduce nitrate to nitrite. Activity is concentrated at the rear of the tongue.",
+          "kind": "bacterium",
+          "microbe": "veillonella",
+          "papers": [
+            "oral-nitrate"
+          ]
+        },
+        {
+          "label": "Swallowed nitrite",
+          "detail": "Swallowed saliva carries nitrite down the oesophagus. The microbial conversion happened upstream, on the tongue.",
+          "kind": "molecule",
+          "papers": [
+            "gastric-nitric"
+          ]
+        },
+        {
+          "label": "The acid boundary",
+          "detail": "At the oesophagus–stomach junction, nitrite meets acidic gastric juice. Microsensors locate the peak of nitric oxide formation at this boundary.",
+          "kind": "host",
+          "papers": [
+            "junction-nitric"
+          ]
+        },
+        {
+          "label": "Nitric oxide",
+          "detail": "Acid chemistry produces nitric oxide from nitrite. A human nitrate experiment measured a large, sustained rise in gastric nitric oxide.",
+          "kind": "molecule",
+          "papers": [
+            "gastric-nitric",
+            "junction-nitric"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "butyrate",
+      "title": "Fibre becomes butyrate",
+      "subtitle": "A meal passes through a microbial partnership.",
+      "regions": [
+        "colon",
+        "rectum"
+      ],
+      "evidence": "Bacterial cocultures · fermentation enzymes · mouse colonocytes",
+      "papers": [
+        "cross-feeding",
+        "butyrate-acetate",
+        "colonocyte-butyrate"
+      ],
+      "steps": [
+        {
+          "label": "Food carbohydrates",
+          "detail": "Starch or fructooligosaccharides supply fermentable carbohydrate.",
+          "kind": "food",
+          "papers": [
+            "cross-feeding"
+          ],
+          "microbe": null
+        },
+        {
+          "label": "Bifidobacterium",
+          "detail": "B. adolescentis breaks down the substrate and releases acetate.",
+          "kind": "bacterium",
+          "papers": [
+            "cross-feeding"
+          ],
+          "microbe": "bifidobacterium"
+        },
+        {
+          "label": "Acetate",
+          "detail": "Acetate passes into a shared pool available to neighbouring bacteria.",
+          "kind": "molecule",
+          "papers": [
+            "cross-feeding"
+          ],
+          "microbe": null
+        },
+        {
+          "label": "Faecalibacterium",
+          "detail": "F. prausnitzii uses acetate during fermentation. Cocultures produced more butyrate than its monocultures.",
+          "kind": "bacterium",
+          "papers": [
+            "cross-feeding"
+          ],
+          "microbe": "faecalibacterium"
+        },
+        {
+          "label": "Butyrate",
+          "detail": "Carbon exchanged between organisms becomes another fermentation product: butyrate.",
+          "kind": "molecule",
+          "papers": [
+            "butyrate-acetate"
+          ],
+          "microbe": null
+        },
+        {
+          "label": "The gut lining",
+          "detail": "In mouse colonocytes, bacterial butyrate fuels mitochondrial respiration. Adding it restored energy metabolism in cells from germ-free animals.",
+          "kind": "host",
+          "papers": [
+            "colonocyte-butyrate"
+          ],
+          "microbe": null
+        }
+      ]
+    },
+    {
+      "id": "methane",
+      "title": "Hydrogen becomes methane",
+      "subtitle": "A bacterial fermentation supports an archaeal neighbour.",
+      "regions": [
+        "colon",
+        "rectum"
+      ],
+      "evidence": "Coculture mechanism + human methane/transit studies",
+      "papers": [
+        "methane-partners",
+        "methane-transit"
+      ],
+      "steps": [
+        {
+          "label": "Food substrates",
+          "detail": "Bacteroides ferments dietary carbohydrates.",
+          "kind": "food",
+          "papers": [
+            "methane-partners"
+          ],
+          "microbe": null
+        },
+        {
+          "label": "Bacteroides",
+          "detail": "Fermentation releases products that support Methanobrevibacter growth.",
+          "kind": "bacterium",
+          "papers": [
+            "methane-partners"
+          ],
+          "microbe": "bacteroides"
+        },
+        {
+          "label": "Hydrogen & formate",
+          "detail": "These fermentation products become fuel for methanogens.",
+          "kind": "molecule",
+          "papers": [
+            "methane-partners"
+          ],
+          "microbe": null
+        },
+        {
+          "label": "Methanobrevibacter",
+          "detail": "The archaeon consumes bacterial products and releases methane.",
+          "kind": "archaea",
+          "papers": [
+            "methane-partners"
+          ],
+          "microbe": "methanobrevibacter"
+        },
+        {
+          "label": "Methane & transit",
+          "detail": "Human studies associate breath methane with constipation and slower transit.",
+          "kind": "host",
+          "papers": [
+            "methane-transit"
+          ],
+          "microbe": null
+        }
+      ]
+    },
+    {
+      "id": "lactate",
+      "title": "Muscle, lactate, microbes",
+      "subtitle": "An exchange connecting exercise with the gut.",
+      "regions": [
+        "colon"
+      ],
+      "evidence": "Human athlete observations + mouse mechanism",
+      "papers": [
+        "veillonella-lactate"
+      ],
+      "steps": [
+        {
+          "label": "Exercising muscle",
+          "detail": "Exercise produces lactate. Veillonella abundance rose after a marathon in the human observations.",
+          "kind": "host",
+          "papers": [
+            "veillonella-lactate"
+          ],
+          "microbe": null
+        },
+        {
+          "label": "Blood lactate",
+          "detail": "Tracer experiments in mice followed lactate from blood into the intestinal lumen.",
+          "kind": "molecule",
+          "papers": [
+            "veillonella-lactate"
+          ],
+          "microbe": null
+        },
+        {
+          "label": "Veillonella",
+          "detail": "An isolate from a runner consumed lactate.",
+          "kind": "bacterium",
+          "papers": [
+            "veillonella-lactate"
+          ],
+          "microbe": "veillonella"
+        },
+        {
+          "label": "Propionate",
+          "detail": "Veillonella converted lactate into propionate.",
+          "kind": "molecule",
+          "papers": [
+            "veillonella-lactate"
+          ],
+          "microbe": null
+        },
+        {
+          "label": "Endurance in mice",
+          "detail": "The isolate increased mouse treadmill endurance; propionate reproduced the effect in the experiment.",
+          "kind": "host",
+          "papers": [
+            "veillonella-lactate"
+          ],
+          "microbe": null
+        }
+      ]
+    },
+    {
+      "id": "gastric",
+      "title": "Urea and a local refuge",
+      "subtitle": "How H. pylori lives beside the stomach lining.",
+      "regions": [
+        "stomach"
+      ],
+      "evidence": "Mucin experiments · channel genetics · human eradication trial",
+      "papers": [
+        "gastric-mucin",
+        "gastric-urei",
+        "gastric-urease",
+        "gastric"
+      ],
+      "steps": [
+        {
+          "label": "Gastric mucus",
+          "detail": "In a gastric mucin model, H. pylori changes the gel around it and gains room to swim.",
+          "kind": "host",
+          "papers": [
+            "gastric-mucin"
+          ],
+          "microbe": null
+        },
+        {
+          "label": "Helicobacter pylori",
+          "detail": "H. pylori makes urease. Its acid-sensitive UreI channel opens a route for urea to enter the cell.",
+          "kind": "bacterium",
+          "papers": [
+            "gastric-urei"
+          ],
+          "microbe": "helicobacter"
+        },
+        {
+          "label": "Urea breakdown",
+          "detail": "Inside the cell, urease breaks urea into ammonia and carbon dioxide. Deletion experiments connect urea entry to enzyme activation in acid.",
+          "kind": "molecule",
+          "papers": [
+            "gastric-urease"
+          ],
+          "microbe": null
+        },
+        {
+          "label": "Local buffering",
+          "detail": "The products of urea breakdown buffer acidity. In the mucin model, the pH shift also loosens the gel around the bacterium.",
+          "kind": "host",
+          "papers": [
+            "gastric-mucin",
+            "gastric-urease"
+          ],
+          "microbe": null
+        },
+        {
+          "label": "Persistent infection",
+          "detail": "Long-term infection can drive gastritis. Eradication reduced gastric cancer incidence in a long-followed human trial.",
+          "kind": "host",
+          "papers": [
+            "gastric"
+          ],
+          "microbe": null
+        }
+      ]
+    },
+    {
+      "id": "histamine",
+      "title": "A food molecule becomes a signal",
+      "subtitle": "L. reuteri links histidine to immune-cell signalling.",
+      "regions": [
+        "small",
+        "colon"
+      ],
+      "evidence": "Bacterial genetics + human immune-cell experiments",
+      "papers": [
+        "lacto-histamine"
+      ],
+      "steps": [
+        {
+          "label": "Histidine",
+          "detail": "The amino acid supplies the starting material.",
+          "kind": "food",
+          "papers": [
+            "lacto-histamine"
+          ],
+          "microbe": null
+        },
+        {
+          "label": "Lactobacillus reuteri",
+          "detail": "L. reuteri 6475 carries a histidine-decarboxylase pathway.",
+          "kind": "bacterium",
+          "papers": [
+            "lacto-histamine"
+          ],
+          "microbe": "lactobacillus"
+        },
+        {
+          "label": "Histamine",
+          "detail": "The pathway converts histidine into histamine.",
+          "kind": "molecule",
+          "papers": [
+            "lacto-histamine"
+          ],
+          "microbe": null
+        },
+        {
+          "label": "H₂ receptor",
+          "detail": "Bacterial histamine activates H₂ receptors in human immune-cell experiments.",
+          "kind": "host",
+          "papers": [
+            "lacto-histamine"
+          ],
+          "microbe": null
+        },
+        {
+          "label": "TNF production falls",
+          "detail": "Intracellular signalling changes and inflammatory TNF production decreases.",
+          "kind": "host",
+          "papers": [
+            "lacto-histamine"
+          ],
+          "microbe": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "barrier",
+      "title": "The intestinal barrier",
+      "target": "barrier",
+      "microbe": "bifidobacterium",
+      "signal": "Acetate",
+      "evidence": "Mouse infection mechanism",
+      "route": "Bifidobacterium → acetate → intestinal cells → reduced toxin passage",
+      "description": "In an E. coli infection model, acetate-producing bifidobacteria reduced the movement of Shiga toxin from the gut into blood.",
+      "papers": [
+        "bifido-acetate"
+      ]
+    },
+    {
+      "id": "immune",
+      "title": "Immune development",
+      "target": "immune",
+      "microbe": "bacteroides",
+      "signal": "Polysaccharide A",
+      "evidence": "Germ-free animal experiments",
+      "route": "B. fragilis → polysaccharide A → immune cells → T-cell development",
+      "description": "A defined bacterial surface molecule changed immune development. Bacteria lacking polysaccharide A did not restore the same functions.",
+      "papers": [
+        "bacteroides-immune"
+      ],
+      "story": null
+    },
+    {
+      "id": "metabolic",
+      "title": "Metabolic health",
+      "target": "metabolism",
+      "microbe": "akkermansia",
+      "signal": "Pasteurised bacterial cells",
+      "evidence": "Human randomised pilot",
+      "route": "A. muciniphila preparation → measured metabolic outcomes",
+      "description": "Pasteurised A. muciniphila improved insulin sensitivity and some other metabolic measures in a small human trial. The complete route from preparation to outcome remains an experimental question.",
+      "papers": [
+        "akk",
+        "akk-mucus"
+      ],
+      "story": null,
+      "open_route": true
+    },
+    {
+      "id": "muscle",
+      "title": "Muscle and performance",
+      "target": "muscle",
+      "microbe": "veillonella",
+      "signal": "Lactate → propionate",
+      "evidence": "Human observations + mouse experiments",
+      "route": "Exercising muscle → blood lactate → gut Veillonella → propionate",
+      "description": "Lactate made during exercise became fuel for a gut organism. Mouse experiments linked the isolate and its fermentation product with increased endurance.",
+      "papers": [
+        "veillonella-lactate"
+      ],
+      "story": "lactate"
+    },
+    {
+      "id": "brain",
+      "title": "Brain and behaviour",
+      "target": "brain",
+      "microbe": "bacteroides",
+      "signal": "Nerves, precursors, immune and metabolic signals",
+      "evidence": "Neural, metabolic and immune experiments + human studies",
+      "route": "Gut sensing and microbial metabolism ↔ neural, immune and hormonal communication ↔ brain",
+      "description": "The gut and brain exchange signals through sensory nerves, tryptophan metabolism, immune responses and microbial products. Serotonin helps turn local gut sensing into neural activity. The connected maps follow each route and the experiments behind it.",
+      "papers": [
+        "serotonin-vagal",
+        "brain-vagus",
+        "brain-tryptophan",
+        "brain-microglia",
+        "brain-stress",
+        "bifido-cognition"
+      ],
+      "story": null
+    }
+  ]
+}

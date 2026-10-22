@@ -1,0 +1,5 @@
+/* The three deeper views live within Explore. */
+.explore-navigation{display:flex;align-items:center;gap:28px;margin:0 40px;min-height:44px;border-bottom:1px solid var(--line);position:relative;z-index:6;font-size:11px;letter-spacing:.3px}.explore-navigation a{padding:12px 0 10px;text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent}.explore-navigation a[aria-current="page"]{color:var(--accent);border-bottom-color:var(--accent)}.explore-navigation+#experience{height:calc(100svh - 127px)}
+@media(max-width:760px){.explore-navigation{margin:0 18px;gap:0;justify-content:space-between;font-size:10px;min-height:43px}.explore-navigation a{padding:12px 0 10px}.knowledge-page .masthead{height:auto;min-height:83px;flex-wrap:wrap;gap:12px;padding:15px 0}.knowledge-page .masthead-note{display:none}.knowledge-page .site-nav{gap:18px}}
+
+@media(max-width:760px){.explore-navigation~#experience #search-hits{top:192px}.masthead:has(+.explore-navigation) #symptom-search{top:154px}.explore-navigation+#experience{height:calc(100svh - 143px)}body[data-mode=focus] .explore-navigation+#experience{min-height:calc(100svh - 143px)}}

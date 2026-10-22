@@ -1,0 +1,188 @@
+{
+  "organisms": [
+    {
+      "name": "Akkermansia muciniphila",
+      "studies": [
+        "akk",
+        "akk-mucus"
+      ],
+      "links": [
+        {
+          "title": "Mucus barrier",
+          "url": "/mechanisms#map=mucus"
+        },
+        {
+          "title": "The colonic habitat",
+          "url": "/#organ=colon&microbe=akkermansia"
+        }
+      ]
+    },
+    {
+      "name": "Bifidobacterium breve",
+      "studies": [
+        "bifido-cognition"
+      ],
+      "links": [
+        {
+          "title": "Gut–brain communication",
+          "url": "/mechanisms#map=gut-brain"
+        }
+      ]
+    },
+    {
+      "name": "Bifidobacterium adolescentis",
+      "studies": [
+        "cross-feeding"
+      ],
+      "links": [
+        {
+          "title": "Fibre fermentation",
+          "url": "/mechanisms#map=scfa"
+        }
+      ]
+    },
+    {
+      "name": "Faecalibacterium prausnitzii",
+      "studies": [
+        "faecali",
+        "faecali-protein",
+        "butyrate-acetate",
+        "cross-feeding"
+      ],
+      "links": [
+        {
+          "title": "Butyrate and cross-feeding",
+          "url": "/mechanisms#map=scfa"
+        },
+        {
+          "title": "Immune signalling",
+          "url": "/mechanisms#map=immune"
+        }
+      ]
+    },
+    {
+      "name": "Bacteroides thetaiotaomicron",
+      "studies": [
+        "bacteroides-glycans",
+        "methane-partners",
+        "b12-competition",
+        "bile-bsh"
+      ],
+      "links": [
+        {
+          "title": "Bile-acid metabolism",
+          "url": "/mechanisms#map=bile"
+        },
+        {
+          "title": "Vitamin B12 competition",
+          "url": "/mechanisms#map=b12"
+        },
+        {
+          "title": "Hydrogen partners",
+          "url": "/mechanisms#map=hydrogen"
+        }
+      ]
+    },
+    {
+      "name": "Bacteroides fragilis",
+      "studies": [
+        "bacteroides-immune",
+        "bacteroides-brain",
+        "immune-tlr2"
+      ],
+      "links": [
+        {
+          "title": "Immune sensing",
+          "url": "/mechanisms#map=immune"
+        }
+      ]
+    },
+    {
+      "name": "Methanobrevibacter smithii",
+      "studies": [
+        "methane-partners"
+      ],
+      "links": [
+        {
+          "title": "Hydrogen and methane",
+          "url": "/mechanisms#map=hydrogen"
+        }
+      ]
+    },
+    {
+      "name": "Veillonella atypica",
+      "studies": [
+        "veillonella-lactate"
+      ],
+      "links": [
+        {
+          "title": "Movement and exercise",
+          "url": "/living-well#item=movement"
+        }
+      ]
+    },
+    {
+      "name": "Lactobacillus johnsonii",
+      "studies": [
+        "lacto-gastric"
+      ],
+      "links": [
+        {
+          "title": "Life in the stomach",
+          "url": "/#organ=stomach&microbe=lactobacillus"
+        }
+      ]
+    },
+    {
+      "name": "Limosilactobacillus reuteri",
+      "studies": [
+        "lacto-histamine"
+      ],
+      "links": [
+        {
+          "title": "Histamine and immune activity",
+          "url": "/#organ=stomach&microbe=lactobacillus"
+        }
+      ]
+    },
+    {
+      "name": "Helicobacter pylori",
+      "studies": [
+        "gastric",
+        "gastric-mucin",
+        "gastric-urei",
+        "gastric-urease"
+      ],
+      "links": [
+        {
+          "title": "Illness and recovery",
+          "url": "/illness-recovery#item=helicobacter"
+        }
+      ]
+    },
+    {
+      "name": "Candida albicans",
+      "studies": [
+        "fungi-mutualism"
+      ],
+      "links": [
+        {
+          "title": "Fungal ecology",
+          "url": "/#organ=colon&community=candida"
+        }
+      ]
+    },
+    {
+      "name": "Malassezia restricta",
+      "studies": [
+        "fungi-malassezia"
+      ],
+      "links": [
+        {
+          "title": "The fungal community",
+          "url": "/#organ=colon&community=malassezia"
+        }
+      ]
+    }
+  ]
+}

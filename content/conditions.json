@@ -1,0 +1,2854 @@
+{
+  "ibs": {
+    "id": "ibs",
+    "title": "Irritable bowel syndrome",
+    "lead": "IBS combines recurrent abdominal pain with changes in stool frequency or consistency.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "IBS",
+      "Irritable colon"
+    ],
+    "paragraphs": [
+      "IBS combines recurrent abdominal pain with changes in stool frequency or consistency. Constipation, diarrhoea and mixed patterns describe different experiences of the disorder.",
+      "Fermentation, intestinal transit, visceral sensitivity and gut–brain signalling interact. Research examines how microbial metabolites affect these processes and how dietary changes alter symptoms.",
+      "Assessment looks at the symptom pattern and features suggesting another condition. Treatment can combine dietary adjustments, soluble fibre, medicines and gut-directed psychological therapies."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-ibs"
+    ],
+    "research_terms": "Irritable bowel syndrome",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [
+      "intestine"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "constipation": {
+    "id": "constipation",
+    "title": "Chronic constipation",
+    "lead": "Constipation involves difficult, infrequent or incomplete bowel movements.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Constipation involves difficult, infrequent or incomplete bowel movements. Stool hardness, straining and a sense of blockage can matter as much as how often someone goes.",
+      "Time spent in the colon changes water absorption and microbial metabolism. Methane-producing archaea are studied in relation to slower transit, alongside pelvic-floor and medication effects.",
+      "Care starts with the pattern, medicines and examination. Fibre, fluid, activity, laxatives or pelvic-floor treatment address different causes; bleeding or persistent new symptoms deserve assessment."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-constipation"
+    ],
+    "research_terms": "constipation",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [
+      "colon"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "microscopic-colitis": {
+    "id": "microscopic-colitis",
+    "title": "Microscopic colitis",
+    "lead": "Microscopic colitis causes chronic watery diarrhoea, often without visible bleeding.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Microscopic colitis causes chronic watery diarrhoea, often without visible bleeding. The colon can look normal during endoscopy; tissue samples reveal the inflammation.",
+      "Researchers study the intestinal barrier, bile acids, medication exposure and microbial communities in the inflamed colon. These are distinct targets from the visible lesions of ulcerative colitis.",
+      "Diagnosis requires colonic biopsies. Care includes reviewing medicines and triggers, managing fluid loss and using treatments such as budesonide when indicated."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-microscopic-colitis"
+    ],
+    "research_terms": "Microscopic colitis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [
+      "colon"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "crohns": {
+    "id": "crohns",
+    "title": "Crohn’s disease",
+    "lead": "Crohn’s disease produces patchy inflammation anywhere along the digestive tract.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Regional enteritis",
+      "Regional ileitis"
+    ],
+    "paragraphs": [
+      "Crohn’s disease produces patchy inflammation anywhere along the digestive tract. It can affect the full bowel wall and cause pain, diarrhoea, weight loss, narrowing or fistulas.",
+      "The immune system interacts abnormally with intestinal contents and microbes. Human studies identify changes in community function; experiments investigate barrier damage, microbial products and inflammatory responses.",
+      "Endoscopy, imaging, laboratory tests and biopsies help establish the diagnosis. Anti-inflammatory or immune-targeted medicines, nutritional support and sometimes surgery control complications."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-crohns"
+    ],
+    "research_terms": "Crohn’s disease",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [
+      "digestive tract"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "ulcerative-colitis": {
+    "id": "ulcerative-colitis",
+    "title": "Ulcerative colitis",
+    "lead": "Ulcerative colitis inflames the colon’s inner lining, usually beginning in the rectum.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Colitis",
+      "Distal colitis",
+      "Pancolitis",
+      "Ulcerative proctitis"
+    ],
+    "paragraphs": [
+      "Ulcerative colitis inflames the colon’s inner lining, usually beginning in the rectum. Bloody diarrhoea, urgency and abdominal pain can alternate with periods of remission.",
+      "Microbial metabolites, mucus and mucosal immune responses are active research areas. Donor-microbiota trials investigate whether changing a community can help induce remission.",
+      "Treatment depends on extent and severity and can include mesalamine, immune-targeted therapy or surgery. Follow-up also addresses nutrition and colorectal-cancer surveillance."
+    ],
+    "connection": "Human trials",
+    "clinical_sources": [
+      "clinical-ulcerative-colitis"
+    ],
+    "research_terms": "Ulcerative colitis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [
+      "colon",
+      "rectum"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "coeliac": {
+    "id": "coeliac",
+    "title": "Coeliac disease",
+    "lead": "Coeliac disease is an immune response to gluten that damages the small-intestinal lining.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Celiac sprue",
+      "Gluten-sensitive enteropathy",
+      "Nontropical sprue"
+    ],
+    "paragraphs": [
+      "Coeliac disease is an immune response to gluten that damages the small-intestinal lining. It can cause diarrhoea, bloating, iron deficiency or symptoms beyond digestion.",
+      "Damaged villi change nutrient absorption and the substrates available to microbes. Studies examine microbial gluten processing and the community’s interaction with intestinal immunity.",
+      "Blood tests and sometimes intestinal biopsy support diagnosis while gluten is still being eaten. Treatment is a lifelong gluten-free diet with attention to nutritional recovery."
+    ],
+    "connection": "Immune mechanisms",
+    "clinical_sources": [
+      "clinical-coeliac"
+    ],
+    "research_terms": "Coeliac disease",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [
+      "small"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "gerd": {
+    "id": "gerd",
+    "title": "Gastro-oesophageal reflux disease",
+    "lead": "GERD occurs when reflux repeatedly causes troublesome symptoms or tissue injury.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Gastroesophageal reflux disease"
+    ],
+    "paragraphs": [
+      "GERD occurs when reflux repeatedly causes troublesome symptoms or tissue injury. Heartburn and regurgitation are common; some people develop inflammation or narrowing of the oesophagus.",
+      "The oesophagus and stomach contain distinct microbial habitats. Research examines reflux-associated changes in these communities and the effects of acid-suppressing medicines on downstream gut ecology.",
+      "Care can include adjusting meal timing, addressing individual triggers and acid suppression. Swallowing difficulty, bleeding or unexplained weight loss call for assessment."
+    ],
+    "connection": "Drug and diet effects",
+    "clinical_sources": [
+      "clinical-gerd"
+    ],
+    "research_terms": "Gastro-oesophageal reflux disease",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "oesophagus",
+    "affected_sites": [
+      "oesophagus"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "functional-dyspepsia": {
+    "id": "functional-dyspepsia",
+    "title": "Functional dyspepsia",
+    "lead": "Functional dyspepsia causes persistent upper-abdominal discomfort, early fullness or burning without a structural explanation for the symptoms.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Dyspepsia",
+      "Upset stomach"
+    ],
+    "paragraphs": [
+      "Functional dyspepsia causes persistent upper-abdominal discomfort, early fullness or burning without a structural explanation for the symptoms. It can overlap with IBS.",
+      "Research follows stomach accommodation, gastric emptying, duodenal immune activity and microbial exposure. H. pylori infection is a separate, testable contributor to dyspeptic symptoms.",
+      "Evaluation considers H. pylori, medicines and warning signs. Treatment is tailored to pain, fullness and the person’s other findings."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-functional-dyspepsia"
+    ],
+    "research_terms": "Functional dyspepsia",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "stomach",
+    "affected_sites": [
+      "stomach"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "peptic-ulcer": {
+    "id": "peptic-ulcer",
+    "title": "Peptic ulcer disease",
+    "lead": "Peptic ulcers are breaks in the lining of the stomach or duodenum.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Duodenal ulcer",
+      "Gastric ulcer",
+      "Stomach ulcer",
+      "Ulcer"
+    ],
+    "paragraphs": [
+      "Peptic ulcers are breaks in the lining of the stomach or duodenum. H. pylori infection and anti-inflammatory pain medicines are major causes; ulcers can bleed or perforate.",
+      "H. pylori is a direct microbial cause, working within the stomach’s mucus and acid environment. Ulcers caused by medicines follow another route to injury.",
+      "Testing and treatment address H. pylori, acid exposure and ulcer-provoking medicines. Vomiting blood, black stools or sudden severe abdominal pain need urgent care."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-peptic-ulcer"
+    ],
+    "research_terms": "Peptic ulcer disease",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "stomach",
+    "affected_sites": [
+      "stomach"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "gastritis": {
+    "id": "gastritis",
+    "title": "Gastritis",
+    "lead": "Gastritis is inflammation of the stomach lining.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Gastritis is inflammation of the stomach lining. H. pylori, autoimmune disease and other exposures can produce different forms, with or without obvious symptoms.",
+      "The gastric environment selects acid-tolerant organisms. H. pylori-driven inflammation and autoimmune loss of acid-producing cells change that environment in different ways.",
+      "Investigation may include H. pylori testing, blood tests or endoscopy. Treatment follows the cause and can also address iron or vitamin B12 deficiency."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-gastritis"
+    ],
+    "research_terms": "Gastritis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "stomach",
+    "affected_sites": [
+      "stomach"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "lactose-intolerance": {
+    "id": "lactose-intolerance",
+    "title": "Lactose intolerance",
+    "lead": "Lactose intolerance causes gas, bloating or diarrhoea when too little lactase is available to digest milk sugar.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Dairy product intolerance",
+      "Lactase deficiency",
+      "Milk intolerance"
+    ],
+    "paragraphs": [
+      "Lactose intolerance causes gas, bloating or diarrhoea when too little lactase is available to digest milk sugar. The amount tolerated varies with the food and portion.",
+      "Undigested lactose reaches microbes that ferment it into acids and gases. Live yoghurt cultures can supply enzymes that assist lactose digestion during a meal.",
+      "People often manage symptoms by adjusting portions, choosing low-lactose foods or using lactase. New symptoms after an infection or bowel disease can reflect temporary loss of lactase."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-lactose-intolerance"
+    ],
+    "research_terms": "Lactose intolerance",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [
+      "small"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "fructose-malabsorption": {
+    "id": "fructose-malabsorption",
+    "title": "Fructose malabsorption",
+    "lead": "Poor absorption of a large fructose load can leave sugar in the intestine, producing bloating, gas and loose stools.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Poor absorption of a large fructose load can leave sugar in the intestine, producing bloating, gas and loose stools. This differs from hereditary fructose intolerance.",
+      "Unabsorbed fructose draws water and becomes a fermentation substrate. Its effects depend on dose, accompanying sugars, transit and the microbial community.",
+      "A dietary history helps identify the pattern. A dietitian can guide targeted changes and reintroduction without unnecessarily excluding broad groups of fruit or vegetables."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-fructose-malabsorption"
+    ],
+    "research_terms": "Fructose malabsorption",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [
+      "colon"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "sibo": {
+    "id": "sibo",
+    "title": "Small-intestinal bacterial overgrowth",
+    "lead": "SIBO describes excessive or altered bacterial growth in the small intestine.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "SIBO describes excessive or altered bacterial growth in the small intestine. It can accompany impaired motility, altered anatomy or other disease and produce bloating, diarrhoea or malabsorption.",
+      "Location matters: organisms and fermentation processes that belong further downstream encounter nutrients earlier. Breath gases provide an indirect measurement of this activity.",
+      "Assessment considers the underlying cause and the limitations of breath testing. Treatment may involve antibiotics, correcting contributing conditions and nutritional support."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-sibo"
+    ],
+    "research_terms": "Small-intestinal bacterial overgrowth",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [
+      "small"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "gallstones": {
+    "id": "gallstones",
+    "title": "Gallstones",
+    "lead": "Gallstones form from components of bile.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Cholelithiasis"
+    ],
+    "paragraphs": [
+      "Gallstones form from components of bile. Many cause no symptoms; a stone blocking a duct can cause severe pain, infection or pancreatitis.",
+      "The liver–bile–gut circuit connects digestion with microbial bile-acid transformations. Studies examine how these transformations and metabolic conditions relate to stone formation.",
+      "Symptomatic stones often require gallbladder removal or procedures to clear a duct. Fever, jaundice or persistent severe upper-abdominal pain require prompt assessment."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-gallstones"
+    ],
+    "research_terms": "Gallstones",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [
+      "colon"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "acute-pancreatitis": {
+    "id": "acute-pancreatitis",
+    "title": "Acute pancreatitis",
+    "lead": "Acute pancreatitis is sudden inflammation of the pancreas.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Acute pancreatitis is sudden inflammation of the pancreas. Gallstones and alcohol are common causes, and severe disease can affect circulation and other organs.",
+      "Severe inflammation can disturb gut motility and barrier function. Research studies microbial translocation and nutrition during recovery, alongside the pancreatic injury itself.",
+      "Hospital care addresses fluids, pain, nutrition and the cause. Severe persistent upper-abdominal pain with vomiting needs urgent medical attention."
+    ],
+    "connection": "Experimental mechanisms",
+    "clinical_sources": [
+      "clinical-acute-pancreatitis"
+    ],
+    "research_terms": "Acute pancreatitis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [
+      "colon"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "chronic-pancreatitis": {
+    "id": "chronic-pancreatitis",
+    "title": "Chronic pancreatitis",
+    "lead": "Repeated or persistent pancreatic injury can cause scarring, chronic pain and loss of digestive enzyme production.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Repeated or persistent pancreatic injury can cause scarring, chronic pain and loss of digestive enzyme production. Diabetes and poor nutrient absorption can follow.",
+      "Changes in enzyme delivery alter what is digested before reaching intestinal microbes. Malabsorption and microbial overgrowth can compound nutritional problems.",
+      "Care addresses the cause, pain, nutrition and diabetes. Pancreatic enzyme replacement supports digestion when enzyme production is insufficient."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-chronic-pancreatitis"
+    ],
+    "research_terms": "pancreatitis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [
+      "colon"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "fatty-liver": {
+    "id": "fatty-liver",
+    "title": "Metabolic dysfunction-associated steatotic liver disease",
+    "lead": "MASLD involves excess liver fat in a metabolic setting such as insulin resistance or obesity.",
+    "category": "Metabolic",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "MASLD",
+      "Metabolic dysfunction-associated steatotic liver disease"
+    ],
+    "paragraphs": [
+      "MASLD involves excess liver fat in a metabolic setting such as insulin resistance or obesity. Some people develop inflammation, fibrosis and eventually cirrhosis.",
+      "Blood from the intestine flows directly to the liver. Microbial products, bile acids and intestinal permeability are investigated along this gut–liver route.",
+      "Assessment estimates liver injury and fibrosis as well as metabolic risk. Nutrition, sustained activity, weight management and appropriate medical treatment support liver health."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-fatty-liver"
+    ],
+    "research_terms": "fatty liver",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [
+      "liver"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": [],
+    "related_terms": [
+      "ALD",
+      "Alcohol-associated liver disease",
+      "Alcoholic fatty liver disease",
+      "Fatty Liver Disease",
+      "NAFLD",
+      "Nonalcoholic fatty liver disease",
+      "SLD"
+    ],
+    "historical_names": [
+      "NAFLD",
+      "Nonalcoholic fatty liver disease"
+    ]
+  },
+  "diverticular-disease": {
+    "id": "diverticular-disease",
+    "title": "Diverticular disease",
+    "lead": "Diverticula are pouches in the colon wall.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Diverticular disease"
+    ],
+    "paragraphs": [
+      "Diverticula are pouches in the colon wall. They are common with age; some people develop associated pain, bleeding or inflammation.",
+      "Stool consistency, transit and diet shape the environment around the pouches. Microbial and immune changes are investigated in symptomatic disease.",
+      "Care depends on whether the issue is symptoms, bleeding or acute inflammation. Gradual dietary fibre changes can support bowel function after assessment."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-diverticular-disease"
+    ],
+    "research_terms": "Diverticular disease",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [
+      "colon"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "diverticulitis": {
+    "id": "diverticulitis",
+    "title": "Diverticulitis",
+    "lead": "Diverticulitis occurs when one or more colonic pouches become inflamed.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Diverticular disease"
+    ],
+    "paragraphs": [
+      "Diverticulitis occurs when one or more colonic pouches become inflamed. It can cause localised pain and fever, with abscesses or perforation in complicated cases.",
+      "The local bowel wall and its microbes are involved in inflammation. This differs from simply having diverticula or a particular stool-community profile.",
+      "Clinical assessment and sometimes imaging establish severity. Treatment ranges from supportive care to antibiotics, drainage or surgery for specific complications."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-diverticulitis"
+    ],
+    "research_terms": "Diverticulitis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [
+      "colon"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "appendicitis": {
+    "id": "appendicitis",
+    "title": "Appendicitis",
+    "lead": "Appendicitis is inflammation of the appendix.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Appendicitis is inflammation of the appendix. Pain often progresses and localises to the lower-right abdomen, sometimes with nausea or fever.",
+      "The appendix contains lymphoid tissue and a dense microbial community. Research examines obstruction, local bacterial growth and immune responses during inflammation.",
+      "Suspected appendicitis needs urgent assessment. Surgery and, in selected cases, antibiotics are treatment options chosen according to severity and complications."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-appendicitis"
+    ],
+    "research_terms": "Appendicitis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [
+      "colon"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "haemorrhoids": {
+    "id": "haemorrhoids",
+    "title": "Haemorrhoids",
+    "lead": "Haemorrhoids are enlarged vascular cushions around the anus and lower rectum.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Piles"
+    ],
+    "paragraphs": [
+      "Haemorrhoids are enlarged vascular cushions around the anus and lower rectum. They can cause bleeding, itching, discomfort or prolapse.",
+      "The practical gut connection is stool consistency and straining. Supporting comfortable bowel movements reduces repeated mechanical stress.",
+      "Care often starts with fibre, fluid and bowel habits, with procedures for persistent problems. Rectal bleeding should be assessed rather than automatically attributed to haemorrhoids."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-haemorrhoids"
+    ],
+    "research_terms": "Haemorrhoids",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "rectum",
+    "affected_sites": [
+      "rectum"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "anal-fissure": {
+    "id": "anal-fissure",
+    "title": "Anal fissure",
+    "lead": "An anal fissure is a tear in the anal lining, often causing sharp pain during bowel movements and a small amount of bright blood..",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Anorectal diseases"
+    ],
+    "paragraphs": [
+      "An anal fissure is a tear in the anal lining, often causing sharp pain during bowel movements and a small amount of bright blood.",
+      "Hard stool, diarrhoea and sphincter tension can perpetuate injury. The relevant ecological route is through transit and stool properties rather than a named pathogenic organism.",
+      "Softening stool and treating pain support healing. Persistent fissures may need prescribed topical treatment or a procedure after examination."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-anal-fissure"
+    ],
+    "research_terms": "Anal fissure",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "rectum",
+    "affected_sites": [
+      "rectum"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "gastroparesis": {
+    "id": "gastroparesis",
+    "title": "Gastroparesis",
+    "lead": "Gastroparesis slows stomach emptying without a physical blockage.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Gastroparesis slows stomach emptying without a physical blockage. Early fullness, nausea, vomiting and difficulty maintaining nutrition can result.",
+      "Delayed delivery of food changes conditions along the digestive tract. Gastric motility, diabetes-related nerve changes and downstream bacterial overgrowth are related research areas.",
+      "Diagnosis usually involves an emptying study after excluding obstruction. Meals, medicines, glucose management and nutritional support are adjusted to the severity."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-gastroparesis"
+    ],
+    "research_terms": "Gastroparesis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "stomach",
+    "affected_sites": [
+      "stomach"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "pancreatic-insufficiency": {
+    "id": "pancreatic-insufficiency",
+    "title": "Exocrine pancreatic insufficiency",
+    "lead": "Exocrine pancreatic insufficiency means too few pancreatic enzymes reach the intestine.",
+    "category": "Digestive",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Exocrine pancreatic insufficiency means too few pancreatic enzymes reach the intestine. Fatty stools, weight loss and deficiencies of fat-soluble vitamins can result.",
+      "Poorly digested nutrients change microbial substrate supply. The primary problem is enzyme delivery, which can coexist with changes in the intestinal community.",
+      "Evaluation can include stool elastase and assessment of the underlying pancreatic disease. Enzyme replacement with meals and nutritional monitoring are central to care."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-pancreatic-insufficiency"
+    ],
+    "research_terms": "Exocrine pancreatic insufficiency",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [
+      "colon"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "colorectal-cancer": {
+    "id": "colorectal-cancer",
+    "title": "Colorectal cancer",
+    "lead": "Colorectal cancer begins in the colon or rectum, often developing through precancerous growths.",
+    "category": "Cancer",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Colon cancer",
+      "Rectal cancer"
+    ],
+    "paragraphs": [
+      "Colorectal cancer begins in the colon or rectum, often developing through precancerous growths. Screening can identify lesions before symptoms appear.",
+      "Studies investigate microbial toxins, inflammation and organisms such as Fusobacterium nucleatum in tumours. Diet, metabolites and the local tissue environment are part of this research.",
+      "Screening, colonoscopy and tissue diagnosis guide care. Treatment depends on location, stage and tumour biology and can include surgery and systemic therapies."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-colorectal-cancer"
+    ],
+    "research_terms": "Colorectal cancer",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "stomach-cancer": {
+    "id": "stomach-cancer",
+    "title": "Stomach cancer",
+    "lead": "Stomach cancer can develop after long-standing changes in the gastric lining.",
+    "category": "Cancer",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Gastric cancer"
+    ],
+    "paragraphs": [
+      "Stomach cancer can develop after long-standing changes in the gastric lining. H. pylori is an important cause of non-cardia gastric cancer.",
+      "This is a major example of a microbial infection contributing to cancer risk. Long-term trials follow how eradicating H. pylori changes that risk.",
+      "Endoscopy and biopsy establish the diagnosis. Treatment depends on stage and tumour features; treating H. pylori is also important in prevention and relevant follow-up."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-stomach-cancer"
+    ],
+    "research_terms": "Stomach cancer",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "stomach",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "salmonellosis": {
+    "id": "salmonellosis",
+    "title": "Salmonellosis",
+    "lead": "Non-typhoidal Salmonella commonly causes diarrhoea, fever and abdominal cramps after contaminated food or contact.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Non-typhoidal Salmonella commonly causes diarrhoea, fever and abdominal cramps after contaminated food or contact. Severe infection can enter the bloodstream.",
+      "Salmonella interacts with intestinal microbes and uses the inflamed gut environment to compete. Colonisation resistance and host inflammation are studied together.",
+      "Replacing lost fluids is central. Antibiotics are reserved for particular patients or severe infection; dehydration, blood in stool or persistent fever require assessment."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-salmonellosis"
+    ],
+    "research_terms": "Salmonellosis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "campylobacteriosis": {
+    "id": "campylobacteriosis",
+    "title": "Campylobacter infection",
+    "lead": "Campylobacter infection is a common foodborne cause of diarrhoea and abdominal pain.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Campylobacter infection is a common foodborne cause of diarrhoea and abdominal pain. Undercooked poultry, contaminated water and animal contact are common routes.",
+      "The bacterium infects the intestinal lining and can trigger inflammation. Some people develop post-infectious IBS or other complications after the acute infection resolves.",
+      "Most cases improve with supportive care. Severe illness or higher-risk patients may need antibiotics selected with local resistance in mind."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-campylobacteriosis"
+    ],
+    "research_terms": "Campylobacter infection",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "shigellosis": {
+    "id": "shigellosis",
+    "title": "Shigellosis",
+    "lead": "Shigella spreads readily by the faecal–oral route and can cause fever, cramps and bloody diarrhoea.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Shigella spreads readily by the faecal–oral route and can cause fever, cramps and bloody diarrhoea. Small inocula can cause infection.",
+      "The organism invades the colonic lining and provokes inflammation. Microbial competition, mucosal immunity and antimicrobial resistance shape infection research.",
+      "Fluid replacement and infection control matter. Testing can help guide antibiotic treatment because resistance patterns vary and increasingly limit options."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-shigellosis"
+    ],
+    "research_terms": "Shigellosis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "stec": {
+    "id": "stec",
+    "title": "Shiga toxin-producing E. coli infection",
+    "lead": "STEC infection can cause severe abdominal cramps and bloody diarrhoea.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Escherichia coli"
+    ],
+    "paragraphs": [
+      "STEC infection can cause severe abdominal cramps and bloody diarrhoea. Shiga toxin can damage blood vessels and cause haemolytic uraemic syndrome.",
+      "This is a strain-specific pathogenic function within a much larger E. coli group. Toxin production and host susceptibility explain why species names alone are insufficient.",
+      "Suspected infection needs clinical assessment and stool testing. Antibiotics and anti-diarrhoeal medicines can be inappropriate in STEC; hydration and monitoring for complications are important."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-stec"
+    ],
+    "research_terms": "Shiga toxin-producing E. coli infection",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "rotavirus": {
+    "id": "rotavirus",
+    "title": "Rotavirus gastroenteritis",
+    "lead": "Rotavirus causes vomiting and diarrhoea, particularly in young children, and can produce dangerous dehydration.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Rotavirus causes vomiting and diarrhoea, particularly in young children, and can produce dangerous dehydration. Vaccination has greatly reduced severe disease.",
+      "The virus infects intestinal cells. Research examines how intestinal communities and immune development influence infection and oral-vaccine responses.",
+      "Oral rehydration is central, with urgent care for significant dehydration. Vaccination is an effective preventive measure according to the local childhood schedule."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-rotavirus"
+    ],
+    "research_terms": "Rotavirus gastroenteritis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "cryptosporidiosis": {
+    "id": "cryptosporidiosis",
+    "title": "Cryptosporidiosis",
+    "lead": "Cryptosporidium is a protozoal parasite that causes watery diarrhoea, often after contaminated water or contact.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Crypto"
+    ],
+    "paragraphs": [
+      "Cryptosporidium is a protozoal parasite that causes watery diarrhoea, often after contaminated water or contact. Disease can be persistent in people with weakened immunity.",
+      "The parasite develops at the intestinal cell surface. Nutritional status, immunity and interactions with the surrounding microbial community affect the research questions.",
+      "Treatment addresses dehydration, the parasite when indicated and immune status. Persistent or severe diarrhoea warrants assessment; water and hygiene measures reduce transmission."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-cryptosporidiosis"
+    ],
+    "research_terms": "Cryptosporidiosis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "amoebiasis": {
+    "id": "amoebiasis",
+    "title": "Amoebiasis",
+    "lead": "Entamoeba histolytica can cause colitis and bloody diarrhoea and sometimes spreads to the liver.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Entamoeba histolytica can cause colitis and bloody diarrhoea and sometimes spreads to the liver. Other Entamoeba species have different clinical significance.",
+      "The parasite interacts with mucus, bacteria and host tissue. Distinguishing pathogenic E. histolytica from other species matters more than finding the genus name alone.",
+      "Diagnosis uses appropriate stool or other tests. Treatment targets invasive infection and organisms remaining in the bowel, with regimens chosen by a clinician."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-amoebiasis"
+    ],
+    "research_terms": "Amoebiasis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "ascariasis": {
+    "id": "ascariasis",
+    "title": "Ascariasis",
+    "lead": "Ascaris roundworms are acquired by swallowing eggs from contaminated soil or food.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Ascaris roundworms are acquired by swallowing eggs from contaminated soil or food. Heavy infections can impair nutrition or obstruct the bowel.",
+      "The worms inhabit the intestinal environment and interact with host immune responses. Their life cycle also includes migration through tissues before intestinal maturation.",
+      "Diagnosis and deworming address established infection. Sanitation and preventing soil contamination interrupt transmission; severe abdominal symptoms need assessment."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-ascariasis"
+    ],
+    "research_terms": "Ascariasis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "hookworm": {
+    "id": "hookworm",
+    "title": "Hookworm infection",
+    "lead": "Hookworm larvae usually enter through contaminated soil and develop into worms attached to the intestine.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Hookworm larvae usually enter through contaminated soil and develop into worms attached to the intestine. Chronic blood loss can cause iron-deficiency anaemia.",
+      "The worms feed at the lining and alter local immune activity. Iron status, nutrition and intestinal infection are directly connected in the disease process.",
+      "Anthelmintic treatment and correction of iron deficiency address different parts of recovery. Footwear and sanitation reduce exposure in endemic settings."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-hookworm"
+    ],
+    "research_terms": "Hookworm infection",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "trichuriasis": {
+    "id": "trichuriasis",
+    "title": "Whipworm infection",
+    "lead": "Trichuris whipworms infect the large intestine after eggs are swallowed.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Trichuris whipworms infect the large intestine after eggs are swallowed. Heavy burdens can cause abdominal pain, diarrhoea, anaemia and impaired growth.",
+      "Attachment in the bowel lining creates a sustained host–parasite interaction. Worm burden and nutrition matter alongside any accompanying bacterial-community changes.",
+      "Deworming and nutritional recovery are central. Safe sanitation and reducing soil contamination prevent repeated exposure."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-trichuriasis"
+    ],
+    "research_terms": "Whipworm infection",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "strongyloidiasis": {
+    "id": "strongyloidiasis",
+    "title": "Strongyloidiasis",
+    "lead": "Strongyloides can maintain infection through an internal reinfection cycle for years.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Strongyloides can maintain infection through an internal reinfection cycle for years. It may produce abdominal or skin symptoms and becomes dangerous during immunosuppression.",
+      "Its life cycle crosses the intestine and other tissues. Autoinfection distinguishes it from many other intestinal worms and explains persistent infection.",
+      "Exposure history and appropriate testing matter before immunosuppression in at-risk people. Ivermectin-based treatment is prescribed for confirmed or clinically relevant infection."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-strongyloidiasis"
+    ],
+    "research_terms": "Strongyloidiasis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "pinworm": {
+    "id": "pinworm",
+    "title": "Pinworm infection",
+    "lead": "Pinworms commonly affect children and households, causing night-time itching around the anus.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Enterobiasis",
+      "Oxyuriasis",
+      "Seatworm infection",
+      "Threadworm infection"
+    ],
+    "paragraphs": [
+      "Pinworms commonly affect children and households, causing night-time itching around the anus. Eggs spread through hands and contaminated surfaces.",
+      "The parasite’s reproductive cycle involves the large intestine and perianal skin. Symptoms arise from that cycle rather than a general loss of bacterial diversity.",
+      "Treatment often addresses household transmission as well as the infected person. Handwashing, short nails and washing bedding help reduce reinfection."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-pinworm"
+    ],
+    "research_terms": "Pinworm infection",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "hepatitis-a": {
+    "id": "hepatitis-a",
+    "title": "Hepatitis A",
+    "lead": "Hepatitis A is a liver infection spread through contaminated food, water or close contact.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "HAV"
+    ],
+    "paragraphs": [
+      "Hepatitis A is a liver infection spread through contaminated food, water or close contact. It can cause fatigue, nausea and jaundice.",
+      "The transmission route is enteric, while the main tissue injury is in the liver. This separates the route of exposure from the organ affected.",
+      "Supportive care and monitoring address illness. Vaccination and post-exposure measures prevent infection in relevant settings; severe vomiting or worsening jaundice needs assessment."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-hepatitis-a"
+    ],
+    "research_terms": "Hepatitis A",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "hepatitis-b": {
+    "id": "hepatitis-b",
+    "title": "Hepatitis B",
+    "lead": "Hepatitis B spreads through infected blood and body fluids and can become chronic.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "HBV"
+    ],
+    "paragraphs": [
+      "Hepatitis B spreads through infected blood and body fluids and can become chronic. Persistent infection increases the risk of cirrhosis and liver cancer.",
+      "The gut–liver circulation becomes relevant as liver disease changes bile handling and intestinal physiology. The causative agent itself is a hepatitis virus, not a gut bacterium.",
+      "Blood tests establish infection and assess activity. Vaccination prevents infection; monitoring and antiviral therapy address chronic disease when indicated."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-hepatitis-b"
+    ],
+    "research_terms": "Hepatitis B",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "hepatitis-c": {
+    "id": "hepatitis-c",
+    "title": "Hepatitis C",
+    "lead": "Hepatitis C is a blood-borne viral infection that often becomes chronic and can scar the liver.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "HCV"
+    ],
+    "paragraphs": [
+      "Hepatitis C is a blood-borne viral infection that often becomes chronic and can scar the liver. Symptoms can be absent for many years.",
+      "Liver injury changes the host environment of the gut–liver axis. Researchers follow intestinal permeability and metabolites alongside viral clearance and liver recovery.",
+      "Screening and confirmatory RNA testing identify infection. Direct-acting antiviral medicines cure most treated infections, with follow-up tailored to liver damage and other risks."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-hepatitis-c"
+    ],
+    "research_terms": "Hepatitis C",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "cholera": {
+    "id": "cholera",
+    "title": "Cholera",
+    "lead": "Cholera is an intestinal infection that can cause rapid, profuse watery diarrhoea.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Cholera is an intestinal infection that can cause rapid, profuse watery diarrhoea. Severe fluid loss can become life-threatening within hours.",
+      "Toxigenic Vibrio cholerae alters intestinal fluid secretion. The disease illustrates a specific microbial mechanism producing a large physiological effect.",
+      "Prompt oral or intravenous rehydration saves lives. Antibiotics are used in selected cases; safe water, sanitation and vaccination help prevent outbreaks."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-cholera"
+    ],
+    "research_terms": "Cholera",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "typhoid": {
+    "id": "typhoid",
+    "title": "Typhoid fever",
+    "lead": "Typhoid is a systemic infection caused by Salmonella Typhi, usually acquired through contaminated food or water.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Typhoid is a systemic infection caused by Salmonella Typhi, usually acquired through contaminated food or water. Prolonged fever and abdominal symptoms are common.",
+      "The organism enters through the intestine and can spread through the body. Persistent carriage and antimicrobial resistance are important parts of its ecology.",
+      "Diagnosis and effective antibiotics are essential. The regimen depends on local resistance and travel history; vaccination and safe water reduce risk."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-typhoid"
+    ],
+    "research_terms": "Typhoid fever",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "oral-thrush": {
+    "id": "oral-thrush",
+    "title": "Oral thrush",
+    "lead": "Oral thrush is overgrowth of Candida in the mouth, producing white patches or soreness.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Oral thrush is overgrowth of Candida in the mouth, producing white patches or soreness. Antibiotics, dentures and immune or metabolic conditions can contribute.",
+      "A normally resident yeast expands in a changed local environment. The mouth is its own habitat; oral overgrowth does not establish that there is invasive intestinal candidiasis.",
+      "Care addresses the local infection and contributing factors, with antifungal treatment when needed. Recurrent episodes can prompt assessment of medicines or underlying conditions."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-oral-thrush"
+    ],
+    "research_terms": "Oral thrush",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "vaginal-candidiasis": {
+    "id": "vaginal-candidiasis",
+    "title": "Vulvovaginal candidiasis",
+    "lead": "Vulvovaginal candidiasis causes itching, irritation and discharge when Candida produces symptomatic infection.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Vulvovaginal candidiasis causes itching, irritation and discharge when Candida produces symptomatic infection. It can recur, and other conditions can cause similar symptoms.",
+      "The vaginal ecosystem has different chemistry and community structure from the gut. Research examines fungal growth, local immunity and exchanges between neighbouring body sites.",
+      "Diagnosis helps distinguish yeast infection from other causes. Antifungal treatment and, for recurrent disease, a tailored assessment guide care."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-vaginal-candidiasis"
+    ],
+    "research_terms": "Vulvovaginal candidiasis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "bacterial-vaginosis": {
+    "id": "bacterial-vaginosis",
+    "title": "Bacterial vaginosis",
+    "lead": "Bacterial vaginosis involves a shift in the vaginal microbial community and can cause a characteristic discharge or odour.",
+    "category": "Infections",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Bacterial vaginosis involves a shift in the vaginal microbial community and can cause a characteristic discharge or odour. Recurrence is common.",
+      "This is a site-specific community change, often involving reduced lactobacillus dominance and expansion of anaerobes. It offers a clear example of habitat chemistry and community structure interacting.",
+      "Clinical assessment or testing establishes the diagnosis. Antibiotic treatment and management of recurrence follow clinical guidance."
+    ],
+    "connection": "Established community shift",
+    "clinical_sources": [
+      "clinical-bacterial-vaginosis"
+    ],
+    "research_terms": "Bacterial vaginosis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "uti": {
+    "id": "uti",
+    "title": "Urinary tract infection",
+    "lead": "UTIs occur when microbes establish infection in the urinary tract.",
+    "category": "Kidney & urinary",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "UTI"
+    ],
+    "paragraphs": [
+      "UTIs occur when microbes establish infection in the urinary tract. Burning, urgency and frequency are common in bladder infection; fever or flank pain can signal kidney involvement.",
+      "Gut-associated bacteria, especially particular E. coli strains, can serve as a reservoir for urinary infection. The route between habitats is central to recurrence research.",
+      "Symptoms, urine testing and sometimes culture guide treatment. Fever, flank pain, pregnancy or systemic illness change the urgency and choice of care."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-uti"
+    ],
+    "research_terms": "Urinary tract infection",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "kidney-stones": {
+    "id": "kidney-stones",
+    "title": "Kidney stones",
+    "lead": "Kidney stones form when substances crystallise in urine.",
+    "category": "Kidney & urinary",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Nephrolithiasis"
+    ],
+    "paragraphs": [
+      "Kidney stones form when substances crystallise in urine. They can cause severe flank pain, blood in urine or obstruction.",
+      "Some intestinal organisms metabolise oxalate, and bowel disease or altered absorption can increase urinary stone risk. This is one route linking intestinal chemistry to another organ.",
+      "Treatment depends on stone size, location and infection. Prevention uses stone analysis, urine measurements, fluid intake and targeted dietary or medical changes."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-kidney-stones"
+    ],
+    "research_terms": "Kidney stones",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "ckd": {
+    "id": "ckd",
+    "title": "Chronic kidney disease",
+    "lead": "CKD is a persistent reduction in kidney function or evidence of kidney damage.",
+    "category": "Kidney & urinary",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "CKD"
+    ],
+    "paragraphs": [
+      "CKD is a persistent reduction in kidney function or evidence of kidney damage. Diabetes and high blood pressure are common causes.",
+      "Microbial products normally cleared by the kidneys can accumulate as function declines. Urea reaching the intestine also changes the microbial environment, creating a two-way gut–kidney interaction.",
+      "Blood and urine tests track kidney function and albumin loss. Treatment addresses the cause, blood pressure, metabolic risks and complications, with individual dietary advice."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-ckd"
+    ],
+    "research_terms": "kidney disease",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "type-2-diabetes": {
+    "id": "type-2-diabetes",
+    "title": "Type 2 diabetes",
+    "lead": "Type 2 diabetes combines insulin resistance with inadequate insulin production, leading to high blood glucose.",
+    "category": "Metabolic",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Type 2 Diabetes"
+    ],
+    "paragraphs": [
+      "Type 2 diabetes combines insulin resistance with inadequate insulin production, leading to high blood glucose. It affects blood vessels, nerves and other organs over time.",
+      "Studies investigate microbial metabolites, bile acids and immune signalling in glucose regulation. Medicines such as metformin also change gut communities, so treatment and disease effects need to be examined together.",
+      "Glucose monitoring, nutrition, movement and medicines support control. Care also addresses cardiovascular and kidney risks rather than glucose alone."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-type-2-diabetes"
+    ],
+    "research_terms": "Type 2 diabetes",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "type-1-diabetes": {
+    "id": "type-1-diabetes",
+    "title": "Type 1 diabetes",
+    "lead": "Type 1 diabetes results from immune destruction of insulin-producing cells.",
+    "category": "Metabolic",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Insulin-dependent diabetes",
+      "Juvenile diabetes",
+      "Type I diabetes"
+    ],
+    "paragraphs": [
+      "Type 1 diabetes results from immune destruction of insulin-producing cells. Insulin replacement is essential, and onset can include thirst, frequent urination and weight loss.",
+      "Longitudinal studies investigate the intestinal community and immune development before diagnosis. Microbial changes are studied as part of disease development, distinct from the need for insulin treatment.",
+      "Insulin, glucose monitoring, education and nutrition are central. Vomiting, dehydration or rapid breathing with high glucose can indicate an emergency."
+    ],
+    "connection": "Immune mechanisms",
+    "clinical_sources": [
+      "clinical-type-1-diabetes"
+    ],
+    "research_terms": "Type 1 diabetes",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "obesity": {
+    "id": "obesity",
+    "title": "Obesity",
+    "lead": "Obesity involves excess adiposity that can affect metabolic, mechanical and psychological health.",
+    "category": "Metabolic",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Obesity involves excess adiposity that can affect metabolic, mechanical and psychological health. Genetics, food environments, sleep, medicines and physiology all contribute.",
+      "Microbes participate in energy extraction, metabolite production and host signalling. Studies of microbial interventions sit alongside research on diet, appetite regulation and the host’s metabolic state.",
+      "Care is individualised and can include nutritional support, activity, behavioural approaches, medicines or surgery. Health outcomes and sustained function matter alongside body weight."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-obesity"
+    ],
+    "research_terms": "Obesity",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "metabolic-syndrome": {
+    "id": "metabolic-syndrome",
+    "title": "Metabolic syndrome",
+    "lead": "Metabolic syndrome groups abdominal adiposity, raised blood pressure, abnormal blood lipids and impaired glucose regulation.",
+    "category": "Metabolic",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Insulin resistance syndrome",
+      "Metabolic syndrome X"
+    ],
+    "paragraphs": [
+      "Metabolic syndrome groups abdominal adiposity, raised blood pressure, abnormal blood lipids and impaired glucose regulation. Together these increase cardiovascular and diabetes risk.",
+      "Dietary substrates, microbial metabolites and liver–gut signalling are investigated across these connected features.",
+      "Care addresses blood pressure, glucose, lipids, food patterns and activity together. Treatment can include medicines targeted to the individual risks."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-metabolic-syndrome"
+    ],
+    "research_terms": "Metabolic syndrome",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "hypertension": {
+    "id": "hypertension",
+    "title": "High blood pressure",
+    "lead": "Hypertension is persistently raised blood pressure, often without symptoms.",
+    "category": "Heart & circulation",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Benign essential hypertension",
+      "Essential hypertension",
+      "HBP",
+      "HTN",
+      "Hypertension"
+    ],
+    "paragraphs": [
+      "Hypertension is persistently raised blood pressure, often without symptoms. Over time it damages the heart, brain, blood vessels and kidneys.",
+      "Research follows short-chain fatty acids, immune signalling and kidney–gut interactions. Dietary patterns can change both microbial substrates and blood pressure through several routes.",
+      "Repeated measurements establish the pattern. Activity, dietary changes and appropriate medicines reduce risk; management is based on measured pressure and overall health."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-hypertension"
+    ],
+    "research_terms": "High blood pressure",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "coronary-heart-disease": {
+    "id": "coronary-heart-disease",
+    "title": "Coronary heart disease",
+    "lead": "Coronary disease develops when atherosclerosis limits blood flow to the heart.",
+    "category": "Heart & circulation",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "CAD",
+      "Coronary arteriosclerosis",
+      "Coronary atherosclerosis",
+      "Coronary heart disease"
+    ],
+    "paragraphs": [
+      "Coronary disease develops when atherosclerosis limits blood flow to the heart. It can cause angina or an acute heart attack.",
+      "Microbial metabolism of dietary compounds, including the trimethylamine pathway, is investigated in vascular disease. These studies connect food, liver processing, kidney clearance and cardiovascular risk.",
+      "Care addresses lipids, blood pressure, smoking and other risks, with medicines and procedures when needed. New chest pressure or symptoms suggesting a heart attack require emergency care."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-coronary-heart-disease"
+    ],
+    "research_terms": "Coronary heart disease",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "heart-failure": {
+    "id": "heart-failure",
+    "title": "Heart failure",
+    "lead": "Heart failure means the heart cannot fill or pump adequately for the body’s needs.",
+    "category": "Heart & circulation",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "CHF",
+      "Cardiac failure",
+      "Congestive heart failure",
+      "Left-sided heart failure",
+      "Right-sided heart failure"
+    ],
+    "paragraphs": [
+      "Heart failure means the heart cannot fill or pump adequately for the body’s needs. Breathlessness, fatigue and swelling are common.",
+      "Reduced blood flow and congestion can change intestinal function. Microbial metabolites and barrier changes are studied along this gut–heart route.",
+      "Assessment identifies the heart problem and contributing conditions. Medicines, monitoring and sometimes devices or procedures improve symptoms and outcomes."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-heart-failure"
+    ],
+    "research_terms": "Heart failure",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "stroke": {
+    "id": "stroke",
+    "title": "Stroke",
+    "lead": "A stroke occurs when brain blood flow is blocked or a blood vessel ruptures.",
+    "category": "Heart & circulation",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Brain attack",
+      "CVA",
+      "Cerebrovascular Accident"
+    ],
+    "paragraphs": [
+      "A stroke occurs when brain blood flow is blocked or a blood vessel ruptures. Sudden weakness, speech problems or visual changes are warning signs.",
+      "The gut–brain axis is investigated during inflammation and recovery after stroke. Feeding, mobility and medications also reshape the intestinal environment during rehabilitation.",
+      "Suspected stroke is an emergency. Rapid assessment determines treatment, followed by prevention of another event and rehabilitation."
+    ],
+    "connection": "Experimental mechanisms",
+    "clinical_sources": [
+      "clinical-stroke"
+    ],
+    "research_terms": "Stroke",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "high-cholesterol": {
+    "id": "high-cholesterol",
+    "title": "High cholesterol",
+    "lead": "Abnormal blood lipid levels can increase atherosclerotic cardiovascular risk.",
+    "category": "Heart & circulation",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Hypercholesterolemia",
+      "Hyperlipidemia",
+      "Hyperlipoproteinemia"
+    ],
+    "paragraphs": [
+      "Abnormal blood lipid levels can increase atherosclerotic cardiovascular risk. Many people have no symptoms and learn about them through blood testing.",
+      "Bile-acid recycling and microbial transformations connect intestinal metabolism with lipid handling. Dietary fibre also acts through processes that include bile-acid binding and fermentation.",
+      "Care uses lipid measurements and overall cardiovascular risk to guide food changes and medicines. Inherited lipid disorders may need especially intensive treatment."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-high-cholesterol"
+    ],
+    "research_terms": "High cholesterol",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "gout": {
+    "id": "gout",
+    "title": "Gout",
+    "lead": "Gout is inflammatory arthritis caused by urate crystals, often producing sudden severe pain in a joint.",
+    "category": "Metabolic",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Gouty arthritis"
+    ],
+    "paragraphs": [
+      "Gout is inflammatory arthritis caused by urate crystals, often producing sudden severe pain in a joint. Kidney handling of urate, genetics and metabolic factors contribute.",
+      "Intestinal urate transport and microbial purine metabolism are studied as additional parts of urate balance. These routes complement the established kidney and joint biology.",
+      "Acute attacks and long-term urate control require different treatment strategies. A clinician can guide anti-inflammatory treatment, urate-lowering therapy and relevant dietary changes."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-gout"
+    ],
+    "research_terms": "Gout",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "rheumatoid-arthritis": {
+    "id": "rheumatoid-arthritis",
+    "title": "Rheumatoid arthritis",
+    "lead": "Rheumatoid arthritis is an autoimmune disease causing persistent joint inflammation, stiffness and potential damage.",
+    "category": "Immune & allergy",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "RA"
+    ],
+    "paragraphs": [
+      "Rheumatoid arthritis is an autoimmune disease causing persistent joint inflammation, stiffness and potential damage. It can affect organs beyond the joints.",
+      "Studies investigate mucosal immune responses and microbes in the mouth and intestine before and after disease onset. The questions include microbial antigens, barrier function and treatment effects.",
+      "Early assessment and disease-modifying treatment help prevent damage. Care also includes activity, symptom control and monitoring for systemic effects."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-rheumatoid-arthritis"
+    ],
+    "research_terms": "Rheumatoid arthritis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "osteoarthritis": {
+    "id": "osteoarthritis",
+    "title": "Osteoarthritis",
+    "lead": "Osteoarthritis involves changes across the whole joint, including cartilage, bone and surrounding tissues.",
+    "category": "Immune & allergy",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Degenerative joint disease",
+      "OA",
+      "Osteoarthrosis"
+    ],
+    "paragraphs": [
+      "Osteoarthritis involves changes across the whole joint, including cartilage, bone and surrounding tissues. Pain and reduced function often affect knees, hips or hands.",
+      "Researchers investigate metabolic inflammation and microbial products in joint symptoms. Mechanical loading, injury and local tissue changes remain essential parts of the condition.",
+      "Exercise, strength, weight management when relevant and pain treatment support function. Joint replacement is an option for some advanced disease."
+    ],
+    "connection": "Experimental mechanisms",
+    "clinical_sources": [
+      "clinical-osteoarthritis"
+    ],
+    "research_terms": "Osteoarthritis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "psoriasis": {
+    "id": "psoriasis",
+    "title": "Psoriasis",
+    "lead": "Psoriasis is an immune-mediated condition producing inflamed, scaly skin.",
+    "category": "Skin",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Psoriasis is an immune-mediated condition producing inflamed, scaly skin. Some people also develop psoriatic arthritis.",
+      "Research examines immune pathways shared between skin and gut, including microbial metabolites and inflammatory signalling. Skin communities and gut communities are separate habitats in these studies.",
+      "Treatment ranges from topical therapies to phototherapy and systemic medicines. Joint pain or swelling warrants assessment for associated arthritis."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-psoriasis"
+    ],
+    "research_terms": "Psoriasis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "eczema": {
+    "id": "eczema",
+    "title": "Atopic eczema",
+    "lead": "Atopic eczema causes itchy, inflamed skin with an impaired barrier.",
+    "category": "Skin",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Dermatitis"
+    ],
+    "paragraphs": [
+      "Atopic eczema causes itchy, inflamed skin with an impaired barrier. It often begins in childhood and can fluctuate with exposures and infection.",
+      "Early-life immune development and intestinal communities are studied alongside the skin barrier. Staphylococcus aureus on affected skin is a different, local microbial interaction.",
+      "Emollients, anti-inflammatory skin treatment and avoiding identified irritants support control. More severe disease can need specialist therapies."
+    ],
+    "connection": "Human trials",
+    "clinical_sources": [
+      "clinical-eczema"
+    ],
+    "research_terms": "Atopic eczema",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "acne": {
+    "id": "acne",
+    "title": "Acne",
+    "lead": "Acne develops in hair follicles through interactions among sebum, blocked pores, inflammation and Cutibacterium acnes.",
+    "category": "Skin",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Pimples",
+      "Zits"
+    ],
+    "paragraphs": [
+      "Acne develops in hair follicles through interactions among sebum, blocked pores, inflammation and Cutibacterium acnes. It can cause persistent scars and psychological distress.",
+      "Its direct microbial habitat is the skin follicle. Gut research explores dietary and systemic inflammatory connections, which are distinct from the established local skin mechanism.",
+      "Topical retinoids, benzoyl peroxide and other treatments are selected by severity. Persistent or scarring acne benefits from clinical assessment."
+    ],
+    "connection": "Local microbial mechanism",
+    "clinical_sources": [
+      "clinical-acne"
+    ],
+    "research_terms": "Acne",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "rosacea": {
+    "id": "rosacea",
+    "title": "Rosacea",
+    "lead": "Rosacea causes facial flushing, persistent redness and sometimes inflammatory bumps or eye symptoms.",
+    "category": "Skin",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Acne rosacea"
+    ],
+    "paragraphs": [
+      "Rosacea causes facial flushing, persistent redness and sometimes inflammatory bumps or eye symptoms. Individual triggers and disease patterns vary.",
+      "Researchers investigate skin immunity, Demodex-associated responses and links with gastrointestinal conditions. These are several different biological routes rather than a single organism explaining all rosacea.",
+      "Sun protection, trigger management and prescribed skin or eye treatments support control. Eye pain or vision changes require assessment."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-rosacea"
+    ],
+    "research_terms": "Rosacea",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "seborrhoeic-dermatitis": {
+    "id": "seborrhoeic-dermatitis",
+    "title": "Seborrhoeic dermatitis",
+    "lead": "Seborrhoeic dermatitis causes scaling and inflammation in oily skin areas such as the scalp, face and chest.",
+    "category": "Skin",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Cutaneous disorders",
+      "Dermatologic disorders"
+    ],
+    "paragraphs": [
+      "Seborrhoeic dermatitis causes scaling and inflammation in oily skin areas such as the scalp, face and chest. Dandruff is a milder presentation.",
+      "Malassezia yeasts interact with skin lipids and host inflammatory responses. This is a local fungal habitat, which should be distinguished from Malassezia findings in gut research.",
+      "Antifungal shampoos or creams and short courses of anti-inflammatory treatments can help. Persistent or unusual presentations deserve assessment."
+    ],
+    "connection": "Local microbial mechanism",
+    "clinical_sources": [
+      "clinical-seborrhoeic-dermatitis"
+    ],
+    "research_terms": "Seborrhoeic dermatitis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "asthma": {
+    "id": "asthma",
+    "title": "Asthma",
+    "lead": "Asthma involves variable airway narrowing and inflammation, producing wheeze, breathlessness or cough.",
+    "category": "Immune & allergy",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Asthma involves variable airway narrowing and inflammation, producing wheeze, breathlessness or cough. Triggers and inflammatory patterns differ between people.",
+      "Early-life gut communities and microbial metabolites are studied in the development of airway immunity. Respiratory and intestinal habitats are connected through host immune pathways.",
+      "Diagnosis uses the symptom pattern and breathing tests where appropriate. Inhaled treatment, trigger management and an action plan reduce attacks."
+    ],
+    "connection": "Immune mechanisms",
+    "clinical_sources": [
+      "clinical-asthma"
+    ],
+    "research_terms": "Asthma",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "allergic-rhinitis": {
+    "id": "allergic-rhinitis",
+    "title": "Allergic rhinitis",
+    "lead": "Allergic rhinitis causes sneezing, itching, congestion and watery discharge after exposure to allergens such as pollen or dust mites..",
+    "category": "Immune & allergy",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Pollen allergy"
+    ],
+    "paragraphs": [
+      "Allergic rhinitis causes sneezing, itching, congestion and watery discharge after exposure to allergens such as pollen or dust mites.",
+      "Studies investigate how microbial exposure and immune development influence allergic responses. The nasal community and intestinal community are different parts of that environment.",
+      "Allergen management, nasal corticosteroids, antihistamines and sometimes immunotherapy help control symptoms. Persistent obstruction can have additional causes."
+    ],
+    "connection": "Immune mechanisms",
+    "clinical_sources": [
+      "clinical-allergic-rhinitis"
+    ],
+    "research_terms": "Allergic rhinitis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "food-allergy": {
+    "id": "food-allergy",
+    "title": "Food allergy",
+    "lead": "Food allergy is an immune reaction to a food and can affect the skin, gut, breathing or circulation.",
+    "category": "Immune & allergy",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Food allergy is an immune reaction to a food and can affect the skin, gut, breathing or circulation. It differs from difficulty digesting a food such as lactose intolerance.",
+      "The intestinal barrier and development of immune tolerance are central research areas. Microbial metabolites are investigated for their effects on these processes.",
+      "Diagnosis uses history and appropriate testing, sometimes with supervised food challenges. Avoidance plans and emergency treatment are tailored to the confirmed allergy."
+    ],
+    "connection": "Immune mechanisms",
+    "clinical_sources": [
+      "clinical-food-allergy"
+    ],
+    "research_terms": "Food allergy",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "anaphylaxis": {
+    "id": "anaphylaxis",
+    "title": "Anaphylaxis",
+    "lead": "Anaphylaxis is a rapidly developing, potentially life-threatening allergic reaction involving breathing, circulation or several body systems..",
+    "category": "Immune & allergy",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Anaphylactic shock"
+    ],
+    "paragraphs": [
+      "Anaphylaxis is a rapidly developing, potentially life-threatening allergic reaction involving breathing, circulation or several body systems.",
+      "Food can trigger anaphylaxis through immune pathways involving the gut, but the immediate event is a systemic emergency. Microbiome research on allergy prevention addresses a different timescale.",
+      "Use prescribed adrenaline promptly and call emergency services for suspected anaphylaxis. Follow-up identifies the trigger and establishes an emergency plan."
+    ],
+    "connection": "Immune mechanisms",
+    "clinical_sources": [
+      "clinical-anaphylaxis"
+    ],
+    "research_terms": "Anaphylaxis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "chronic-urticaria": {
+    "id": "chronic-urticaria",
+    "title": "Chronic urticaria",
+    "lead": "Chronic urticaria causes recurrent itchy wheals, sometimes with deeper swelling, for more than six weeks.",
+    "category": "Immune & allergy",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Urticaria"
+    ],
+    "paragraphs": [
+      "Chronic urticaria causes recurrent itchy wheals, sometimes with deeper swelling, for more than six weeks. Many cases involve spontaneous immune activation rather than a specific food allergy.",
+      "Studies examine immune signalling, infections and intestinal communities in some patient groups. The clinical pattern and response to treatment are more informative than broad food-exclusion lists.",
+      "Antihistamines are commonly used, with specialist treatments for persistent disease. Breathing or circulatory symptoms with swelling need urgent care."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-chronic-urticaria"
+    ],
+    "research_terms": "urticaria",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "lupus": {
+    "id": "lupus",
+    "title": "Systemic lupus erythematosus",
+    "lead": "Lupus is an autoimmune disease that can affect skin, joints, kidneys, blood and other organs.",
+    "category": "Immune & allergy",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Discoid lupus",
+      "SLE",
+      "Subacute cutaneous lupus",
+      "Systemic lupus erythematosus"
+    ],
+    "paragraphs": [
+      "Lupus is an autoimmune disease that can affect skin, joints, kidneys, blood and other organs. Its manifestations and activity vary substantially.",
+      "Research investigates microbial antigens and immune cross-reactivity at mucosal surfaces. These studies examine mechanisms that may differ between lupus subgroups.",
+      "Care follows the organs affected and can include antimalarial and immune-modifying medicines. Monitoring detects flares and treatment complications."
+    ],
+    "connection": "Immune mechanisms",
+    "clinical_sources": [
+      "clinical-lupus"
+    ],
+    "research_terms": "Systemic lupus erythematosus",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "multiple-sclerosis": {
+    "id": "multiple-sclerosis",
+    "title": "Multiple sclerosis",
+    "lead": "Multiple sclerosis is an immune-mediated disease affecting the brain and spinal cord, producing varied neurological symptoms..",
+    "category": "Brain & nervous system",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "MS"
+    ],
+    "paragraphs": [
+      "Multiple sclerosis is an immune-mediated disease affecting the brain and spinal cord, producing varied neurological symptoms.",
+      "Human cohorts and experimental systems investigate intestinal microbes, metabolites and immune-cell activity. Disease-modifying medicines and disability can also alter the gut environment.",
+      "Neurological assessment and imaging guide diagnosis. Disease-modifying treatment, rehabilitation and symptom management address different parts of care."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-multiple-sclerosis"
+    ],
+    "research_terms": "Multiple sclerosis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "depression": {
+    "id": "depression",
+    "title": "Depression",
+    "lead": "Depression affects mood, interest, thinking, sleep and daily function.",
+    "category": "Brain & nervous system",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Clinical depression",
+      "Dysthymic disorder",
+      "Major depressive disorder",
+      "Unipolar depression"
+    ],
+    "paragraphs": [
+      "Depression affects mood, interest, thinking, sleep and daily function. Physical symptoms and changes in appetite can accompany it.",
+      "Studies investigate gut microbial functions, immune signals and tryptophan metabolism in relation to mood. Human cohort findings and intervention studies answer different questions.",
+      "Psychological therapies, medicines and practical support are effective components of care. Severe impairment or thoughts of self-harm require prompt professional support."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-depression"
+    ],
+    "research_terms": "Depression",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [
+      "systemic"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "anxiety": {
+    "id": "anxiety",
+    "title": "Generalised anxiety disorder",
+    "lead": "Generalised anxiety disorder involves persistent, difficult-to-control worry with physical tension, sleep disturbance or other symptoms affecting daily life..",
+    "category": "Brain & nervous system",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Generalised anxiety disorder involves persistent, difficult-to-control worry with physical tension, sleep disturbance or other symptoms affecting daily life.",
+      "The gut–brain relationship includes autonomic activity, immune signals and microbial metabolism. Stress can also change digestion, so direction of effect is part of the research.",
+      "Psychological therapy, appropriate medicines and support for sleep and daily function can help. Assessment also considers physical conditions or medicines that mimic anxiety."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-anxiety"
+    ],
+    "research_terms": "anxiety disorder",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "bipolar": {
+    "id": "bipolar",
+    "title": "Bipolar disorder",
+    "lead": "Bipolar disorder involves episodes of depression and mania or hypomania, with changes in mood, energy, sleep and behaviour..",
+    "category": "Brain & nervous system",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Manic depression",
+      "Manic-depressive illness"
+    ],
+    "paragraphs": [
+      "Bipolar disorder involves episodes of depression and mania or hypomania, with changes in mood, energy, sleep and behaviour.",
+      "Microbial metabolism and inflammation are studied alongside established brain and circadian biology. Medicines, food intake and sleep changes are important influences on gut measurements.",
+      "Specialist assessment and mood-stabilising treatment are central. Recognising changes in sleep and early episode signs supports an individual care plan."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-bipolar"
+    ],
+    "research_terms": "Bipolar disorder",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "schizophrenia": {
+    "id": "schizophrenia",
+    "title": "Schizophrenia",
+    "lead": "Schizophrenia can involve hallucinations, delusions, disorganised thinking and changes in motivation or cognition.",
+    "category": "Brain & nervous system",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Schizophrenia can involve hallucinations, delusions, disorganised thinking and changes in motivation or cognition. It requires sustained clinical and social support.",
+      "Research examines immune signals, microbial metabolites and the effects of antipsychotic medicines on metabolic and intestinal health. These are complementary biological questions, not a replacement for psychiatric care.",
+      "Treatment combines appropriate medicines, psychological and social support and attention to physical health. New psychotic symptoms need prompt assessment."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-schizophrenia"
+    ],
+    "research_terms": "Schizophrenia",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "parkinsons": {
+    "id": "parkinsons",
+    "title": "Parkinson’s disease",
+    "lead": "Parkinson’s disease affects movement and can also cause constipation, sleep changes and other non-motor symptoms..",
+    "category": "Brain & nervous system",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Paralysis agitans",
+      "Shaking palsy"
+    ],
+    "paragraphs": [
+      "Parkinson’s disease affects movement and can also cause constipation, sleep changes and other non-motor symptoms.",
+      "The enteric nervous system, intestinal inflammation and microbial metabolism are studied in disease biology. Microbes can also metabolise some medicines, making treatment exposure an additional research question.",
+      "Neurological treatment, movement, rehabilitation and management of non-motor symptoms support function. Constipation and nutrition deserve attention alongside motor care."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-parkinsons"
+    ],
+    "research_terms": "Parkinson’s disease",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "alzheimers": {
+    "id": "alzheimers",
+    "title": "Alzheimer’s disease",
+    "lead": "Alzheimer’s disease causes progressive difficulties with memory and other cognitive functions.",
+    "category": "Brain & nervous system",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "AD"
+    ],
+    "paragraphs": [
+      "Alzheimer’s disease causes progressive difficulties with memory and other cognitive functions. Daily activities and independence become increasingly affected.",
+      "Studies examine microbial products, vascular health and immune signalling along the gut–brain axis. Food intake, ageing and medicines are also relevant to the gut environment in affected people.",
+      "Assessment distinguishes causes of cognitive decline. Care combines appropriate treatments, support for daily life and safety, and help for caregivers."
+    ],
+    "connection": "Experimental mechanisms",
+    "clinical_sources": [
+      "clinical-alzheimers"
+    ],
+    "research_terms": "Alzheimer’s disease",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "migraine": {
+    "id": "migraine",
+    "title": "Migraine",
+    "lead": "Migraine causes recurrent attacks of head pain with symptoms such as nausea, light sensitivity or aura.",
+    "category": "Brain & nervous system",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Migraine causes recurrent attacks of head pain with symptoms such as nausea, light sensitivity or aura. It is a neurological disorder with varied triggers.",
+      "Gut motility, nausea, shared signalling molecules and intestinal disorders are examined in migraine research. The connection also affects how oral medicines are absorbed during attacks.",
+      "Acute and preventive treatments are selected according to attack frequency and disability. A new or abrupt severe headache needs assessment for other causes."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-migraine"
+    ],
+    "research_terms": "Migraine",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "epilepsy": {
+    "id": "epilepsy",
+    "title": "Epilepsy",
+    "lead": "Epilepsy involves a persistent tendency to recurrent seizures.",
+    "category": "Brain & nervous system",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Epilepsy involves a persistent tendency to recurrent seizures. Seizure types and underlying causes vary.",
+      "Dietary therapies for some drug-resistant epilepsies change metabolism and microbial substrates. Experimental work investigates which microbial functions participate in these treatment effects.",
+      "Diagnosis and antiseizure treatment are tailored to seizure type and cause. Specialised dietary treatment requires supervised nutritional and neurological care."
+    ],
+    "connection": "Experimental mechanisms",
+    "clinical_sources": [
+      "clinical-epilepsy"
+    ],
+    "research_terms": "Epilepsy",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "autism": {
+    "id": "autism",
+    "title": "Autism spectrum condition",
+    "lead": "Autism is a neurodevelopmental condition affecting communication, sensory processing and patterns of behaviour or interests.",
+    "category": "Brain & nervous system",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "ASD",
+      "Pervasive developmental disorder (PDD)"
+    ],
+    "paragraphs": [
+      "Autism is a neurodevelopmental condition affecting communication, sensory processing and patterns of behaviour or interests. Support needs vary widely.",
+      "Gut research often concerns co-occurring constipation, pain or feeding difficulties. Food selectivity, medicines and gastrointestinal symptoms are important when interpreting community measurements.",
+      "Support is individualised and includes communication, sensory and educational needs. Gastrointestinal symptoms deserve direct assessment."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-autism"
+    ],
+    "research_terms": "Autism spectrum condition",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "adhd": {
+    "id": "adhd",
+    "title": "Attention-deficit/hyperactivity disorder",
+    "lead": "ADHD affects attention, impulse regulation or activity levels in ways that impair daily function.",
+    "category": "Brain & nervous system",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "ADHD"
+    ],
+    "paragraphs": [
+      "ADHD affects attention, impulse regulation or activity levels in ways that impair daily function. It can continue into adulthood.",
+      "Researchers study diet, microbial metabolites and gut–brain signalling alongside neurodevelopmental and genetic factors. Sleep and appetite changes can also affect the gut indirectly.",
+      "Assessment considers settings, functional difficulties and other conditions. Behavioural support, environmental adjustments and medicines can be helpful."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-adhd"
+    ],
+    "research_terms": "ADHD",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "insomnia": {
+    "id": "insomnia",
+    "title": "Insomnia",
+    "lead": "Insomnia involves persistent difficulty falling asleep, staying asleep or waking too early with daytime consequences..",
+    "category": "Sleep",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Insomnia involves persistent difficulty falling asleep, staying asleep or waking too early with daytime consequences.",
+      "Sleep–wake timing and meals affect the intestinal environment. Human sleep-restriction studies measure changes in microbial richness and circulating metabolites rather than diagnosing insomnia from stool.",
+      "Cognitive behavioural therapy for insomnia addresses persistent problems. Assessment also considers medicines, sleep apnoea and other contributing conditions."
+    ],
+    "connection": "Human experiments",
+    "clinical_sources": [
+      "clinical-insomnia"
+    ],
+    "research_terms": "Insomnia",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "sleep-apnoea": {
+    "id": "sleep-apnoea",
+    "title": "Obstructive sleep apnoea",
+    "lead": "Obstructive sleep apnoea causes repeated upper-airway collapse during sleep, with disrupted breathing and sleep quality..",
+    "category": "Sleep",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Sleep-disordered breathing"
+    ],
+    "paragraphs": [
+      "Obstructive sleep apnoea causes repeated upper-airway collapse during sleep, with disrupted breathing and sleep quality.",
+      "Intermittent low oxygen and metabolic changes are studied in relation to gut inflammation and microbial products. Obesity, diet and treatment are important accompanying factors.",
+      "Sleep testing establishes the diagnosis. Airway treatments, positive-pressure therapy and other interventions are chosen according to severity and anatomy."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-sleep-apnoea"
+    ],
+    "research_terms": "Obstructive sleep apnoea",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "iron-deficiency": {
+    "id": "iron-deficiency",
+    "title": "Iron-deficiency anaemia",
+    "lead": "Iron deficiency reduces the body’s capacity to make haemoglobin, causing fatigue, reduced exercise tolerance or other symptoms.",
+    "category": "Nutrition & hormones",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Iron deficiency reduces the body’s capacity to make haemoglobin, causing fatigue, reduced exercise tolerance or other symptoms. Blood loss and inadequate absorption or intake are common routes.",
+      "The gut absorbs iron and is a site where blood loss or disease can create deficiency. Iron supplements also change the resources available to intestinal microbes.",
+      "Care identifies the cause as well as replacing iron. Heavy menstrual bleeding, gastrointestinal bleeding and coeliac disease are among the possible contributors."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-iron-deficiency"
+    ],
+    "research_terms": "Iron-deficiency anaemia",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [
+      "systemic"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "b12-deficiency": {
+    "id": "b12-deficiency",
+    "title": "Vitamin B12 deficiency",
+    "lead": "B12 deficiency can cause anaemia, numbness, balance problems or cognitive symptoms.",
+    "category": "Nutrition & hormones",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "B12 deficiency can cause anaemia, numbness, balance problems or cognitive symptoms. Neurological effects can occur without obvious anaemia.",
+      "Absorption depends on stomach and small-intestinal processes, including intrinsic factor. Gastric autoimmunity, surgery, ileal disease and some medicines can interfere with this pathway.",
+      "Testing and the clinical picture guide oral or injected replacement. New neurological symptoms need timely assessment and treatment."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-b12-deficiency"
+    ],
+    "research_terms": "Vitamin B12 deficiency",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "hypothyroidism": {
+    "id": "hypothyroidism",
+    "title": "Hypothyroidism",
+    "lead": "Hypothyroidism is insufficient thyroid hormone production, which can cause fatigue, cold intolerance, constipation and other changes..",
+    "category": "Nutrition & hormones",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Underactive thyroid"
+    ],
+    "paragraphs": [
+      "Hypothyroidism is insufficient thyroid hormone production, which can cause fatigue, cold intolerance, constipation and other changes.",
+      "Thyroid hormones influence intestinal motility. Research also examines autoimmune and microbial relationships, while constipation itself changes transit and fermentation.",
+      "Blood tests establish thyroid function. Hormone replacement and monitoring guide treatment; timing with food, iron and other medicines can affect absorption."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-hypothyroidism"
+    ],
+    "research_terms": "Hypothyroidism",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "hyperthyroidism": {
+    "id": "hyperthyroidism",
+    "title": "Hyperthyroidism",
+    "lead": "Excess thyroid hormone can cause palpitations, heat intolerance, weight loss and frequent bowel movements.",
+    "category": "Nutrition & hormones",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Overactive thyroid"
+    ],
+    "paragraphs": [
+      "Excess thyroid hormone can cause palpitations, heat intolerance, weight loss and frequent bowel movements. Graves’ disease is a common cause.",
+      "Hormone-driven changes in transit and metabolism alter the digestive environment. Microbial findings need to be interpreted alongside these strong physiological effects.",
+      "Blood tests and investigation of the cause guide antithyroid medicines, radioiodine or surgery. Significant heart or systemic symptoms need prompt assessment."
+    ],
+    "connection": "Gut physiology",
+    "clinical_sources": [
+      "clinical-hyperthyroidism"
+    ],
+    "research_terms": "Hyperthyroidism",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "small",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "pcos": {
+    "id": "pcos",
+    "title": "Polycystic ovary syndrome",
+    "lead": "PCOS involves combinations of ovulatory dysfunction, androgen excess and characteristic ovarian findings.",
+    "category": "Reproductive health",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "PCOS",
+      "Stein-Leventhal Syndrome"
+    ],
+    "paragraphs": [
+      "PCOS involves combinations of ovulatory dysfunction, androgen excess and characteristic ovarian findings. Insulin resistance and metabolic risks are common.",
+      "Studies examine microbial metabolites and metabolic inflammation alongside hormonal and reproductive features. Food patterns, body composition and medicines are important influences on the measurements.",
+      "Care follows the person’s priorities, including cycles, symptoms, fertility and metabolic health. Nutrition, activity and appropriate medicines are selected accordingly."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-pcos"
+    ],
+    "research_terms": "Polycystic ovary syndrome",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "endometriosis": {
+    "id": "endometriosis",
+    "title": "Endometriosis",
+    "lead": "Endometriosis involves tissue similar to the uterine lining growing outside the uterus.",
+    "category": "Reproductive health",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Endo"
+    ],
+    "paragraphs": [
+      "Endometriosis involves tissue similar to the uterine lining growing outside the uterus. Pelvic pain, painful periods and fertility difficulties can result.",
+      "Intestinal symptoms can overlap with pelvic disease. Research investigates immune activity, hormone metabolism and microbial communities at several body sites.",
+      "Assessment and treatment can include pain management, hormonal therapy or surgery according to symptoms and fertility goals. Bowel symptoms also warrant their own evaluation."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-endometriosis"
+    ],
+    "research_terms": "Endometriosis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "periodontitis": {
+    "id": "periodontitis",
+    "title": "Periodontitis",
+    "lead": "Periodontitis is inflammatory destruction of tissues supporting the teeth.",
+    "category": "Oral health",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Periodontal disease"
+    ],
+    "paragraphs": [
+      "Periodontitis is inflammatory destruction of tissues supporting the teeth. It can lead to gum recession, loose teeth and tooth loss.",
+      "Dental biofilms and host inflammation directly drive the local disease process. Oral organisms and inflammatory signals are also studied in relation to systemic and gut conditions.",
+      "Professional periodontal treatment and sustained daily plaque control are central. Smoking, diabetes and other contributing factors affect disease and healing."
+    ],
+    "connection": "Established community shift",
+    "clinical_sources": [
+      "clinical-periodontitis"
+    ],
+    "research_terms": "Periodontitis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "mouth",
+    "affected_sites": [
+      "mouth"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "dental-caries": {
+    "id": "dental-caries",
+    "title": "Dental caries",
+    "lead": "Dental caries develops when repeated acid production in dental plaque causes mineral loss from teeth.",
+    "category": "Oral health",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Cavities",
+      "Dental caries"
+    ],
+    "paragraphs": [
+      "Dental caries develops when repeated acid production in dental plaque causes mineral loss from teeth. Sugar exposure, saliva and fluoride influence the balance.",
+      "This is a clear community-and-chemistry mechanism: oral microbes ferment carbohydrates, lowering local pH. Frequent exposures can sustain conditions favouring acid-tolerant organisms.",
+      "Fluoride, effective cleaning, sugar-exposure patterns and dental treatment address different stages. Pain, swelling or a dental abscess need prompt care."
+    ],
+    "connection": "Local microbial mechanism",
+    "clinical_sources": [
+      "clinical-dental-caries"
+    ],
+    "research_terms": "Dental caries",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "mouth",
+    "affected_sites": [
+      "mouth"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "gingivitis": {
+    "id": "gingivitis",
+    "title": "Gingivitis",
+    "lead": "Gingivitis is inflammation of the gums, often causing bleeding with cleaning.",
+    "category": "Oral health",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Periodontal disease"
+    ],
+    "paragraphs": [
+      "Gingivitis is inflammation of the gums, often causing bleeding with cleaning. It can improve when dental plaque and contributing factors are addressed.",
+      "A biofilm accumulates at the gum margin and stimulates a local immune response. The same organisms can behave differently in a changed community and habitat.",
+      "Daily plaque control and professional cleaning support recovery. Persistent bleeding should be checked for periodontal disease and other contributors."
+    ],
+    "connection": "Established community shift",
+    "clinical_sources": [
+      "clinical-gingivitis"
+    ],
+    "research_terms": "Gingivitis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "mouth",
+    "affected_sites": [
+      "mouth"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "common-cold": {
+    "id": "common-cold",
+    "title": "Common cold",
+    "lead": "The common cold is a viral upper-respiratory infection causing a runny nose, sore throat and cough.",
+    "category": "Respiratory",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "The common cold is a viral upper-respiratory infection causing a runny nose, sore throat and cough. Several different viruses can produce the syndrome.",
+      "The primary infected habitat is respiratory. Gut research examines immune development and host responses to infections, rather than treating the cold as an intestinal infection.",
+      "Rest, fluids and symptom relief are usually sufficient. Antibiotics do not treat cold viruses; difficulty breathing or persistent worsening symptoms warrant assessment."
+    ],
+    "connection": "Immune mechanisms",
+    "clinical_sources": [
+      "clinical-common-cold"
+    ],
+    "research_terms": "Common cold",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "influenza": {
+    "id": "influenza",
+    "title": "Influenza",
+    "lead": "Influenza is a respiratory viral infection that can cause fever, muscle aches, cough and marked fatigue.",
+    "category": "Respiratory",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Grippe",
+      "Influenza",
+      "Seasonal flu"
+    ],
+    "paragraphs": [
+      "Influenza is a respiratory viral infection that can cause fever, muscle aches, cough and marked fatigue. Some people develop serious complications.",
+      "Experimental work investigates how intestinal microbes and their products influence antiviral immunity. The virus primarily infects the respiratory tract, distinguishing the immune link from the infected site.",
+      "Vaccination reduces risk. Antiviral treatment is particularly important for severe illness or higher-risk people and is most useful when started promptly."
+    ],
+    "connection": "Immune mechanisms",
+    "clinical_sources": [
+      "clinical-influenza"
+    ],
+    "research_terms": "Influenza",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "covid": {
+    "id": "covid",
+    "title": "COVID-19",
+    "lead": "COVID-19 can affect the respiratory tract and other systems and sometimes causes gastrointestinal symptoms.",
+    "category": "Respiratory",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "COVID-19",
+      "Coronavirus"
+    ],
+    "paragraphs": [
+      "COVID-19 can affect the respiratory tract and other systems and sometimes causes gastrointestinal symptoms. Severity and recovery vary.",
+      "SARS-CoV-2 can involve intestinal cells. Research follows gut-community changes, immune activity and persistent symptoms, alongside effects of medicines and illness severity.",
+      "Testing, risk assessment and current treatment guidance inform care. Breathing difficulty or other severe symptoms need urgent assessment; persistent symptoms deserve follow-up."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-covid"
+    ],
+    "research_terms": "COVID-19",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "pneumonia": {
+    "id": "pneumonia",
+    "title": "Pneumonia",
+    "lead": "Pneumonia is infection of lung tissue caused by bacteria, viruses or other organisms.",
+    "category": "Respiratory",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [
+      "Bronchopneumonia"
+    ],
+    "paragraphs": [
+      "Pneumonia is infection of lung tissue caused by bacteria, viruses or other organisms. It can cause cough, fever, breathlessness and chest pain.",
+      "The mouth and respiratory tract can provide organisms involved in infection. Research also examines gut-mediated immune responses and the intestinal effects of antibiotic treatment.",
+      "Assessment establishes severity and likely cause. Treatment can involve antibiotics, antivirals, oxygen or supportive care according to the infection and the person’s condition."
+    ],
+    "connection": "Established infection",
+    "clinical_sources": [
+      "clinical-pneumonia"
+    ],
+    "research_terms": "Pneumonia",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [
+      "lungs"
+    ],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "sinusitis": {
+    "id": "sinusitis",
+    "title": "Sinusitis",
+    "lead": "Sinusitis involves inflammation of the sinus lining, commonly following a viral infection or with ongoing inflammatory disease.",
+    "category": "Respiratory",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Sinusitis involves inflammation of the sinus lining, commonly following a viral infection or with ongoing inflammatory disease. Facial pressure and nasal symptoms are common.",
+      "The local microbial habitat is the nose and sinuses. Treatments such as antibiotics can also affect intestinal communities; these are different sites and mechanisms.",
+      "Care depends on duration, severity and cause. Most short viral episodes do not need antibiotics, while persistent or complicated disease warrants assessment."
+    ],
+    "connection": "Local microbial mechanism",
+    "clinical_sources": [
+      "clinical-sinusitis"
+    ],
+    "research_terms": "Sinusitis",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  },
+  "breast-cancer": {
+    "id": "breast-cancer",
+    "title": "Breast cancer",
+    "lead": "Breast cancer includes several tumour types with different hormone receptors and molecular features.",
+    "category": "Cancer",
+    "type": "condition",
+    "layout": "article",
+    "organisms": [],
+    "aliases": [],
+    "paragraphs": [
+      "Breast cancer includes several tumour types with different hormone receptors and molecular features. These distinctions guide treatment.",
+      "Research explores microbial hormone metabolism, immune signalling and interactions with cancer therapies. The gut route is a research context alongside established tumour biology and inherited risk.",
+      "Screening, imaging and biopsy establish the diagnosis. Surgery, radiotherapy and systemic treatments are selected according to stage and tumour characteristics."
+    ],
+    "connection": "Human associations",
+    "clinical_sources": [
+      "clinical-breast-cancer"
+    ],
+    "research_terms": "Breast cancer",
+    "author": "Gut Atlas seed",
+    "updated": "2026-10-20",
+    "navigation_region": "colon",
+    "affected_sites": [],
+    "gut_evidence_status": "needs_review",
+    "gut_claims": []
+  }
+}

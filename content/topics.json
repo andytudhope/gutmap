@@ -1,0 +1,280 @@
+{
+  "fibre": {
+    "id": "fibre",
+    "title": "What happens to fibre?",
+    "question": "How does a meal become food for a microbial community?",
+    "answer": "Some carbohydrates reach the colon, where microbes break them down and exchange the products. The result depends on the food structure, the organisms present and the surrounding habitat.",
+    "category": "Food & everyday life",
+    "concepts": [
+      "fibre",
+      "starch",
+      "ruminococcus-bromii",
+      "bifidobacterium-adolescentis",
+      "faecalibacterium-prausnitzii",
+      "acetate",
+      "butyrate",
+      "colonocytes"
+    ],
+    "claims": [
+      "rb-starch",
+      "cross-feeding-butyrate",
+      "butyrate-cell-energy",
+      "fibre-capacity",
+      "varied-fibre-foods"
+    ],
+    "steps": [
+      {
+        "title": "Open the food structure",
+        "claim": "rb-starch"
+      },
+      {
+        "title": "Feed a neighbour",
+        "claim": "cross-feeding-butyrate"
+      },
+      {
+        "title": "Meet the gut lining",
+        "claim": "butyrate-cell-energy"
+      }
+    ],
+    "clinical": "Mechanistic experiments explain possible routes. The human dietary trial measured microbial and immune responses; it did not test fibre as a treatment for a particular gut disorder. Match any clinical recommendation to a patient group, outcome and guideline.",
+    "open_question": "A useful question is which microbial functions predict an individual response. Stool abundance, fermentation output and symptoms are different measurements.",
+    "gaps": [
+      "Which starch structures sustain these partnerships in mixed human communities?",
+      "When does a change in microbial metabolism translate into a meaningful clinical outcome?"
+    ],
+    "quiz": {
+      "question": "Does more butyrate in a coculture prove that a food treats IBS?",
+      "answer": "No. The experiment tests a metabolic interaction in defined strains. A clinical claim needs evidence in the relevant people and outcomes."
+    },
+    "review_scope": "A curated explanation with abstract-level source checks; not a systematic review.",
+    "updated": "2026-10-21",
+    "objectives": [
+      "Explain the main process in plain language.",
+      "Distinguish the observed result from its clinical interpretation.",
+      "Find the source and an unanswered question."
+    ],
+    "practical_claim": "varied-fibre-foods"
+  },
+  "gut-brain": {
+    "id": "gut-brain",
+    "title": "How do the gut and brain talk?",
+    "question": "How can activity in the gut influence sensation and behaviour?",
+    "answer": "The gut and brain exchange information through nerves, immune responses and circulating signals. Different experiments study different parts of that conversation; no single microbe or molecule explains it all.",
+    "category": "How the gut works",
+    "concepts": [
+      "gut",
+      "brain",
+      "serotonin",
+      "neuropod-cells",
+      "vagal-neurons",
+      "faecalibacterium",
+      "bacteroides-fragilis"
+    ],
+    "claims": [
+      "gut-neural-circuit",
+      "microbes-serotonin",
+      "mood-association",
+      "mouse-behaviour"
+    ],
+    "steps": [
+      {
+        "title": "A direct neural route",
+        "claim": "gut-neural-circuit"
+      },
+      {
+        "title": "Chemical signalling",
+        "claim": "microbes-serotonin"
+      },
+      {
+        "title": "Associations in people",
+        "claim": "mood-association"
+      }
+    ],
+    "clinical": "Human observational findings, cellular mechanisms and mouse treatment experiments answer different questions. These records do not establish a microbiome treatment for depression or autism.",
+    "open_question": "Mechanisms are becoming more specific: cell types, transmitters, routes and experimental models can now be compared. The translation to patient outcomes remains a separate research task.",
+    "gaps": [
+      "Which neural and circulating routes matter most for a defined human outcome?",
+      "Which associations survive changes in medicines, diet and transit?"
+    ],
+    "quiz": {
+      "question": "Is gut serotonin simply transported into the brain?",
+      "answer": "That is not what these findings show. Neural signalling, precursor availability and local serotonin production are distinct processes."
+    },
+    "review_scope": "A curated explanation with abstract-level source checks; not a systematic review.",
+    "updated": "2026-10-21",
+    "objectives": [
+      "Explain the main process in plain language.",
+      "Distinguish the observed result from its clinical interpretation.",
+      "Find the source and an unanswered question."
+    ]
+  },
+  "fermented-foods": {
+    "id": "fermented-foods",
+    "title": "What changes when food ferments?",
+    "question": "What connects a fermentation vessel to the gut?",
+    "answer": "Microbes transform ingredients before we eat them. The resulting food contains changed nutrients and microbial products; whether it contains living cultures depends on preparation and storage.",
+    "category": "Food & everyday life",
+    "concepts": [
+      "vessel",
+      "milk",
+      "yoghurt",
+      "streptococcus-thermophilus",
+      "saccharomyces-cerevisiae",
+      "lactose",
+      "lactose-digestion"
+    ],
+    "claims": [
+      "yoghurt-digestion",
+      "fermented-diversity"
+    ],
+    "steps": [
+      {
+        "title": "A changed food reaches the gut",
+        "claim": "yoghurt-digestion"
+      },
+      {
+        "title": "Test a dietary pattern",
+        "claim": "fermented-diversity"
+      }
+    ],
+    "clinical": "Keep the exposure specific. A lactose-digestion experiment and a varied fermented-food diet do not support a universal probiotic or disease-treatment claim. Food-production methods need their own validated safety instructions.",
+    "open_question": "Research needs to separate the food matrix, live organisms, microbial enzymes and fermentation products. A mixed-food intervention cannot isolate the contribution of one organism.",
+    "gaps": [
+      "Which properties account for effects when cultures are inactivated?",
+      "How do different foods and baseline diets change the response?"
+    ],
+    "quiz": {
+      "question": "Does a benefit from yoghurt establish the same benefit for all fermented foods?",
+      "answer": "No. The organism, food matrix, process and measured outcome differ."
+    },
+    "review_scope": "A curated explanation with abstract-level source checks; not a systematic review.",
+    "updated": "2026-10-21",
+    "objectives": [
+      "Explain the main process in plain language.",
+      "Distinguish the observed result from its clinical interpretation.",
+      "Find the source and an unanswered question."
+    ]
+  },
+  "ibs": {
+    "id": "ibs",
+    "title": "Understanding IBS",
+    "question": "How do fermentation, movement and sensation fit together?",
+    "answer": "IBS involves recurrent abdominal pain with changes in bowel habit. Fermentation, transit, visceral sensitivity and gut–brain communication provide useful parts of an explanation, but an individual symptom does not identify one microbial cause.",
+    "category": "Symptoms & conditions",
+    "concepts": [
+      "condition:ibs",
+      "bloating",
+      "abdominal-pain",
+      "gut",
+      "fibre",
+      "gut-brain-signalling"
+    ],
+    "claims": [
+      "rb-starch",
+      "gut-neural-circuit"
+    ],
+    "steps": [
+      {
+        "title": "Understand fermentation",
+        "claim": "rb-starch"
+      },
+      {
+        "title": "Understand sensory routes",
+        "claim": "gut-neural-circuit"
+      }
+    ],
+    "clinical": "The mechanisms linked here provide background; neither is an IBS treatment trial. The clinical introduction below links to authoritative condition information. A reviewed comparison of IBS interventions is an explicit gap in this collection.",
+    "open_question": "Useful comparisons specify IBS subtype, dietary intervention, comparator, symptom outcome, duration and adverse effects. Changes in stool composition are not substitutes for symptom outcomes.",
+    "gaps": [
+      "Add an outcome-specific comparison of IBS intervention trials and current guidelines.",
+      "Separate microbiome associations from mechanisms and proven symptom effects."
+    ],
+    "quiz": {
+      "question": "Can a stool organism percentage identify the cause of someone’s IBS?",
+      "answer": "A relative abundance is a measurement of a sample. It does not by itself identify a cause or an effective treatment."
+    },
+    "review_scope": "A curated explanation with abstract-level source checks; not a systematic review.",
+    "updated": "2026-10-21",
+    "objectives": [
+      "Explain the main process in plain language.",
+      "Distinguish the observed result from its clinical interpretation.",
+      "Find the source and an unanswered question."
+    ]
+  },
+  "movement": {
+    "id": "movement",
+    "title": "Does exercise change the microbiome?",
+    "question": "Why can exercise studies report different microbial responses?",
+    "answer": "Human exercise studies show that the microbial response depends on the programme, population and measurement. A change in fitness can occur without a detectable change in overall bacterial composition.",
+    "category": "Food & everyday life",
+    "concepts": [
+      "movement",
+      "gut",
+      "microbial-diversity"
+    ],
+    "claims": [
+      "exercise-microbiome"
+    ],
+    "steps": [
+      {
+        "title": "Compare the experimental settings",
+        "claim": "exercise-microbiome"
+      }
+    ],
+    "clinical": "The studies examine microbial responses to exercise. They do not establish that changing a particular organism is necessary for exercise-related health effects.",
+    "open_question": "Compare the six-week endurance study with the three-week HIIT study. Their differences qualify a broad claim; they should not be treated as identical replications.",
+    "gaps": [
+      "Which changes persist with sustained activity?",
+      "Which measurements best distinguish cause, response and confounding?"
+    ],
+    "quiz": {
+      "question": "Do different study results necessarily contradict one another?",
+      "answer": "First compare the population, exercise dose, duration, sampling and outcome. A difference can qualify the scope of a claim."
+    },
+    "review_scope": "A curated explanation with abstract-level source checks; not a systematic review.",
+    "updated": "2026-10-21",
+    "objectives": [
+      "Explain the main process in plain language.",
+      "Distinguish the observed result from its clinical interpretation.",
+      "Find the source and an unanswered question."
+    ]
+  },
+  "testing": {
+    "id": "testing",
+    "title": "What does a microbiome test measure?",
+    "question": "What can a sample tell you—and what can it leave out?",
+    "answer": "A microbiome test describes a sample using a particular assay and reference database. Relative abundance, microbial load and biological activity answer different questions. Clinical usefulness must be demonstrated for the question being asked.",
+    "category": "Reading the evidence",
+    "concepts": [
+      "gut",
+      "microbial-diversity",
+      "condition:ibs"
+    ],
+    "claims": [
+      "testing-scope"
+    ],
+    "steps": [
+      {
+        "title": "Start with the question and assay",
+        "claim": "testing-scope"
+      }
+    ],
+    "clinical": "The international consensus addresses appropriate provision, methods, reporting and clinical value. Check the indication and the evidence before interpreting a commercial report as guidance for care.",
+    "open_question": "A useful result links sample, method, reference version and measurement to a validated clinical question.",
+    "gaps": [
+      "Link validated applications to their patient populations and outcomes.",
+      "Add comparable assay records with sample and reference-database versions."
+    ],
+    "quiz": {
+      "question": "Does a lower relative percentage prove that an organism was removed?",
+      "answer": "No. Its percentage can fall because other organisms increased. Absolute abundance requires additional measurements."
+    },
+    "review_scope": "A curated explanation with abstract-level source checks; not a systematic review.",
+    "updated": "2026-10-21",
+    "objectives": [
+      "Explain the main process in plain language.",
+      "Distinguish the observed result from its clinical interpretation.",
+      "Find the source and an unanswered question."
+    ]
+  }
+}

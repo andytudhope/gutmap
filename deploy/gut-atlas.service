@@ -1,0 +1,24 @@
+[Unit]
+Description=Gut Atlas knowledge hub
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=gutatlas
+Group=gutatlas
+WorkingDirectory=/opt/gut-atlas
+EnvironmentFile=/etc/gut-atlas.env
+ExecStart=/usr/bin/python3 -m hub.app --host 127.0.0.1 --port 8091
+Restart=on-failure
+RestartSec=3
+StateDirectory=gut-atlas
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+MemoryMax=256M
+TasksMax=64
+UMask=0027
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,4173 @@
+{
+  "version": 1,
+  "reviewed": "2026-10-20",
+  "entities": {
+    "bifidobacterium": {
+      "id": "bifidobacterium",
+      "name": "Bifidobacterium",
+      "kind": "organism",
+      "aliases": [],
+      "attributes": {
+        "group": "Bacteria",
+        "microbes": "/explore#life=prokaryotes"
+      }
+    },
+    "roseburia": {
+      "id": "roseburia",
+      "name": "Roseburia",
+      "kind": "organism",
+      "aliases": [],
+      "attributes": {
+        "group": "Bacteria",
+        "microbes": "/explore#life=prokaryotes"
+      }
+    },
+    "lactobacillus": {
+      "id": "lactobacillus",
+      "name": "Lactobacillus and related genera",
+      "kind": "organism",
+      "aliases": [],
+      "attributes": {
+        "group": "Bacteria",
+        "microbes": "/explore#life=prokaryotes",
+        "food_summary": [
+          "The bacteria historically grouped as Lactobacillus include many specialists in fermented foods. Yoghurt commonly uses L. delbrueckii subsp. bulgaricus; vegetable ferments contain other lactic acid bacteria suited to plant sugars, salt and progressively acidic conditions.",
+          "Their production of lactic acid changes flavour, preservation and texture. Different foods select different communities: the organisms growing in milk, kefir grains and cabbage brine are connected through fermentation chemistry, while living in distinct food habitats."
+        ],
+        "food_studies": [
+          "kimchi-succession",
+          "kefir-succession",
+          "yoghurt-lactose"
+        ]
+      }
+    },
+    "leuconostoc": {
+      "id": "leuconostoc",
+      "name": "Leuconostoc",
+      "kind": "organism",
+      "aliases": [],
+      "attributes": {
+        "group": "Bacteria",
+        "microbes": "/explore#life=prokaryotes",
+        "food_summary": [
+          "Leuconostoc bacteria participate in vegetable fermentations, producing organic acids and gas from plant carbohydrates. Their activity changes the environment available to the organisms that follow.",
+          "Kimchi studies track these community changes alongside acidity and metabolites. Ingredients, storage and the microbial starting population help explain why fermentation follows different paths in different batches."
+        ],
+        "food_studies": [
+          "kimchi-succession"
+        ]
+      }
+    },
+    "rhizopus": {
+      "id": "rhizopus",
+      "name": "Rhizopus microsporus / oligosporus",
+      "kind": "organism",
+      "aliases": [],
+      "attributes": {
+        "group": "Fungi",
+        "microbes": "/explore#life=fungi",
+        "food_summary": [
+          "Food-grade Rhizopus cultures grow branching filaments through cooked soybeans. These filaments bind the beans into tempeh, while fungal enzymes change components of the substrate and develop its texture and flavour.",
+          "This is a solid-state fermentation with access to oxygen. Starter experiments show that culture preparation affects performance. Tempeh is commonly cooked before eating: the meal delivers a transformed food whose nutritional value does not depend on the fungus establishing itself in the intestine."
+        ],
+        "food_studies": [
+          "tempeh-inoculum"
+        ]
+      }
+    },
+    "aspergillus": {
+      "id": "aspergillus",
+      "name": "Aspergillus oryzae",
+      "kind": "organism",
+      "aliases": [],
+      "attributes": {
+        "group": "Fungi",
+        "microbes": "/explore#life=fungi",
+        "food_summary": [
+          "Aspergillus oryzae is a koji mould grown on cooked grain. Its branching hyphae enter the substrate and produce enzymes that break starches and proteins into smaller molecules.",
+          "When koji is mixed with cooked soybeans and salt, its enzymes continue to help transform the paste. Salt-tolerant bacteria and yeasts participate in later miso maturation. The mould’s enzyme-making phase and the subsequent paste fermentation are distinct parts of the process."
+        ],
+        "food_studies": [
+          "koji-growth",
+          "miso-spontaneous"
+        ]
+      }
+    },
+    "helicobacter": {
+      "id": "helicobacter",
+      "name": "Helicobacter pylori",
+      "kind": "organism",
+      "aliases": [],
+      "attributes": {
+        "group": "Bacteria",
+        "microbes": "/explore#life=prokaryotes"
+      }
+    },
+    "cdiff": {
+      "id": "cdiff",
+      "name": "Clostridioides difficile",
+      "kind": "organism",
+      "aliases": [],
+      "attributes": {
+        "group": "Bacteria",
+        "microbes": "/explore#life=prokaryotes"
+      }
+    },
+    "norovirus": {
+      "id": "norovirus",
+      "name": "Norovirus",
+      "kind": "organism",
+      "aliases": [],
+      "attributes": {
+        "group": "Viruses",
+        "microbes": "/explore#life=viruses"
+      }
+    },
+    "giardia": {
+      "id": "giardia",
+      "name": "Giardia duodenalis",
+      "kind": "organism",
+      "aliases": [],
+      "attributes": {
+        "group": "Protists",
+        "microbes": "/explore#life=protists"
+      }
+    },
+    "bacteroides": {
+      "id": "bacteroides",
+      "name": "Bacteroides",
+      "kind": "organism",
+      "aliases": [],
+      "attributes": {
+        "group": "Bacteria",
+        "microbes": "/explore#life=prokaryotes"
+      }
+    },
+    "fibre": {
+      "id": "fibre",
+      "name": "Dietary fibre",
+      "kind": "molecule",
+      "aliases": [],
+      "attributes": {}
+    },
+    "starch": {
+      "id": "starch",
+      "name": "Resistant starch",
+      "kind": "molecule",
+      "aliases": [],
+      "attributes": {}
+    },
+    "lactose": {
+      "id": "lactose",
+      "name": "Lactose",
+      "kind": "molecule",
+      "aliases": [],
+      "attributes": {}
+    },
+    "lactate": {
+      "id": "lactate",
+      "name": "Lactate",
+      "kind": "molecule",
+      "aliases": [],
+      "attributes": {}
+    },
+    "butyrate": {
+      "id": "butyrate",
+      "name": "Butyrate",
+      "kind": "molecule",
+      "aliases": [],
+      "attributes": {}
+    },
+    "acetate": {
+      "id": "acetate",
+      "name": "Acetate",
+      "kind": "molecule",
+      "aliases": [],
+      "attributes": {}
+    },
+    "urea": {
+      "id": "urea",
+      "name": "Urea",
+      "kind": "molecule",
+      "aliases": [],
+      "attributes": {}
+    },
+    "ammonia": {
+      "id": "ammonia",
+      "name": "Ammonia",
+      "kind": "molecule",
+      "aliases": [],
+      "attributes": {}
+    },
+    "toxins": {
+      "id": "toxins",
+      "name": "Toxins A and B",
+      "kind": "molecule",
+      "aliases": [],
+      "attributes": {}
+    },
+    "bile": {
+      "id": "bile",
+      "name": "Bile acids",
+      "kind": "molecule",
+      "aliases": [],
+      "attributes": {}
+    },
+    "protein": {
+      "id": "protein",
+      "name": "Protein",
+      "kind": "molecule",
+      "aliases": [],
+      "attributes": {}
+    },
+    "tryptophan": {
+      "id": "tryptophan",
+      "name": "Tryptophan",
+      "kind": "molecule",
+      "aliases": [],
+      "attributes": {}
+    },
+    "movement": {
+      "id": "movement",
+      "name": "Movement",
+      "kind": "activity",
+      "aliases": [],
+      "attributes": {}
+    },
+    "sleep": {
+      "id": "sleep",
+      "name": "Sleep",
+      "kind": "activity",
+      "aliases": [],
+      "attributes": {}
+    },
+    "stress": {
+      "id": "stress",
+      "name": "Stress response",
+      "kind": "activity",
+      "aliases": [],
+      "attributes": {}
+    },
+    "antibiotics": {
+      "id": "antibiotics",
+      "name": "Antibiotic treatment",
+      "kind": "intervention",
+      "aliases": [],
+      "attributes": {}
+    },
+    "hydration": {
+      "id": "hydration",
+      "name": "Rehydration",
+      "kind": "intervention",
+      "aliases": [],
+      "attributes": {}
+    },
+    "colonocytes": {
+      "id": "colonocytes",
+      "name": "Cells lining the colon",
+      "kind": "host_component",
+      "aliases": [],
+      "attributes": {}
+    },
+    "milk": {
+      "id": "milk",
+      "name": "Milk",
+      "kind": "food",
+      "aliases": [],
+      "attributes": {}
+    },
+    "cabbage": {
+      "id": "cabbage",
+      "name": "Cabbage",
+      "kind": "food",
+      "aliases": [],
+      "attributes": {}
+    },
+    "soybeans": {
+      "id": "soybeans",
+      "name": "Soybeans",
+      "kind": "food",
+      "aliases": [],
+      "attributes": {}
+    },
+    "grain": {
+      "id": "grain",
+      "name": "Grain",
+      "kind": "food",
+      "aliases": [],
+      "attributes": {}
+    },
+    "gut": {
+      "id": "gut",
+      "name": "Gut microbial community",
+      "kind": "community",
+      "aliases": [],
+      "attributes": {}
+    },
+    "yoghurt": {
+      "id": "yoghurt",
+      "name": "Yoghurt",
+      "kind": "food",
+      "aliases": [],
+      "attributes": {
+        "page": "/fermentation#item=yoghurt"
+      }
+    },
+    "sauerkraut": {
+      "id": "sauerkraut",
+      "name": "Sauerkraut",
+      "kind": "food",
+      "aliases": [],
+      "attributes": {
+        "page": "/fermentation#item=sauerkraut"
+      }
+    },
+    "tempeh": {
+      "id": "tempeh",
+      "name": "Tempeh",
+      "kind": "food",
+      "aliases": [],
+      "attributes": {
+        "page": "/fermentation#item=tempeh"
+      }
+    },
+    "kefir": {
+      "id": "kefir",
+      "name": "Kefir",
+      "kind": "food",
+      "aliases": [],
+      "attributes": {
+        "page": "/fermentation#item=kefir"
+      }
+    },
+    "kimchi": {
+      "id": "kimchi",
+      "name": "Kimchi",
+      "kind": "food",
+      "aliases": [],
+      "attributes": {
+        "page": "/fermentation#item=kimchi"
+      }
+    },
+    "sourdough": {
+      "id": "sourdough",
+      "name": "Sourdough",
+      "kind": "food",
+      "aliases": [],
+      "attributes": {
+        "page": "/fermentation#item=sourdough"
+      }
+    },
+    "miso": {
+      "id": "miso",
+      "name": "Miso",
+      "kind": "food",
+      "aliases": [],
+      "attributes": {
+        "page": "/fermentation#item=miso"
+      }
+    },
+    "zygosa": {
+      "id": "zygosa",
+      "name": "Zygosaccharomyces",
+      "kind": "organism",
+      "aliases": [],
+      "attributes": {
+        "group": "Fungi",
+        "microbes": "/explore#life=fungi",
+        "food_summary": [
+          "Zygosaccharomyces includes yeasts adapted to demanding food environments. Members occur in traditional miso communities alongside bacteria and filamentous fungi.",
+          "A metagenomic study comparing koji-based and spontaneous misos found differences in their dominant fungi while also detecting yeast and bacterial genera typical of miso. Those communities connect food tradition with measurable microbial ecology."
+        ],
+        "food_studies": [
+          "miso-spontaneous"
+        ]
+      }
+    },
+    "tetragenococcus": {
+      "id": "tetragenococcus",
+      "name": "Tetragenococcus",
+      "kind": "organism",
+      "aliases": [],
+      "attributes": {
+        "group": "Bacteria",
+        "microbes": "/explore#life=prokaryotes",
+        "food_summary": [
+          "Tetragenococcus bacteria occur in salty fermented-food communities, including miso. Their metabolism contributes to the changing chemistry of a paste during maturation.",
+          "The miso comparison linked here examined microbial composition across different production traditions. The food environment, its salt and its available substrates help organise which organisms grow together."
+        ],
+        "food_studies": [
+          "miso-spontaneous"
+        ]
+      }
+    },
+    "komagataeibacter": {
+      "name": "Komagataeibacter",
+      "kind": "organism",
+      "attributes": {
+        "group": "Bacteria",
+        "food_summary": [
+          "These acetic-acid bacteria use oxygen to convert ethanol into organic acids. Some species weave the cellulose sheet at the surface of kombucha."
+        ]
+      }
+    },
+    "acetobacter": {
+      "name": "Acetobacter",
+      "kind": "organism",
+      "attributes": {
+        "group": "Bacteria",
+        "food_summary": [
+          "Acetobacter oxidises ethanol to acetic acid where oxygen is available. Its activity helps shape the sourness of several mixed-culture drinks."
+        ]
+      }
+    },
+    "tea": {
+      "name": "Tea",
+      "kind": "food",
+      "attributes": {}
+    },
+    "sugar": {
+      "name": "Sugars",
+      "kind": "molecule",
+      "attributes": {}
+    },
+    "ethanol": {
+      "name": "Ethanol",
+      "kind": "molecule",
+      "attributes": {}
+    },
+    "meal-timing": {
+      "name": "Meal timing",
+      "kind": "exposure",
+      "attributes": {
+        "food_summary": [
+          "Meals create recurring changes in nutrient supply, hormone signals and intestinal activity. Fasting studies change the duration or placement of these feeding periods."
+        ]
+      }
+    },
+    "streptococcus-thermophilus": {
+      "id": "streptococcus-thermophilus",
+      "name": "Streptococcus thermophilus",
+      "kind": "organism",
+      "aliases": [],
+      "attributes": {
+        "group": "Bacteria",
+        "microbes": "/explore#life=prokaryotes",
+        "food_summary": [
+          "Streptococcus thermophilus is one of the two traditional yoghurt starter bacteria. In warm milk it ferments lactose and produces lactic acid. Together with Lactobacillus delbrueckii subsp. bulgaricus, it helps turn liquid milk into an acidic protein gel.",
+          "The partnership changes the nutrients available to each bacterium during culturing. Cooling slows their activity. When live-culture yoghurt is eaten, microbial enzymes can also participate in lactose digestion."
+        ],
+        "food_studies": [
+          "yoghurt-lactose"
+        ]
+      }
+    },
+    "ruminococcus-bromii": {
+      "id": "ruminococcus-bromii",
+      "name": "Ruminococcus bromii",
+      "kind": "organism",
+      "aliases": [],
+      "attributes": {
+        "group": "Bacteria",
+        "microbes": "/explore#life=prokaryotes"
+      }
+    },
+    "faecalibacterium-prausnitzii": {
+      "id": "faecalibacterium-prausnitzii",
+      "name": "Faecalibacterium prausnitzii",
+      "kind": "organism",
+      "aliases": [],
+      "attributes": {
+        "group": "Bacteria",
+        "microbes": "/explore#life=prokaryotes"
+      }
+    },
+    "saccharomyces-cerevisiae": {
+      "id": "saccharomyces-cerevisiae",
+      "name": "Saccharomyces cerevisiae",
+      "kind": "organism",
+      "aliases": [],
+      "attributes": {
+        "group": "Fungi",
+        "microbes": "/explore#life=fungi",
+        "food_summary": [
+          "Saccharomyces yeasts use sugars and can produce carbon dioxide and ethanol during fermentation. In bread starters they live alongside acid-producing bacteria; in kefir they participate in a different community carried by the grains.",
+          "Studies of sourdough connect yeast–bacterial interactions with aroma and dough rise. Baking kills most starter organisms, leaving their transformations in the loaf. Live fermented drinks and baked foods therefore deliver different microbial products and living populations."
+        ],
+        "food_studies": [
+          "sourdough-landis",
+          "kefir-succession"
+        ]
+      }
+    }
+  },
+  "sources": {
+    "kraut-method": {
+      "title": "USDA / National Center for Home Food Preservation · Sauerkraut",
+      "url": "https://nchfp.uga.edu/how/can/pickles-and-fermented-products/sauerkraut/",
+      "reviewed": "2026-10-20"
+    },
+    "yogurt-method": {
+      "title": "WSU Extension · Yogurt Made Simple",
+      "url": "https://extension.oregonstate.edu/sites/default/files/documents/8836/fs173emakingyogurt.pdf",
+      "reviewed": "2026-10-20"
+    },
+    "hp-guideline": {
+      "title": "ACG · H. pylori guideline, 2024 · Adults in North America",
+      "url": "https://gi.org/journals-publications/ebgi/schoenfeld_sep2024/",
+      "reviewed": "2026-10-20"
+    },
+    "cdiff-care": {
+      "title": "CDC · C. difficile clinical overview, April 2026",
+      "url": "https://www.cdc.gov/c-diff/hcp/clinical-overview/index.html",
+      "reviewed": "2026-10-20"
+    },
+    "noro-care": {
+      "title": "CDC · Norovirus: treatment and recovery",
+      "url": "https://www.cdc.gov/norovirus/about/index.html",
+      "reviewed": "2026-10-20"
+    },
+    "giardia-care": {
+      "title": "CDC · Giardia clinical care",
+      "url": "https://www.cdc.gov/giardia/hcp/clinical-care/index.html",
+      "reviewed": "2026-10-20"
+    },
+    "tempeh-process": {
+      "title": "Hachmeister & Fung · Experimental tempeh cultures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8267862/",
+      "reviewed": "2026-10-20"
+    },
+    "fermented-definition": {
+      "title": "ISAPP consensus · Fermented foods",
+      "url": "https://doi.org/10.1038/s41575-020-00390-5",
+      "reviewed": "2026-10-20"
+    },
+    "clinical-ibs": {
+      "title": "MedlinePlus · Irritable Bowel Syndrome",
+      "url": "https://medlineplus.gov/irritablebowelsyndrome.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-constipation": {
+      "title": "MedlinePlus · Constipation",
+      "url": "https://medlineplus.gov/constipation.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-microscopic-colitis": {
+      "title": "Microscopic Colitis - NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/microscopic-colitis",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-crohns": {
+      "title": "MedlinePlus · Crohn's Disease",
+      "url": "https://medlineplus.gov/crohnsdisease.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-ulcerative-colitis": {
+      "title": "MedlinePlus · Ulcerative Colitis",
+      "url": "https://medlineplus.gov/ulcerativecolitis.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-coeliac": {
+      "title": "MedlinePlus · Celiac Disease",
+      "url": "https://medlineplus.gov/celiacdisease.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-gerd": {
+      "title": "MedlinePlus · GERD",
+      "url": "https://medlineplus.gov/gerd.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-functional-dyspepsia": {
+      "title": "MedlinePlus · Indigestion",
+      "url": "https://medlineplus.gov/indigestion.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-peptic-ulcer": {
+      "title": "MedlinePlus · Peptic Ulcer",
+      "url": "https://medlineplus.gov/pepticulcer.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-gastritis": {
+      "title": "Gastritis & Gastropathy - NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastritis-gastropathy",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-lactose-intolerance": {
+      "title": "MedlinePlus · Lactose Intolerance",
+      "url": "https://medlineplus.gov/lactoseintolerance.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-fructose-malabsorption": {
+      "title": "Gas in the Digestive Tract - NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gas-digestive-tract",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-sibo": {
+      "title": "Diagnosis of Gas in the Digestive Tract - NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gas-digestive-tract/diagnosis",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-gallstones": {
+      "title": "MedlinePlus · Gallstones",
+      "url": "https://medlineplus.gov/gallstones.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-acute-pancreatitis": {
+      "title": "MedlinePlus · Pancreatitis",
+      "url": "https://medlineplus.gov/pancreatitis.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-chronic-pancreatitis": {
+      "title": "MedlinePlus · Pancreatitis",
+      "url": "https://medlineplus.gov/pancreatitis.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-fatty-liver": {
+      "title": "MedlinePlus · Steatotic Liver Disease",
+      "url": "https://medlineplus.gov/steatoticliverdisease.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-diverticular-disease": {
+      "title": "MedlinePlus · Diverticulosis and Diverticulitis",
+      "url": "https://medlineplus.gov/diverticulosisanddiverticulitis.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-diverticulitis": {
+      "title": "MedlinePlus · Diverticulosis and Diverticulitis",
+      "url": "https://medlineplus.gov/diverticulosisanddiverticulitis.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-appendicitis": {
+      "title": "MedlinePlus · Appendicitis",
+      "url": "https://medlineplus.gov/appendicitis.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-haemorrhoids": {
+      "title": "MedlinePlus · Hemorrhoids",
+      "url": "https://medlineplus.gov/hemorrhoids.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-anal-fissure": {
+      "title": "MedlinePlus · Anal Disorders",
+      "url": "https://medlineplus.gov/analdisorders.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-gastroparesis": {
+      "title": "Gastroparesis - NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-pancreatic-insufficiency": {
+      "title": "Exocrine Pancreatic Insufficiency (EPI) - NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/exocrine-pancreatic-insufficiency",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-colorectal-cancer": {
+      "title": "MedlinePlus · Colorectal Cancer",
+      "url": "https://medlineplus.gov/colorectalcancer.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-stomach-cancer": {
+      "title": "MedlinePlus · Stomach Cancer",
+      "url": "https://medlineplus.gov/stomachcancer.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-salmonellosis": {
+      "title": "MedlinePlus · Salmonella Infections",
+      "url": "https://medlineplus.gov/salmonellainfections.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-campylobacteriosis": {
+      "title": "MedlinePlus · Campylobacter Infections",
+      "url": "https://medlineplus.gov/campylobacterinfections.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-shigellosis": {
+      "title": "CDC · Shigellosis",
+      "url": "https://www.cdc.gov/shigella/about/index.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-stec": {
+      "title": "MedlinePlus · E. coli Infections",
+      "url": "https://medlineplus.gov/ecoliinfections.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-rotavirus": {
+      "title": "MedlinePlus · Rotavirus Infections",
+      "url": "https://medlineplus.gov/rotavirusinfections.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-cryptosporidiosis": {
+      "title": "MedlinePlus · Cryptosporidiosis",
+      "url": "https://medlineplus.gov/cryptosporidiosis.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-amoebiasis": {
+      "title": "CDC · Amoebiasis",
+      "url": "https://www.cdc.gov/amebiasis/about/index.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-ascariasis": {
+      "title": "CDC · Ascariasis",
+      "url": "https://www.cdc.gov/sth/about/ascariasis.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-hookworm": {
+      "title": "CDC · Hookworm infection",
+      "url": "https://www.cdc.gov/sth/about/hookworm.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-trichuriasis": {
+      "title": "CDC · Whipworm infection",
+      "url": "https://www.cdc.gov/sth/about/whipworms.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-strongyloidiasis": {
+      "title": "CDC · Strongyloidiasis",
+      "url": "https://www.cdc.gov/strongyloides/about/index.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-pinworm": {
+      "title": "MedlinePlus · Pinworms",
+      "url": "https://medlineplus.gov/pinworms.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-hepatitis-a": {
+      "title": "MedlinePlus · Hepatitis A",
+      "url": "https://medlineplus.gov/hepatitisa.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-hepatitis-b": {
+      "title": "MedlinePlus · Hepatitis B",
+      "url": "https://medlineplus.gov/hepatitisb.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-hepatitis-c": {
+      "title": "MedlinePlus · Hepatitis C",
+      "url": "https://medlineplus.gov/hepatitisc.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-cholera": {
+      "title": "MedlinePlus · Cholera",
+      "url": "https://medlineplus.gov/cholera.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-typhoid": {
+      "title": "CDC · Typhoid fever",
+      "url": "https://www.cdc.gov/typhoid-fever/about/index.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-oral-thrush": {
+      "title": "CDC · Oral thrush",
+      "url": "https://www.cdc.gov/candidiasis/about/index.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-vaginal-candidiasis": {
+      "title": "CDC · Vulvovaginal candidiasis",
+      "url": "https://www.cdc.gov/candidiasis/about/index.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-bacterial-vaginosis": {
+      "title": "CDC · Bacterial vaginosis",
+      "url": "https://www.cdc.gov/bacterial-vaginosis/about/index.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-uti": {
+      "title": "MedlinePlus · Urinary Tract Infections",
+      "url": "https://medlineplus.gov/urinarytractinfections.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-kidney-stones": {
+      "title": "MedlinePlus · Kidney Stones",
+      "url": "https://medlineplus.gov/kidneystones.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-ckd": {
+      "title": "MedlinePlus · Chronic Kidney Disease",
+      "url": "https://medlineplus.gov/chronickidneydisease.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-type-2-diabetes": {
+      "title": "MedlinePlus · Diabetes Type 2",
+      "url": "https://medlineplus.gov/diabetestype2.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-type-1-diabetes": {
+      "title": "MedlinePlus · Diabetes Type 1",
+      "url": "https://medlineplus.gov/diabetestype1.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-obesity": {
+      "title": "MedlinePlus · Obesity",
+      "url": "https://medlineplus.gov/obesity.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-metabolic-syndrome": {
+      "title": "MedlinePlus · Metabolic Syndrome",
+      "url": "https://medlineplus.gov/metabolicsyndrome.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-hypertension": {
+      "title": "MedlinePlus · High Blood Pressure",
+      "url": "https://medlineplus.gov/highbloodpressure.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-coronary-heart-disease": {
+      "title": "MedlinePlus · Coronary Artery Disease",
+      "url": "https://medlineplus.gov/coronaryarterydisease.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-heart-failure": {
+      "title": "MedlinePlus · Heart Failure",
+      "url": "https://medlineplus.gov/heartfailure.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-stroke": {
+      "title": "MedlinePlus · Stroke",
+      "url": "https://medlineplus.gov/stroke.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-high-cholesterol": {
+      "title": "MedlinePlus · Cholesterol",
+      "url": "https://medlineplus.gov/cholesterol.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-gout": {
+      "title": "MedlinePlus · Gout",
+      "url": "https://medlineplus.gov/gout.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-rheumatoid-arthritis": {
+      "title": "MedlinePlus · Rheumatoid Arthritis",
+      "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-osteoarthritis": {
+      "title": "MedlinePlus · Osteoarthritis",
+      "url": "https://medlineplus.gov/osteoarthritis.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-psoriasis": {
+      "title": "MedlinePlus · Psoriasis",
+      "url": "https://medlineplus.gov/psoriasis.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-eczema": {
+      "title": "MedlinePlus · Eczema",
+      "url": "https://medlineplus.gov/eczema.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-acne": {
+      "title": "MedlinePlus · Acne",
+      "url": "https://medlineplus.gov/acne.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-rosacea": {
+      "title": "MedlinePlus · Rosacea",
+      "url": "https://medlineplus.gov/rosacea.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-seborrhoeic-dermatitis": {
+      "title": "American Academy of Dermatology · Seborrheic dermatitis",
+      "url": "https://www.aad.org/public/diseases/a-z/seborrheic-dermatitis-overview",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-asthma": {
+      "title": "MedlinePlus · Asthma",
+      "url": "https://medlineplus.gov/asthma.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-allergic-rhinitis": {
+      "title": "MedlinePlus · Hay Fever",
+      "url": "https://medlineplus.gov/hayfever.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-food-allergy": {
+      "title": "MedlinePlus · Food Allergy",
+      "url": "https://medlineplus.gov/foodallergy.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-anaphylaxis": {
+      "title": "MedlinePlus · Anaphylaxis",
+      "url": "https://medlineplus.gov/anaphylaxis.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-chronic-urticaria": {
+      "title": "MedlinePlus · Hives",
+      "url": "https://medlineplus.gov/hives.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-lupus": {
+      "title": "MedlinePlus · Lupus",
+      "url": "https://medlineplus.gov/lupus.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-multiple-sclerosis": {
+      "title": "MedlinePlus · Multiple Sclerosis",
+      "url": "https://medlineplus.gov/multiplesclerosis.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-depression": {
+      "title": "MedlinePlus · Depression",
+      "url": "https://medlineplus.gov/depression.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-anxiety": {
+      "title": "MedlinePlus · Anxiety",
+      "url": "https://medlineplus.gov/anxiety.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-bipolar": {
+      "title": "MedlinePlus · Bipolar Disorder",
+      "url": "https://medlineplus.gov/bipolardisorder.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-schizophrenia": {
+      "title": "MedlinePlus · Schizophrenia",
+      "url": "https://medlineplus.gov/schizophrenia.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-parkinsons": {
+      "title": "MedlinePlus · Parkinson's Disease",
+      "url": "https://medlineplus.gov/parkinsonsdisease.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-alzheimers": {
+      "title": "MedlinePlus · Alzheimer's Disease",
+      "url": "https://medlineplus.gov/alzheimersdisease.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-migraine": {
+      "title": "MedlinePlus · Migraine",
+      "url": "https://medlineplus.gov/migraine.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-epilepsy": {
+      "title": "MedlinePlus · Epilepsy",
+      "url": "https://medlineplus.gov/epilepsy.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-autism": {
+      "title": "MedlinePlus · Autism Spectrum Disorder",
+      "url": "https://medlineplus.gov/autismspectrumdisorder.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-adhd": {
+      "title": "MedlinePlus · Attention Deficit Hyperactivity Disorder",
+      "url": "https://medlineplus.gov/attentiondeficithyperactivitydisorder.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-insomnia": {
+      "title": "MedlinePlus · Insomnia",
+      "url": "https://medlineplus.gov/insomnia.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-sleep-apnoea": {
+      "title": "MedlinePlus · Sleep Apnea",
+      "url": "https://medlineplus.gov/sleepapnea.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-iron-deficiency": {
+      "title": "Anemia - Iron-Deficiency Anemia | NHLBI, NIH",
+      "url": "https://www.nhlbi.nih.gov/health/anemia/iron-deficiency-anemia",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-b12-deficiency": {
+      "title": "NIH Office of Dietary Supplements · Vitamin B12",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-hypothyroidism": {
+      "title": "MedlinePlus · Hypothyroidism",
+      "url": "https://medlineplus.gov/hypothyroidism.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-hyperthyroidism": {
+      "title": "MedlinePlus · Hyperthyroidism",
+      "url": "https://medlineplus.gov/hyperthyroidism.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-pcos": {
+      "title": "MedlinePlus · Polycystic Ovary Syndrome",
+      "url": "https://medlineplus.gov/polycysticovarysyndrome.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-endometriosis": {
+      "title": "MedlinePlus · Endometriosis",
+      "url": "https://medlineplus.gov/endometriosis.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-periodontitis": {
+      "title": "MedlinePlus · Gum Disease",
+      "url": "https://medlineplus.gov/gumdisease.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-dental-caries": {
+      "title": "MedlinePlus · Tooth Decay",
+      "url": "https://medlineplus.gov/toothdecay.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-gingivitis": {
+      "title": "MedlinePlus · Gum Disease",
+      "url": "https://medlineplus.gov/gumdisease.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-common-cold": {
+      "title": "MedlinePlus · Common Cold",
+      "url": "https://medlineplus.gov/commoncold.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-influenza": {
+      "title": "MedlinePlus · Flu",
+      "url": "https://medlineplus.gov/flu.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-covid": {
+      "title": "MedlinePlus · COVID-19 (Coronavirus Disease 2019)",
+      "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-pneumonia": {
+      "title": "MedlinePlus · Pneumonia",
+      "url": "https://medlineplus.gov/pneumonia.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-sinusitis": {
+      "title": "MedlinePlus · Sinusitis",
+      "url": "https://medlineplus.gov/sinusitis.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "clinical-breast-cancer": {
+      "title": "MedlinePlus · Breast Cancer",
+      "url": "https://medlineplus.gov/breastcancer.html",
+      "type": "clinical-reference",
+      "checked": "2026-10-20"
+    },
+    "kombucha-method": {
+      "title": "University of Georgia · Home kombucha method",
+      "url": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+      "type": "reference",
+      "checked": "2026-10-20"
+    },
+    "pickle-method": {
+      "title": "USDA · Fermented dill pickles",
+      "url": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+      "type": "reference",
+      "checked": "2026-10-20"
+    },
+    "kefir-guide": {
+      "title": "Colorado State University · Milk and water kefir",
+      "url": "https://extension.colostate.edu/resource/understanding-and-making-kefir/",
+      "type": "reference",
+      "checked": "2026-10-20"
+    },
+    "vegetable-method": {
+      "title": "University of Minnesota · Fermenting vegetables",
+      "url": "https://extension.umn.edu/es/node/172346",
+      "type": "reference",
+      "checked": "2026-10-20"
+    },
+    "oral-care": {
+      "title": "NIH · Tooth decay and prevention",
+      "url": "https://www.nidcr.nih.gov/health-info/tooth-decay",
+      "type": "clinical-reference",
+      "checked": "2026-10-21"
+    },
+    "fasting-nih": {
+      "title": "NIH · Fasting and meal timing",
+      "url": "https://newsinhealth.nih.gov/2019/12/fast-or-not-fast"
+    },
+    "fasting-diabetes": {
+      "title": "NIDDK · Fasting with diabetes",
+      "url": "https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/fasting-safely-with-diabetes"
+    },
+    "bowel-position": {
+      "title": "South Tees NHS · Getting your position right",
+      "url": "https://www.southtees.nhs.uk/resources/getting-your-position-right/"
+    },
+    "anal-skin-care": {
+      "title": "Gloucestershire Hospitals NHS · Bowel function and skin care",
+      "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/improving-bowel-function-and-control/"
+    },
+    "toilet-cultures": {
+      "title": "SuSanA · Squatting toilets and water cleansing: practitioner survey (2015)",
+      "url": "https://www.susana.org/knowledge-hub/resources?id=2302"
+    },
+    "toilet-history": {
+      "title": "Charlier et al. · Toilet hygiene in the classical era (historical feature)",
+      "url": "https://www.bmj.com/content/345/bmj.e8287"
+    },
+    "slow-cooker-safety": {
+      "title": "USDA FSIS · Slow cookers and food safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/slow-cookers-and-food-safety"
+    },
+    "bean-lectins": {
+      "title": "Hong Kong Centre for Food Safety · Kidney-bean lectin poisoning",
+      "url": "https://www.cfs.gov.hk/english/multimedia/multimedia_pub/multimedia_pub_fsf_208_01.html"
+    }
+  },
+  "pages": {
+    "living-well": {
+      "title": "Living well",
+      "intro": "Food, movement and the microbial life of everyday health.",
+      "stories": [
+        {
+          "id": "fibre",
+          "title": "Feed a community",
+          "lead": "Different fibres open different microbial pathways.",
+          "region": "colon",
+          "organisms": [
+            "ruminococcus-bromii",
+            "bifidobacterium",
+            "faecalibacterium-prausnitzii",
+            "roseburia"
+          ],
+          "steps": [
+            {
+              "label": "A food reaches the colon",
+              "text": "Beans, oats, vegetables and whole grains supply carbohydrates that escape digestion in the small intestine. The structure of a fibre shapes which microbes can start breaking it down.",
+              "chain": [
+                "fibre",
+                "gut"
+              ],
+              "studies": [
+                "starch-keystone"
+              ],
+              "sources": [],
+              "claims": [
+                "rb-starch"
+              ]
+            },
+            {
+              "label": "Specialists open the structure",
+              "text": "Ruminococcus bromii can attach to resistant starch and begin dismantling it. Other organisms gain access to released sugars, making starch degradation a shared activity.",
+              "chain": [
+                "starch",
+                "ruminococcus-bromii",
+                "bifidobacterium"
+              ],
+              "studies": [
+                "starch-keystone"
+              ],
+              "sources": [],
+              "claims": [
+                "rb-starch"
+              ]
+            },
+            {
+              "label": "Neighbours exchange metabolites",
+              "text": "The tested bifidobacterial and faecalibacterial strains produced more butyrate together than in the relevant monocultures. These are laboratory findings from defined strains.",
+              "chain": [
+                "bifidobacterium",
+                "acetate",
+                "faecalibacterium-prausnitzii",
+                "butyrate"
+              ],
+              "studies": [
+                "cross-feeding"
+              ],
+              "sources": [],
+              "claims": [
+                "cross-feeding-butyrate"
+              ]
+            },
+            {
+              "label": "The lining receives fuel",
+              "text": "Butyrate is an important fuel for cells lining the colon. Its effects on metabolism and immune signalling connect microbial fermentation to the tissue that houses it.",
+              "chain": [
+                "butyrate",
+                "colonocytes"
+              ],
+              "studies": [
+                "colonocyte-butyrate"
+              ],
+              "sources": [],
+              "claims": [
+                "butyrate-cell-energy"
+              ]
+            }
+          ],
+          "practical": "Build meals around several fibre sources: pulses, whole grains, vegetables, nuts and seeds. Add variety gradually if a large change produces gas. The high-fibre arm of the Stanford diet trial increased microbial carbohydrate-processing capacity without increasing diversity across the whole group.",
+          "practical_studies": [
+            "fibre"
+          ],
+          "tags": [
+            "Food",
+            "Digestion",
+            "Energy",
+            "Butyrate"
+          ],
+          "featured": true,
+          "category": "Food & digestion",
+          "type": "guide"
+        },
+        {
+          "id": "fermented",
+          "title": "Food already transformed",
+          "lead": "Microbes change food before it reaches you.",
+          "region": "small",
+          "organisms": [
+            "lactobacillus",
+            "streptococcus-thermophilus",
+            "saccharomyces-cerevisiae",
+            "rhizopus"
+          ],
+          "steps": [
+            {
+              "label": "Choose a fermentation",
+              "text": "Yoghurt, cabbage ferments and tempeh begin with different ingredients and communities. Their fermentation changes acidity, texture and food chemistry.",
+              "chain": [
+                "milk",
+                "lactobacillus",
+                "lactate"
+              ],
+              "studies": [],
+              "sources": [
+                "fermented-definition"
+              ],
+              "claims": [
+                "step:living-well:fermented:0"
+              ]
+            },
+            {
+              "label": "A dietary experiment",
+              "text": "In a randomised study of 36 healthy adults, the fermented-food arm increased gut microbial diversity and reduced several inflammatory markers. Participants ate a mixture of foods.",
+              "chain": [
+                "gut",
+                "acetate"
+              ],
+              "studies": [
+                "fibre"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:fermented:1"
+              ]
+            },
+            {
+              "label": "Follow the transformation",
+              "text": "Live-culture yoghurt, a baked loaf and cooked tempeh deliver different mixtures of living microbes, microbial products and transformed ingredients. Fermentation continues to matter after organisms are killed by cooking.",
+              "chain": [
+                "soybeans",
+                "rhizopus",
+                "protein"
+              ],
+              "studies": [
+                "tempeh-inoculum"
+              ],
+              "sources": [
+                "fermented-definition"
+              ],
+              "claims": [
+                "step:living-well:fermented:2"
+              ]
+            }
+          ],
+          "practical": "Try a food you enjoy as part of a meal: plain live-culture yoghurt with oats, tempeh with vegetables, or sauerkraut alongside beans. Open Fermentation sciences to see how each food is made.",
+          "practical_studies": [
+            "fibre"
+          ],
+          "tags": [
+            "Food",
+            "Fermentation",
+            "Immunity"
+          ],
+          "related": "/fermentation",
+          "featured": true,
+          "category": "Food & digestion",
+          "type": "guide"
+        },
+        {
+          "id": "movement",
+          "title": "Move the ecosystem",
+          "lead": "Exercise changes the host that microbes live in.",
+          "region": "colon",
+          "organisms": [
+            "faecalibacterium-prausnitzii",
+            "roseburia"
+          ],
+          "steps": [
+            {
+              "label": "The host changes",
+              "text": "Movement changes circulation, energy use and intestinal physiology. Exercise studies measure how the microbial community responds alongside the person.",
+              "chain": [
+                "movement",
+                "gut"
+              ],
+              "studies": [
+                "exercise-allen"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:movement:0"
+              ]
+            },
+            {
+              "label": "A six-week experiment",
+              "text": "Previously sedentary adults completed supervised endurance training. Short-chain fatty acids increased in lean participants, with a different response in participants with obesity.",
+              "chain": [
+                "movement",
+                "butyrate"
+              ],
+              "studies": [
+                "exercise-allen"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:movement:1"
+              ]
+            },
+            {
+              "label": "Compare another result",
+              "text": "A separate three-week interval-training study found better fitness without a detectable change in bacterial composition. Duration, activity and the initial community help define the question.",
+              "chain": [
+                "movement",
+                "gut"
+              ],
+              "studies": [
+                "exercise-hiit"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:movement:2"
+              ]
+            }
+          ],
+          "practical": "Choose movement you can sustain and enjoy. The six-week study progressed from 30 to 60 minutes per session, three times weekly; it describes the experiment rather than a universal training prescription.",
+          "practical_studies": [
+            "exercise-allen",
+            "exercise-hiit"
+          ],
+          "tags": [
+            "Movement",
+            "Energy",
+            "Butyrate"
+          ],
+          "featured": true,
+          "category": "Food & digestion",
+          "type": "guide"
+        },
+        {
+          "id": "sleep",
+          "title": "A daily rhythm",
+          "lead": "Sleep changes the conditions of microbial life.",
+          "region": "colon",
+          "organisms": [],
+          "steps": [
+            {
+              "label": "Compare two nights",
+              "text": "Researchers compared adequate sleep with severe restriction while controlling diet and activity in healthy young men. This makes sleep itself an experimental variable.",
+              "chain": [
+                "sleep",
+                "gut"
+              ],
+              "studies": [
+                "sleep-karl"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:sleep:0"
+              ]
+            },
+            {
+              "label": "Count what changed",
+              "text": "After three restricted nights, microbial richness fell, while other diversity measures and intestinal permeability were unchanged. The gut responds along several distinct dimensions.",
+              "chain": [
+                "sleep",
+                "gut"
+              ],
+              "studies": [
+                "sleep-karl"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:sleep:1"
+              ]
+            }
+          ],
+          "practical": "Keep a regular opportunity for sleep and notice the relationship between meal timing, digestion and how rested you feel. The experiment used an extreme two-hour sleep condition; it did not test a sleep supplement or a food cure.",
+          "practical_studies": [
+            "sleep-karl"
+          ],
+          "tags": [
+            "Sleep",
+            "Daily rhythm"
+          ],
+          "featured": true,
+          "category": "Food & digestion",
+          "type": "guide"
+        },
+        {
+          "id": "mood",
+          "title": "Signals and experience",
+          "lead": "Microbes participate in the body’s chemical conversation.",
+          "region": "colon",
+          "organisms": [
+            "bifidobacterium"
+          ],
+          "steps": [
+            {
+              "label": "A route to the brain",
+              "text": "The gut and brain exchange information through sensory nerves, circulating precursors, immune responses and microbial metabolites. Serotonin can activate a gut sensory fibre whose electrical signal travels toward the brainstem. Human studies then ask how particular changes relate to mood, stress and quality of life.",
+              "chain": [
+                "tryptophan",
+                "gut",
+                "stress"
+              ],
+              "studies": [
+                "serotonin-vagal",
+                "brain"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:mood:0"
+              ]
+            },
+            {
+              "label": "Test a named strain",
+              "text": "In a small study of healthy volunteers, Bifidobacterium longum 1714 was associated with reduced stress responses and subtle memory changes. The study followed one strain through defined measurements.",
+              "chain": [
+                "bifidobacterium",
+                "stress"
+              ],
+              "studies": [
+                "stress-1714"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:mood:1"
+              ]
+            }
+          ],
+          "practical": "Food, sleep, movement and social life offer everyday ways to support how you feel. The research links here let you inspect a microbial intervention directly: participants, preparation, measurements and results.",
+          "practical_studies": [
+            "stress-1714"
+          ],
+          "tags": [
+            "Mood",
+            "Stress",
+            "Brain"
+          ],
+          "featured": true,
+          "category": "Food & digestion",
+          "type": "guide",
+          "links": [
+            {
+              "title": "Gut–brain communication map",
+              "url": "/mechanisms#map=gut-brain"
+            },
+            {
+              "title": "Serotonin and sensory signals",
+              "url": "/mechanisms#map=serotonin"
+            },
+            {
+              "title": "Read the gut–brain guide",
+              "url": "/references#guide=gut-brain"
+            }
+          ]
+        },
+        {
+          "id": "digestion",
+          "title": "Make room for digestion",
+          "lead": "Transit shapes the ecosystem as food moves through it.",
+          "region": "colon",
+          "organisms": [
+            "bacteroides",
+            "faecalibacterium-prausnitzii"
+          ],
+          "steps": [
+            {
+              "label": "Time changes the substrate",
+              "text": "As gut contents move, nutrients are used up and microbial products accumulate. Transit time helps determine the environment encountered by successive communities.",
+              "chain": [
+                "fibre",
+                "gut"
+              ],
+              "studies": [
+                "transit"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:digestion:0"
+              ]
+            },
+            {
+              "label": "Observe the pattern",
+              "text": "A study connecting colonic transit with microbial metabolism found that time in the colon was related to the balance of fermentation and protein breakdown. Stool measurements are part of that moving system.",
+              "chain": [
+                "gut",
+                "protein"
+              ],
+              "studies": [
+                "transit"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:digestion:1"
+              ]
+            }
+          ],
+          "practical": "Notice patterns over several days: meal composition, fluid intake, movement and stool consistency. For persistent constipation or diarrhoea, the Illness & recovery page connects symptoms to mechanisms and research.",
+          "practical_studies": [
+            "transit"
+          ],
+          "tags": [
+            "Digestion",
+            "Food",
+            "Transit"
+          ],
+          "related": "/illness-recovery",
+          "featured": false,
+          "category": "Food & digestion",
+          "type": "guide"
+        },
+        {
+          "id": "resistant-starch",
+          "title": "Resistant starch",
+          "lead": "Some starch feeds microbes after escaping our own digestion.",
+          "region": "colon",
+          "organisms": [
+            "ruminococcus-bromii",
+            "bifidobacterium"
+          ],
+          "steps": [
+            {
+              "label": "Structure matters",
+              "text": "Starch digestibility depends on its plant structure and preparation. Resistant fractions reach the colon, where specialist organisms can attach to and break apart the starch granules.",
+              "chain": [
+                "starch",
+                "ruminococcus-bromii"
+              ],
+              "studies": [
+                "starch-keystone"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:resistant-starch:0"
+              ]
+            },
+            {
+              "label": "A keystone opens a resource",
+              "text": "In laboratory communities, Ruminococcus bromii unlocks resistant starch for other bacteria. Its activity changes who can use the food and which fermentation products become available.",
+              "chain": [
+                "ruminococcus-bromii",
+                "bifidobacterium"
+              ],
+              "studies": [
+                "starch-keystone"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:resistant-starch:1"
+              ]
+            },
+            {
+              "label": "Partners share the products",
+              "text": "Released carbohydrates support other fermenters. Acetate and lactate can then feed butyrate producers, connecting the initial starch degraders to the wider community.",
+              "chain": [
+                "acetate",
+                "faecalibacterium-prausnitzii",
+                "butyrate"
+              ],
+              "studies": [
+                "cross-feeding"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:resistant-starch:2"
+              ]
+            }
+          ],
+          "practical": "Try beans, lentils, oats and other whole grains as ordinary meal ingredients. Different resistant starches feed different communities; introduce larger portions gradually if they cause gas.",
+          "tags": [
+            "Starch",
+            "Pulses",
+            "Whole grains"
+          ],
+          "category": "Food & digestion",
+          "type": "guide",
+          "featured": false
+        },
+        {
+          "id": "pulses",
+          "title": "Beans, lentils & chickpeas",
+          "lead": "A meal can deliver protein and microbial food together.",
+          "region": "colon",
+          "organisms": [
+            "bifidobacterium",
+            "faecalibacterium-prausnitzii"
+          ],
+          "steps": [
+            {
+              "label": "Two destinations",
+              "text": "Pulses contain protein, starch and fermentable carbohydrates. Our enzymes digest part of the meal; the remaining carbohydrates supply organisms further down the gut.",
+              "chain": [
+                "protein",
+                "fibre",
+                "gut"
+              ],
+              "studies": [
+                "fibre"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:pulses:0"
+              ]
+            },
+            {
+              "label": "A shared fermentation",
+              "text": "Bifidobacteria ferment carbohydrates into products including acetate and lactate. Other bacteria can use these products, extending the food web beyond the first consumer.",
+              "chain": [
+                "bifidobacterium",
+                "acetate",
+                "faecalibacterium-prausnitzii"
+              ],
+              "studies": [
+                "cross-feeding"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:pulses:1"
+              ]
+            },
+            {
+              "label": "A regular place at the table",
+              "text": "The Stanford diet intervention tracked changes over weeks. Increasing fibre changed microbial carbohydrate-processing capacity; microbial diversity did not rise across the entire high-fibre group.",
+              "chain": [
+                "fibre",
+                "gut"
+              ],
+              "studies": [
+                "fibre"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:pulses:2"
+              ]
+            }
+          ],
+          "practical": "Add a small serving of cooked beans or lentils to soups, salads and grain dishes. Increase portions as your digestion adapts. Cook dried beans thoroughly; canned beans are a convenient starting point.",
+          "tags": [
+            "Beans",
+            "Lentils",
+            "Plant protein"
+          ],
+          "category": "Food & digestion",
+          "type": "guide",
+          "featured": false
+        },
+        {
+          "id": "breakfast",
+          "title": "Oats, fruit & live yoghurt",
+          "lead": "Combine a plant substrate with a food transformed by microbes.",
+          "region": "colon",
+          "organisms": [
+            "bifidobacterium",
+            "lactobacillus",
+            "streptococcus-thermophilus"
+          ],
+          "steps": [
+            {
+              "label": "The plant part",
+              "text": "Oats and fruit contribute a mixture of fibres. Microbes differ in their ability to use these structures, so a mixed meal offers more than a single purified substrate.",
+              "chain": [
+                "fibre",
+                "bifidobacterium"
+              ],
+              "studies": [
+                "fibre"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:breakfast:0"
+              ]
+            },
+            {
+              "label": "The cultured part",
+              "text": "Yoghurt cultures ferment milk before it reaches the gut. Their lactase activity can improve digestion of the yoghurt’s lactose in people who digest lactose poorly.",
+              "chain": [
+                "lactose",
+                "lactobacillus"
+              ],
+              "studies": [
+                "yoghurt-lactose"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:breakfast:1"
+              ]
+            },
+            {
+              "label": "The whole meal",
+              "text": "The fermented-food arm of the Stanford trial increased microbial diversity and reduced several inflammatory markers. Participants ate a range of fermented foods, so the result describes that dietary pattern.",
+              "chain": [
+                "fibre",
+                "gut"
+              ],
+              "studies": [
+                "fibre"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:breakfast:2"
+              ]
+            }
+          ],
+          "practical": "Pair plain live-culture yoghurt with oats and fruit. Use lactose-free yoghurt if it suits your digestion. Choose a portion and combination you enjoy enough to eat regularly.",
+          "tags": [
+            "Oats",
+            "Yoghurt",
+            "Breakfast"
+          ],
+          "category": "Food & digestion",
+          "type": "guide",
+          "featured": false
+        },
+        {
+          "id": "oral-care",
+          "title": "Care for the mouth’s ecosystem",
+          "lead": "Repeated sugar exposure reshapes a microbial habitat before food reaches the stomach.",
+          "region": "mouth",
+          "organisms": [
+            "streptococcus-thermophilus"
+          ],
+          "steps": [
+            {
+              "label": "A surface community",
+              "text": "Dental plaque is an attached microbial community. Food, saliva and the tooth surface create local environments that differ from the surrounding mouth.",
+              "chain": [
+                "streptococcus-thermophilus",
+                "gut"
+              ],
+              "studies": [
+                "oral-sugar"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:oral-care:0"
+              ]
+            },
+            {
+              "label": "Frequent sugar changes the chemistry",
+              "text": "Sugar fermentation lowers plaque pH. Repeated acid exposure favours acid-tolerant organisms and removes minerals from tooth enamel.",
+              "chain": [
+                "streptococcus-thermophilus",
+                "lactate"
+              ],
+              "studies": [
+                "oral-sucrose"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:oral-care:1"
+              ]
+            },
+            {
+              "label": "Change the daily environment",
+              "text": "Cleaning plaque, using fluoride toothpaste and reducing frequent sugary snacks change the conditions in which the oral community lives. The goal is a stable tooth-supporting habitat.",
+              "chain": [
+                "lactate",
+                "gut"
+              ],
+              "studies": [
+                "oral-sugar"
+              ],
+              "sources": [
+                "oral-care"
+              ],
+              "claims": [
+                "step:living-well:oral-care:2"
+              ]
+            }
+          ],
+          "practical": "Brush twice daily with fluoride toothpaste, clean between teeth and keep sugary foods and drinks to mealtimes. A dental professional can help with bleeding gums, persistent pain or dry mouth.",
+          "tags": [
+            "Teeth",
+            "Plaque",
+            "Sugar"
+          ],
+          "category": "Food & digestion",
+          "type": "guide",
+          "featured": false,
+          "sources": [
+            "oral-care"
+          ]
+        },
+        {
+          "id": "fasting",
+          "title": "Fasting",
+          "lead": "Intermittent fasting, Ramadan, ketosis and the importance of timing, nutrition and life stage.",
+          "category": "Fasting",
+          "type": "guide",
+          "region": "colon",
+          "organisms": [],
+          "featured": true,
+          "tags": [
+            "Fasting",
+            "Ramadan",
+            "Ketones",
+            "Sex differences"
+          ],
+          "research_topic": "fasting",
+          "steps": [
+            {
+              "label": "Different fasts, different lives",
+              "text": "Ramadan daylight fasting includes abstaining from fluids, with eating after sunset and before dawn. Daily eating windows and alternate-day schedules use different rules. Ramadan stool studies report community shifts, but food, sleep and energy intake also change. Those observations cannot isolate a timing effect.",
+              "chain": [
+                "meal-timing",
+                "gut"
+              ],
+              "studies": [
+                "fasting-ramadan",
+                "fasting-diet-context"
+              ],
+              "sources": [
+                "fasting-nih"
+              ],
+              "claims": [
+                "step:living-well:fasting:0"
+              ]
+            },
+            {
+              "label": "What intermittent fasting achieves",
+              "text": "Across randomised trials, intermittent fasting generally produces metabolic and weight outcomes similar to continuous energy restriction. A 12-month trial found no significant extra benefit from an early eating window when both groups restricted calories. A separate programme combining fasting and protein pacing changed microbial profiles, but cannot isolate fasting from the protein intervention.",
+              "chain": [
+                "meal-timing",
+                "gut"
+              ],
+              "studies": [
+                "fasting-trial-synthesis",
+                "fasting-year-trial",
+                "fasting-protein"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:fasting:1"
+              ]
+            },
+            {
+              "label": "Timing can matter without weight loss",
+              "text": "A small controlled-feeding crossover experiment in men with prediabetes found improved insulin sensitivity with early eating despite weight maintenance. This is evidence about a specific protocol and population. Other timing trials measure different outcomes, including stool communities; a metabolic improvement does not automatically imply a microbiome change.",
+              "chain": [
+                "meal-timing",
+                "gut"
+              ],
+              "studies": [
+                "fasting-early-men",
+                "fasting-early-late"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:fasting:2"
+              ]
+            },
+            {
+              "label": "From stored carbohydrate to ketones",
+              "text": "As liver glycogen declines, the body relies more on fat and can produce more ketone bodies. There is no universal hour when everyone enters ketosis: food composition, activity and metabolic state matter. A ketogenic diet, fasting and taking a ketone supplement are distinct interventions.",
+              "chain": [
+                "meal-timing",
+                "ketone-bodies"
+              ],
+              "studies": [
+                "fasting-ketone-switch"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:fasting:3"
+              ]
+            },
+            {
+              "label": "Ketosis and the microbial community",
+              "text": "Ketogenic feeding changed stool communities in a human inpatient study. Follow-up cultures and mouse experiments tested ketone effects on bifidobacteria and intestinal immune cells. This offers a mechanism to investigate; it does not show that fasting-induced ketosis treats human gut inflammation.",
+              "chain": [
+                "ketone-bodies",
+                "bifidobacterium",
+                "gut"
+              ],
+              "studies": [
+                "ketosis-microbiome"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:fasting:4"
+              ]
+            },
+            {
+              "label": "Women: hormones and life stage",
+              "text": "In a small eight-week analysis in women with obesity, several measured sex hormones remained stable while DHEA decreased. Men were excluded, and menstrual-cycle ovarian hormones were not assessed before menopause. The study cannot establish fertility effects, long-term safety or an optimal fasting window for women.",
+              "chain": [
+                "meal-timing",
+                "energy-availability"
+              ],
+              "studies": [
+                "fasting-women-hormones"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:fasting:5"
+              ]
+            },
+            {
+              "label": "Women and men: what is still uncertain",
+              "text": "Direct comparisons between women and men remain scarce. Menstrual status, menopause, training load and adequate energy intake may influence responses. Current evidence does not justify fixed fasting hours by sex or menstrual phase. Male-only results and short female-only studies should both be read within their limits.",
+              "chain": [
+                "meal-timing",
+                "energy-availability"
+              ],
+              "studies": [
+                "fasting-sex-context",
+                "fasting-early-men"
+              ],
+              "sources": [
+                "fasting-diabetes"
+              ],
+              "claims": [
+                "step:living-well:fasting:6"
+              ]
+            }
+          ],
+          "practical": "Choose a schedule that preserves nourishing meals, protein, fibre and a workable social life. More fasting or more ketones is not an established goal for better gut health. During Ramadan, plan hydration within permitted hours. Pregnancy, breastfeeding, eating-disorder history, disrupted menstrual cycles and glucose-lowering medicines warrant individual clinical advice before fasting. Unplanned weight loss, persistent fatigue or menstrual changes are reasons to reassess the plan.",
+          "sources": [
+            "fasting-nih",
+            "fasting-diabetes"
+          ],
+          "practical_studies": [
+            "fasting-diabetes-trial"
+          ],
+          "aliases": [
+            "Ramadan fasting",
+            "Intermittent fasting",
+            "Ketosis",
+            "Women and fasting",
+            "Men and fasting"
+          ],
+          "links": [
+            {
+              "title": "Compare daily eating-window trials",
+              "url": "/living-well#item=daily-eating-windows"
+            },
+            {
+              "title": "Longer fasts and refeeding",
+              "url": "/living-well#item=longer-fasts"
+            }
+          ]
+        },
+        {
+          "id": "daily-eating-windows",
+          "title": "Daily eating windows",
+          "lead": "Early, late and self-selected schedules put timing to a direct test.",
+          "category": "Fasting",
+          "type": "guide",
+          "region": "colon",
+          "organisms": [],
+          "featured": false,
+          "tags": [
+            "Fasting",
+            "Meal timing",
+            "Metabolism"
+          ],
+          "research_topic": "fasting",
+          "steps": [
+            {
+              "label": "Timing and food are separate levers",
+              "text": "A controlled feeding trial varied carbohydrate content and daily eating windows within calorie restriction. It tracked body composition together with microbial and metabolite measurements.",
+              "chain": [
+                "meal-timing",
+                "fibre",
+                "gut"
+              ],
+              "studies": [
+                "fasting-feeding-rct"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:daily-eating-windows:0"
+              ]
+            },
+            {
+              "label": "Early and late windows",
+              "text": "In a three-month trial, early and late windows produced different changes in diversity measures and some bacterial genera. Overall between-group community differences were not significant.",
+              "chain": [
+                "meal-timing",
+                "faecalibacterium-prausnitzii",
+                "gut"
+              ],
+              "studies": [
+                "fasting-early-late"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:daily-eating-windows:1"
+              ]
+            },
+            {
+              "label": "What happens over twelve weeks?",
+              "text": "A larger multicentre trial compared early, late and self-selected windows with Mediterranean-diet education alone. The extra time restriction did not produce a significant between-group difference in liver outcomes or measured stool microbiota.",
+              "chain": [
+                "meal-timing",
+                "gut"
+              ],
+              "studies": [
+                "fasting-liver-rct"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:daily-eating-windows:2"
+              ]
+            }
+          ],
+          "practical": "Start by noticing when you eat, how you sleep and how you feel between meals. An overnight interval and an earlier final meal are different choices from a multi-day fast. Preserve nourishing meals and adequate protein. Pregnancy, breastfeeding, a history of eating disorders and glucose-lowering medicines change the clinical decision; discuss a fasting plan with your clinician in these circumstances.",
+          "sources": [
+            "fasting-nih",
+            "fasting-diabetes"
+          ]
+        },
+        {
+          "id": "longer-fasts",
+          "title": "Longer fasts & refeeding",
+          "lead": "Clinical fasting studies follow what happens during the fast and after food returns.",
+          "category": "Fasting",
+          "type": "guide",
+          "region": "colon",
+          "organisms": [],
+          "featured": false,
+          "tags": [
+            "Fasting",
+            "Meal timing",
+            "Metabolism"
+          ],
+          "research_topic": "fasting",
+          "steps": [
+            {
+              "label": "Fasting followed by a diet programme",
+              "text": "A trial substudy compared a five-day fast followed by modified DASH eating with the diet alone. Blood pressure, medication need and body-mass index were lower in the fasting programme at three months.",
+              "chain": [
+                "meal-timing",
+                "gut"
+              ],
+              "studies": [
+                "fasting-blood-pressure"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:longer-fasts:0"
+              ]
+            },
+            {
+              "label": "Microbial pathways",
+              "text": "The same substudy measured changes in taxa and gene modules linked to short-chain-fatty-acid production. These exploratory measurements connect the clinical result to possible biological routes.",
+              "chain": [
+                "gut",
+                "butyrate"
+              ],
+              "studies": [
+                "fasting-blood-pressure"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:longer-fasts:1"
+              ]
+            },
+            {
+              "label": "From mechanism to human trials",
+              "text": "A mouse experiment transferred microbes from fasting donors and reduced autoimmune disease in recipients. Its accompanying human pilot measured microbial and blood changes. These are distinct steps toward testing a treatment.",
+              "chain": [
+                "meal-timing",
+                "gut"
+              ],
+              "studies": [
+                "fasting-autoimmunity"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:longer-fasts:2"
+              ]
+            }
+          ],
+          "practical": "The five-day intervention described here was part of a structured clinical programme with refeeding and medication assessment. Use that study to understand the biology; planning a prolonged fast requires clinical supervision, especially with blood-pressure or glucose-lowering medicines.",
+          "sources": [
+            "fasting-nih",
+            "fasting-diabetes"
+          ]
+        },
+        {
+          "id": "toilet-posture-care",
+          "title": "Passing stool & cleaning afterwards",
+          "lead": "Posture, gentle anal care and the cultural life of the toilet.",
+          "category": "Everyday practices",
+          "type": "guide",
+          "region": "rectum",
+          "organisms": [],
+          "featured": true,
+          "diagram": "toilet",
+          "aliases": [
+            "Squatting",
+            "Footstool",
+            "Bidet",
+            "Wiping",
+            "Rectal cleaning",
+            "Toilet cultures"
+          ],
+          "tags": [
+            "Posture",
+            "Anal care",
+            "Culture"
+          ],
+          "steps": [
+            {
+              "label": "Find a comfortable position",
+              "text": "Supporting the feet and leaning forward can make bowel emptying feel easier. In healthy volunteers, squatting reduced reported effort; in a constipation clinic, footstools did not improve a simulated evacuation test. Comfort, mobility and pelvic-floor function matter more than a single supposedly perfect posture.",
+              "chain": [
+                "toilet-posture",
+                "rectum"
+              ],
+              "studies": [
+                "toilet-posture",
+                "toilet-footstool"
+              ],
+              "sources": [
+                "bowel-position"
+              ],
+              "claims": [
+                "step:living-well:toilet-posture-care:0"
+              ]
+            },
+            {
+              "label": "Clean the outside gently",
+              "text": "After passing stool, clean around the anus with gentle wiping, water or both, then pat dry. Avoid repeated scrubbing, strong fragrances and very hot water. This is care of the external skin: routine cleaning does not require flushing water into the rectum. Rectal irrigation for a bowel condition is a separate treatment taught by a clinician.",
+              "chain": [
+                "anal-cleansing",
+                "anal-skin"
+              ],
+              "studies": [],
+              "sources": [
+                "anal-skin-care"
+              ],
+              "claims": [
+                "step:living-well:toilet-posture-care:1"
+              ]
+            },
+            {
+              "label": "Water, privacy and cultural practice",
+              "text": "Qualitative research in coastal Odisha found that water-based cleansing, privacy and daily routines shaped whether people used a toilet. A SuSanA practitioner survey describes variation across countries and between public, private, rural and urban settings. It is an exploratory account, not a representative map of religions or national habits.",
+              "chain": [
+                "anal-cleansing",
+                "toilet-posture"
+              ],
+              "studies": [
+                "toilet-culture-odisha"
+              ],
+              "sources": [
+                "toilet-cultures"
+              ],
+              "claims": [
+                "step:living-well:toilet-posture-care:2"
+              ]
+            },
+            {
+              "label": "Bidets: a tool with a context",
+              "text": "A Japanese convenience-sample survey documented electric-bidet habits and associations between some washing behaviours and itching. People may wash more because they already have symptoms, so the association does not establish cause. Water access, device design and mobility shape what feels practical; gentle cleaning is the aim.",
+              "chain": [
+                "anal-cleansing",
+                "anal-skin"
+              ],
+              "studies": [
+                "toilet-bidet-japan"
+              ],
+              "sources": [
+                "anal-skin-care"
+              ],
+              "claims": [
+                "step:living-well:toilet-posture-care:3"
+              ]
+            }
+          ],
+          "practical": "Use a stable foot support if comfortable, keep your feet supported and avoid prolonged straining. Choose gentle external cleaning and dry without rubbing. Do not climb onto a seated toilet to squat. Persistent pain, bleeding, leakage or difficulty emptying deserves assessment rather than progressively stronger cleaning. Wash hands with soap after toilet use.",
+          "sources": [
+            "bowel-position",
+            "anal-skin-care",
+            "toilet-cultures",
+            "toilet-history"
+          ],
+          "links": [
+            {
+              "title": "Constipation: physiology and care",
+              "url": "/condition/constipation"
+            }
+          ]
+        },
+        {
+          "id": "slow-cooking-eating",
+          "title": "Slow cooking & slow eating",
+          "lead": "What time changes in the pot, in the mouth and during a meal.",
+          "category": "Food & digestion",
+          "type": "guide",
+          "region": "small",
+          "organisms": [],
+          "featured": true,
+          "diagram": "slow-meal",
+          "aliases": [
+            "Slow cooker",
+            "Stewing",
+            "Chewing",
+            "Mindful eating",
+            "Eating slowly"
+          ],
+          "tags": [
+            "Cooking",
+            "Texture",
+            "Eating pace"
+          ],
+          "steps": [
+            {
+              "label": "Give ingredients time to soften",
+              "text": "Stews and braises can make beans, vegetables and tougher cuts easier to prepare and chew. The digestive effect depends on the ingredient and its structure, not simply the clock. A small bean-meal experiment found different glucose responses after home boiling and commercial canning; it did not test a slow cooker.",
+              "chain": [
+                "cooking-method",
+                "fibre"
+              ],
+              "studies": [
+                "cooking-bean-structure"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:slow-cooking-eating:0"
+              ]
+            },
+            {
+              "label": "Food structure matters",
+              "text": "After a cooked white-bean meal, some starch reached the end of the small intestine enclosed within plant cell walls. This helps explain why a cooked pulse can still feed colonic microbes. Longer cooking can also increase starch accessibility: slower cooking does not automatically mean slower digestion or more resistant starch.",
+              "chain": [
+                "cooking-method",
+                "starch",
+                "colon"
+              ],
+              "studies": [
+                "cooking-resistant-starch"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:slow-cooking-eating:1"
+              ]
+            },
+            {
+              "label": "Give the meal some time",
+              "text": "Experiments that slowed eating generally reduced intake during that meal, without reliably changing later hunger. Chewing comfortably and pausing between bites may help you notice the meal and your appetite. These findings do not establish lasting weight loss, better nutrient absorption or a direct microbiome benefit.",
+              "chain": [
+                "eating-pace",
+                "mouth"
+              ],
+              "studies": [
+                "slow-eating"
+              ],
+              "sources": [],
+              "claims": [
+                "step:living-well:slow-cooking-eating:2"
+              ]
+            },
+            {
+              "label": "Make slowness practical and safe",
+              "text": "Try an unhurried meal and cook to a safe temperature rather than chasing a fixed number of hours. Slow-cooker safety depends on handling and heating. Raw dried kidney beans need proper soaking and high-temperature boiling; a low-temperature slow cooker alone may leave lectins active. Canned beans are a convenient already-cooked option.",
+              "chain": [
+                "cooking-method",
+                "eating-pace"
+              ],
+              "studies": [],
+              "sources": [
+                "slow-cooker-safety",
+                "bean-lectins"
+              ],
+              "claims": [
+                "step:living-well:slow-cooking-eating:3"
+              ]
+            }
+          ],
+          "practical": "Choose a stew or other meal you enjoy and leave enough time to eat comfortably. Take manageable bites, chew to a comfortable texture and pause if useful; there is no evidence-based chew count for everyone. Keep adequate nourishment as the goal. Follow appliance and food-safety instructions, especially for meat and dried kidney beans.",
+          "sources": [
+            "slow-cooker-safety",
+            "bean-lectins"
+          ],
+          "links": [
+            {
+              "title": "Pulses and the gut",
+              "url": "/living-well#item=pulses"
+            },
+            {
+              "title": "Follow resistant starch",
+              "url": "/living-well#item=resistant-starch"
+            }
+          ]
+        }
+      ]
+    },
+    "fermentation": {
+      "title": "Fermentation sciences",
+      "intro": "Watch a community turn ingredients into food.",
+      "stories": [
+        {
+          "id": "yoghurt",
+          "title": "Yoghurt",
+          "lead": "A partnership that turns milk into a soft gel.",
+          "region": "small",
+          "organisms": [
+            "streptococcus-thermophilus",
+            "lactobacillus"
+          ],
+          "steps": [
+            {
+              "label": "Milk & culture",
+              "text": "Streptococcus thermophilus and Lactobacillus delbrueckii subsp. bulgaricus grow together in milk. Each changes the conditions and nutrients available to its partner.",
+              "chain": [
+                "milk",
+                "streptococcus-thermophilus",
+                "lactobacillus"
+              ],
+              "studies": [],
+              "sources": [
+                "yogurt-method"
+              ],
+              "time": "The beginning",
+              "acidity": "Milk",
+              "texture": "Liquid",
+              "claims": [
+                "step:fermentation:yoghurt:0"
+              ]
+            },
+            {
+              "label": "Lactose becomes acid",
+              "text": "The bacteria ferment lactose to lactic acid. As acidity rises, milk proteins assemble into a gel that traps water.",
+              "chain": [
+                "lactose",
+                "lactobacillus",
+                "lactate"
+              ],
+              "studies": [],
+              "sources": [
+                "yogurt-method"
+              ],
+              "time": "Culturing",
+              "acidity": "Acidifying",
+              "texture": "Setting",
+              "claims": [
+                "step:fermentation:yoghurt:1"
+              ]
+            },
+            {
+              "label": "Cool the finished food",
+              "text": "Cooling slows further fermentation. Refrigerated live-culture yoghurt contains the transformed milk and its starter organisms. Heating after fermentation changes that living population.",
+              "chain": [
+                "milk",
+                "lactate",
+                "protein"
+              ],
+              "studies": [],
+              "sources": [
+                "yogurt-method"
+              ],
+              "time": "Refrigeration",
+              "acidity": "Sour",
+              "texture": "Soft gel",
+              "claims": [
+                "step:fermentation:yoghurt:2"
+              ]
+            },
+            {
+              "label": "From food to gut",
+              "text": "Microbial lactase in yoghurt helps digest its lactose. Fermented milk is one of the foods included in human diet interventions, where the whole dietary pattern is measured.",
+              "chain": [
+                "lactose",
+                "gut"
+              ],
+              "studies": [
+                "yoghurt-lactose",
+                "fibre"
+              ],
+              "sources": [
+                "fermented-definition"
+              ],
+              "time": "At the table",
+              "acidity": "Digestion",
+              "texture": "A meal",
+              "claims": [
+                "step:fermentation:yoghurt:3"
+              ]
+            }
+          ],
+          "ingredients": [
+            "Milk",
+            "Starter culture"
+          ],
+          "practical": "Serve plain yoghurt with oats or fruit, or use it in a savoury dressing. For preparation, the WSU method specifies milk heating, starter temperature and incubation; its linked procedure includes storage instructions. Keep finished yoghurt refrigerated.",
+          "sources": [
+            "yogurt-method"
+          ],
+          "practical_studies": [
+            "fibre"
+          ],
+          "oxygen": "Starter cultures work in the milk; no aeration step is needed.",
+          "controls": [
+            [
+              "Temperature",
+              "Warmth supports these thermophilic starter organisms; refrigeration slows them."
+            ],
+            [
+              "Time",
+              "Longer culturing changes acidity and firmness. Stop according to the tested method."
+            ]
+          ],
+          "featured": true,
+          "category": "Fermented foods",
+          "type": "guide",
+          "production_environment": "vessel",
+          "consumption_region": "small"
+        },
+        {
+          "id": "sauerkraut",
+          "title": "Sauerkraut",
+          "lead": "A succession of bacteria under the brine.",
+          "region": "small",
+          "organisms": [
+            "leuconostoc",
+            "lactobacillus"
+          ],
+          "steps": [
+            {
+              "label": "Salt draws a brine",
+              "text": "Salt draws liquid from shredded cabbage. Keeping the cabbage beneath its brine creates conditions favouring lactic acid bacteria.",
+              "chain": [
+                "cabbage",
+                "leuconostoc"
+              ],
+              "studies": [],
+              "sources": [
+                "kraut-method"
+              ],
+              "time": "Packing",
+              "acidity": "Fresh cabbage",
+              "texture": "Crisp",
+              "claims": [
+                "step:fermentation:sauerkraut:0"
+              ]
+            },
+            {
+              "label": "Early fermentation",
+              "text": "Leuconostoc and other lactic acid bacteria use cabbage sugars. Acid and gas change the vessel, and the community shifts as the environment becomes more acidic.",
+              "chain": [
+                "cabbage",
+                "leuconostoc",
+                "lactate"
+              ],
+              "studies": [],
+              "sources": [
+                "fermented-definition"
+              ],
+              "time": "Early activity",
+              "acidity": "Acidifying",
+              "texture": "Bubbles",
+              "claims": [
+                "step:fermentation:sauerkraut:1"
+              ]
+            },
+            {
+              "label": "A sour community",
+              "text": "Acid-tolerant bacteria continue the transformation. Temperature affects its pace: the USDA method gives about three to four weeks at 21–24°C.",
+              "chain": [
+                "cabbage",
+                "lactobacillus",
+                "lactate"
+              ],
+              "studies": [],
+              "sources": [
+                "kraut-method"
+              ],
+              "time": "Maturation",
+              "acidity": "Sour",
+              "texture": "Softening",
+              "claims": [
+                "step:fermentation:sauerkraut:2"
+              ]
+            },
+            {
+              "label": "A food at the table",
+              "text": "Refrigeration slows microbial activity. Canning heats the finished food, preserving the acidified cabbage while reducing its living microbial population.",
+              "chain": [
+                "cabbage",
+                "gut"
+              ],
+              "studies": [
+                "fibre"
+              ],
+              "sources": [
+                "kraut-method"
+              ],
+              "time": "Storage & serving",
+              "acidity": "Acidified",
+              "texture": "Fermented cabbage",
+              "claims": [
+                "step:fermentation:sauerkraut:3"
+              ]
+            }
+          ],
+          "ingredients": [
+            "Cabbage",
+            "Salt"
+          ],
+          "practical": "Use the linked USDA recipe for cabbage, salt, brine coverage and storage. Its warm fermentation range is 21–24°C; cooler conditions take longer. Keep fully fermented kraut refrigerated, or follow the specified canning procedure. Serve as a condiment alongside a meal.",
+          "sources": [
+            "kraut-method"
+          ],
+          "practical_studies": [
+            "fibre"
+          ],
+          "oxygen": "Keep cabbage submerged beneath brine.",
+          "controls": [
+            [
+              "Temperature",
+              "The USDA method gives 3–4 weeks at 21–24°C and 5–6 weeks at 16–18°C."
+            ],
+            [
+              "Salt",
+              "Salt draws the brine and shapes the community. Use the proportions in the tested procedure."
+            ]
+          ],
+          "featured": true,
+          "category": "Fermented foods",
+          "type": "guide",
+          "production_environment": "vessel",
+          "consumption_region": "small"
+        },
+        {
+          "id": "tempeh",
+          "title": "Tempeh",
+          "lead": "A fungus weaves beans into a food.",
+          "region": "small",
+          "organisms": [
+            "rhizopus"
+          ],
+          "steps": [
+            {
+              "label": "Prepare the substrate",
+              "text": "Cooked soybeans provide a moist, nutrient-rich surface for a Rhizopus starter. This is a solid-state fermentation.",
+              "chain": [
+                "soybeans",
+                "rhizopus"
+              ],
+              "studies": [
+                "tempeh-inoculum"
+              ],
+              "sources": [],
+              "time": "Inoculation",
+              "acidity": "Prepared beans",
+              "texture": "Separate beans",
+              "claims": [
+                "step:fermentation:tempeh:0"
+              ]
+            },
+            {
+              "label": "Hyphae connect the beans",
+              "text": "Rhizopus grows branching filaments between the beans. The growing mycelium binds them into a coherent cake.",
+              "chain": [
+                "rhizopus",
+                "soybeans"
+              ],
+              "studies": [],
+              "sources": [
+                "tempeh-process"
+              ],
+              "time": "Growth",
+              "acidity": "Fungal metabolism",
+              "texture": "White network",
+              "claims": [
+                "step:fermentation:tempeh:1"
+              ]
+            },
+            {
+              "label": "Enzymes change the food",
+              "text": "Fungal enzymes break down components of the beans, changing texture, flavour and nutrient accessibility. Starter and substrate both shape the result.",
+              "chain": [
+                "rhizopus",
+                "protein"
+              ],
+              "studies": [],
+              "sources": [
+                "tempeh-process"
+              ],
+              "time": "Transformation",
+              "acidity": "Enzyme activity",
+              "texture": "Bound cake",
+              "claims": [
+                "step:fermentation:tempeh:2"
+              ]
+            },
+            {
+              "label": "Cook & eat",
+              "text": "Tempeh is commonly cooked before eating. The meal delivers a transformed protein-rich food; its value does not depend on the fungus remaining alive in the gut.",
+              "chain": [
+                "soybeans",
+                "protein",
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "fermented-definition"
+              ],
+              "time": "At the table",
+              "acidity": "Digestion",
+              "texture": "Cooked food",
+              "claims": [
+                "step:fermentation:tempeh:3"
+              ]
+            }
+          ],
+          "ingredients": [
+            "Cooked soybeans",
+            "Rhizopus starter"
+          ],
+          "practical": "Cook tempeh according to the producer’s instructions and store it as directed. Pair it with vegetables and a grain or pulse. The process shown here explains fungal fermentation; the source paper describes laboratory starter experiments.",
+          "sources": [
+            "tempeh-process"
+          ],
+          "practical_studies": [
+            "tempeh-inoculum"
+          ],
+          "oxygen": "Rhizopus needs access to oxygen while it grows.",
+          "controls": [
+            [
+              "Oxygen",
+              "The mycelium grows on a solid substrate with access to air."
+            ],
+            [
+              "Starter",
+              "A food-grade Rhizopus starter defines the intended fungus."
+            ]
+          ],
+          "featured": true,
+          "category": "Fermented foods",
+          "type": "guide",
+          "production_environment": "vessel",
+          "consumption_region": "small"
+        },
+        {
+          "id": "kefir",
+          "title": "Kefir",
+          "lead": "A grain carries a community of bacteria and yeasts.",
+          "region": "small",
+          "organisms": [
+            "lactobacillus",
+            "saccharomyces-cerevisiae"
+          ],
+          "steps": [
+            {
+              "label": "A living grain",
+              "text": "Kefir grains carry bacteria and yeasts in a shared matrix. Adding them to milk introduces a mixed community.",
+              "chain": [
+                "milk",
+                "lactobacillus",
+                "saccharomyces-cerevisiae"
+              ],
+              "studies": [
+                "kefir-succession"
+              ],
+              "sources": [],
+              "time": "Beginning",
+              "texture": "Ingredients",
+              "acidity": "Starting",
+              "claims": [
+                "step:fermentation:kefir:0"
+              ]
+            },
+            {
+              "label": "A microbial succession",
+              "text": "Different members grow and exchange metabolites over the course of fermentation. Their activity produces acids, gas and flavour compounds.",
+              "chain": [
+                "lactobacillus",
+                "lactate",
+                "saccharomyces-cerevisiae"
+              ],
+              "studies": [
+                "kefir-succession"
+              ],
+              "sources": [],
+              "time": "Fermentation",
+              "texture": "Transforming",
+              "acidity": "Changing",
+              "claims": [
+                "step:fermentation:kefir:1"
+              ]
+            },
+            {
+              "label": "Strain & cool",
+              "text": "Removing the grains separates the reusable culture from the fermented drink. Cooling slows subsequent activity.",
+              "chain": [
+                "milk",
+                "lactate"
+              ],
+              "studies": [
+                "kefir-succession"
+              ],
+              "sources": [],
+              "time": "Finishing",
+              "texture": "Finished food",
+              "acidity": "Developed",
+              "claims": [
+                "step:fermentation:kefir:2"
+              ]
+            },
+            {
+              "label": "Drink & digest",
+              "text": "The finished food combines fermented milk, microbial products and living organisms. Grain composition explains some differences between batches.",
+              "chain": [
+                "milk",
+                "gut"
+              ],
+              "studies": [
+                "kefir-succession"
+              ],
+              "sources": [],
+              "time": "At the table",
+              "texture": "A meal",
+              "acidity": "Digestion",
+              "claims": [
+                "step:fermentation:kefir:3"
+              ]
+            }
+          ],
+          "ingredients": [
+            "Milk",
+            "Kefir grains"
+          ],
+          "practical": "Keep commercial kefir refrigerated as directed and use it with a meal or as a base for oats. A mixed culture produces a different food from yoghurt.",
+          "sources": [],
+          "practical_studies": [
+            "kefir-succession"
+          ],
+          "oxygen": "Conditions depend on the food and culture.",
+          "controls": [],
+          "featured": true,
+          "category": "Fermented foods",
+          "type": "guide",
+          "production_environment": "vessel",
+          "consumption_region": "small"
+        },
+        {
+          "id": "kimchi",
+          "title": "Kimchi",
+          "lead": "Vegetables become a changing acidic habitat.",
+          "region": "small",
+          "organisms": [
+            "leuconostoc",
+            "lactobacillus"
+          ],
+          "steps": [
+            {
+              "label": "The ingredients",
+              "text": "Vegetables supply carbohydrates and their surface communities; salt and seasonings shape the starting conditions.",
+              "chain": [
+                "cabbage",
+                "leuconostoc"
+              ],
+              "studies": [
+                "kimchi-succession"
+              ],
+              "sources": [
+                "fermented-definition"
+              ],
+              "time": "Beginning",
+              "texture": "Ingredients",
+              "acidity": "Starting",
+              "claims": [
+                "step:fermentation:kimchi:0"
+              ]
+            },
+            {
+              "label": "Bacteria ferment sugars",
+              "text": "Lactic acid bacteria produce organic acids and other flavour compounds as the vegetables ferment.",
+              "chain": [
+                "cabbage",
+                "lactobacillus",
+                "lactate"
+              ],
+              "studies": [
+                "kimchi-succession"
+              ],
+              "sources": [
+                "fermented-definition"
+              ],
+              "time": "Fermentation",
+              "texture": "Transforming",
+              "acidity": "Changing",
+              "claims": [
+                "step:fermentation:kimchi:1"
+              ]
+            },
+            {
+              "label": "A changing food",
+              "text": "Storage temperature and time change the balance of organisms and the sourness of the food.",
+              "chain": [
+                "leuconostoc",
+                "lactate"
+              ],
+              "studies": [
+                "kimchi-succession"
+              ],
+              "sources": [
+                "fermented-definition"
+              ],
+              "time": "Finishing",
+              "texture": "Finished food",
+              "acidity": "Developed",
+              "claims": [
+                "step:fermentation:kimchi:2"
+              ]
+            },
+            {
+              "label": "Serve a portion",
+              "text": "Kimchi is one of several fermented vegetables included in human dietary intervention research.",
+              "chain": [
+                "cabbage",
+                "gut"
+              ],
+              "studies": [
+                "fibre"
+              ],
+              "sources": [
+                "fermented-definition"
+              ],
+              "time": "At the table",
+              "texture": "A meal",
+              "acidity": "Digestion",
+              "claims": [
+                "step:fermentation:kimchi:3"
+              ]
+            }
+          ],
+          "ingredients": [
+            "Vegetables",
+            "Salt",
+            "Seasonings"
+          ],
+          "practical": "Use a refrigerated product or a tested recipe for the specific vegetables you are preparing. Serve a small portion beside a meal; salt content differs across products.",
+          "sources": [
+            "fermented-definition"
+          ],
+          "practical_studies": [
+            "fibre"
+          ],
+          "oxygen": "Conditions depend on the food and culture.",
+          "controls": [],
+          "featured": true,
+          "category": "Fermented foods",
+          "type": "guide",
+          "production_environment": "vessel",
+          "consumption_region": "small"
+        },
+        {
+          "id": "sourdough",
+          "title": "Sourdough",
+          "lead": "Bacteria and yeasts raise a dough together.",
+          "region": "small",
+          "organisms": [
+            "lactobacillus",
+            "saccharomyces-cerevisiae"
+          ],
+          "steps": [
+            {
+              "label": "Feed the starter",
+              "text": "Flour and water supply nutrients to a community of yeasts and bacteria. Refreshing it provides another supply of substrate.",
+              "chain": [
+                "grain",
+                "saccharomyces-cerevisiae"
+              ],
+              "studies": [
+                "sourdough-landis"
+              ],
+              "sources": [
+                "fermented-definition"
+              ],
+              "time": "Beginning",
+              "texture": "Ingredients",
+              "acidity": "Starting",
+              "claims": [
+                "step:fermentation:sourdough:0"
+              ]
+            },
+            {
+              "label": "Gas & acid",
+              "text": "Yeasts and some bacteria generate gas; lactic acid bacteria acidify the dough. The community changes flavour and structure.",
+              "chain": [
+                "grain",
+                "lactobacillus",
+                "lactate"
+              ],
+              "studies": [
+                "sourdough-landis"
+              ],
+              "sources": [
+                "fermented-definition"
+              ],
+              "time": "Fermentation",
+              "texture": "Transforming",
+              "acidity": "Changing",
+              "claims": [
+                "step:fermentation:sourdough:1"
+              ]
+            },
+            {
+              "label": "Bake the dough",
+              "text": "Heat sets the loaf and kills most starter organisms. The transformed grain and fermentation products remain part of the food.",
+              "chain": [
+                "grain",
+                "protein"
+              ],
+              "studies": [],
+              "sources": [
+                "fermented-definition"
+              ],
+              "time": "Finishing",
+              "texture": "Finished food",
+              "acidity": "Developed",
+              "claims": [
+                "step:fermentation:sourdough:2"
+              ]
+            },
+            {
+              "label": "Bread as food",
+              "text": "A baked sourdough loaf contributes to a meal through its ingredients and fermentation history. Whole-grain content changes its fibre contribution.",
+              "chain": [
+                "grain",
+                "fibre",
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "fermented-definition"
+              ],
+              "time": "At the table",
+              "texture": "A meal",
+              "acidity": "Digestion",
+              "claims": [
+                "step:fermentation:sourdough:3"
+              ]
+            }
+          ],
+          "ingredients": [
+            "Flour",
+            "Water",
+            "Starter"
+          ],
+          "practical": "Choose bread for its ingredients and how it fits your meals. Baking transforms the starter into food; a sourdough label alone does not describe the whole-grain or fibre content.",
+          "sources": [
+            "fermented-definition"
+          ],
+          "practical_studies": [],
+          "oxygen": "Conditions depend on the food and culture.",
+          "controls": [],
+          "featured": true,
+          "category": "Fermented foods",
+          "type": "guide",
+          "production_environment": "vessel",
+          "consumption_region": "small"
+        },
+        {
+          "id": "miso",
+          "title": "Miso",
+          "lead": "Koji enzymes and a salt-tolerant community transform a paste.",
+          "region": "small",
+          "organisms": [
+            "aspergillus",
+            "zygosa",
+            "tetragenococcus"
+          ],
+          "steps": [
+            {
+              "label": "Make koji",
+              "text": "Aspergillus oryzae grows on cooked grain and produces enzymes that break larger food molecules into smaller ones.",
+              "chain": [
+                "grain",
+                "aspergillus"
+              ],
+              "studies": [
+                "koji-growth"
+              ],
+              "sources": [
+                "fermented-definition"
+              ],
+              "time": "Beginning",
+              "texture": "Ingredients",
+              "acidity": "Starting",
+              "claims": [
+                "step:fermentation:miso:0"
+              ]
+            },
+            {
+              "label": "Combine with beans",
+              "text": "Koji enzymes act in the soybean mixture, releasing sugars and amino acids.",
+              "chain": [
+                "soybeans",
+                "aspergillus",
+                "protein"
+              ],
+              "studies": [
+                "koji-growth"
+              ],
+              "sources": [
+                "fermented-definition"
+              ],
+              "time": "Fermentation",
+              "texture": "Transforming",
+              "acidity": "Changing",
+              "claims": [
+                "step:fermentation:miso:1"
+              ]
+            },
+            {
+              "label": "Mature the paste",
+              "text": "Salt-tolerant yeasts and bacteria join ongoing enzyme activity during maturation. A study of spontaneous nesashi miso found a different fungal community, led by Mucor, from the koji-based misos used for comparison.",
+              "chain": [
+                "soybeans",
+                "zygosa",
+                "tetragenococcus"
+              ],
+              "studies": [
+                "miso-spontaneous"
+              ],
+              "sources": [
+                "fermented-definition"
+              ],
+              "time": "Finishing",
+              "texture": "Finished food",
+              "acidity": "Developed",
+              "claims": [
+                "step:fermentation:miso:2"
+              ]
+            },
+            {
+              "label": "Season a meal",
+              "text": "Miso adds fermented flavour in a concentrated salty ingredient. Heating changes the living population while preserving much of the food’s flavour.",
+              "chain": [
+                "soybeans",
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "fermented-definition"
+              ],
+              "time": "At the table",
+              "texture": "A meal",
+              "acidity": "Digestion",
+              "claims": [
+                "step:fermentation:miso:3"
+              ]
+            }
+          ],
+          "ingredients": [
+            "Soybeans",
+            "Koji grain",
+            "Salt"
+          ],
+          "practical": "Use miso as a seasoning in soup, sauces or dressings. Follow the product’s storage directions and account for its salt alongside the rest of the meal.",
+          "sources": [
+            "fermented-definition"
+          ],
+          "practical_studies": [],
+          "oxygen": "Conditions depend on the food and culture.",
+          "controls": [],
+          "featured": false,
+          "category": "Fermented foods",
+          "type": "guide",
+          "production_environment": "vessel",
+          "consumption_region": "small"
+        },
+        {
+          "id": "kombucha",
+          "title": "Kombucha",
+          "lead": "Tea transformed by a partnership of yeasts and acetic-acid bacteria.",
+          "region": "colon",
+          "organisms": [
+            "saccharomyces-cerevisiae",
+            "komagataeibacter"
+          ],
+          "ingredients": [
+            "Tea",
+            "Sugar",
+            "Starter liquid",
+            "SCOBY"
+          ],
+          "steps": [
+            {
+              "label": "Tea meets a living starter",
+              "text": "Yeasts split sugar and produce ethanol and carbon dioxide. Acetic-acid bacteria use that ethanol near the oxygen-rich surface. The floating cellulose layer houses part of the community; the starter liquid also carries living organisms.",
+              "chain": [
+                "tea",
+                "saccharomyces-cerevisiae",
+                "ethanol"
+              ],
+              "studies": [],
+              "sources": [
+                "kombucha-method"
+              ],
+              "time": "Preparation",
+              "acidity": "Starting mixture",
+              "texture": "Sweet tea",
+              "claims": [
+                "step:fermentation:kombucha:0"
+              ]
+            },
+            {
+              "label": "A sour, living drink",
+              "text": "As fermentation proceeds, organic acids accumulate and sweetness changes. The University of Georgia method uses a breathable cover and a measured starter acidity. Time alone does not describe the state of a ferment.",
+              "chain": [
+                "ethanol",
+                "komagataeibacter",
+                "acetate"
+              ],
+              "studies": [],
+              "sources": [
+                "kombucha-method"
+              ],
+              "time": "Fermentation",
+              "acidity": "Acidifying",
+              "texture": "Tart tea",
+              "claims": [
+                "step:fermentation:kombucha:1"
+              ]
+            },
+            {
+              "label": "Chill and taste",
+              "text": "Refrigeration slows the community. Sugar, caffeine, alcohol and acids remain in amounts that vary between batches. Enjoy kombucha as a fermented drink; its composition is a separate question from whether it changes a particular health outcome.",
+              "chain": [
+                "acetate",
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "kombucha-method"
+              ],
+              "time": "At the table",
+              "acidity": "Finished food",
+              "texture": "A chilled drink",
+              "claims": [
+                "step:fermentation:kombucha:2"
+              ]
+            }
+          ],
+          "practical": "Use the complete linked University of Georgia procedure, including its starter-pH check, sanitation and refrigeration instructions. Use a food-grade starter. Discard a mouldy batch. Sealed bottles can build dangerous pressure; follow the procedure’s storage guidance.",
+          "sources": [
+            "kombucha-method"
+          ],
+          "category": "Drinks",
+          "type": "guide",
+          "featured": false,
+          "ingest_substrate": "acetate",
+          "production_environment": "vessel",
+          "consumption_region": "colon"
+        },
+        {
+          "id": "water-kefir",
+          "title": "Water kefir",
+          "lead": "A dairy-free fermentation held together by living grains.",
+          "region": "colon",
+          "organisms": [
+            "leuconostoc",
+            "saccharomyces-cerevisiae"
+          ],
+          "ingredients": [
+            "Water",
+            "Sugar",
+            "Water-kefir grains"
+          ],
+          "steps": [
+            {
+              "label": "Grains carry the community",
+              "text": "Water-kefir grains contain bacteria and yeasts embedded in a polysaccharide matrix. They are a different culture from milk-kefir grains and grow in a sugar-water medium.",
+              "chain": [
+                "sugar",
+                "leuconostoc",
+                "saccharomyces-cerevisiae"
+              ],
+              "studies": [],
+              "sources": [
+                "kefir-guide"
+              ],
+              "time": "Preparation",
+              "acidity": "Starting mixture",
+              "texture": "Translucent grains",
+              "claims": [
+                "step:fermentation:water-kefir:0"
+              ]
+            },
+            {
+              "label": "Sugar feeds several partners",
+              "text": "Lactic-acid bacteria, yeasts and acetic-acid bacteria share the available substrates. Their products include organic acids, carbon dioxide and ethanol. Culture and conditions shape the finished drink.",
+              "chain": [
+                "sugar",
+                "leuconostoc",
+                "lactate"
+              ],
+              "studies": [],
+              "sources": [
+                "kefir-guide"
+              ],
+              "time": "Fermentation",
+              "acidity": "Acidifying",
+              "texture": "Lightly cloudy",
+              "claims": [
+                "step:fermentation:water-kefir:1"
+              ]
+            },
+            {
+              "label": "Strain, chill, reuse",
+              "text": "Straining separates the grains from the drink so the culture can start another batch. The liquid remains biologically active, and its residual sugar and alcohol vary.",
+              "chain": [
+                "lactate",
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "kefir-guide"
+              ],
+              "time": "At the table",
+              "acidity": "Finished food",
+              "texture": "A light fermented drink",
+              "claims": [
+                "step:fermentation:water-kefir:2"
+              ]
+            }
+          ],
+          "practical": "Buy water-kefir grains from a food-culture supplier and follow that culture’s water, sugar, temperature and storage instructions. The linked CSU guide explains the difference between milk and water kefir; its recipe is for milk kefir. Refrigerate the finished drink and manage bottle pressure.",
+          "sources": [
+            "kefir-guide"
+          ],
+          "category": "Drinks",
+          "type": "guide",
+          "featured": false,
+          "ingest_substrate": "lactate",
+          "production_environment": "vessel",
+          "consumption_region": "colon"
+        },
+        {
+          "id": "dill-pickles",
+          "title": "Fermented dill pickles",
+          "lead": "Cucumbers become sour through microbial fermentation.",
+          "region": "colon",
+          "organisms": [
+            "leuconostoc",
+            "lactobacillus"
+          ],
+          "ingredients": [
+            "Pickling cucumbers",
+            "Salt",
+            "Dill"
+          ],
+          "steps": [
+            {
+              "label": "Begin with the brine",
+              "text": "The USDA procedure combines pickling cucumbers, salt, water, dill and a measured amount of vinegar. The proportions establish the starting environment for fermentation.",
+              "chain": [
+                "leuconostoc",
+                "lactate"
+              ],
+              "studies": [],
+              "sources": [
+                "pickle-method"
+              ],
+              "time": "Preparation",
+              "acidity": "Starting mixture",
+              "texture": "Firm cucumbers",
+              "claims": [
+                "step:fermentation:dill-pickles:0"
+              ]
+            },
+            {
+              "label": "Acid accumulates",
+              "text": "Lactic-acid bacteria consume vegetable sugars while the cucumbers remain submerged. Acidity increases, flavour develops and the brine becomes cloudy.",
+              "chain": [
+                "leuconostoc",
+                "lactate"
+              ],
+              "studies": [],
+              "sources": [
+                "pickle-method"
+              ],
+              "time": "Fermentation",
+              "acidity": "Acidifying",
+              "texture": "Souring brine",
+              "claims": [
+                "step:fermentation:dill-pickles:1"
+              ]
+            },
+            {
+              "label": "Keep the crunch",
+              "text": "Refrigeration slows fermentation. Heat processing creates a different stored product and reduces the living microbial population. The food still contains the acids and transformed vegetable tissue.",
+              "chain": [
+                "fibre",
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "pickle-method"
+              ],
+              "time": "At the table",
+              "acidity": "Finished food",
+              "texture": "Sour and crisp",
+              "claims": [
+                "step:fermentation:dill-pickles:2"
+              ]
+            }
+          ],
+          "practical": "Follow the complete USDA recipe linked here, including its vinegar and salt quantities, temperature range and spoilage checks. Keep the vegetables under the brine and refrigerate as instructed. Do not improvise a reduced-salt version of a preservation recipe.",
+          "sources": [
+            "pickle-method"
+          ],
+          "category": "Vegetables",
+          "type": "guide",
+          "featured": false,
+          "production_environment": "vessel",
+          "consumption_region": "colon"
+        },
+        {
+          "id": "fermented-carrots",
+          "title": "Fermented carrots",
+          "lead": "A simple vegetable ferment with a sweet starting material.",
+          "region": "colon",
+          "organisms": [
+            "leuconostoc",
+            "lactobacillus"
+          ],
+          "ingredients": [
+            "Carrots",
+            "Salt",
+            "Water"
+          ],
+          "steps": [
+            {
+              "label": "Prepare the vegetables",
+              "text": "Carrot sticks supply sugars and a firm plant structure. A wet brine surrounds the pieces; a food-safe weight keeps them beneath the surface.",
+              "chain": [
+                "leuconostoc",
+                "lactate"
+              ],
+              "studies": [],
+              "sources": [
+                "vegetable-method"
+              ],
+              "time": "Preparation",
+              "acidity": "Starting mixture",
+              "texture": "Fresh sticks",
+              "claims": [
+                "step:fermentation:fermented-carrots:0"
+              ]
+            },
+            {
+              "label": "A changing community",
+              "text": "Vegetable-associated lactic-acid bacteria ferment available sugars. As acids accumulate, the environment favours organisms that tolerate sour conditions. Salt, temperature and submersion shape the process.",
+              "chain": [
+                "leuconostoc",
+                "lactate"
+              ],
+              "studies": [],
+              "sources": [
+                "vegetable-method"
+              ],
+              "time": "Fermentation",
+              "acidity": "Acidifying",
+              "texture": "Acidifying brine",
+              "claims": [
+                "step:fermentation:fermented-carrots:1"
+              ]
+            },
+            {
+              "label": "Serve with a meal",
+              "text": "The finished carrots bring acidity, texture and plant fibre to the plate. A small serving can accompany beans, grains or sandwiches. Refrigeration slows further change.",
+              "chain": [
+                "fibre",
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "vegetable-method"
+              ],
+              "time": "At the table",
+              "acidity": "Finished food",
+              "texture": "Tangy and crisp",
+              "claims": [
+                "step:fermentation:fermented-carrots:2"
+              ]
+            }
+          ],
+          "practical": "Use the University of Minnesota wet-brine vegetable method linked here, including its salt calculation, equipment, temperature and storage guidance. Keep carrots submerged. Discard spoiled or mouldy batches.",
+          "sources": [
+            "vegetable-method"
+          ],
+          "category": "Vegetables",
+          "type": "guide",
+          "featured": false,
+          "production_environment": "vessel",
+          "consumption_region": "colon"
+        }
+      ]
+    },
+    "illness-recovery": {
+      "title": "Illness & recovery",
+      "intro": "Organisms, disturbances and the return to everyday health.",
+      "stories": [
+        {
+          "id": "helicobacter",
+          "title": "H. pylori",
+          "lead": "A bacterium makes a home in stomach mucus.",
+          "region": "stomach",
+          "organisms": [
+            "helicobacter"
+          ],
+          "steps": [
+            {
+              "label": "Arrival",
+              "text": "Helicobacter pylori reaches the stomach and establishes a long-lived association with the gastric lining. In many people infection persists for years.",
+              "chain": [
+                "helicobacter",
+                "gut"
+              ],
+              "studies": [
+                "gastric"
+              ],
+              "sources": [],
+              "claims": [
+                "step:illness-recovery:helicobacter:0"
+              ]
+            },
+            {
+              "label": "Move through mucus",
+              "text": "Local changes in acidity alter the properties of gastric mucus. Experiments show H. pylori using this change to move through a material that otherwise restricts its movement.",
+              "chain": [
+                "helicobacter",
+                "ammonia"
+              ],
+              "studies": [
+                "gastric-mucin"
+              ],
+              "sources": [],
+              "claims": [
+                "step:illness-recovery:helicobacter:1"
+              ]
+            },
+            {
+              "label": "Urease chemistry",
+              "text": "A gated urea channel supplies substrate to urease. Urea is converted into ammonia and carbon dioxide, helping the bacterium manage its acidic surroundings.",
+              "chain": [
+                "urea",
+                "helicobacter",
+                "ammonia"
+              ],
+              "studies": [
+                "gastric-urei",
+                "gastric-urease"
+              ],
+              "sources": [],
+              "claims": [
+                "step:illness-recovery:helicobacter:2"
+              ]
+            },
+            {
+              "label": "Host response",
+              "text": "Persistent infection drives inflammation in the stomach lining. Long-term eradication studies examine outcomes including gastric cancer, linking microbial persistence to disease prevention.",
+              "chain": [
+                "helicobacter",
+                "gut"
+              ],
+              "studies": [
+                "gastric"
+              ],
+              "sources": [],
+              "claims": [
+                "step:illness-recovery:helicobacter:3"
+              ]
+            },
+            {
+              "label": "Testing & treatment",
+              "text": "Breath testing and stool antigen testing detect active infection. The 2024 ACG adult guideline recommends bismuth quadruple therapy when susceptibility is unknown and advises against empiric clarithromycin triple therapy. Local resistance and prior antibiotics shape the regimen.",
+              "chain": [
+                "helicobacter",
+                "antibiotics"
+              ],
+              "studies": [],
+              "sources": [
+                "hp-guideline"
+              ],
+              "claims": [
+                "step:illness-recovery:helicobacter:4"
+              ]
+            },
+            {
+              "label": "Confirm clearance",
+              "text": "The ACG guideline calls for a test of cure at least four weeks after antibiotics, with acid-suppressing PPIs held for two weeks to reduce false negatives. Arrange the timing with the treating clinician.",
+              "chain": [
+                "antibiotics",
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "hp-guideline"
+              ],
+              "claims": [
+                "step:illness-recovery:helicobacter:5"
+              ]
+            }
+          ],
+          "practical": "Treatment targets a persistent infection and is followed by confirmation of clearance. The linked ACG source concerns adults in North America and was published in 2024; treatment selection depends on resistance, allergies and prior antibiotic exposure.",
+          "sources": [
+            "hp-guideline"
+          ],
+          "tags": [
+            "Stomach",
+            "Pain",
+            "Ulcer",
+            "Bacteria"
+          ],
+          "symptoms": [
+            "upper abdominal pain",
+            "indigestion",
+            "ulcer"
+          ],
+          "featured": true,
+          "category": "Infections",
+          "type": "condition"
+        },
+        {
+          "id": "cdiff",
+          "title": "C. difficile",
+          "lead": "A disturbed community loses some of its protection.",
+          "region": "colon",
+          "organisms": [
+            "cdiff"
+          ],
+          "steps": [
+            {
+              "label": "A community is disrupted",
+              "text": "Antibiotic exposure can reduce competitors and change the resources and bile-acid environment in which C. difficile grows. Spores allow it to persist outside the body.",
+              "chain": [
+                "antibiotics",
+                "bile",
+                "cdiff"
+              ],
+              "studies": [],
+              "sources": [
+                "cdiff-care"
+              ],
+              "claims": [
+                "step:illness-recovery:cdiff:0"
+              ]
+            },
+            {
+              "label": "Toxins damage tissue",
+              "text": "Toxigenic C. difficile produces toxins A and B. Infection can inflame the colon and cause diarrhoea, fever and abdominal pain. A positive test without symptoms can instead represent colonisation.",
+              "chain": [
+                "cdiff",
+                "toxins",
+                "colonocytes"
+              ],
+              "studies": [],
+              "sources": [
+                "cdiff-care"
+              ],
+              "claims": [
+                "step:illness-recovery:cdiff:1"
+              ]
+            },
+            {
+              "label": "Treat the infection",
+              "text": "CDC describes oral vancomycin or fidaxomicin for confirmed infection. Testing is interpreted alongside diarrhoea and other clinical findings. Unnecessary repeat testing after symptoms resolve can remain positive.",
+              "chain": [
+                "cdiff",
+                "antibiotics"
+              ],
+              "studies": [],
+              "sources": [
+                "cdiff-care"
+              ],
+              "claims": [
+                "step:illness-recovery:cdiff:2"
+              ]
+            },
+            {
+              "label": "Restore protection",
+              "text": "A randomised trial of an oral purified spore preparation reduced recurrence after standard antibiotics in adults with recurrent infection. This asks a different question from adding a supermarket probiotic.",
+              "chain": [
+                "gut",
+                "cdiff"
+              ],
+              "studies": [
+                "cdiff-ser109"
+              ],
+              "sources": [],
+              "claims": [
+                "step:illness-recovery:cdiff:3"
+              ]
+            }
+          ],
+          "practical": "New diarrhoea during or after antibiotics deserves clinical assessment, especially with fever or abdominal pain. Recurrent C. difficile has specific microbiome-based treatment options. Their indications and delivery differ from fermented foods.",
+          "sources": [
+            "cdiff-care"
+          ],
+          "practical_studies": [
+            "cdiff-ser109"
+          ],
+          "tags": [
+            "Colon",
+            "Diarrhoea",
+            "Antibiotics",
+            "Bacteria"
+          ],
+          "symptoms": [
+            "diarrhea",
+            "diarrhoea",
+            "fever",
+            "antibiotics"
+          ],
+          "featured": true,
+          "category": "Infections",
+          "type": "condition"
+        },
+        {
+          "id": "norovirus",
+          "title": "Norovirus",
+          "lead": "A human-cell virus in the intestinal ecosystem.",
+          "region": "small",
+          "organisms": [
+            "norovirus"
+          ],
+          "steps": [
+            {
+              "label": "Exposure",
+              "text": "Norovirus spreads through contaminated food, water, surfaces and close contact. It infects people; gut bacteriophages infect bacteria.",
+              "chain": [
+                "norovirus",
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "noro-care"
+              ],
+              "claims": [
+                "step:illness-recovery:norovirus:0"
+              ]
+            },
+            {
+              "label": "Infect the intestinal cells",
+              "text": "Human intestinal enteroid experiments let researchers grow norovirus in tissue derived from human intestinal cells and examine host factors and viral replication.",
+              "chain": [
+                "norovirus",
+                "colonocytes"
+              ],
+              "studies": [
+                "noro-enteroids",
+                "noro-later"
+              ],
+              "sources": [],
+              "claims": [
+                "step:illness-recovery:norovirus:1"
+              ]
+            },
+            {
+              "label": "Fluid loss",
+              "text": "Vomiting and diarrhoea can rapidly deplete fluid and salts. Oral rehydration replaces these losses; severe dehydration needs medical care.",
+              "chain": [
+                "norovirus",
+                "hydration"
+              ],
+              "studies": [],
+              "sources": [
+                "noro-care"
+              ],
+              "claims": [
+                "step:illness-recovery:norovirus:2"
+              ]
+            },
+            {
+              "label": "Recovery & transmission",
+              "text": "Most illness resolves in one to three days. Viral shedding can continue after symptoms stop. CDC advises staying home for 48 hours after symptoms end, plus careful handwashing and cleaning.",
+              "chain": [
+                "hydration",
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "noro-care"
+              ],
+              "claims": [
+                "step:illness-recovery:norovirus:3"
+              ]
+            }
+          ],
+          "practical": "Use oral rehydration fluids to replace losses. Decreased urination, marked dizziness or unusual drowsiness can signal dehydration. Antibiotics do not treat norovirus. The studies examine human intestinal tissue models.",
+          "sources": [
+            "noro-care"
+          ],
+          "practical_studies": [
+            "noro-enteroids",
+            "noro-later"
+          ],
+          "tags": [
+            "Small intestine",
+            "Vomiting",
+            "Diarrhoea",
+            "Viruses"
+          ],
+          "symptoms": [
+            "vomiting",
+            "diarrhea",
+            "diarrhoea",
+            "stomach bug"
+          ],
+          "featured": true,
+          "category": "Infections",
+          "type": "condition"
+        },
+        {
+          "id": "giardia",
+          "title": "Giardia",
+          "lead": "A protist attaches to the small-intestinal surface.",
+          "region": "small",
+          "organisms": [
+            "giardia"
+          ],
+          "steps": [
+            {
+              "label": "Cysts arrive",
+              "text": "Giardia cysts reach the gut through contaminated water, food or contact. The organism’s active form lives in the small intestine.",
+              "chain": [
+                "giardia",
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "giardia-care"
+              ],
+              "claims": [
+                "step:illness-recovery:giardia:0"
+              ]
+            },
+            {
+              "label": "Attachment & digestion",
+              "text": "Trophozoites attach at the intestinal surface. Infection can interfere with absorption and lead to diarrhoea, gas and bloating.",
+              "chain": [
+                "giardia",
+                "colonocytes"
+              ],
+              "studies": [],
+              "sources": [
+                "giardia-care"
+              ],
+              "claims": [
+                "step:illness-recovery:giardia:1"
+              ]
+            },
+            {
+              "label": "Testing & treatment",
+              "text": "Stool testing identifies the parasite. CDC lists tinidazole, nitazoxanide and metronidazole among effective medicines; hydration remains important during diarrhoea.",
+              "chain": [
+                "giardia",
+                "hydration"
+              ],
+              "studies": [],
+              "sources": [
+                "giardia-care"
+              ],
+              "claims": [
+                "step:illness-recovery:giardia:2"
+              ]
+            },
+            {
+              "label": "After the infection",
+              "text": "Some people continue to have symptoms after Giardia has cleared. Follow-up of an outbreak found increased rates of IBS and fatigue years later. Repeat symptoms deserve assessment rather than automatic retreatment.",
+              "chain": [
+                "giardia",
+                "gut"
+              ],
+              "studies": [
+                "giardia-after"
+              ],
+              "sources": [
+                "giardia-care"
+              ],
+              "claims": [
+                "step:illness-recovery:giardia:3"
+              ]
+            }
+          ],
+          "practical": "Persistent symptoms can reflect continuing infection, reinfection or changes after clearance. CDC’s approach distinguishes these possibilities with repeat stool assessment when appropriate. Treatment choice depends on the patient and local availability.",
+          "sources": [
+            "giardia-care"
+          ],
+          "practical_studies": [
+            "giardia-after"
+          ],
+          "tags": [
+            "Small intestine",
+            "Bloating",
+            "Diarrhoea",
+            "Protists"
+          ],
+          "symptoms": [
+            "bloating",
+            "gas",
+            "diarrhea",
+            "diarrhoea",
+            "travel"
+          ],
+          "featured": true,
+          "category": "Infections",
+          "type": "condition"
+        },
+        {
+          "id": "antibiotics",
+          "title": "After antibiotics",
+          "lead": "Recovery is an ecological process.",
+          "region": "colon",
+          "organisms": [
+            "bifidobacterium",
+            "bacteroides"
+          ],
+          "steps": [
+            {
+              "label": "A broad disturbance",
+              "text": "Antibiotics change microbial populations beyond the organism targeted by treatment. The starting community and antibiotic exposure shape what follows.",
+              "chain": [
+                "antibiotics",
+                "gut"
+              ],
+              "studies": [
+                "antibiotic-suez"
+              ],
+              "sources": [],
+              "claims": [
+                "step:illness-recovery:antibiotics:0"
+              ]
+            },
+            {
+              "label": "Reoccupation",
+              "text": "Surviving organisms grow into available niches. Introduced organisms interact with those survivors, so adding a preparation can change the recovery path.",
+              "chain": [
+                "bifidobacterium",
+                "gut"
+              ],
+              "studies": [
+                "antibiotic-suez"
+              ],
+              "sources": [],
+              "claims": [
+                "step:illness-recovery:antibiotics:1"
+              ]
+            },
+            {
+              "label": "Compare recovery routes",
+              "text": "In one human experiment, an 11-strain probiotic delayed return of the native mucosal community; autologous stool transfer accelerated it. The study measured community reconstitution after a specific antibiotic exposure.",
+              "chain": [
+                "gut",
+                "bacteroides"
+              ],
+              "studies": [
+                "antibiotic-suez"
+              ],
+              "sources": [],
+              "claims": [
+                "step:illness-recovery:antibiotics:2"
+              ]
+            },
+            {
+              "label": "Return to everyday function",
+              "text": "Eating and digestion are the practical context for recovery. Fermented foods are foods, while microbiome therapies for recurrent infection are clinical interventions with their own evidence.",
+              "chain": [
+                "fibre",
+                "gut"
+              ],
+              "studies": [
+                "fibre",
+                "cdiff-ser109"
+              ],
+              "sources": [],
+              "claims": [
+                "step:illness-recovery:antibiotics:3"
+              ]
+            }
+          ],
+          "practical": "Use antibiotics as prescribed and discuss new or persistent diarrhoea with the prescriber. Resume a varied diet as tolerated. The recovery experiment does not establish a universal probiotic or stool-transfer regimen.",
+          "practical_studies": [
+            "antibiotic-suez"
+          ],
+          "tags": [
+            "Recovery",
+            "Antibiotics",
+            "Food"
+          ],
+          "symptoms": [
+            "antibiotics",
+            "recovery",
+            "diarrhea"
+          ],
+          "featured": true,
+          "category": "Recovery",
+          "type": "guide"
+        },
+        {
+          "id": "ongoing-symptoms",
+          "title": "Ongoing gut symptoms",
+          "lead": "Follow mechanisms without forcing one microbial explanation.",
+          "region": "colon",
+          "organisms": [
+            "bacteroides",
+            "faecalibacterium-prausnitzii"
+          ],
+          "steps": [
+            {
+              "label": "Describe the pattern",
+              "text": "Constipation, diarrhoea, pain and bloating can involve transit, fermentation, sensitivity and tissue inflammation. They are useful entrances into the atlas’s existing habitat research.",
+              "chain": [
+                "gut",
+                "fibre"
+              ],
+              "studies": [
+                "transit"
+              ],
+              "sources": [],
+              "claims": [
+                "step:illness-recovery:ongoing-symptoms:0"
+              ]
+            },
+            {
+              "label": "Follow a process",
+              "text": "Transit time changes the resources available to microbes. Fermentation products and host responses create additional paths to examine in a specific symptom pattern.",
+              "chain": [
+                "fibre",
+                "butyrate",
+                "colonocytes"
+              ],
+              "studies": [
+                "transit",
+                "colonocyte-butyrate"
+              ],
+              "sources": [],
+              "claims": [
+                "step:illness-recovery:ongoing-symptoms:1"
+              ]
+            },
+            {
+              "label": "Recover function",
+              "text": "After an infection, symptoms can persist beyond pathogen clearance. Research that measures symptoms alongside microbial functions helps separate recovery of the person from a single stool readout.",
+              "chain": [
+                "gut",
+                "hydration"
+              ],
+              "studies": [
+                "giardia-after"
+              ],
+              "sources": [],
+              "claims": [
+                "step:illness-recovery:ongoing-symptoms:2"
+              ]
+            }
+          ],
+          "practical": "Use the habitat links to explore the process behind a symptom. Persistent symptoms need an assessment that includes diet, medicines and non-microbial causes. Severe pain, blood in stool, unexplained weight loss or dehydration are reasons to seek medical care.",
+          "practical_studies": [
+            "transit"
+          ],
+          "tags": [
+            "Constipation",
+            "Bloating",
+            "Pain",
+            "Recovery"
+          ],
+          "symptoms": [
+            "constipation",
+            "bloating",
+            "pain",
+            "ibs"
+          ],
+          "featured": true,
+          "category": "Recovery",
+          "type": "guide"
+        }
+      ]
+    }
+  },
+  "clusters": {
+    "function:Fermentation": {
+      "title": "Food, partnerships and fermentation",
+      "paragraphs": [
+        "Specialist bacteria open complex carbohydrates to their neighbours. Cross-feeding experiments connect released sugars, acetate and butyrate production. Human dietary interventions then test changes in the community and immune measurements.",
+        "The fermented-food and high-fibre arms of the Stanford trial produced different responses: diversity rose in the fermented-food arm, while microbial carbohydrate-processing capacity increased with fibre."
+      ],
+      "studies": [
+        "starch-keystone",
+        "cross-feeding",
+        "fibre"
+      ],
+      "links": [
+        {
+          "title": "Fermentation sciences",
+          "url": "/fermentation"
+        },
+        {
+          "title": "Feed a community",
+          "url": "/living-well#item=fibre"
+        }
+      ],
+      "author": "Gut Atlas seed",
+      "revision": 1
+    },
+    "entity:movement": {
+      "title": "Movement and microbial response",
+      "paragraphs": [
+        "Six weeks of endurance exercise changed microbial metabolism in lean participants, with changes that largely reversed after training stopped. A shorter interval-training study improved fitness without a detectable shift in community composition.",
+        "Together these studies make duration, baseline physiology and metabolic function useful variables to investigate."
+      ],
+      "studies": [
+        "exercise-allen",
+        "exercise-hiit"
+      ],
+      "links": [
+        {
+          "title": "Move the ecosystem",
+          "url": "/living-well#item=movement"
+        }
+      ],
+      "author": "Gut Atlas seed",
+      "revision": 1
+    },
+    "taxon:Helicobacter": {
+      "title": "A bacterium in the gastric environment",
+      "paragraphs": [
+        "Urea transport and urease help H. pylori manage gastric acidity. Changes in mucus properties help explain how the bacterium reaches the lining. Long-term eradication trials connect treatment to reduced gastric cancer incidence."
+      ],
+      "studies": [
+        "gastric-urei",
+        "gastric-mucin",
+        "gastric"
+      ],
+      "links": [
+        {
+          "title": "H. pylori: illness and recovery",
+          "url": "/illness-recovery#item=helicobacter"
+        }
+      ],
+      "author": "Gut Atlas seed",
+      "revision": 1
+    },
+    "topic:gut-brain": {
+      "title": "From microbial signals to human experience",
+      "paragraphs": [
+        "Human cohort research links microbial functions with quality of life and depression. A small intervention with B. longum 1714 measured stress and memory responses in healthy volunteers. These designs examine different parts of the same biological conversation."
+      ],
+      "studies": [
+        "brain",
+        "stress-1714"
+      ],
+      "links": [
+        {
+          "title": "Signals and experience",
+          "url": "/living-well#item=mood"
+        }
+      ],
+      "author": "Gut Atlas seed",
+      "revision": 1
+    }
+  }
+}

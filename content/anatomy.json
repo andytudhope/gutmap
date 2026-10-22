@@ -1,0 +1,1760 @@
+{
+  "regions": [
+    {
+      "id": "mouth",
+      "name": "Mouth",
+      "latin": "Cavitas oris",
+      "number": "I",
+      "tagline": "The first microbial neighbourhood.",
+      "role": "Chewing breaks food apart; saliva moistens it and begins starch digestion. The mouth also seeds the digestive tract with a continual flow of microbes.",
+      "habitat": "Teeth, tongue, and saliva create different surfaces and oxygen gradients. Streptococci ferment sugars; Veillonella consumes lactate released by neighbouring organisms.",
+      "residents": [
+        "streptococcus",
+        "veillonella"
+      ],
+      "connections": [
+        "Biofilms",
+        "Cross-feeding",
+        "The oral–gut connection"
+      ],
+      "papers": [
+        "oral",
+        "oral-sugar",
+        "oral-lactate",
+        "oral-nitrate",
+        "oral-sucrose"
+      ],
+      "question": "How does the neighbourhood change what an organism does?",
+      "caption": "Chewing and saliva prepare food. Oral biofilms begin the microbial journey.",
+      "research": [
+        {
+          "id": "ecology",
+          "title": "Communities & surfaces",
+          "description": "Plaque architecture, tongue communities, saliva and microbial partnerships.",
+          "terms": "biofilm OR plaque OR saliva",
+          "papers": [
+            "oral",
+            "oral-nitrate"
+          ]
+        },
+        {
+          "id": "chemistry",
+          "title": "Food & microbial chemistry",
+          "description": "Sugar fermentation, lactate exchange and the nitrate–nitrite pathway.",
+          "terms": "lactate OR nitrate OR carbohydrate",
+          "papers": [
+            "oral-sugar",
+            "oral-lactate",
+            "oral-nitrate"
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Teeth, gums & the rest of the body",
+          "description": "Which community changes accompany disease, and which mechanisms connect oral and distant tissues?",
+          "terms": "caries OR periodontitis OR systemic",
+          "papers": [
+            "oral-sucrose",
+            "oral-sugar"
+          ]
+        },
+        {
+          "id": "interventions",
+          "title": "Changing the habitat",
+          "description": "Dental care, diet, medicines and experiments that measure changes in function.",
+          "terms": "intervention OR trial OR diet",
+          "papers": []
+        },
+        {
+          "id": "methods",
+          "title": "Finding the overlooked organisms",
+          "description": "Imaging, cultivation, sequencing and differences between sampling sites.",
+          "terms": "culturomics OR sequencing OR microscopy",
+          "papers": [
+            "oral"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oesophagus",
+      "name": "Oesophagus",
+      "latin": "Oesophagus",
+      "number": "II",
+      "tagline": "A passage with a living surface.",
+      "role": "Coordinated muscular waves carry swallowed food into the stomach. Movement and reflux shape what reaches this habitat and how long it remains.",
+      "habitat": "The oesophagus carries each swallow from the mouth to the stomach. Waves of muscle move food and liquid along a moist, protective lining, while the valve at its lower end helps keep stomach contents from flowing back. Microbes arrive with saliva and food, and some live close to the surface. Swallowing, saliva and reflux shape the conditions they encounter.",
+      "residents": [
+        "streptococcus",
+        "veillonella"
+      ],
+      "connections": [
+        "Transit",
+        "Reflux",
+        "Oral arrivals"
+      ],
+      "papers": [
+        "oesoph-community"
+      ],
+      "question": "Which organisms are passing through, and which are active locally?",
+      "caption": "Muscular waves move a mouthful toward the stomach.",
+      "research": [
+        {
+          "id": "ecology",
+          "title": "Residents & passing travellers",
+          "description": "Where organisms grow locally, what arrives from the mouth, and how reflux changes the habitat.",
+          "terms": "colonization OR community OR reflux",
+          "papers": [
+            "oesoph-community"
+          ]
+        },
+        {
+          "id": "chemistry",
+          "title": "Molecules crossing a boundary",
+          "description": "Swallowed nitrite, acidity and reactions at the entrance to the stomach.",
+          "terms": "nitrite OR nitric oxide OR pH",
+          "papers": [
+            "junction-nitric",
+            "gastric-nitric"
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Inflammation & tissue change",
+          "description": "The relationship between communities, reflux injury, Barrett’s oesophagus and host defences.",
+          "terms": "inflammation OR Barrett OR reflux",
+          "papers": []
+        },
+        {
+          "id": "interventions",
+          "title": "Medicines & community change",
+          "description": "Effects of acid suppression and other treatments on microbial activity.",
+          "terms": "proton pump inhibitor OR intervention",
+          "papers": []
+        },
+        {
+          "id": "methods",
+          "title": "Sampling the surface",
+          "description": "Biopsy, saliva and swallowed contents answer different questions.",
+          "terms": "biopsy OR metagenomic OR culture",
+          "papers": [
+            "oesoph-community"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stomach",
+      "name": "Stomach",
+      "latin": "Gaster",
+      "number": "III",
+      "tagline": "Acidity is an ecological filter.",
+      "role": "The stomach mixes food with acid and enzymes, begins protein digestion, and meters its contents into the small intestine.",
+      "habitat": "The stomach is a mixing chamber and a gateway between the mouth and intestine. Each meal brings a fresh supply of food and microbes into a changing landscape: acidic contents in the centre, a protective mucus layer at the wall, and pulses of nutrients as food breaks down. Many organisms pass through; others find places to persist. Acidity, meal timing, mucus and medicines shape this community.",
+      "residents": [
+        "streptococcus",
+        "lactobacillus",
+        "helicobacter"
+      ],
+      "connections": [
+        "Digestion",
+        "Acidity",
+        "Mucus",
+        "Microbial passage"
+      ],
+      "papers": [
+        "gastric-community",
+        "acid-suppression",
+        "lacto-gastric",
+        "gastric"
+      ],
+      "question": "How do meals, acidity, mucus and medicines shape the gastric community and its downstream effects?",
+      "caption": "Acid, enzymes, and mixing break food down and filter microbial arrivals.",
+      "research": [
+        {
+          "id": "ecology",
+          "title": "The whole gastric community",
+          "description": "Where organisms live, how they share the habitat, and how meals and acidity change their surroundings.",
+          "terms": "community OR mycobiome OR biofilm",
+          "papers": [
+            "gastric-community",
+            "gastric-mucin"
+          ]
+        },
+        {
+          "id": "chemistry",
+          "title": "Acid, mucus & bacterial products",
+          "description": "How acid, the mucus barrier and microbial products create different living conditions across the stomach.",
+          "terms": "urease OR mucin OR metabolite",
+          "papers": [
+            "acid-suppression",
+            "gastric-nitric",
+            "gastric-mucin"
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Inflammation, ulcers & cancer",
+          "description": "Which microbial and host changes drive injury, and which persist after infection clears?",
+          "terms": "gastritis OR ulcer OR cancer",
+          "papers": [
+            "gastric"
+          ]
+        },
+        {
+          "id": "interventions",
+          "title": "Medicines & community change",
+          "description": "Acid suppression, antibiotics and the recovery of microbial communities through the digestive tract.",
+          "terms": "eradication OR resistance OR trial",
+          "papers": [
+            "acid-suppression",
+            "gastric",
+            "lacto-gastric"
+          ]
+        },
+        {
+          "id": "methods",
+          "title": "Seeing what is active",
+          "description": "Distinguishing transient arrivals, growing populations and the products they make.",
+          "terms": "culture OR transcriptomic OR sequencing",
+          "papers": [
+            "gastric-community"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "small",
+      "name": "Small intestine",
+      "latin": "Intestinum tenue",
+      "number": "IV",
+      "tagline": "Where food meets the body.",
+      "role": "Digestion continues with bile and pancreatic enzymes. Most nutrient absorption happens here, across a vast folded surface.",
+      "habitat": "The small intestine is where most digestion and nutrient absorption take place. Food from the stomach meets bile and digestive enzymes, then travels across a long, folded surface that takes nutrients into the body. Microbes share this changing supply of food. Their surroundings differ along the intestine as nutrients are absorbed, oxygen levels change and muscular movement carries the contents onward.",
+      "residents": [
+        "streptococcus",
+        "veillonella",
+        "lactobacillus"
+      ],
+      "connections": [
+        "Absorption",
+        "Bile acids",
+        "Local sampling"
+      ],
+      "papers": [
+        "small-sugars",
+        "small-immune",
+        "probiotic-colonisation",
+        "capsule"
+      ],
+      "question": "What does a stool sample miss about the upstream ecosystem?",
+      "caption": "Bile and enzymes complete digestion; the folded lining absorbs nutrients.",
+      "research": [
+        {
+          "id": "ecology",
+          "title": "A moving ecosystem",
+          "description": "Bile, oxygen, meals and transit create changing microbial habitats.",
+          "terms": "bile OR transit OR ecology",
+          "papers": [
+            "capsule",
+            "small-sugars"
+          ]
+        },
+        {
+          "id": "chemistry",
+          "title": "Feeding & absorption",
+          "description": "Microbial sugar use, lactate exchange and competition for food.",
+          "terms": "carbohydrate OR lactate OR absorption",
+          "papers": [
+            "small-sugars",
+            "small-immune"
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Barrier & immune responses",
+          "description": "Interactions with intestinal cells and links to inflammation and symptoms.",
+          "terms": "barrier OR immune OR symptoms",
+          "papers": [
+            "small-immune",
+            "lacto-histamine"
+          ]
+        },
+        {
+          "id": "interventions",
+          "title": "Food, medicines & introduced organisms",
+          "description": "Dietary interventions, probiotics and differences in colonisation.",
+          "terms": "diet OR probiotic OR trial",
+          "papers": [
+            "probiotic-colonisation"
+          ]
+        },
+        {
+          "id": "methods",
+          "title": "Beyond the stool sample",
+          "description": "Capsules, intestinal sampling and measurements through the day.",
+          "terms": "capsule OR spatial OR sampling",
+          "papers": [
+            "capsule"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "colon",
+      "name": "Colon",
+      "latin": "Intestinum crassum",
+      "number": "V",
+      "tagline": "A world built on exchange.",
+      "role": "Microbes ferment substrates that escape earlier digestion. The colon absorbs water and microbial products while preparing the remaining material for passage.",
+      "habitat": "The colon receives what remains after the small intestine has absorbed most readily available nutrients. It recovers water and salts while a dense microbial community breaks down fibres and other food that has reached this far. This fermentation produces compounds used by microbes and the body. Food supply, the mucus lining and the time contents spend here shape a rich landscape of microbial partnerships.",
+      "residents": [
+        "bacteroides",
+        "bifidobacterium",
+        "faecalibacterium",
+        "akkermansia",
+        "methanobrevibacter",
+        "phages",
+        "fungi"
+      ],
+      "connections": [
+        "Fermentation",
+        "Immune signalling",
+        "Gut–brain pathways"
+      ],
+      "papers": [
+        "fibre",
+        "bacteroides-glycans",
+        "bacteroides-immune",
+        "bifido-acetate",
+        "faecali-protein",
+        "akk",
+        "methane-partners",
+        "phages-new",
+        "fungi"
+      ],
+      "question": "Which microbial functions connect food to effects across the body?",
+      "caption": "Microbes ferment remaining substrates. Water and microbial products are absorbed.",
+      "research": [
+        {
+          "id": "ecology",
+          "title": "Food webs & overlooked life",
+          "description": "Cross-feeding among bacteria, archaea, fungi, viruses and protists.",
+          "terms": "cross feeding OR fungi OR phage OR protist",
+          "papers": [
+            "cross-feeding",
+            "methane-partners",
+            "fungi"
+          ]
+        },
+        {
+          "id": "chemistry",
+          "title": "From food to signals",
+          "description": "Short-chain fatty acids, mucus sugars and molecules acting on host cells.",
+          "terms": "butyrate OR metabolite OR mucin",
+          "papers": [
+            "colonocyte-butyrate",
+            "bacteroides-glycans",
+            "faecali-protein"
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Body, brain & immunity",
+          "description": "Mechanisms and human studies linking microbial activity to distant outcomes.",
+          "terms": "brain OR immune OR metabolic",
+          "papers": [
+            "bifido-cognition",
+            "bacteroides-immune",
+            "akk"
+          ]
+        },
+        {
+          "id": "interventions",
+          "title": "Changing a community",
+          "description": "Food, defined microbes, microbial products and transplantation.",
+          "terms": "diet OR intervention OR transplantation",
+          "papers": [
+            "fibre",
+            "akk",
+            "phages-remission"
+          ]
+        },
+        {
+          "id": "methods",
+          "title": "Strains, functions & time",
+          "description": "Genome discovery and repeated sampling reveal more than a genus-level snapshot.",
+          "terms": "strain OR longitudinal OR metagenomic",
+          "papers": [
+            "archaea-new",
+            "phages-new"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rectum",
+      "name": "Rectum",
+      "latin": "Rectum",
+      "number": "VI",
+      "tagline": "Where the journey ends.",
+      "role": "The rectum stores stool before coordinated evacuation. Transit through the bowel changes microbial resources, fermentation, and the material that is eventually sampled.",
+      "habitat": "The rectum is the final holding area before a bowel movement. It receives stool from the colon, senses when it is filling and works with the pelvic floor and anal sphincters to control its release. The arriving stool carries microbes and products of digestion from upstream. The lining and mucus form a local habitat too, connecting this final chamber to the wider intestinal ecosystem.",
+      "residents": [
+        "bacteroides",
+        "bifidobacterium",
+        "methanobrevibacter"
+      ],
+      "connections": [
+        "Bowel movement",
+        "Methane",
+        "Sampling"
+      ],
+      "papers": [
+        "transit",
+        "methane-transit"
+      ],
+      "question": "How does time in the bowel reshape the microbial readout?",
+      "caption": "Stores stool before evacuation. Transit shapes the ecosystem sampled downstream.",
+      "research": [
+        {
+          "id": "ecology",
+          "title": "A downstream ecosystem",
+          "description": "What reaches stool, what stays at the surface and what changes during transit.",
+          "terms": "stool OR mucosa OR transit",
+          "papers": [
+            "transit"
+          ]
+        },
+        {
+          "id": "chemistry",
+          "title": "Fermentation products & gases",
+          "description": "Connecting methane and other products to the processes upstream.",
+          "terms": "methane OR fermentation OR metabolite",
+          "papers": [
+            "methane-transit",
+            "methane-partners"
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Bowel function & the lining",
+          "description": "Transit, constipation, barrier function and local inflammation.",
+          "terms": "constipation OR inflammation OR barrier",
+          "papers": [
+            "methane-transit",
+            "transit"
+          ]
+        },
+        {
+          "id": "interventions",
+          "title": "Changing bowel function",
+          "description": "Diet, treatment studies and meaningful measures of change.",
+          "terms": "intervention OR fibre OR trial",
+          "papers": [
+            "fibre"
+          ]
+        },
+        {
+          "id": "methods",
+          "title": "Reading a stool test",
+          "description": "Sampling, measurement, reference populations and the difference between DNA and activity.",
+          "terms": "stool test OR sequencing OR reference",
+          "papers": [
+            "transit"
+          ]
+        }
+      ]
+    }
+  ],
+  "microbes": {
+    "streptococcus": {
+      "id": "streptococcus",
+      "name": "Streptococcus",
+      "group": "Bacteria",
+      "niche": "Oral surfaces; organisms swallowed into the upper gut",
+      "role": "Streptococci ferment sugars into acids and help build biofilms on oral surfaces. Neighbouring organisms use some of the products they release.",
+      "imbalance": "Repeated sugar exposure keeps plaque acidic. Acid-producing species such as S. mutans can then contribute to mineral loss from teeth.",
+      "support": "Brushing with fluoride toothpaste, cleaning between teeth, and reducing frequent sugary snacks interrupt this acid cycle.",
+      "papers": [
+        "oral-sugar",
+        "oral-sucrose",
+        "oral",
+        "oesoph-community",
+        "gastric-community",
+        "small-sugars",
+        "small-immune"
+      ],
+      "support_source": {
+        "label": "Oral hygiene — NIDCR",
+        "url": "https://www.nidcr.nih.gov/health-info/oral-hygiene"
+      },
+      "contexts": {
+        "mouth": {
+          "niche": "Teeth, tongue, and oral biofilms",
+          "papers": [
+            "oral-sugar",
+            "oral"
+          ],
+          "summary_intro": "Streptococci ferment sugars into acids and help build biofilms on oral surfaces. Neighbouring organisms use some of the products they release."
+        },
+        "oesophagus": {
+          "niche": "The lining of the distal oesophagus",
+          "role": "Streptococcus was the most common genus in a small biopsy study of the normal distal oesophagus. It accounted for 39% of the bacterial sequences in that study.",
+          "imbalance": "This tissue is repeatedly exposed to swallowed organisms and, during reflux, gastric contents. Its bacterial community changes alongside conditions at the lining.",
+          "support": "The early biopsy study detected a community closely related to the mouth’s, with Streptococcus, Prevotella, and Veillonella especially prominent.",
+          "support_heading": "What tissue sampling found",
+          "support_source": null,
+          "papers": [
+            "oesoph-community"
+          ],
+          "summary_intro": "Streptococcus was the most common genus in a small biopsy study of the normal distal oesophagus. It accounted for 39% of the bacterial sequences in that study."
+        },
+        "stomach": {
+          "niche": "Detected in gastric mucosal biopsies",
+          "role": "Streptococcus sequences have been recovered from the stomach lining alongside Helicobacter and other genera. Gastric biopsy sequencing revealed a community distinct from the mouth and oesophagus.",
+          "imbalance": "The stomach’s acidity and mucus create a different habitat from oral plaque. Gastric bacteria are exposed to food pulses, acid secretion, and inflammation caused by organisms such as H. pylori.",
+          "support": "In the gastric biopsy study, researchers recovered 128 bacterial phylotypes. The result established that the stomach supports a much broader bacterial community than H. pylori alone.",
+          "support_heading": "The gastric community",
+          "support_source": null,
+          "papers": [
+            "gastric-community"
+          ],
+          "summary_intro": "Streptococcus sequences have been recovered from the stomach lining alongside Helicobacter and other genera. Gastric biopsy sequencing revealed a community distinct from the mouth and oesophagus."
+        },
+        "small": {
+          "niche": "Sugar-consuming communities in the small intestine",
+          "role": "Streptococcus carbohydrate-transport and metabolism genes were highly active in small-intestinal samples. These organisms rapidly capture and ferment sugars moving through the gut.",
+          "imbalance": "Meal timing and transit alter the availability of sugars. Small-intestinal communities can change over a day as these resources arrive and are absorbed.",
+          "support": "Metagenomics and RNA measurements identified rapid carbohydrate uptake as a central feature of the sampled community, with Streptococcus genes particularly active.",
+          "support_heading": "Sugar uptake in action",
+          "support_source": null,
+          "papers": [
+            "small-sugars",
+            "small-immune"
+          ],
+          "summary_intro": "Streptococcus carbohydrate-transport and metabolism genes were highly active in small-intestinal samples. These organisms rapidly capture and ferment sugars moving through the gut."
+        }
+      },
+      "summary": [
+        "Streptococcus contains many bacterial species. Many are regular inhabitants of the mouth, where they attach to teeth or soft surfaces, use sugars and help build plaque: a community held together in a sticky film.",
+        "Fermenting sugar produces acids, including lactate. Other bacteria, such as Veillonella, use this lactate as food. Saliva, oxygen, neighbouring organisms and the frequency of sugar exposure shape what happens inside each small patch of plaque.",
+        "When plaque stays acidic repeatedly, acid-producing organisms including S. mutans contribute to mineral loss from teeth. Dental decay comes from this repeated ecological and chemical process; finding the genus Streptococcus alone does not identify decay or a need for antibiotics.",
+        "Fluoride toothpaste supports tooth mineral repair. Brushing and cleaning between teeth disrupt plaque, while reducing frequent sugary snacks gives the mouth more time away from acid production. Dental treatment addresses established decay. The goal is a functioning oral community, not the removal of all streptococci.",
+        "Swallowing also delivers streptococci to the oesophagus and stomach. Researchers have recovered them from biopsies and measured carbohydrate-processing activity in the small intestine. Those are different habitats from dental plaque, with different food supplies and conditions."
+      ],
+      "sources": [
+        "dental",
+        "oral"
+      ]
+    },
+    "veillonella": {
+      "id": "veillonella",
+      "name": "Veillonella",
+      "group": "Bacteria",
+      "niche": "Oral biofilms and upper intestinal communities",
+      "role": "Veillonella consumes lactate released by other microbes and converts it into products including propionate. Its metabolism links organisms that ferment sugars with organisms using their by-products.",
+      "imbalance": "Changes in lactate production change its food supply. In oral plaque, this ties Veillonella to the activity of neighbouring acid-producing bacteria.",
+      "support": "Brushing and cleaning between teeth change the structure of oral biofilms. Exercise research has also traced a separate route from muscle-derived lactate to intestinal Veillonella metabolism.",
+      "papers": [
+        "oral-lactate",
+        "oral",
+        "veillonella-lactate",
+        "oesoph-community",
+        "small-immune"
+      ],
+      "support_source": {
+        "label": "Oral hygiene — NIDCR",
+        "url": "https://www.nidcr.nih.gov/health-info/oral-hygiene"
+      },
+      "contexts": {
+        "mouth": {
+          "niche": "Lactate-consuming partners in oral biofilms",
+          "papers": [
+            "oral-lactate",
+            "oral"
+          ],
+          "summary_intro": "Veillonella consumes lactate released by other microbes and converts it into products including propionate. Its metabolism links organisms that ferment sugars with organisms using their by-products."
+        },
+        "oesophagus": {
+          "niche": "Detected in distal oesophageal tissue",
+          "role": "Veillonella was one of the most common genera recovered from normal distal oesophageal biopsies. Its lactate metabolism connects it with neighbouring fermenters such as Streptococcus.",
+          "imbalance": "Swallowing supplies oral organisms to this surface. Reflux changes its chemical environment, connecting the ecology of the oesophagus with both mouth and stomach.",
+          "support": "The biopsy study found Veillonella represented 14% of bacterial sequences across four adults. It placed this familiar oral genus within the oesophageal community.",
+          "support_heading": "What tissue sampling found",
+          "support_source": null,
+          "papers": [
+            "oesoph-community"
+          ],
+          "summary_intro": "Veillonella was one of the most common genera recovered from normal distal oesophageal biopsies. Its lactate metabolism connects it with neighbouring fermenters such as Streptococcus."
+        },
+        "small": {
+          "niche": "Lactate-consuming organisms in the upper intestine",
+          "role": "Veillonella uses lactate released by neighbouring fermenters. In the small intestine, this creates a route for microbial products to pass from sugar users to lactate consumers.",
+          "imbalance": "Changing the supply of lactate changes the resources available to this group. Direct intestinal sampling captures these communities upstream of the stool sample.",
+          "support": "Combining small-intestinal Veillonella and Streptococcus isolates changed cytokine release from human dendritic cells. Some pairs suppressed IL-12p70 while increasing IL-6 and other signals.",
+          "support_heading": "An immune response to neighbours",
+          "support_source": null,
+          "papers": [
+            "small-immune"
+          ],
+          "summary_intro": "Veillonella uses lactate released by neighbouring fermenters. In the small intestine, this creates a route for microbial products to pass from sugar users to lactate consumers."
+        }
+      },
+      "summary": [
+        "Veillonella is a group of bacteria that often grows beside organisms making lactic acid. Instead of competing for the same sugars, it uses their lactate and releases other fermentation products, including propionate. This makes it a useful example of microbes feeding one another.",
+        "In the mouth it joins mixed biofilms on oral surfaces. Some oral isolates also reduce nitrate to nitrite, continuing chemistry that begins with nitrate in saliva. Swallowed nitrite then enters reactions at the acidic entrance to the stomach.",
+        "Veillonella also occurs in intestinal communities. Its growth follows the supply of lactate, the movement of contents and the activity of its bacterial neighbours. Researchers study this exchange as part of a food web rather than as an isolated population.",
+        "An athlete study found more Veillonella after marathon running. Experiments then traced blood lactate into the mouse intestine, where an isolate from a runner converted it to propionate. Giving the isolate, or propionate, increased treadmill endurance in mice. That experiment explains a route linking muscle and gut; it did not test a performance treatment in people.",
+        "For oral health, plaque control changes the whole community and its food supply. For intestinal health, research is investigating the effects of lactate exchange and bacterial products on host cells. There is no established routine treatment aimed at raising Veillonella in healthy people."
+      ],
+      "sources": [
+        "oral"
+      ]
+    },
+    "helicobacter": {
+      "id": "helicobacter",
+      "name": "Helicobacter pylori",
+      "group": "Bacteria",
+      "niche": "Gastric mucus, close to the stomach lining",
+      "role": "H. pylori lives close to the stomach lining. Its urease enzyme breaks down urea, helping it buffer the acid immediately around the cell.",
+      "imbalance": "Persistent infection causes chronic gastritis and increases the risk of peptic ulcers and gastric cancer.",
+      "support": "Eradication treatment targets the infection. A randomised trial followed for 26.5 years found a reduction in gastric cancer incidence after treatment.",
+      "papers": [
+        "gastric-mucin",
+        "gastric-urei",
+        "gastric-urease",
+        "gastric"
+      ],
+      "support_heading": "Eradication and long-term effects",
+      "summary": [
+        "Helicobacter pylori is a spiral-shaped bacterium that can make a long-term home beside the stomach lining. Many infected people feel well. In others, the infection causes persistent inflammation, called gastritis, and can lead to stomach or duodenal ulcers. Over years it also increases the risk of stomach cancer and a rare lymphoma of the stomach lining.",
+        "The stomach is acidic, but H. pylori builds a small refuge around itself. An acid-sensitive channel lets urea enter the cell. Its urease enzyme breaks urea down into ammonia and carbon dioxide, helping protect the bacterium from acid. Experiments in gastric mucus show that the resulting pH change also loosens the gel so the bacterium can swim through it. Its flagella propel it toward the lining.",
+        "Once established, the bacterium interacts with the stomach’s cells and immune defences. Damage depends on the strain, the person’s inflammatory response and where the infection is concentrated. This is an infection to identify and treat, rather than a population to bring toward a universal “balanced” percentage. A stool microbiome abundance score does not by itself establish active gastric infection or explain every episode of stomach discomfort.",
+        "Active infection is commonly checked with a urea breath test or a stool antigen test. Samples taken during an endoscopy can also identify it. The breath test uses the same urease chemistry: the person swallows labelled urea, and the test looks for labelled carbon dioxide in their breath.",
+        "Treatment combines acid suppression with antibiotics to clear the infection; some regimens also contain bismuth. Drug choice depends on antibiotic resistance, previous treatment and allergies. The 2024 American College of Gastroenterology guideline recommends a 14-day bismuth quadruple regimen when antibiotic susceptibility is unknown in its North American setting. Resistance patterns and available medicines shape local choices elsewhere.",
+        "Clearing H. pylori helps ulcers heal and reduces their return. A long-term randomised trial also found fewer stomach cancers after eradication. Treatment can cause side effects and temporarily change other gut microbes. Feeling better does not prove that the infection is gone: follow-up breath or stool testing confirms whether treatment worked. Antibiotics and acid-suppressing medicines affect test accuracy, so the timing of that test is planned as part of treatment.",
+        "Probiotics are being studied alongside eradication therapy, particularly for treatment side effects. They do not replace a course that clears the infection. Current research follows antibiotic resistance, the wider gastric community and the changes in the stomach lining that remain after successful treatment."
+      ],
+      "sources": [
+        "hp",
+        "hptest",
+        "hpcancer"
+      ]
+    },
+    "lactobacillus": {
+      "id": "lactobacillus",
+      "name": "Lactobacillus & relatives",
+      "group": "Bacteria",
+      "niche": "Upper gastrointestinal habitats; distribution varies by species",
+      "role": "Lactobacilli ferment carbohydrates and produce lactate. Some also make compounds that affect other microbes or interact directly with human immune cells.",
+      "imbalance": "Their chemistry reaches beyond lactic acid. L. reuteri 6475, for example, converts histidine into histamine that reduces TNF production in immune-cell experiments.",
+      "support": "Food supplies the substrates for this chemistry. Human sampling studies also show that introduced probiotic organisms settle differently at different intestinal sites.",
+      "papers": [
+        "lacto-gastric",
+        "lacto-histamine",
+        "probiotic-colonisation"
+      ],
+      "support_heading": "Food, survival, and colonisation",
+      "contexts": {
+        "stomach": {
+          "niche": "The acidic gastric environment",
+          "role": "Lactobacilli arriving with food encounter stomach acid and mucus. Acid-tolerant organisms survive this passage; L. johnsonii La1 has been tested directly for effects on H. pylori and gastritis.",
+          "imbalance": "H. pylori causes inflammation at the gastric lining. In a 53-person trial, La1-acidified milk reduced H. pylori density and inflammation, but did not increase antibiotic eradication rates.",
+          "support": "The trial paired acidified milk or placebo with clarithromycin. It found lower bacterial density and inflammatory activity, separating suppression of H. pylori from eradication of the infection.",
+          "support_heading": "A gastric intervention",
+          "papers": [
+            "lacto-gastric"
+          ],
+          "summary_intro": "Lactobacilli arriving with food encounter stomach acid and mucus. Acid-tolerant organisms survive this passage; L. johnsonii La1 has been tested directly for effects on H. pylori and gastritis."
+        },
+        "small": {
+          "niche": "Food-associated arrivals in the small intestine",
+          "role": "Lactobacilli that survive the stomach enter a habitat shaped by bile, meal-derived sugars, and rapid movement. Introduced organisms can survive the journey yet settle unevenly along the lining.",
+          "imbalance": "Endoscopic sampling during a probiotic intervention found different colonisation patterns between people and gut regions. Stool detection did not distinguish those patterns.",
+          "support": "Some lactobacilli convert food components into immune signals. L. reuteri 6475 converts histidine into histamine, which reduced inflammatory TNF production in human immune-cell experiments.",
+          "support_heading": "From food to an immune signal",
+          "papers": [
+            "probiotic-colonisation",
+            "lacto-histamine"
+          ],
+          "summary_intro": "Lactobacilli that survive the stomach enter a habitat shaped by bile, meal-derived sugars, and rapid movement. Introduced organisms can survive the journey yet settle unevenly along the lining."
+        }
+      },
+      "summary": [
+        "Lactobacillus and its relatives are bacteria that ferment carbohydrates, commonly producing lactic acid. The old Lactobacillus genus has been divided into several genera, so familiar species now appear under names such as Limosilactobacillus. These organisms occur in foods and several human habitats.",
+        "In the stomach, swallowed cells meet acid, food and gastric mucus. A human experiment with L. johnsonii in acidified milk studied survival through this passage. Surviving a journey and establishing a lasting population are different processes. Small-intestinal sampling shows that introduced organisms settle unevenly across people and sites.",
+        "Their products reach beyond lactate. In bacterial and human immune-cell experiments, L. reuteri 6475 converted the amino acid histidine to histamine. That histamine activated an immune-cell receptor and reduced production of the inflammatory signal TNF. The mechanism belongs to that studied organism and pathway.",
+        "Changes in diet, antibiotics and the local habitat change which members grow. A commercial probiotic trial studies a particular preparation and outcome; the name Lactobacillus on another product does not identify the same intervention. The useful question is which preparation was tested, in whom, and what changed.",
+        "Fermented foods introduce lactobacilli and their fermentation products. Experimental studies follow how long these cells survive, which metabolites they release, and how introduced strains interact with an existing community."
+      ]
+    },
+    "bifidobacterium": {
+      "id": "bifidobacterium",
+      "name": "Bifidobacterium",
+      "group": "Bacteria",
+      "niche": "Predominantly colonic communities; especially prominent in early life",
+      "role": "Bifidobacteria break down carbohydrates and produce acetate and lactate. Other gut organisms use these products, connecting their growth to the wider fermentation community.",
+      "imbalance": "Diet, antibiotics, and age change their populations. Experiments connect particular strains with toxin exclusion at the gut barrier, while a human B. breve trial measured changes in cognition.",
+      "support": "Legumes, whole grains, vegetables, and fruit supply varied fermentable carbohydrates. Increase fibre gradually and drink enough fluid to support bowel regularity.",
+      "papers": [
+        "bifido-acetate",
+        "bifido-cognition",
+        "bifido",
+        "cross-feeding"
+      ],
+      "support_source": {
+        "label": "Food, fibre & bowel function — NIDDK",
+        "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition"
+      },
+      "contexts": {
+        "rectum": {
+          "niche": "Colonic organisms carried into stool",
+          "role": "Stool carries Bifidobacterium from colonic communities into the rectum. Bifidobacteria break down carbohydrates and produce acetate and lactate. Other gut organisms use these products, connecting their growth to the wider fermentation community.",
+          "papers": [
+            "bifido-acetate",
+            "bifido-cognition",
+            "bifido"
+          ],
+          "summary_intro": "Stool carries Bifidobacterium from colonic communities into the rectum. Bifidobacteria break down carbohydrates and produce acetate and lactate. Other gut organisms use these products, connecting their growth to the wider fermentation community."
+        }
+      },
+      "summary": [
+        "Bifidobacterium is a group of bacteria that breaks down carbohydrates and releases acetate and lactate. Its members occupy an important place in the gut’s food-sharing network. Their populations change through infancy, adulthood and older age, alongside changes in diet and medicines.",
+        "One partner’s waste becomes another partner’s fuel. In a coculture experiment, B. adolescentis supplied acetate that supported more butyrate production by F. prausnitzii. Butyrate is used by cells lining the colon. A change in one organism can therefore alter the chemistry delivered by several others.",
+        "In an E. coli infection experiment in mice, acetate-producing bifidobacteria reduced toxin passage from the gut into the blood. Separately, a human trial of B. breve A1 measured an improvement in cognitive-test scores. These experiments study different organisms, preparations and outcomes, rather than a single effect of all bifidobacteria.",
+        "Antibiotics, dietary changes and illness reshape their populations and the substrates their neighbours receive. Researchers follow both bacterial strains and acetate and lactate production to see which changes matter to the host.",
+        "Legumes, whole grains, fruit and vegetables supply different fermentable carbohydrates to this network. Some clinical trials test specific bifidobacterial preparations. The papers below identify the preparation and outcome, allowing a treatment claim to be followed back to what was actually tested."
+      ]
+    },
+    "bacteroides": {
+      "id": "bacteroides",
+      "name": "Bacteroides",
+      "group": "Bacteria",
+      "niche": "Anaerobic colonic habitats",
+      "role": "Bacteroides carries extensive machinery for dismantling complex sugars. Members feed on food particles and host mucus, releasing products used by other microbes.",
+      "imbalance": "When dietary polysaccharides disappeared in a mouse experiment, B. thetaiotaomicron switched toward mucus sugars. Other Bacteroides species produce molecules that alter T-cell development.",
+      "support": "Whole grains, legumes, vegetables, and fruit provide different carbohydrate substrates. The glycan-foraging experiments show how this food supply changes bacterial metabolism.",
+      "papers": [
+        "bacteroides-glycans",
+        "bacteroides-immune",
+        "bacteroides-brain",
+        "methane-partners"
+      ],
+      "support_source": {
+        "label": "Food, fibre & bowel function — NIDDK",
+        "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition"
+      },
+      "contexts": {
+        "rectum": {
+          "niche": "Colonic organisms carried into stool",
+          "role": "Stool carries Bacteroides from colonic communities into the rectum. Bacteroides carries extensive machinery for dismantling complex sugars. Members feed on food particles and host mucus, releasing products used by other microbes.",
+          "papers": [
+            "bacteroides-glycans",
+            "bacteroides-immune",
+            "bacteroides-brain",
+            "methane-partners"
+          ],
+          "summary_intro": "Stool carries Bacteroides from colonic communities into the rectum. Bacteroides carries extensive machinery for dismantling complex sugars. Members feed on food particles and host mucus, releasing products used by other microbes."
+        }
+      },
+      "summary": [
+        "Bacteroides is a group of bacteria with extensive machinery for taking complex carbohydrates apart. Members use different sugars from food and from mucus made by the host. Their enzymes help open food resources to a wider community of organisms.",
+        "In experiments with B. thetaiotaomicron, removing dietary polysaccharides shifted bacterial activity toward the host’s mucus sugars. This illustrates how diet changes microbial behaviour as well as population size. Bacterial fermentation products also feed partners such as methane-producing archaea.",
+        "The group includes organisms with very different relationships to the host. A surface molecule from one B. fragilis strain, polysaccharide A, changed immune development in animal experiments. Other B. fragilis strains make a toxin. A genus-level stool result cannot distinguish these biological roles.",
+        "Bacteroides species can also cause infection if they reach normally protected tissues, for example after a bowel leak. That clinical problem is different from finding them in the colon, where many are ordinary community members. Antibiotic treatment of an infection is directed at the site and organism, not at eliminating the genus from a healthy gut.",
+        "A varied supply of plant carbohydrates supports different feeding opportunities. Current research follows which enzymes and metabolites are active, which strains are present and how those activities influence mucus, immunity and metabolism."
+      ],
+      "sources": [
+        "bacteroides-infection"
+      ]
+    },
+    "faecalibacterium": {
+      "id": "faecalibacterium",
+      "name": "Faecalibacterium",
+      "group": "Bacteria",
+      "niche": "Oxygen-poor colonic communities",
+      "role": "Faecalibacterium includes major butyrate producers. F. prausnitzii also releases an anti-inflammatory protein, MAM, that acts on signalling inside intestinal cells.",
+      "imbalance": "F. prausnitzii is depleted in many Crohn’s disease studies. Researchers linked lower abundance with postoperative recurrence and then tested anti-inflammatory effects of its secreted products.",
+      "support": "Plant fibres supply substrates to the fermentation network that includes these organisms. Increase fibre gradually with adequate fluids when working on bowel regularity.",
+      "papers": [
+        "faecali",
+        "faecali-protein",
+        "brain",
+        "cross-feeding",
+        "colonocyte-butyrate"
+      ],
+      "support_source": {
+        "label": "Food, fibre & bowel function — NIDDK",
+        "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition"
+      },
+      "summary": [
+        "Faecalibacterium includes oxygen-sensitive bacteria that make butyrate during fermentation. They live within a network that shares carbohydrates and fermentation products. In coculture, F. prausnitzii uses acetate from a bifidobacterial partner and produces more butyrate.",
+        "Butyrate is fuel for cells lining the colon. Experiments with mouse colonocytes connected its supply to mitochondrial activity and cellular energy stores. This provides a direct route from bacterial feeding to the metabolism of the host’s own cells.",
+        "F. prausnitzii also releases molecules with effects beyond fuel supply. Researchers identified an anti-inflammatory protein called MAM that alters signalling in intestinal cells. Bacterial products and live bacteria are being investigated as different ways to reproduce useful effects.",
+        "Lower F. prausnitzii abundance has been reported in Crohn’s disease, including in studies of recurrence after surgery. Inflammation itself also changes the habitat available to oxygen-sensitive organisms. Restoring a population and treating the underlying disease are connected research questions, not interchangeable procedures.",
+        "Food fibres supply the wider fermentation network. Live Faecalibacterium treatment remains experimental: growing and delivering these oxygen-sensitive organisms is technically demanding. Work on cultured strains, defined communities and their products aims to reproduce the metabolic and anti-inflammatory effects seen in experiments."
+      ],
+      "sources": [
+        "faecali-delivery"
+      ]
+    },
+    "akkermansia": {
+      "id": "akkermansia",
+      "name": "Akkermansia muciniphila",
+      "group": "Bacteria",
+      "niche": "The colonic mucus interface",
+      "role": "A. muciniphila feeds on mucin, the sugar-rich material lining the colon. It lives at an interface where microbial metabolism meets barrier renewal and immune activity.",
+      "imbalance": "In high-fat-fed mice, giving live A. muciniphila changed mucus thickness, insulin resistance, and inflammation. A later human pilot found metabolic effects from a pasteurised preparation.",
+      "support": "In the human pilot, pasteurised A. muciniphila improved insulin sensitivity and some other metabolic measures. The cells were no longer alive, showing that effects can come from bacterial material without live colonisation.",
+      "papers": [
+        "akk-mucus",
+        "akk"
+      ],
+      "support_heading": "Effects from pasteurised cells",
+      "summary": [
+        "Akkermansia muciniphila lives close to the colon’s mucus layer and feeds on mucin, the sugar-rich material secreted by the lining. Its position brings it into contact with the host’s barrier and immune system, as well as neighbouring microbes using the products of mucin breakdown.",
+        "Using mucus is part of this ecological relationship; the effect depends on how mucus production, breakdown and renewal fit together. In mice fed a high-fat diet, giving live A. muciniphila changed mucus thickness, inflammation and insulin resistance.",
+        "A small human pilot trial then tested live and pasteurised preparations. The pasteurised preparation improved insulin sensitivity and some other metabolic measures. Since the cells were no longer alive, these effects did not require a newly growing population: bacterial components can also act on the host.",
+        "The human pilot supplies a starting point for larger studies of who benefits, which preparations work and how long effects last. Researchers are also testing which bacterial components communicate with the host and how those signals change mucus renewal and metabolism.",
+        "A. muciniphila preparations are being developed as interventions. The mouse barrier experiments and human preparation trial address different pieces of that work: a living population interacting with mucus, and a measured metabolic response to a defined preparation."
+      ]
+    },
+    "methanobrevibacter": {
+      "id": "methanobrevibacter",
+      "name": "Methanobrevibacter",
+      "group": "Archaea",
+      "niche": "Anaerobic intestinal communities; often studied through stool and breath methane",
+      "role": "Methanobrevibacter archaea consume fermentation products such as hydrogen and formate and release methane. They depend on chemical exchanges with bacterial neighbours.",
+      "imbalance": "Breath methane is strongly associated with constipation. In laboratory cocultures, M. smithii and B. thetaiotaomicron also grow through a shared supply of fermentation products.",
+      "support": "Bacterial fermentation supplies their fuel. Measured bowel transit and breath methane reveal different sides of this partnership: how quickly material moves and how much methane is produced.",
+      "papers": [
+        "methane-transit",
+        "methane-partners",
+        "archaea-new",
+        "archaea"
+      ],
+      "support_heading": "Fuel, methane, and movement",
+      "contexts": {
+        "rectum": {
+          "niche": "Colonic organisms carried into stool",
+          "role": "Stool carries Methanobrevibacter from colonic communities into the rectum. Methanobrevibacter archaea consume fermentation products such as hydrogen and formate and release methane. They depend on chemical exchanges with bacterial neighbours.",
+          "papers": [
+            "methane-transit",
+            "methane-partners",
+            "archaea-new",
+            "archaea"
+          ],
+          "summary_intro": "Stool carries Methanobrevibacter from colonic communities into the rectum. Methanobrevibacter archaea consume fermentation products such as hydrogen and formate and release methane. They depend on chemical exchanges with bacterial neighbours."
+        }
+      },
+      "summary": [
+        "Methanobrevibacter belongs to the archaea, a separate domain of life from bacteria. These organisms use hydrogen and other fermentation products and release methane. Their growth is linked to the bacterial neighbours supplying those substrates.",
+        "In laboratory partnerships, M. smithii uses products released by Bacteroides. Removing hydrogen can change the conditions under which bacterial fermentation proceeds. Methane production is therefore a property of an interacting community, not an activity isolated from the rest of the gut.",
+        "Human studies link breath methane with constipation and slower bowel transit. A breath test measures gas production over time; a stool test measures material collected downstream. These measurements describe different aspects of the system and cannot be substituted directly for one another.",
+        "Constipation research brings together measured transit, medicines, diet and methane production. Following gas production over time helps investigators connect microbial activity with changes in bowel function. These observations guide clinical studies of methane-associated symptoms.",
+        "Research is expanding the archaeal family tree and testing how partnerships change fermentation and gut movement. The genome catalogue reveals further archaeal diversity beyond this familiar methane producer."
+      ]
+    },
+    "phages": {
+      "id": "phages",
+      "name": "Bacteriophages",
+      "group": "Viruses",
+      "niche": "Alongside bacterial hosts throughout the intestinal ecosystem",
+      "role": "Bacteriophages infect bacteria and often insert their DNA into bacterial genomes. They move genes, alter bacterial populations, and can persist inside a host for years.",
+      "imbalance": "Antibiotics and faecal microbiota transplantation change intestinal phage populations. In ulcerative colitis trials, one donor phage was associated with remission.",
+      "support": "Changing bacterial hosts also changes the viruses they carry. Long-read sequencing now follows both the bacterial genome and its integrated phages through time.",
+      "papers": [
+        "phages-new",
+        "phages-remission"
+      ],
+      "support_heading": "Changing hosts, changing viruses",
+      "summary": [
+        "Bacteriophages are viruses that infect bacteria. They do not form another bacterial genus: they depend on bacterial hosts to reproduce. Some multiply and break host cells open; others insert their genetic material into a host genome and can remain there for long periods.",
+        "This creates another layer of microbial ecology. Phages change which bacterial strains survive, carry genes between organisms and respond when the bacterial habitat changes. Long-read sequencing can connect an integrated phage to its bacterial host and follow that relationship through time.",
+        "Antibiotics and faecal microbiota transplantation alter these host–virus relationships. In ulcerative colitis transplantation studies, a particular donor phage was associated with remission. That association identifies something to investigate; it does not show that the isolated phage was the treatment producing remission.",
+        "Phage therapy targets particular bacterial hosts and is being investigated for infections and microbiome interventions. Researchers select phages that can infect the relevant bacterial strain, then study how bacterial resistance and the surrounding community change the result.",
+        "The gut virome also contains viruses that infect human cells and viruses arriving with food. A large DNA-virus catalogue is one view of this diversity; it does not cover every RNA virus or every virus in one person."
+      ]
+    },
+    "fungi": {
+      "id": "fungi",
+      "name": "Fungi & yeasts",
+      "group": "Fungi",
+      "niche": "Low-abundance, variable members of gastrointestinal communities",
+      "role": "Fungi live in intestinal mucus as well as the gut contents. Candida, Saccharomyces, and Malassezia interact with immune pathways that recognise fungal cell surfaces.",
+      "imbalance": "Mucosal fungal communities protected the barrier in mouse experiments, while M. restricta worsened experimental colitis through CARD9 signalling. Different fungi and immune responses produced different outcomes.",
+      "support": "Intestinal IgA antibodies preferentially attack the invasive hyphal form of Candida. This pushes the fungus toward a less damaging form of growth while allowing it to remain in the community.",
+      "papers": [
+        "cgf",
+        "fungi",
+        "fungi-malassezia",
+        "fungi-mutualism"
+      ],
+      "support_heading": "How the immune system shapes them",
+      "summary": [
+        "Fungi include yeasts and organisms that form branching filaments. Candida, Saccharomyces and Malassezia are studied in the human digestive tract. Some detected fungi arrive with food, while others can grow in the host; finding fungal DNA alone does not distinguish those situations.",
+        "Fungi interact with bacteria, mucus and immune cells. In mouse experiments, communities at the mucus surface strengthened barrier functions. Other experiments found that Malassezia restricta worsened colitis through an immune pathway involving CARD9. These organisms do not all push the system in the same direction.",
+        "Candida can grow as rounded yeast cells or as invasive filaments. Research on intestinal antibodies found that IgA preferentially targeted its more damaging filamentous form. The immune system can shape how an organism grows as well as how much of it remains.",
+        "Candida also causes recognised infections such as oral thrush and oesophageal candidiasis. Those are treated with antifungal medicines appropriate to the infected site. Simply detecting Candida in stool does not establish that it is causing intestinal symptoms or identify an antifungal treatment.",
+        "Fungal surveys, culture and experiments address different questions. The expanding research connects specific fungal species and growth forms to the host’s immune state, rather than treating all fungi as either beneficial residents or an overgrowth to remove."
+      ],
+      "sources": [
+        "candida"
+      ]
+    }
+  },
+  "selection_note": "Reading lists are hand-selected for results about named organisms, their metabolites, microbial partnerships, or clinical outcomes. Sampling-method papers sit with the habitat they investigate.",
+  "sources": {
+    "oral": {
+      "label": "eHOMD: oral and aerodigestive bacterial reference",
+      "url": "https://www.homd.org/"
+    },
+    "dental": {
+      "label": "NIDCR: tooth decay and fluoride",
+      "url": "https://www.nidcr.nih.gov/health-info/tooth-decay/more-info/tooth-decay-process"
+    },
+    "gum": {
+      "label": "NIDCR: gum disease",
+      "url": "https://www.nidcr.nih.gov/health-info/gum-disease"
+    },
+    "hp": {
+      "label": "ACG: H. pylori treatment guideline (2024)",
+      "url": "https://gi.org/journals-publications/ebgi/schoenfeld_sep2024/"
+    },
+    "hptest": {
+      "label": "NIDDK: breath, stool and biopsy tests",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/peptic-ulcers-stomach-ulcers/diagnosis"
+    },
+    "candida": {
+      "label": "CDC: candidiasis and treatment",
+      "url": "https://www.cdc.gov/candidiasis/treatment/index.html"
+    },
+    "parasites": {
+      "label": "CDC: intestinal parasites, sites and transmission",
+      "url": "https://www.cdc.gov/immigrant-refugee-health/hcp/domestic-guidance/intestinal-parasites.html"
+    },
+    "parasiteindex": {
+      "label": "CDC DPDx: parasite identification and biology",
+      "url": "https://www.cdc.gov/dpdx/az.html"
+    },
+    "giardia": {
+      "label": "CDC: Giardia clinical care",
+      "url": "https://www.cdc.gov/giardia/hcp/clinical-care/index.html"
+    },
+    "blastocystis": {
+      "label": "Piperni et al., 2024: Blastocystis across 56,989 people",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38981480/"
+    },
+    "viruses": {
+      "label": "Nayfach et al., 2021: Metagenomic Gut Virus catalogue",
+      "url": "https://www.nature.com/articles/s41564-021-00928-6"
+    },
+    "ascaris": {
+      "label": "CDC DPDx: Ascaris lumbricoides",
+      "url": "https://www.cdc.gov/dpdx/ascariasis/index.html"
+    },
+    "trichuris": {
+      "label": "CDC DPDx: Trichuris trichiura",
+      "url": "https://www.cdc.gov/dpdx/trichuriasis/index.html"
+    },
+    "strongyloides": {
+      "label": "CDC DPDx: Strongyloides stercoralis",
+      "url": "https://www.cdc.gov/dpdx/strongyloidiasis/index.html"
+    },
+    "hookworms": {
+      "label": "CDC DPDx: Hookworms",
+      "url": "https://www.cdc.gov/dpdx/hookworm/index.html"
+    },
+    "entamoeba": {
+      "label": "CDC DPDx: Entamoeba histolytica",
+      "url": "https://www.cdc.gov/dpdx/amebiasis/index.html"
+    },
+    "cryptosporidium": {
+      "label": "CDC DPDx: Cryptosporidium",
+      "url": "https://www.cdc.gov/dpdx/cryptosporidiosis/index.html"
+    },
+    "dientamoeba": {
+      "label": "CDC DPDx: Dientamoeba fragilis",
+      "url": "https://www.cdc.gov/dpdx/dientamoeba/index.html"
+    },
+    "hpcancer": {
+      "label": "NCI: H. pylori, stomach cancer and MALT lymphoma",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/infectious-agents/h-pylori-fact-sheet"
+    },
+    "faecali-delivery": {
+      "label": "Synergy and oxygen adaptation for development of next-generation probiotics (2023)",
+      "url": "https://www.nature.com/articles/s41586-023-06378-w"
+    },
+    "bacteroides-infection": {
+      "label": "Bacteroides in blood and abscess isolates: clinical study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1361937/"
+    },
+    "enterobius": {
+      "label": "CDC · Enterobius vermicularis",
+      "url": "https://www.cdc.gov/dpdx/enterobiasis/index.html"
+    },
+    "hymenolepis": {
+      "label": "CDC · Hymenolepis nana",
+      "url": "https://www.cdc.gov/dpdx/hymenolepiasis/index.html"
+    },
+    "taenia-saginata": {
+      "label": "CDC · Taenia saginata",
+      "url": "https://www.cdc.gov/dpdx/taeniasis/index.html"
+    },
+    "taenia-solium": {
+      "label": "CDC · Taenia solium",
+      "url": "https://www.cdc.gov/dpdx/taeniasis/index.html"
+    },
+    "fish-tapeworm": {
+      "label": "CDC · Dibothriocephalus latus",
+      "url": "https://www.cdc.gov/dpdx/diphyllobothriasis/index.html"
+    },
+    "fasciolopsis": {
+      "label": "CDC · Fasciolopsis buski",
+      "url": "https://www.cdc.gov/dpdx/fasciolopsiasis/index.html"
+    },
+    "schistosoma": {
+      "label": "CDC · Schistosoma mansoni",
+      "url": "https://www.cdc.gov/dpdx/schistosomiasis/index.html"
+    },
+    "trichinella": {
+      "label": "CDC · Trichinella spiralis",
+      "url": "https://www.cdc.gov/dpdx/trichinellosis/index.html"
+    }
+  },
+  "community": [
+    {
+      "id": "prevotella",
+      "name": "Prevotella",
+      "group": "Bacteria",
+      "regions": [
+        "mouth",
+        "oesophagus",
+        "stomach",
+        "colon",
+        "rectum"
+      ],
+      "summary": [
+        "Prevotella is a diverse bacterial genus found in oral and intestinal communities. The organisms recovered from these sites are not a single population with one job.",
+        "Oral and gastric surveys place members alongside other bacteria at mucosal surfaces. Gut research follows their carbohydrate use and their response to diets. A genus label alone does not identify the species, its activity or a treatment."
+      ],
+      "papers": [
+        "oesoph-community",
+        "gastric-community"
+      ],
+      "sources": [
+        "oral"
+      ],
+      "evidence": "Community survey"
+    },
+    {
+      "id": "rothia",
+      "name": "Rothia",
+      "group": "Bacteria",
+      "regions": [
+        "mouth",
+        "oesophagus"
+      ],
+      "summary": [
+        "Rothia is part of the oral community. In a human tongue study, nitrate-reducing isolates included R. mucilaginosa and R. dentocariosa.",
+        "These bacteria help turn nitrate into nitrite before saliva is swallowed. The chemistry continues at the acid boundary between oesophagus and stomach."
+      ],
+      "papers": [
+        "oral-nitrate"
+      ],
+      "sources": [
+        "oral"
+      ],
+      "evidence": "Human isolates · nitrate reduction"
+    },
+    {
+      "id": "actinomyces",
+      "name": "Actinomyces",
+      "group": "Bacteria",
+      "regions": [
+        "mouth",
+        "oesophagus"
+      ],
+      "summary": [
+        "Actinomyces includes regular members of oral communities and dental biofilms. A human tongue study recovered nitrate-reducing A. odontolyticus and A. naeslundii.",
+        "Those isolates connect bacterial metabolism on the tongue with swallowed nitrite. Species identification and the occupied surface provide more information than the genus name alone."
+      ],
+      "papers": [
+        "oral-nitrate"
+      ],
+      "sources": [
+        "oral"
+      ],
+      "evidence": "Human isolates · nitrate reduction"
+    },
+    {
+      "id": "neisseria",
+      "name": "Neisseria",
+      "group": "Bacteria",
+      "regions": [
+        "mouth",
+        "oesophagus",
+        "stomach"
+      ],
+      "summary": [
+        "Members of Neisseria occur among the organisms detected in the mouth and upper digestive tract. A sample from saliva, plaque or a gastric biopsy describes a different surface and environment."
+      ],
+      "papers": [
+        "gastric-community"
+      ],
+      "sources": [
+        "oral"
+      ],
+      "evidence": "Community survey"
+    },
+    {
+      "id": "fusobacterium",
+      "name": "Fusobacterium",
+      "group": "Bacteria",
+      "regions": [
+        "mouth",
+        "oesophagus",
+        "stomach"
+      ],
+      "summary": [
+        "Fusobacterium occurs in mixed oral communities and has also been detected in upper-digestive-tract surveys. Its species and the tissue being sampled matter for understanding what the result describes."
+      ],
+      "papers": [
+        "gastric-community"
+      ],
+      "sources": [
+        "oral"
+      ],
+      "evidence": "Community survey"
+    },
+    {
+      "id": "porphyromonas",
+      "name": "Porphyromonas",
+      "group": "Bacteria",
+      "regions": [
+        "mouth"
+      ],
+      "summary": [
+        "Porphyromonas is one of the bacterial genera investigated in oral biofilms and gum disease. Inflamed gum pockets create a different habitat from the exposed surface of a clean tooth.",
+        "Dental care addresses the plaque community and damaged supporting tissues. A genus detected in a sample is not, by itself, a measure of how much gum disease is present."
+      ],
+      "papers": [],
+      "sources": [
+        "oral",
+        "gum"
+      ],
+      "evidence": "Community survey"
+    },
+    {
+      "id": "corynebacterium",
+      "name": "Corynebacterium",
+      "group": "Bacteria",
+      "regions": [
+        "mouth"
+      ],
+      "summary": [
+        "Corynebacterium forms part of the organised architecture visible in human dental plaque. Microscopy reveals bacteria arranged in structured neighbourhoods rather than an evenly mixed film.",
+        "The spatial study follows physical relationships between bacterial groups. The oral reference database connects those groups to a wider set of named and unnamed taxa."
+      ],
+      "papers": [
+        "oral"
+      ],
+      "sources": [
+        "oral"
+      ],
+      "evidence": "Community survey"
+    },
+    {
+      "id": "granulicatella",
+      "name": "Granulicatella",
+      "group": "Bacteria",
+      "regions": [
+        "mouth",
+        "oesophagus"
+      ],
+      "summary": [
+        "Granulicatella appears in aerodigestive bacterial reference collections. Its presence in a sample can be followed down to a named taxon rather than being grouped under a general label such as oral flora."
+      ],
+      "papers": [],
+      "sources": [
+        "oral"
+      ],
+      "evidence": "Community survey"
+    },
+    {
+      "id": "gemella",
+      "name": "Gemella",
+      "group": "Bacteria",
+      "regions": [
+        "mouth",
+        "oesophagus"
+      ],
+      "summary": [
+        "Gemella is represented in the oral and aerodigestive bacterial reference. It belongs to the wider community omitted by a short list of featured organisms."
+      ],
+      "papers": [],
+      "sources": [
+        "oral"
+      ],
+      "evidence": "Community survey"
+    },
+    {
+      "id": "haemophilus",
+      "name": "Haemophilus",
+      "group": "Bacteria",
+      "regions": [
+        "mouth",
+        "oesophagus"
+      ],
+      "summary": [
+        "Haemophilus includes members of the aerodigestive community. This genus contains several species, so a broad sequencing label should be followed to the most specific identification available."
+      ],
+      "papers": [],
+      "sources": [
+        "oral"
+      ],
+      "evidence": "Community survey"
+    },
+    {
+      "id": "ruminococcus",
+      "name": "Ruminococcus & related lineages",
+      "group": "Bacteria",
+      "regions": [
+        "colon",
+        "rectum"
+      ],
+      "summary": [
+        "These names cover intestinal bacterial lineages investigated for their use of complex food carbohydrates. Modern genome taxonomies split some familiar genus names into several groups."
+      ],
+      "papers": [],
+      "sources": [],
+      "evidence": "Genome reference"
+    },
+    {
+      "id": "roseburia",
+      "name": "Roseburia",
+      "group": "Bacteria",
+      "regions": [
+        "colon",
+        "rectum"
+      ],
+      "summary": [
+        "Roseburia includes intestinal bacteria studied for fermentation and butyrate production. It is part of a wider feeding network involving dietary substrates and products released by neighbours."
+      ],
+      "papers": [
+        "butyrate-acetate"
+      ],
+      "sources": [],
+      "evidence": "Fermentation experiments · genome reference"
+    },
+    {
+      "id": "eubacterium",
+      "name": "Eubacterium & related lineages",
+      "group": "Bacteria",
+      "regions": [
+        "colon",
+        "rectum"
+      ],
+      "summary": [
+        "Eubacterium is a historical name spanning several intestinal bacterial lineages. Reclassification means that current genome catalogues and older experiments can use different names for related organisms.",
+        "Some studied members produce butyrate during fermentation."
+      ],
+      "papers": [
+        "butyrate-acetate"
+      ],
+      "sources": [],
+      "evidence": "Fermentation experiments · genome reference"
+    },
+    {
+      "id": "enterobacteriaceae",
+      "name": "Enterobacteriaceae",
+      "group": "Bacteria",
+      "regions": [
+        "small",
+        "colon",
+        "rectum"
+      ],
+      "summary": [
+        "This bacterial family includes Escherichia and several other genera. Family-level detection is a broad description: it does not identify the strain, its toxin genes or its behaviour.",
+        "An infection experiment with toxin-producing E. coli showed that acetate from bifidobacteria reduced toxin passage across the mouse gut barrier. The host, bacterial strain and surrounding community all contributed to that outcome."
+      ],
+      "papers": [
+        "bifido-acetate"
+      ],
+      "sources": [],
+      "evidence": "Mouse infection experiment"
+    },
+    {
+      "id": "candida",
+      "name": "Candida albicans",
+      "group": "Fungi",
+      "regions": [
+        "mouth",
+        "oesophagus",
+        "colon",
+        "rectum"
+      ],
+      "summary": [
+        "Candida albicans is a yeast that can also grow as branching filaments. It can be carried without symptoms, while changes in host defences allow recognised infections such as oral thrush and oesophageal candidiasis.",
+        "In mouse intestinal experiments, antibodies preferentially targeted the invasive growth form. This links fungal shape to the way the immune system manages the organism.",
+        "Antifungal treatment addresses diagnosed infection and its site. A fungal DNA finding in stool does not establish that Candida is the cause of a person’s gut symptoms."
+      ],
+      "papers": [
+        "fungi-mutualism"
+      ],
+      "sources": [
+        "candida"
+      ],
+      "evidence": "Immune experiments · clinical infection guidance"
+    },
+    {
+      "id": "saccharomyces",
+      "name": "Saccharomyces",
+      "group": "Fungi",
+      "regions": [
+        "colon",
+        "rectum"
+      ],
+      "summary": [
+        "Saccharomyces includes yeasts associated with food and human gut samples. Some detected cells can arrive with food, so a stool result alone does not demonstrate permanent colonisation.",
+        "Fungal research follows their location, growth and interactions with intestinal immune cells. Selected preparations are also studied as probiotics; those preparations are distinct from the whole genus."
+      ],
+      "papers": [
+        "fungi"
+      ],
+      "sources": [],
+      "evidence": "Mucosal fungal-community experiments"
+    },
+    {
+      "id": "malassezia",
+      "name": "Malassezia restricta",
+      "group": "Fungi",
+      "regions": [
+        "colon",
+        "rectum"
+      ],
+      "summary": [
+        "Malassezia is familiar as a skin-associated fungal genus, and M. restricta has also been studied in the intestine. Researchers connected its presence with Crohn’s disease and tested a host immune pathway in mice.",
+        "In those experiments it worsened colitis through CARD9-related signalling. This is a specific fungal–immune interaction, not evidence that every fungal detection represents the same disease process."
+      ],
+      "papers": [
+        "fungi-malassezia"
+      ],
+      "sources": [],
+      "evidence": "Human association · mouse mechanism"
+    },
+    {
+      "id": "blastocystis",
+      "name": "Blastocystis",
+      "group": "Protists",
+      "regions": [
+        "colon",
+        "rectum"
+      ],
+      "summary": [
+        "Blastocystis is a single-celled eukaryote found in many human gut communities. It contains genetically distinct subtypes and is often detected in people without symptoms.",
+        "A study spanning 56,989 people linked its presence with healthier dietary patterns and more favourable cardiometabolic measures. That association does not establish that deliberately introducing it improves health.",
+        "Its relationship with symptoms is still being investigated. The useful distinction is between identifying the organism, identifying a subtype and demonstrating what it does in a particular host."
+      ],
+      "papers": [],
+      "sources": [
+        "blastocystis",
+        "parasiteindex"
+      ],
+      "evidence": "Large human metagenomic association study"
+    },
+    {
+      "id": "giardia",
+      "name": "Giardia duodenalis",
+      "group": "Protists",
+      "regions": [
+        "small"
+      ],
+      "summary": [
+        "Giardia is a flagellated single-celled parasite of the small intestine. Infection can cause diarrhoea, gas, cramps and problems absorbing nutrients. It is transmitted through swallowed cysts, including in contaminated water.",
+        "A stool test and clinical assessment connect the organism with a suspected infection. Antiparasitic medicines are used for symptomatic giardiasis; ongoing symptoms after treatment can also require checking for reinfection or a different cause."
+      ],
+      "papers": [],
+      "sources": [
+        "giardia",
+        "parasiteindex"
+      ],
+      "evidence": "Clinical parasitology"
+    },
+    {
+      "id": "cryptosporidium",
+      "name": "Cryptosporidium",
+      "group": "Protists",
+      "regions": [
+        "small"
+      ],
+      "summary": [
+        "Cryptosporidium infects the intestinal surface and can cause watery diarrhoea. Its resistant transmission stage is an oocyst, which can reach people through contaminated water or other faecal exposure.",
+        "This is an infection to investigate, rather than a missing community member to restore. Illness can be more serious when immune defences are weakened."
+      ],
+      "papers": [],
+      "sources": [
+        "cryptosporidium"
+      ],
+      "evidence": "Clinical parasitology"
+    },
+    {
+      "id": "entamoeba",
+      "name": "Entamoeba histolytica",
+      "group": "Protists",
+      "regions": [
+        "colon",
+        "rectum"
+      ],
+      "summary": [
+        "Entamoeba histolytica is an intestinal amoeba that can invade the colon and cause dysentery. Infection can also spread beyond the intestine.",
+        "Several Entamoeba species look similar under basic microscopy but differ in their relationship to disease. Species identification is important when interpreting an amoeba result."
+      ],
+      "papers": [],
+      "sources": [
+        "entamoeba"
+      ],
+      "evidence": "Clinical parasitology"
+    },
+    {
+      "id": "dientamoeba",
+      "name": "Dientamoeba fragilis",
+      "group": "Protists",
+      "regions": [
+        "colon",
+        "rectum"
+      ],
+      "summary": [
+        "Dientamoeba fragilis is a single-celled intestinal organism. It is included in clinical parasite references and can be found in people with and without gut symptoms.",
+        "Finding it raises questions about symptoms, other detected organisms and the testing method. Its detection and the demonstration that it causes a particular illness are separate findings."
+      ],
+      "papers": [],
+      "sources": [
+        "dientamoeba"
+      ],
+      "evidence": "Clinical reference"
+    },
+    {
+      "id": "ascaris",
+      "name": "Ascaris lumbricoides",
+      "group": "Worms",
+      "regions": [
+        "small"
+      ],
+      "summary": [
+        "Ascaris adults live in the small-intestinal contents, where a heavy burden can interfere with nutrition or obstruct the bowel. Infection begins with swallowing eggs that have matured in contaminated soil.",
+        "Before returning to the intestine as adults, larvae migrate through the body, including the lungs. The same infection therefore has an intestinal home and a wider tissue phase.",
+        "Sanitation and diagnosis-led deworming interrupt this cycle. Studies of soil-transmitted worms also examine how infection and treatment change neighbouring bacterial communities."
+      ],
+      "papers": [
+        "worms-deworming"
+      ],
+      "sources": [
+        "ascaris"
+      ],
+      "evidence": "Clinical parasitology",
+      "family": "Roundworms"
+    },
+    {
+      "id": "trichuris",
+      "name": "Trichuris trichiura",
+      "group": "Worms",
+      "regions": [
+        "colon",
+        "rectum"
+      ],
+      "summary": [
+        "The human whipworm embeds its thin front end in the lining of the caecum and ascending colon. Infection follows ingestion of mature eggs from contaminated soil or food.",
+        "Light infections often produce few symptoms. Heavy burdens can cause persistent diarrhoea, abdominal pain and, especially in children, growth problems or rectal prolapse.",
+        "Stool testing identifies characteristic eggs. Research on deworming follows both parasite clearance and changes in the bacterial community that shares this habitat."
+      ],
+      "papers": [
+        "worms-deworming",
+        "worms-immune"
+      ],
+      "sources": [
+        "trichuris"
+      ],
+      "evidence": "Clinical parasitology",
+      "family": "Roundworms"
+    },
+    {
+      "id": "strongyloides",
+      "name": "Strongyloides stercoralis",
+      "group": "Worms",
+      "regions": [
+        "small"
+      ],
+      "summary": [
+        "Strongyloides stercoralis begins with larvae penetrating the skin. Adult females occupy the small-intestinal lining and produce larvae that can leave the body or start another cycle within it.",
+        "This internal reinfection can sustain an infection for decades. Immunosuppression, especially corticosteroids, can trigger dangerous acceleration and spread of the infection.",
+        "Diagnosis uses parasite-specific testing suited to its life cycle. Possible past exposure matters when clinicians assess someone before immunosuppressive treatment."
+      ],
+      "papers": [],
+      "sources": [
+        "strongyloides"
+      ],
+      "evidence": "Clinical parasitology",
+      "family": "Roundworms"
+    },
+    {
+      "id": "hookworms",
+      "name": "Hookworms",
+      "group": "Worms",
+      "regions": [
+        "small"
+      ],
+      "summary": [
+        "Human intestinal hookworms include Necator americanus and Ancylostoma species. Adults attach to the small-intestinal lining and feed there, producing chronic blood loss when the burden is substantial.",
+        "Infective larvae in soil commonly enter through skin, then reach the intestine after a tissue-migration phase. Iron deficiency and impaired growth connect this local intestinal infection to the rest of the body.",
+        "Diagnosis and deworming are paired with attention to anaemia and ongoing exposure. Research also studies the bacterial and immune environment shared by hookworms and their host."
+      ],
+      "papers": [
+        "worms-deworming"
+      ],
+      "sources": [
+        "hookworms"
+      ],
+      "evidence": "Clinical parasitology",
+      "family": "Roundworms"
+    },
+    {
+      "id": "crass",
+      "name": "Crass-like bacteriophages",
+      "group": "Viruses",
+      "regions": [
+        "colon",
+        "rectum"
+      ],
+      "summary": [
+        "Crass-like phages are viruses associated with gut bacterial hosts. They sit within a large and still expanding diversity of bacterial viruses recovered from stool metagenomes.",
+        "The Metagenomic Gut Virus study assembled 189,680 draft viral genomes from 11,810 stool metagenomes."
+      ],
+      "papers": [
+        "phages-new"
+      ],
+      "sources": [
+        "viruses"
+      ],
+      "evidence": "Viral genome catalogue"
+    },
+    {
+      "id": "temperate-phages",
+      "name": "Temperate bacteriophages",
+      "group": "Viruses",
+      "regions": [
+        "mouth",
+        "oesophagus",
+        "stomach",
+        "small",
+        "colon",
+        "rectum"
+      ],
+      "summary": [
+        "Temperate phages can persist inside bacterial genomes. They may stay with a host lineage or enter a phase of producing new virus particles.",
+        "Long-read sequencing follows integrated viruses together with their bacterial hosts through time."
+      ],
+      "papers": [
+        "phages-new"
+      ],
+      "sources": [
+        "viruses"
+      ],
+      "evidence": "Long-read host–phage research"
+    },
+    {
+      "id": "enterobius",
+      "name": "Enterobius vermicularis",
+      "group": "Worms",
+      "family": "Roundworms",
+      "regions": [
+        "colon",
+        "rectum"
+      ],
+      "summary": [
+        "The human pinworm lives mainly in the caecum and adjacent colon. At night, females travel to the skin around the anus to lay eggs, often causing itching and disturbed sleep.",
+        "Eggs spread through contaminated hands, bedding and surfaces. Swallowed eggs hatch in the small intestine before the worms mature in the colon. This direct cycle makes reinfection within households common.",
+        "An early-morning adhesive-tape sample can detect eggs. Clinical care combines an appropriate antiparasitic medicine with measures that interrupt household transmission."
+      ],
+      "papers": [],
+      "sources": [
+        "enterobius"
+      ],
+      "evidence": "Clinical parasitology"
+    },
+    {
+      "id": "hymenolepis",
+      "name": "Hymenolepis nana",
+      "group": "Worms",
+      "family": "Tapeworms",
+      "regions": [
+        "small"
+      ],
+      "summary": [
+        "The dwarf tapeworm completes its adult stage in the small intestine. Unlike many tapeworms, it can pass directly between people through swallowed eggs, without requiring meat or an intermediate animal.",
+        "Larvae develop in intestinal villi, then return to the lumen as adults. Internal reinfection allows an infection to persist. Heavy burdens can cause abdominal discomfort and diarrhoea.",
+        "Stool examination identifies eggs. Treatment and prevention focus on clearing infection and interrupting faecal–oral exposure."
+      ],
+      "papers": [],
+      "sources": [
+        "hymenolepis"
+      ],
+      "evidence": "Clinical parasitology"
+    },
+    {
+      "id": "taenia-saginata",
+      "name": "Taenia saginata",
+      "group": "Worms",
+      "family": "Tapeworms",
+      "regions": [
+        "small"
+      ],
+      "summary": [
+        "The beef tapeworm attaches in the small intestine after a person eats infected undercooked beef. Its segmented body releases egg-containing segments that leave with stool.",
+        "Cattle acquire the eggs from contaminated surroundings, completing a cycle between people, cattle and food. Human infection often produces mild symptoms; seeing moving segments can be the first sign.",
+        "Laboratory identification of segments helps distinguish Taenia species. Prevention includes sanitation and adequate cooking of beef."
+      ],
+      "papers": [],
+      "sources": [
+        "taenia-saginata"
+      ],
+      "evidence": "Clinical parasitology"
+    },
+    {
+      "id": "taenia-solium",
+      "name": "Taenia solium",
+      "group": "Worms",
+      "family": "Tapeworms",
+      "regions": [
+        "small"
+      ],
+      "summary": [
+        "The pork tapeworm has two important human infection routes. Eating infected undercooked pork produces an adult worm in the intestine. Swallowing eggs from human faecal contamination can instead produce larval cysts in tissues, including the brain.",
+        "These are different diseases: intestinal taeniasis and tissue cysticercosis. A person carrying an adult worm can shed eggs that expose other people.",
+        "Species identification matters because of this tissue-infection route. Diagnosis and clinical treatment depend on where the parasite is and which stage is present."
+      ],
+      "papers": [],
+      "sources": [
+        "taenia-solium"
+      ],
+      "evidence": "Clinical parasitology"
+    },
+    {
+      "id": "fish-tapeworm",
+      "name": "Dibothriocephalus latus",
+      "group": "Worms",
+      "family": "Tapeworms",
+      "regions": [
+        "small"
+      ],
+      "summary": [
+        "The broad fish tapeworm, formerly called Diphyllobothrium latum, belongs to a group acquired from infected raw or undercooked fish. Adults attach to the small intestine using grooves on the head.",
+        "Its life cycle includes aquatic stages, small crustaceans and fish. Long adult worms produce many segments and eggs. Some infections remain unnoticed for years; others cause gastrointestinal symptoms.",
+        "Stool eggs or recovered segments support diagnosis. The CDC reference explains related fish-tapeworm species and the updated names used to distinguish them."
+      ],
+      "papers": [],
+      "sources": [
+        "fish-tapeworm"
+      ],
+      "evidence": "Clinical parasitology"
+    },
+    {
+      "id": "fasciolopsis",
+      "name": "Fasciolopsis buski",
+      "group": "Worms",
+      "family": "Flukes",
+      "regions": [
+        "small"
+      ],
+      "summary": [
+        "This large intestinal fluke is acquired by eating aquatic plants carrying encysted larvae. Snails support an earlier part of its life cycle; humans and pigs can host the adults.",
+        "After release in the duodenum, the larvae attach to the intestinal wall and mature. Light infections often cause no symptoms, while heavy infections can produce diarrhoea, abdominal pain and obstruction.",
+        "Eggs in stool support diagnosis, though their appearance overlaps with that of liver flukes. Exposure history and laboratory interpretation help identify the infection."
+      ],
+      "papers": [],
+      "sources": [
+        "fasciolopsis"
+      ],
+      "evidence": "Clinical parasitology"
+    },
+    {
+      "id": "schistosoma",
+      "name": "Schistosoma mansoni",
+      "group": "Worms",
+      "family": "Flukes",
+      "regions": [
+        "colon"
+      ],
+      "summary": [
+        "Schistosoma mansoni is a blood fluke with a strong intestinal connection. Adults live in veins draining the bowel, rather than freely in its contents. Eggs cross tissues toward the gut and can also become trapped in the liver.",
+        "Freshwater snails release larvae that penetrate human skin. Much of the tissue injury follows the immune response to eggs, linking an environmental exposure to bowel inflammation and liver disease.",
+        "Diagnosis uses the exposure history and appropriate parasite testing. The CDC reference maps the life cycle and distinguishes intestinal from urinary schistosomiasis."
+      ],
+      "papers": [],
+      "sources": [
+        "schistosoma"
+      ],
+      "evidence": "Clinical parasitology"
+    },
+    {
+      "id": "trichinella",
+      "name": "Trichinella spiralis",
+      "group": "Worms",
+      "family": "Roundworms",
+      "regions": [
+        "small"
+      ],
+      "summary": [
+        "Trichinella infection begins after infected undercooked meat is eaten. Larvae released during digestion enter the small-intestinal lining and develop into short-lived adults.",
+        "Their offspring then migrate to skeletal muscle. This movement explains why an infection that starts with gastrointestinal symptoms can later produce muscle pain and systemic illness.",
+        "Diagnosis follows the exposure, symptoms and appropriate blood or tissue tests. The life cycle connects food preparation, the intestinal wall and tissues far beyond the gut."
+      ],
+      "papers": [],
+      "sources": [
+        "trichinella"
+      ],
+      "evidence": "Clinical parasitology"
+    }
+  ],
+  "catalogues": {
+    "viruses": [
+      {
+        "name": "Unified Human Gut Virome (UHGV)",
+        "url": "https://github.com/snayfach/UHGV",
+        "description": "873,995 genomes grouped into 168,536 species-level viral clusters, with host predictions, taxonomy and genome-quality metadata.",
+        "paper": "10.1101/2025.11.01.686033"
+      },
+      {
+        "name": "Gut Phage Database",
+        "url": "https://www.sanger.ac.uk/data/gut-phage-database/",
+        "description": "142,809 non-redundant phage genomes assembled from 28,060 human gut metagenomes.",
+        "paper": "10.1016/j.cell.2021.01.029"
+      },
+      {
+        "name": "Metagenomic Gut Virus catalogue",
+        "url": "https://portal.nersc.gov/MGV/",
+        "description": "189,680 draft DNA-virus genomes from human stool metagenomes, with annotations and predicted bacterial hosts.",
+        "paper": "10.1038/s41564-021-00928-6"
+      }
+    ],
+    "protists": [
+      {
+        "name": "EukDetect2",
+        "url": "https://github.com/allind/EukDetect",
+        "description": "989 protist representative genomes within a microbial-eukaryote reference. Human-gut analyses include Blastocystis and Dientamoeba. The 2026 study is a preprint.",
+        "paper": "10.64898/2026.06.24.734308"
+      },
+      {
+        "name": "EukProt v3",
+        "url": "https://evocellbio.com/eukprot/",
+        "description": "993 eukaryotic protein datasets drawn from genomes and transcriptomes, spanning the eukaryotic tree."
+      },
+      {
+        "name": "BlastoDB",
+        "url": "https://blastodb.com/",
+        "description": "Blastocystis subtypes, genome resources, detection methods and cultivation information."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1829 @@
+{
+  "mechanisms": [
+    {
+      "id": "iron",
+      "title": "Iron: absorption, transport and storage",
+      "lead": "Dietary iron enters a tightly regulated recycling system. The gut supplies new iron; recycled red blood cells supply much of the iron used each day.",
+      "regions": [
+        "small",
+        "colon"
+      ],
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Dietary iron",
+          "compartment": "Gut lumen",
+          "role": "Iron released from food reaches the absorptive surface of the small intestine.",
+          "concept": "mechanism:dietary-iron"
+        },
+        {
+          "id": "1",
+          "name": "Enterocyte",
+          "compartment": "Small-intestinal lining",
+          "role": "An absorptive cell takes up iron and can retain it in ferritin.",
+          "concept": "mechanism:enterocyte"
+        },
+        {
+          "id": "2",
+          "name": "Ferroportin",
+          "compartment": "Cell surface",
+          "role": "The exporter releases iron from enterocytes and iron-recycling cells.",
+          "concept": "mechanism:ferroportin"
+        },
+        {
+          "id": "3",
+          "name": "Transferrin-bound iron",
+          "compartment": "Blood",
+          "role": "Transferrin carries iron to tissues, including bone marrow.",
+          "concept": "mechanism:transferrin-bound-iron"
+        },
+        {
+          "id": "4",
+          "name": "Marrow and recycling",
+          "compartment": "Body tissues",
+          "role": "Marrow makes red cells; macrophages recover iron from ageing red cells.",
+          "concept": "mechanism:marrow-and-recycling"
+        },
+        {
+          "id": "5",
+          "name": "Hepcidin",
+          "compartment": "Liver → blood",
+          "role": "This liver hormone reduces the number of active ferroportin exporters.",
+          "concept": "mechanism:hepcidin"
+        }
+      ],
+      "edges": [
+        {
+          "id": "e0",
+          "source": "0",
+          "target": "1",
+          "label": "uptake",
+          "kind": "transport",
+          "claim": "mechanism:iron:e0"
+        },
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2",
+          "label": "export route",
+          "kind": "transport",
+          "claim": "mechanism:iron:e1"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3",
+          "label": "release to blood",
+          "kind": "transport",
+          "claim": "mechanism:iron:e2"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4",
+          "label": "delivery",
+          "kind": "transport",
+          "claim": "mechanism:iron:e3"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "2",
+          "label": "recycled iron",
+          "kind": "transport",
+          "claim": "mechanism:iron:e4"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "2",
+          "label": "reduces export",
+          "kind": "inhibition",
+          "claim": "mechanism:iron:e5"
+        }
+      ],
+      "steps": [
+        {
+          "id": "0",
+          "title": "Crossing the lining",
+          "text": "Iron enters an enterocyte before export into blood. A dose swallowed is not the same quantity as a dose absorbed.",
+          "edges": [
+            "e0",
+            "e1",
+            "e2"
+          ],
+          "studies": [
+            "iron-timing",
+            "iron-export"
+          ]
+        },
+        {
+          "id": "1",
+          "title": "Transport and reuse",
+          "text": "Transferrin delivers iron to tissues. Recycling cells return recovered iron through ferroportin, connecting red-cell turnover to the circulating pool.",
+          "edges": [
+            "e3",
+            "e4"
+          ],
+          "studies": [
+            "iron-export"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "The regulatory brake",
+          "text": "Hepcidin binds ferroportin and removes it from the cell surface. IL-6 during inflammation can raise hepcidin and reduce circulating iron.",
+          "edges": [
+            "e5"
+          ],
+          "studies": [
+            "iron-export",
+            "iron-inflammation"
+          ]
+        }
+      ],
+      "measurements": [
+        {
+          "name": "Serum iron",
+          "text": "The iron circulating in the blood sample at that time; it varies across the day.",
+          "nodes": [
+            "3"
+          ]
+        },
+        {
+          "name": "Transferrin saturation",
+          "text": "The percentage of transferrin binding capacity occupied by iron: serum iron ÷ total iron-binding capacity × 100, using matching units.",
+          "nodes": [
+            "3"
+          ]
+        },
+        {
+          "name": "Ferritin",
+          "text": "A marker of iron stores that also rises during inflammation. Read alongside the blood count and inflammatory context.",
+          "nodes": [
+            "1",
+            "4"
+          ]
+        },
+        {
+          "name": "Hepcidin",
+          "text": "A regulatory measurement used in research and some specialist settings; it describes control of export rather than the size of iron stores.",
+          "nodes": [
+            "5"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "title": "Iron blood tests — MedlinePlus",
+          "url": "https://medlineplus.gov/lab-tests/iron-tests/"
+        }
+      ]
+    },
+    {
+      "id": "serotonin",
+      "title": "Serotonin: digestion, sensation and gut–brain signals",
+      "lead": "The gut uses serotonin to turn what it senses into movement, secretion and signals to the brain. It works within a two-way network of nerves, immune messages, hormones and microbial chemistry.",
+      "regions": [
+        "small",
+        "colon"
+      ],
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Tryptophan",
+          "compartment": "Food → host cells",
+          "role": "Dietary tryptophan supplies both peripheral and brain serotonin synthesis. Tryptophan crosses the blood–brain barrier; serotonin itself does not meaningfully cross it.",
+          "concept": "tryptophan"
+        },
+        {
+          "id": "1",
+          "name": "Enterochromaffin cells",
+          "compartment": "Gut lining",
+          "role": "These specialised lining cells make most intestinal serotonin using TPH1. Chemical and mechanical cues trigger release. A smaller population of enteric neurons makes serotonin using TPH2.",
+          "concept": "enterochromaffin-cells"
+        },
+        {
+          "id": "2",
+          "name": "Released serotonin",
+          "compartment": "Gut tissue",
+          "role": "Serotonin activates nearby receptors involved in movement, fluid and electrolyte secretion, sensation and immune responses. Its effect depends on the receptor and tissue.",
+          "concept": "mechanism:released-serotonin"
+        },
+        {
+          "id": "3",
+          "name": "Enteric and sensory nerves",
+          "compartment": "Gut wall",
+          "role": "Enteric circuits coordinate digestive reflexes. Serotonin can also activate receptors on sensory fibres, including vagal afferents that relay gut information toward the brainstem.",
+          "concept": "mechanism:enteric-and-sensory-nerves"
+        },
+        {
+          "id": "4",
+          "name": "Platelet uptake",
+          "compartment": "Blood",
+          "role": "Platelets take up peripheral serotonin through SERT and store it. On activation they release it into vascular, clotting and inflammatory responses. This circulating reservoir has a different destination from serotonin made inside the brain.",
+          "concept": "mechanism:platelet-uptake"
+        },
+        {
+          "id": "5",
+          "name": "Microbial metabolites",
+          "compartment": "Gut lumen",
+          "role": "Products of microbial metabolism influence enterochromaffin-cell activity.",
+          "concept": "mechanism:microbial-metabolites"
+        }
+      ],
+      "edges": [
+        {
+          "id": "e0",
+          "source": "0",
+          "target": "1",
+          "label": "synthesis substrate",
+          "kind": "transport",
+          "claim": "mechanism:serotonin:e0"
+        },
+        {
+          "id": "e1",
+          "source": "5",
+          "target": "1",
+          "label": "stimulates synthesis",
+          "kind": "signal",
+          "claim": "mechanism:serotonin:e1"
+        },
+        {
+          "id": "e2",
+          "source": "1",
+          "target": "2",
+          "label": "release",
+          "kind": "transport",
+          "claim": "mechanism:serotonin:e2"
+        },
+        {
+          "id": "e3",
+          "source": "2",
+          "target": "3",
+          "label": "receptor activation",
+          "kind": "signal",
+          "claim": "mechanism:serotonin:e3"
+        },
+        {
+          "id": "e4",
+          "source": "2",
+          "target": "4",
+          "label": "blood and uptake",
+          "kind": "transport",
+          "claim": "mechanism:serotonin:e4"
+        }
+      ],
+      "steps": [
+        {
+          "id": "0",
+          "title": "The gut makes and senses",
+          "text": "About 90–95% of the body’s serotonin is produced in the intestine, mostly by enterochromaffin cells. These host cells respond to the intestinal environment; microbial metabolites can regulate their synthesis. In the gut, serotonin coordinates digestive and sensory functions.",
+          "edges": [
+            "e0",
+            "e1"
+          ],
+          "studies": [
+            "serotonin-physiology",
+            "serotonin-microbes"
+          ]
+        },
+        {
+          "id": "1",
+          "title": "A chemical signal becomes a nerve message",
+          "text": "Released serotonin activates nearby sensory receptors, including 5-HT3 receptors on vagal fibres. The chemical acts near its release site; nerve activity carries information onward to the brainstem. Enteric circuits also use these signals to organise movement, secretion and sensation.",
+          "edges": [
+            "e2",
+            "e3"
+          ],
+          "studies": [
+            "serotonin-sensing",
+            "serotonin-vagal",
+            "serotonin-anatomy"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Blood, platelets and the brain",
+          "text": "Some gut serotonin enters blood and is collected by platelets, which release it when activated. Brain neurons make their own serotonin from tryptophan using TPH2. The gut influences brain activity through nerve signals, precursor metabolism, immunity and other microbial products; those connections do not require circulating serotonin to enter the brain.",
+          "edges": [
+            "e4"
+          ],
+          "studies": [
+            "serotonin-microbes",
+            "brain-tryptophan"
+          ]
+        }
+      ],
+      "measurements": [
+        {
+          "name": "Blood serotonin",
+          "text": "Sample type matters: platelets contain much of the serotonin measured in whole blood. A blood result does not measure brain serotonin.",
+          "nodes": [
+            "4"
+          ]
+        },
+        {
+          "name": "Tissue synthesis and release",
+          "text": "TPH1 expression, tissue serotonin and release assays describe different parts of the process.",
+          "nodes": [
+            "1",
+            "2"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "title": "Explore the gut–brain communication map",
+          "url": "/mechanisms#map=gut-brain"
+        },
+        {
+          "title": "Read the connected gut–brain guide",
+          "url": "/references#guide=gut-brain"
+        }
+      ]
+    },
+    {
+      "id": "bile",
+      "title": "Bile acids: digestion, recycling and signalling",
+      "lead": "Bile acids help absorb fats, circulate between intestine and liver, and act as chemical signals. Microbes reshape this circulating mixture.",
+      "regions": [
+        "small",
+        "colon"
+      ],
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Liver bile acids",
+          "compartment": "Liver",
+          "role": "The liver makes primary bile acids and secretes them into bile.",
+          "concept": "mechanism:liver-bile-acids"
+        },
+        {
+          "id": "1",
+          "name": "Digestive bile pool",
+          "compartment": "Small-intestinal lumen",
+          "role": "Bile acids participate in fat digestion and absorption.",
+          "concept": "mechanism:digestive-bile-pool"
+        },
+        {
+          "id": "2",
+          "name": "Microbial transformations",
+          "compartment": "Intestine",
+          "role": "Deconjugation and further transformations alter the bile-acid mixture.",
+          "concept": "mechanism:microbial-transformations"
+        },
+        {
+          "id": "3",
+          "name": "Ileal uptake",
+          "compartment": "Terminal ileum",
+          "role": "Most bile acids return through the portal circulation.",
+          "concept": "mechanism:ileal-uptake"
+        },
+        {
+          "id": "4",
+          "name": "FXR → FGF19",
+          "compartment": "Ileal cells → blood",
+          "role": "An intestinal feedback signal regulates liver synthesis.",
+          "concept": "mechanism:fxr-fgf19"
+        },
+        {
+          "id": "5",
+          "name": "Immune receptors",
+          "compartment": "Intestinal tissue",
+          "role": "Specific bile-acid derivatives influence immune-cell differentiation.",
+          "concept": "mechanism:immune-receptors"
+        }
+      ],
+      "edges": [
+        {
+          "id": "e0",
+          "source": "0",
+          "target": "1",
+          "label": "bile secretion",
+          "kind": "transport",
+          "claim": "mechanism:bile:e0"
+        },
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2",
+          "label": "microbial enzymes",
+          "kind": "conversion",
+          "claim": "mechanism:bile:e1"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3",
+          "label": "reabsorption",
+          "kind": "transport",
+          "claim": "mechanism:bile:e2"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "0",
+          "label": "portal return",
+          "kind": "transport",
+          "claim": "mechanism:bile:e3"
+        },
+        {
+          "id": "e4",
+          "source": "3",
+          "target": "4",
+          "label": "sensing",
+          "kind": "signal",
+          "claim": "mechanism:bile:e4"
+        },
+        {
+          "id": "e5",
+          "source": "4",
+          "target": "0",
+          "label": "reduces synthesis",
+          "kind": "inhibition",
+          "claim": "mechanism:bile:e5"
+        },
+        {
+          "id": "e6",
+          "source": "2",
+          "target": "5",
+          "label": "metabolite signals",
+          "kind": "signal",
+          "claim": "mechanism:bile:e6"
+        }
+      ],
+      "steps": [
+        {
+          "id": "0",
+          "title": "Changing the mixture",
+          "text": "Microbial bile salt hydrolases remove conjugated groups. Other enzymes produce secondary bile acids, changing the pool available for uptake and signalling.",
+          "edges": [
+            "e0",
+            "e1"
+          ],
+          "studies": [
+            "bile-bsh"
+          ]
+        },
+        {
+          "id": "1",
+          "title": "Closing the loop",
+          "text": "Ileal uptake returns bile acids to the liver. Intestinal FXR signalling induces FGF19, feeding back on liver synthesis.",
+          "edges": [
+            "e2",
+            "e3",
+            "e4",
+            "e5"
+          ],
+          "studies": [
+            "bile-human"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Beyond fat digestion",
+          "text": "Distinct derivatives can affect immune cells differently. The experimental T-cell results concern particular molecules and cell settings.",
+          "edges": [
+            "e6"
+          ],
+          "studies": [
+            "bile-tcells"
+          ]
+        }
+      ],
+      "measurements": [
+        {
+          "name": "Bile-acid profiles",
+          "text": "Blood or stool profiling identifies a mixture of primary, secondary and conjugated molecules; the sample location changes what is observed.",
+          "nodes": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "FGF19",
+          "text": "A circulating feedback hormone with a pronounced meal-related rhythm.",
+          "nodes": [
+            "4"
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "scfa",
+      "title": "Fibre to short-chain fatty acids",
+      "lead": "Microbes turn otherwise inaccessible carbohydrates into fuel and signals. Much of this chemistry depends on exchanges between different organisms.",
+      "regions": [
+        "colon"
+      ],
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Fermentable fibre",
+          "compartment": "Colon lumen",
+          "role": "Plant carbohydrates and resistant starch supply microbial substrates.",
+          "concept": "mechanism:fermentable-fibre"
+        },
+        {
+          "id": "1",
+          "name": "Primary degraders",
+          "compartment": "Microbial community",
+          "role": "Organisms break down complex carbohydrates and release fermentation products.",
+          "concept": "mechanism:primary-degraders"
+        },
+        {
+          "id": "2",
+          "name": "Acetate and lactate",
+          "compartment": "Shared metabolite pool",
+          "role": "Products made by one organism become substrates for another.",
+          "concept": "mechanism:acetate-and-lactate"
+        },
+        {
+          "id": "3",
+          "name": "Butyrate producers",
+          "compartment": "Microbial community",
+          "role": "Cross-feeding supports butyrate production.",
+          "concept": "mechanism:butyrate-producers"
+        },
+        {
+          "id": "4",
+          "name": "Colonocytes",
+          "compartment": "Colon lining",
+          "role": "These cells consume butyrate as an energy source.",
+          "concept": "mechanism:colonocytes"
+        },
+        {
+          "id": "5",
+          "name": "Portal and systemic pools",
+          "compartment": "Blood and liver",
+          "role": "Acetate, propionate and butyrate have different rates of uptake and use.",
+          "concept": "mechanism:portal-and-systemic-pools"
+        }
+      ],
+      "edges": [
+        {
+          "id": "e0",
+          "source": "0",
+          "target": "1",
+          "label": "degradation",
+          "kind": "conversion",
+          "claim": "mechanism:scfa:e0"
+        },
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2",
+          "label": "fermentation",
+          "kind": "conversion",
+          "claim": "mechanism:scfa:e1"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3",
+          "label": "cross-feeding",
+          "kind": "conversion",
+          "claim": "mechanism:scfa:e2",
+          "related_claims": [
+            "cross-feeding-butyrate"
+          ]
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4",
+          "label": "butyrate uptake",
+          "kind": "transport",
+          "claim": "mechanism:scfa:e3"
+        },
+        {
+          "id": "e4",
+          "source": "2",
+          "target": "5",
+          "label": "absorption",
+          "kind": "transport",
+          "claim": "mechanism:scfa:e4"
+        },
+        {
+          "id": "e5",
+          "source": "3",
+          "target": "5",
+          "label": "remaining butyrate",
+          "kind": "transport",
+          "claim": "mechanism:scfa:e5"
+        }
+      ],
+      "steps": [
+        {
+          "id": "0",
+          "title": "Opening the substrate",
+          "text": "Some community members unlock starches and fibres that others cannot digest.",
+          "edges": [
+            "e0",
+            "e1"
+          ],
+          "studies": [
+            "starch-keystone"
+          ]
+        },
+        {
+          "id": "1",
+          "title": "Microbes feed microbes",
+          "text": "Acetate-consuming butyrate producers can grow on products released by other bacteria.",
+          "edges": [
+            "e2"
+          ],
+          "studies": [
+            "cross-feeding",
+            "butyrate-acetate"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Where the products go",
+          "text": "Butyrate fuels the lining. Other fractions enter blood and are metabolised by the liver and wider body.",
+          "edges": [
+            "e3",
+            "e4",
+            "e5"
+          ],
+          "studies": [
+            "colonocyte-butyrate",
+            "scfa-flux"
+          ]
+        }
+      ],
+      "measurements": [
+        {
+          "name": "Stool SCFAs",
+          "text": "The amount left after production, microbial use, absorption and transit. A stool concentration is not a production rate.",
+          "nodes": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "Isotope tracing",
+          "text": "Labelled compounds reveal absorption and metabolic fate across compartments.",
+          "nodes": [
+            "4",
+            "5"
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "tryptophan",
+      "title": "Tryptophan: indoles, immunity and kynurenine",
+      "lead": "Tryptophan sits at a metabolic junction. Host cells and microbes send it into different routes with consequences for mucosal immunity and signalling.",
+      "regions": [
+        "small",
+        "colon"
+      ],
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Tryptophan",
+          "compartment": "Gut and host",
+          "role": "An amino acid supplied by dietary protein.",
+          "concept": "tryptophan"
+        },
+        {
+          "id": "1",
+          "name": "Microbial indoles",
+          "compartment": "Gut lumen",
+          "role": "Microbial enzymes create chemically diverse indole derivatives.",
+          "concept": "mechanism:microbial-indoles"
+        },
+        {
+          "id": "2",
+          "name": "AhR receptor",
+          "compartment": "Host cells",
+          "role": "A chemical sensor activated by particular ligands.",
+          "concept": "mechanism:ahr-receptor"
+        },
+        {
+          "id": "3",
+          "name": "IL-22 response",
+          "compartment": "Mucosal tissue",
+          "role": "A cytokine pathway involved in epithelial defence.",
+          "concept": "mechanism:il-22-response"
+        },
+        {
+          "id": "4",
+          "name": "Kynurenine pathway",
+          "compartment": "Host and microbes",
+          "role": "Host IDO/TDO enzymes and microbial activities metabolise tryptophan along this branch.",
+          "concept": "mechanism:kynurenine-pathway"
+        },
+        {
+          "id": "5",
+          "name": "Serotonin pathway",
+          "compartment": "Host cells",
+          "role": "A separate branch supplies peripheral or brain serotonin synthesis.",
+          "concept": "mechanism:serotonin-pathway"
+        }
+      ],
+      "edges": [
+        {
+          "id": "e0",
+          "source": "0",
+          "target": "1",
+          "label": "microbial metabolism",
+          "kind": "conversion",
+          "claim": "mechanism:tryptophan:e0"
+        },
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2",
+          "label": "ligand binding",
+          "kind": "signal",
+          "claim": "mechanism:tryptophan:e1"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3",
+          "label": "immune signalling",
+          "kind": "signal",
+          "claim": "mechanism:tryptophan:e2"
+        },
+        {
+          "id": "e3",
+          "source": "0",
+          "target": "4",
+          "label": "catabolism",
+          "kind": "conversion",
+          "claim": "mechanism:tryptophan:e3"
+        },
+        {
+          "id": "e4",
+          "source": "0",
+          "target": "5",
+          "label": "host synthesis",
+          "kind": "conversion",
+          "claim": "mechanism:tryptophan:e4"
+        }
+      ],
+      "steps": [
+        {
+          "id": "0",
+          "title": "Making indoles",
+          "text": "Different microbes produce different tryptophan derivatives; indole-3-aldehyde is one experimentally traced example.",
+          "edges": [
+            "e0"
+          ],
+          "studies": [
+            "indoles-ahr"
+          ]
+        },
+        {
+          "id": "1",
+          "title": "A receptor connects chemistry to tissue",
+          "text": "Specific ligands engage AhR and change IL-22-linked mucosal responses.",
+          "edges": [
+            "e1",
+            "e2"
+          ],
+          "studies": [
+            "indoles-ahr",
+            "indoles-card9"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Competing metabolic branches",
+          "text": "Kynurenine metabolism involves host as well as microbial enzymes. Serotonin synthesis is another destination for the same precursor.",
+          "edges": [
+            "e3",
+            "e4"
+          ],
+          "studies": [
+            "kynurenine",
+            "serotonin-microbes"
+          ]
+        }
+      ],
+      "measurements": [
+        {
+          "name": "Metabolite panels",
+          "text": "Measure particular indoles rather than treating all indole compounds as interchangeable.",
+          "nodes": [
+            "1"
+          ]
+        },
+        {
+          "name": "Kynurenine / tryptophan",
+          "text": "A ratio influenced by substrate availability and host inflammatory metabolism; it is not a direct readout of mood.",
+          "nodes": [
+            "0",
+            "4"
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "b12",
+      "title": "Vitamin B12: uptake and microbial competition",
+      "lead": "B12 supports blood formation and the nervous system. Its human absorption route runs alongside a microbial economy of related cofactors.",
+      "regions": [
+        "stomach",
+        "small",
+        "colon"
+      ],
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Food B12",
+          "compartment": "Upper digestive tract",
+          "role": "Digestion releases B12 from food proteins.",
+          "concept": "mechanism:food-b12"
+        },
+        {
+          "id": "1",
+          "name": "Intrinsic-factor complex",
+          "compartment": "Stomach → small intestine",
+          "role": "B12 binds intrinsic factor after earlier digestive binding steps.",
+          "concept": "mechanism:intrinsic-factor-complex"
+        },
+        {
+          "id": "2",
+          "name": "Cubam uptake",
+          "compartment": "Terminal ileum",
+          "role": "Cubilin and amnionless enable uptake of the complex.",
+          "concept": "mechanism:cubam-uptake"
+        },
+        {
+          "id": "3",
+          "name": "Host B12 supply",
+          "compartment": "Blood and tissues",
+          "role": "Absorbed B12 supports human enzyme reactions.",
+          "concept": "mechanism:host-b12-supply"
+        },
+        {
+          "id": "4",
+          "name": "Microbial corrinoids",
+          "compartment": "Colon community",
+          "role": "Some microbes synthesise B12 or related corrinoids.",
+          "concept": "mechanism:microbial-corrinoids"
+        },
+        {
+          "id": "5",
+          "name": "Microbial importers",
+          "compartment": "Microbial cell surface",
+          "role": "Other organisms rely on uptake and compete for available cofactors.",
+          "concept": "mechanism:microbial-importers"
+        }
+      ],
+      "edges": [
+        {
+          "id": "e0",
+          "source": "0",
+          "target": "1",
+          "label": "digestive binding",
+          "kind": "transport",
+          "claim": "mechanism:b12:e0"
+        },
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2",
+          "label": "receptor uptake",
+          "kind": "transport",
+          "claim": "mechanism:b12:e1"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3",
+          "label": "host supply",
+          "kind": "transport",
+          "claim": "mechanism:b12:e2"
+        },
+        {
+          "id": "e3",
+          "source": "4",
+          "target": "5",
+          "label": "cofactor exchange",
+          "kind": "transport",
+          "claim": "mechanism:b12:e3"
+        },
+        {
+          "id": "e4",
+          "source": "0",
+          "target": "5",
+          "label": "microbial capture",
+          "kind": "transport",
+          "claim": "mechanism:b12:e4"
+        }
+      ],
+      "steps": [
+        {
+          "id": "0",
+          "title": "The host absorption route",
+          "text": "Food B12 is released during digestion. Intrinsic factor, secreted by the stomach, carries B12 to the specialised uptake system in the terminal ileum.",
+          "edges": [
+            "e0",
+            "e1",
+            "e2"
+          ],
+          "studies": [
+            "b12-host"
+          ]
+        },
+        {
+          "id": "1",
+          "title": "A microbial cofactor economy",
+          "text": "Mucus-associated partners can exchange corrinoids. Pseudovitamin B12 in a bacterial coculture supported microbial metabolism.",
+          "edges": [
+            "e3"
+          ],
+          "studies": [
+            "b12-production"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Competition and location",
+          "text": "Microbial transport systems discriminate among corrinoids. Colonic production occurs downstream of the main human absorption site.",
+          "edges": [
+            "e4"
+          ],
+          "studies": [
+            "b12-competition"
+          ]
+        }
+      ],
+      "measurements": [
+        {
+          "name": "Blood B12",
+          "text": "A circulating nutritional marker interpreted alongside symptoms and other laboratory findings.",
+          "nodes": [
+            "3"
+          ]
+        },
+        {
+          "name": "Methylmalonic acid",
+          "text": "Can reveal impaired B12-dependent metabolism; kidney function also influences the concentration.",
+          "nodes": [
+            "3"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "title": "Vitamin B12 — NIH Office of Dietary Supplements",
+          "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+        }
+      ]
+    },
+    {
+      "id": "mucus",
+      "title": "Mucus: renewal, habitat and barrier",
+      "lead": "The gut continually builds a living boundary. Mucus separates tissue from dense microbial populations while supplying habitat and food at its outer edge.",
+      "regions": [
+        "colon"
+      ],
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Goblet cells",
+          "compartment": "Colon lining",
+          "role": "Specialised epithelial cells secrete MUC2 mucin.",
+          "concept": "mechanism:goblet-cells"
+        },
+        {
+          "id": "1",
+          "name": "Inner mucus",
+          "compartment": "Near the epithelium",
+          "role": "A dense protective layer in the healthy colon.",
+          "concept": "mechanism:inner-mucus"
+        },
+        {
+          "id": "2",
+          "name": "Outer mucus",
+          "compartment": "Luminal boundary",
+          "role": "Expanded mucus creates a microbial habitat.",
+          "concept": "mechanism:outer-mucus"
+        },
+        {
+          "id": "3",
+          "name": "Mucin foragers",
+          "compartment": "Microbial community",
+          "role": "Organisms release and consume mucus-derived sugars.",
+          "concept": "mechanism:mucin-foragers"
+        },
+        {
+          "id": "4",
+          "name": "Dietary fibre",
+          "compartment": "Colon lumen",
+          "role": "An alternative source of microbial carbohydrates.",
+          "concept": "fibre"
+        },
+        {
+          "id": "5",
+          "name": "Epithelial surface",
+          "compartment": "Host tissue",
+          "role": "The cell layer underlying the mucus boundary.",
+          "concept": "mechanism:epithelial-surface"
+        }
+      ],
+      "edges": [
+        {
+          "id": "e0",
+          "source": "0",
+          "target": "1",
+          "label": "mucin secretion",
+          "kind": "transport",
+          "claim": "mechanism:mucus:e0"
+        },
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2",
+          "label": "expansion and turnover",
+          "kind": "conversion",
+          "claim": "mechanism:mucus:e1"
+        },
+        {
+          "id": "e2",
+          "source": "1",
+          "target": "5",
+          "label": "physical protection",
+          "kind": "signal",
+          "claim": "mechanism:mucus:e2"
+        },
+        {
+          "id": "e3",
+          "source": "2",
+          "target": "3",
+          "label": "glycan use",
+          "kind": "conversion",
+          "claim": "mechanism:mucus:e3"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "3",
+          "label": "alternative substrate",
+          "kind": "transport",
+          "claim": "mechanism:mucus:e4"
+        }
+      ],
+      "steps": [
+        {
+          "id": "0",
+          "title": "Building separation",
+          "text": "Secreted mucin forms structured layers that keep the densest bacterial populations away from the epithelium.",
+          "edges": [
+            "e0",
+            "e1",
+            "e2"
+          ],
+          "studies": [
+            "mucus-layers"
+          ]
+        },
+        {
+          "id": "1",
+          "title": "Feeding at the boundary",
+          "text": "Microbes use glycans released from mucus. This ecology connects mucin foragers to other community members.",
+          "edges": [
+            "e3"
+          ],
+          "studies": [
+            "b12-production"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Changing the food supply",
+          "text": "In fibre-deprived mice, greater mucus foraging eroded protection. Fibre availability changes the balance of substrates being consumed.",
+          "edges": [
+            "e4"
+          ],
+          "studies": [
+            "mucus-fibre"
+          ]
+        }
+      ],
+      "measurements": [
+        {
+          "name": "Mucus thickness and penetration",
+          "text": "Microscopy and penetration assays describe the physical barrier; they differ from measuring a stool organism.",
+          "nodes": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "name": "Faecal calprotectin",
+          "text": "An intestinal inflammatory marker, rather than a direct measurement of mucus thickness or permeability.",
+          "nodes": [
+            "5"
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "immune",
+      "title": "Immune sensing: recognition and regulation",
+      "lead": "The intestine samples microbial molecules continually. Some signals mobilise defence; others support regulation and long-term coexistence.",
+      "regions": [
+        "small",
+        "colon"
+      ],
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Bacterial molecules",
+          "compartment": "Microbial surface",
+          "role": "Structures such as B. fragilis polysaccharide A reach host sensors.",
+          "concept": "mechanism:bacterial-molecules"
+        },
+        {
+          "id": "1",
+          "name": "TLR2 sensing",
+          "compartment": "Immune-cell surface",
+          "role": "A receptor recognises particular microbial signals.",
+          "concept": "mechanism:tlr2-sensing"
+        },
+        {
+          "id": "2",
+          "name": "Regulatory T cells",
+          "compartment": "Intestinal tissue",
+          "role": "These cells help regulate immune responses.",
+          "concept": "mechanism:regulatory-t-cells"
+        },
+        {
+          "id": "3",
+          "name": "Butyrate",
+          "compartment": "Colon metabolite pool",
+          "role": "A fermentation product affects immune-cell differentiation.",
+          "concept": "butyrate"
+        },
+        {
+          "id": "4",
+          "name": "Foxp3 regulation",
+          "compartment": "Immune-cell nucleus",
+          "role": "Gene regulation supports regulatory T-cell identity.",
+          "concept": "mechanism:foxp3-regulation"
+        },
+        {
+          "id": "5",
+          "name": "Community combinations",
+          "compartment": "Small-intestinal microbes",
+          "role": "Signals from several organisms can alter the combined cytokine response.",
+          "concept": "mechanism:community-combinations"
+        }
+      ],
+      "edges": [
+        {
+          "id": "e0",
+          "source": "0",
+          "target": "1",
+          "label": "recognition",
+          "kind": "signal",
+          "claim": "mechanism:immune:e0"
+        },
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2",
+          "label": "regulatory response",
+          "kind": "signal",
+          "claim": "mechanism:immune:e1"
+        },
+        {
+          "id": "e2",
+          "source": "3",
+          "target": "4",
+          "label": "gene regulation",
+          "kind": "signal",
+          "claim": "mechanism:immune:e2"
+        },
+        {
+          "id": "e3",
+          "source": "4",
+          "target": "2",
+          "label": "differentiation",
+          "kind": "signal",
+          "claim": "mechanism:immune:e3"
+        },
+        {
+          "id": "e4",
+          "source": "5",
+          "target": "1",
+          "label": "combined sensing",
+          "kind": "signal",
+          "claim": "mechanism:immune:e4"
+        }
+      ],
+      "steps": [
+        {
+          "id": "0",
+          "title": "Recognising a resident",
+          "text": "B. fragilis polysaccharide A can engage a regulatory immune pathway through TLR2.",
+          "edges": [
+            "e0",
+            "e1"
+          ],
+          "studies": [
+            "immune-tlr2"
+          ]
+        },
+        {
+          "id": "1",
+          "title": "Metabolism reaches the nucleus",
+          "text": "Butyrate can influence chromatin at the Foxp3 locus and promote regulatory T-cell differentiation.",
+          "edges": [
+            "e2",
+            "e3"
+          ],
+          "studies": [
+            "immune-butyrate"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Communities send combined signals",
+          "text": "Experiments with human intestinal isolates show that combined organisms can change dendritic-cell cytokine responses.",
+          "edges": [
+            "e4"
+          ],
+          "studies": [
+            "small-immune"
+          ]
+        }
+      ],
+      "measurements": [
+        {
+          "name": "Cytokines and immune-cell populations",
+          "text": "Assays identify particular signalling outputs and cell types; sample tissue and timing are part of the result.",
+          "nodes": [
+            "1",
+            "2",
+            "4"
+          ]
+        },
+        {
+          "name": "Local metabolite exposure",
+          "text": "Stool butyrate and the concentration experienced by tissue immune cells are different measurements.",
+          "nodes": [
+            "3"
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "hydrogen",
+      "title": "Hydrogen: cross-feeding, methane and competing sinks",
+      "lead": "Fermentation releases hydrogen. Other microbes consume it, changing which reactions remain favourable and which gases and metabolites accumulate.",
+      "regions": [
+        "colon"
+      ],
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Fermenting bacteria",
+          "compartment": "Colon lumen",
+          "role": "Carbohydrate fermentation releases hydrogen and other products.",
+          "concept": "mechanism:fermenting-bacteria"
+        },
+        {
+          "id": "1",
+          "name": "Hydrogen and formate",
+          "compartment": "Shared metabolite pool",
+          "role": "Electron-rich products pass between microbial partners.",
+          "concept": "mechanism:hydrogen-and-formate"
+        },
+        {
+          "id": "2",
+          "name": "Methanogenic archaea",
+          "compartment": "Microbial community",
+          "role": "Methanogens use suitable substrates to make methane.",
+          "concept": "mechanism:methanogenic-archaea"
+        },
+        {
+          "id": "3",
+          "name": "Methane",
+          "compartment": "Gut gas",
+          "role": "Gas can leave in breath or intestinal gas.",
+          "concept": "mechanism:methane"
+        },
+        {
+          "id": "4",
+          "name": "Other hydrogen consumers",
+          "compartment": "Microbial community",
+          "role": "Acetogens and sulfate reducers provide competing routes.",
+          "concept": "mechanism:other-hydrogen-consumers"
+        },
+        {
+          "id": "5",
+          "name": "Acetate or sulfide",
+          "compartment": "Colon metabolite pool",
+          "role": "Different consumers produce different end products.",
+          "concept": "mechanism:acetate-or-sulfide"
+        }
+      ],
+      "edges": [
+        {
+          "id": "e0",
+          "source": "0",
+          "target": "1",
+          "label": "fermentation products",
+          "kind": "conversion",
+          "claim": "mechanism:hydrogen:e0"
+        },
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2",
+          "label": "substrate uptake",
+          "kind": "transport",
+          "claim": "mechanism:hydrogen:e1"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3",
+          "label": "methanogenesis",
+          "kind": "conversion",
+          "claim": "mechanism:hydrogen:e2"
+        },
+        {
+          "id": "e3",
+          "source": "1",
+          "target": "4",
+          "label": "competing uptake",
+          "kind": "transport",
+          "claim": "mechanism:hydrogen:e3"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5",
+          "label": "alternative products",
+          "kind": "conversion",
+          "claim": "mechanism:hydrogen:e4"
+        }
+      ],
+      "steps": [
+        {
+          "id": "0",
+          "title": "A shared resource",
+          "text": "Bacterial fermentation products can sustain methanogens. Defined cocultures show nutrient-dependent partnerships.",
+          "edges": [
+            "e0",
+            "e1"
+          ],
+          "studies": [
+            "methane-partners"
+          ]
+        },
+        {
+          "id": "1",
+          "title": "Making methane",
+          "text": "Methanogenic archaea turn substrates into methane. Breath methane is associated with constipation and slower transit in clinical studies.",
+          "edges": [
+            "e2"
+          ],
+          "studies": [
+            "methane-partners",
+            "methane-transit"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Alternative destinations",
+          "text": "Hydrogen also feeds acetogenic and sulfate-reducing routes. Their relative activity depends on the community and local chemistry.",
+          "edges": [
+            "e3",
+            "e4"
+          ],
+          "studies": [
+            "hydrogen-sinks"
+          ]
+        }
+      ],
+      "measurements": [
+        {
+          "name": "Breath hydrogen and methane",
+          "text": "Gas concentrations reflect production, consumption, absorption and transit. They do not count bacterial or archaeal species.",
+          "nodes": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "name": "Transit time",
+          "text": "Measured passage through the gut helps distinguish a gas association from the process moving intestinal contents.",
+          "nodes": [
+            "0",
+            "3"
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "motility",
+      "title": "Movement: microbial chemistry, nerves and muscle",
+      "lead": "Digestion depends on coordinated movement and secretion. Chemical sensors, enteric nerves, immune cells and smooth muscle form the control system.",
+      "regions": [
+        "small",
+        "colon",
+        "rectum"
+      ],
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Luminal chemicals",
+          "compartment": "Intestinal contents",
+          "role": "Nutrients and microbial metabolites stimulate host sensory cells.",
+          "concept": "mechanism:luminal-chemicals"
+        },
+        {
+          "id": "1",
+          "name": "Enterochromaffin cells",
+          "compartment": "Gut lining",
+          "role": "Chemical sensing triggers serotonin release.",
+          "concept": "enterochromaffin-cells"
+        },
+        {
+          "id": "2",
+          "name": "Enteric neural circuits",
+          "compartment": "Gut wall",
+          "role": "Neural networks coordinate motor and secretory responses.",
+          "concept": "mechanism:enteric-neural-circuits"
+        },
+        {
+          "id": "3",
+          "name": "Smooth muscle and transit",
+          "compartment": "Gut wall",
+          "role": "Contraction patterns move and mix intestinal contents.",
+          "concept": "mechanism:smooth-muscle-and-transit"
+        },
+        {
+          "id": "4",
+          "name": "Muscularis macrophages",
+          "compartment": "Around the muscle",
+          "role": "Immune cells signal to enteric neurons through BMP2.",
+          "concept": "mechanism:muscularis-macrophages"
+        },
+        {
+          "id": "5",
+          "name": "Neuronal CSF1",
+          "compartment": "Neural support signal",
+          "role": "Neurons provide a survival signal to local macrophages.",
+          "concept": "mechanism:neuronal-csf1"
+        }
+      ],
+      "edges": [
+        {
+          "id": "e0",
+          "source": "0",
+          "target": "1",
+          "label": "chemical sensing",
+          "kind": "signal",
+          "claim": "mechanism:motility:e0"
+        },
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2",
+          "label": "serotonin signal",
+          "kind": "signal",
+          "claim": "mechanism:motility:e1"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3",
+          "label": "motor output",
+          "kind": "signal",
+          "claim": "mechanism:motility:e2"
+        },
+        {
+          "id": "e3",
+          "source": "4",
+          "target": "2",
+          "label": "BMP2",
+          "kind": "signal",
+          "claim": "mechanism:motility:e3"
+        },
+        {
+          "id": "e4",
+          "source": "2",
+          "target": "5",
+          "label": "CSF1 production",
+          "kind": "signal",
+          "claim": "mechanism:motility:e4"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "4",
+          "label": "cell support",
+          "kind": "signal",
+          "claim": "mechanism:motility:e5"
+        }
+      ],
+      "steps": [
+        {
+          "id": "0",
+          "title": "Detecting the contents",
+          "text": "Enterochromaffin cells translate chemical cues into serotonin-mediated sensory signalling.",
+          "edges": [
+            "e0",
+            "e1"
+          ],
+          "studies": [
+            "serotonin-sensing"
+          ]
+        },
+        {
+          "id": "1",
+          "title": "Coordinating movement",
+          "text": "Microbiota-dependent serotonin signalling can change enteric neural development and transit in mice.",
+          "edges": [
+            "e2"
+          ],
+          "studies": [
+            "motility-serotonin"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "A neuroimmune feedback loop",
+          "text": "Macrophages and enteric neurons exchange BMP2 and CSF1 signals. This loop links microbial stimuli to movement through a tissue support network.",
+          "edges": [
+            "e3",
+            "e4",
+            "e5"
+          ],
+          "studies": [
+            "motility-macrophages"
+          ]
+        }
+      ],
+      "measurements": [
+        {
+          "name": "Transit measurements",
+          "text": "Whole-gut or regional passage time measures movement. Stool frequency alone does not describe every part of transit.",
+          "nodes": [
+            "3"
+          ]
+        },
+        {
+          "name": "Manometry and secretion assays",
+          "text": "Pressure patterns and fluid secretion measure distinct outputs of the control system.",
+          "nodes": [
+            "2",
+            "3"
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "gut-brain",
+      "title": "Gut–brain communication: a two-way network",
+      "lead": "The gut and brain continually exchange information. Nerves carry electrical messages, blood carries precursors and hormones, and microbial products shape immune and sensory responses.",
+      "regions": [
+        "stomach",
+        "small",
+        "colon"
+      ],
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Gut activity",
+          "compartment": "Lumen and lining",
+          "role": "Food, microbes, movement and host sensory cells generate several kinds of signals at once.",
+          "concept": "mechanism:gut-activity"
+        },
+        {
+          "id": "1",
+          "name": "Sensory nerve fibres",
+          "compartment": "Gut → brainstem",
+          "role": "Vagal and other sensory pathways carry information toward the central nervous system. Local serotonin can activate nerve receptors; neuropod cells can also signal through glutamate.",
+          "concept": "mechanism:sensory-nerve-fibres"
+        },
+        {
+          "id": "2",
+          "name": "Brain networks",
+          "compartment": "Brainstem and brain",
+          "role": "Incoming visceral information meets brain circuits involved in appetite, sensation, stress and behaviour. Brain serotonin is made locally from imported tryptophan.",
+          "concept": "mechanism:brain-networks"
+        },
+        {
+          "id": "3",
+          "name": "Tryptophan availability",
+          "compartment": "Blood → brain",
+          "role": "Tryptophan can cross the blood–brain barrier. Host and microbial metabolism influence its availability and its conversion into serotonin, kynurenine and indole-related products.",
+          "concept": "mechanism:tryptophan-availability"
+        },
+        {
+          "id": "4",
+          "name": "Immune and metabolic signals",
+          "compartment": "Gut, blood and tissue",
+          "role": "Barrier biology, immune mediators and microbial metabolites connect gut activity with host responses. Their effects involve several intermediary cells and tissues.",
+          "concept": "mechanism:immune-and-metabolic-signals"
+        },
+        {
+          "id": "5",
+          "name": "Autonomic and stress output",
+          "compartment": "Brain → body and gut",
+          "role": "Autonomic nerves and the hypothalamic–pituitary–adrenal system change digestive conditions, including motor, secretory and immune activity.",
+          "concept": "mechanism:autonomic-and-stress-output"
+        }
+      ],
+      "edges": [
+        {
+          "id": "e0",
+          "source": "0",
+          "target": "1",
+          "label": "local chemical sensing",
+          "kind": "signal",
+          "claim": "mechanism:gut-brain:e0"
+        },
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2",
+          "label": "ascending neural activity",
+          "kind": "signal",
+          "claim": "mechanism:gut-brain:e1"
+        },
+        {
+          "id": "e2",
+          "source": "0",
+          "target": "3",
+          "label": "precursor metabolism",
+          "kind": "conversion",
+          "claim": "mechanism:gut-brain:e2"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "2",
+          "label": "tryptophan transport",
+          "kind": "transport",
+          "claim": "mechanism:gut-brain:e3"
+        },
+        {
+          "id": "e4",
+          "source": "0",
+          "target": "4",
+          "label": "metabolites and immunity",
+          "kind": "signal",
+          "claim": "mechanism:gut-brain:e4"
+        },
+        {
+          "id": "e5",
+          "source": "4",
+          "target": "2",
+          "label": "neuroimmune effects",
+          "kind": "signal",
+          "claim": "mechanism:gut-brain:e5"
+        },
+        {
+          "id": "e6",
+          "source": "2",
+          "target": "5",
+          "label": "central regulation",
+          "kind": "signal",
+          "claim": "mechanism:gut-brain:e6"
+        },
+        {
+          "id": "e7",
+          "source": "5",
+          "target": "0",
+          "label": "descending control",
+          "kind": "signal",
+          "claim": "mechanism:gut-brain:e7"
+        }
+      ],
+      "steps": [
+        {
+          "id": "0",
+          "title": "Neural communication",
+          "text": "Serotonin activates receptors on sensory nerve fibres. These fibres transmit electrical activity toward the brain. Separate neuropod-cell experiments identify a fast glutamate-mediated vagal circuit, adding another route from intestinal contents to the brainstem.",
+          "edges": [
+            "e0",
+            "e1"
+          ],
+          "studies": [
+            "serotonin-vagal",
+            "brain-vagus"
+          ]
+        },
+        {
+          "id": "1",
+          "title": "A shared precursor",
+          "text": "Both gut and brain serotonin synthesis use dietary tryptophan. Its transport into the brain differs from serotonin movement. Microbial and host metabolism change the precursor landscape, including the kynurenine and indole branches.",
+          "edges": [
+            "e2",
+            "e3"
+          ],
+          "studies": [
+            "brain-tryptophan",
+            "kynurenine"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Immune communication",
+          "text": "Microbes influence intestinal immune responses and barrier function. Brain immune cells also respond to the microbial environment: experiments in mice connect microbial exposure and metabolites with microglial maturation.",
+          "edges": [
+            "e4",
+            "e5"
+          ],
+          "studies": [
+            "immune-tlr2",
+            "brain-microglia"
+          ]
+        },
+        {
+          "id": "3",
+          "title": "Metabolites and endocrine signals",
+          "text": "Short-chain fatty acids influence host cells and can participate in neuroimmune signalling. Enteroendocrine cells also translate nutrients and microbial products into neural and hormonal responses. Serotonin is one contributor within this wider chemical network.",
+          "edges": [
+            "e0",
+            "e4",
+            "e5"
+          ],
+          "studies": [
+            "brain-microglia",
+            "serotonin-sensing",
+            "brain-vagus"
+          ]
+        },
+        {
+          "id": "4",
+          "title": "The return journey",
+          "text": "Brain output changes gut movement, secretion and immune activity through autonomic and hormonal control. Mouse colonisation experiments show that microbial exposure can also shape development of the hormonal stress response, linking the return path to the ecosystem it regulates.",
+          "edges": [
+            "e6",
+            "e7"
+          ],
+          "studies": [
+            "brain-stress",
+            "motility-macrophages"
+          ]
+        }
+      ],
+      "measurements": [
+        {
+          "name": "Neural activity",
+          "text": "Nerve recordings measure electrical responses; receptor experiments help identify which chemical signals produced them.",
+          "nodes": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "name": "Precursor and metabolite pools",
+          "text": "Blood tryptophan, kynurenine, tissue serotonin and microbial metabolites describe different pools. Their concentrations and rates of production answer different questions.",
+          "nodes": [
+            "0",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "name": "Immune and stress responses",
+          "text": "Cytokines, immune-cell state, ACTH and glucocorticoids describe separate parts of the communication network. Mouse and human studies identify their experimental setting.",
+          "nodes": [
+            "4",
+            "5"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "title": "Serotonin in the gut",
+          "url": "/mechanisms#map=serotonin"
+        },
+        {
+          "title": "Tryptophan metabolism",
+          "url": "/mechanisms#map=tryptophan"
+        },
+        {
+          "title": "Read the gut–brain guide",
+          "url": "/references#guide=gut-brain"
+        }
+      ]
+    }
+  ]
+}

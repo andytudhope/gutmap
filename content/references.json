@@ -1,0 +1,2097 @@
+{
+  "references": [
+    {
+      "id": "stanford",
+      "name": "Stanford — Center for Human Microbiome Studies",
+      "url": "https://med.stanford.edu/iti/center-for-human-microbiome-studies.html",
+      "kind": "Research centre",
+      "place": "United States",
+      "topics": [
+        "Nutrition",
+        "Immunity",
+        "Human studies"
+      ],
+      "text": "Human studies connect diet, microbial communities and host biology. A starting point for following experimental nutrition research.",
+      "route": "/living-well",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "oxford",
+      "name": "Oxford Centre for Microbiome Studies",
+      "url": "https://www.kennedy.ox.ac.uk/ocms/about-us-1",
+      "kind": "Research centre",
+      "place": "United Kingdom",
+      "topics": [
+        "Immunity",
+        "Gut–brain",
+        "Methods"
+      ],
+      "text": "Brings cultivation, computational analysis, immunology and gnotobiotic experiments together to investigate mechanisms across diseases.",
+      "route": "/mechanisms#map=immune",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": [
+        "https://www.kennedy.ox.ac.uk/ocms/platforms/platforms"
+      ]
+    },
+    {
+      "id": "cedars",
+      "name": "Cedars-Sinai — Human Microbiome Research Institute",
+      "url": "https://www.cedars-sinai.edu/health-sciences-university/research/departments-institutes/medicine/human-microbiome.html",
+      "kind": "Research centre",
+      "place": "United States",
+      "topics": [
+        "Nutrition",
+        "Early life",
+        "Cancer",
+        "Immunity",
+        "Methods"
+      ],
+      "text": "Connects clinical specialties with diet experiments, microbial gene editing, cultivation and sequencing. Especially useful for linking human observations to functional experiments.",
+      "route": "/illness-recovery",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "cuhk",
+      "name": "CUHK — Microbiota I-Center",
+      "url": "https://www.cuhk.edu.hk/english/research/innohk-centres/microbiota.html",
+      "kind": "Research centre",
+      "place": "Hong Kong",
+      "topics": [
+        "Diagnostics",
+        "Therapeutics",
+        "Human studies"
+      ],
+      "text": "A translational microbiome programme linking research with diagnostic and therapeutic development.",
+      "route": "/research",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "cleveland",
+      "name": "Cleveland Clinic — Microbiome & Human Health",
+      "url": "https://www.lerner.ccf.org/microbiome/",
+      "kind": "Research centre",
+      "place": "United States",
+      "topics": [
+        "Metabolism",
+        "Gut–brain",
+        "Cancer"
+      ],
+      "text": "Research stories connect microbial processes to body-wide health, including neurological and cancer research. Follow the named studies from the institutional reports.",
+      "route": "/mechanisms",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "mcc",
+      "name": "Microbiome Centers Consortium",
+      "url": "https://microbiomecentersconsortium.org/network/participating-centers.html",
+      "kind": "Research network",
+      "place": "International",
+      "topics": [
+        "Methods",
+        "Research networks"
+      ],
+      "text": "A directory for discovering centres and collaborators. Includes environmental and agricultural programmes alongside human microbiome research.",
+      "route": "/references?kind=Research+centre",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "apc",
+      "name": "APC Microbiome Ireland",
+      "url": "https://www.ucc.ie/en/apc/",
+      "kind": "Research centre",
+      "place": "Ireland",
+      "topics": [
+        "Nutrition",
+        "Fermentation",
+        "Gut–brain",
+        "Early life"
+      ],
+      "text": "Connects food science, host biology and gut–brain research, with publications and public research updates.",
+      "route": "/living-well#item=mood",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "ucsf",
+      "name": "UCSF — Benioff Center for Microbiome Medicine",
+      "url": "https://microbiome.ucsf.edu/",
+      "kind": "Research centre",
+      "place": "United States",
+      "topics": [
+        "Early life",
+        "Therapeutics",
+        "Methods"
+      ],
+      "text": "Combines human microbiome medicine, childhood disease research, technology hubs and openly described training programmes.",
+      "route": "/references#guide=early-life",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "ucla",
+      "name": "UCLA — Goodman-Luskin Microbiome Center",
+      "url": "https://www.uclahealth.org/departments/medicine/gastro/microbiome",
+      "kind": "Research centre",
+      "place": "United States",
+      "topics": [
+        "Gut–brain",
+        "Immunity",
+        "Metabolism"
+      ],
+      "text": "A strong reference for connecting gastrointestinal, neurological, psychiatric and metabolic research within one programme.",
+      "route": "/mechanisms#map=serotonin",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "mayo",
+      "name": "Mayo Clinic — Microbiomics Program",
+      "url": "https://www.mayo.edu/research/centers-programs/microbiomics-program/overview",
+      "kind": "Research centre",
+      "place": "United States",
+      "topics": [
+        "Therapeutics",
+        "Diagnostics",
+        "Human studies"
+      ],
+      "text": "Links clinical questions, microbial transplantation, disease research and trial participation.",
+      "route": "/illness-recovery#item=cdiff",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "ucsd",
+      "name": "UC San Diego — Center for Microbiome Innovation",
+      "url": "https://cmi.ucsd.edu/",
+      "kind": "Research centre",
+      "place": "United States",
+      "topics": [
+        "Methods",
+        "Human studies",
+        "Nutrition"
+      ],
+      "text": "Connects multidisciplinary researchers with measurement technologies, large datasets and microbiome studies.",
+      "route": "/research",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "quadram",
+      "name": "Quadram Institute",
+      "url": "https://quadram.ac.uk/",
+      "kind": "Research centre",
+      "place": "United Kingdom",
+      "topics": [
+        "Nutrition",
+        "Fermentation",
+        "Ageing"
+      ],
+      "text": "Brings food science, gut biology and clinical research together, including healthy ageing and food innovation.",
+      "route": "/fermentation",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "sanger",
+      "name": "Wellcome Sanger Institute — Lawley Lab",
+      "url": "https://www.sanger.ac.uk/group/lawley-lab/",
+      "kind": "Research centre",
+      "place": "United Kingdom",
+      "topics": [
+        "Early life",
+        "Catalogues",
+        "Viruses",
+        "Therapeutics"
+      ],
+      "text": "Culture collections and genomic resources connect named microbes to experiments. Early-life assembly and microbial transmission are central research themes.",
+      "route": "/explore",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "embl",
+      "name": "EMBL — Bork Group",
+      "url": "https://www.embl.org/groups/bork/",
+      "kind": "Research centre",
+      "place": "Germany",
+      "topics": [
+        "Methods",
+        "Drug metabolism",
+        "Catalogues"
+      ],
+      "text": "Computational microbiome research links genome data with biological functions and microbial interactions.",
+      "route": "/references#guide=medicines",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "metagenopolis",
+      "name": "INRAE — MétaGénoPolis",
+      "url": "https://eng-calis.ir.inrae.fr/the-facilities/platform-facilities/the-health-pole/metagenopolis",
+      "kind": "Research centre",
+      "place": "France",
+      "topics": [
+        "Methods",
+        "Nutrition",
+        "Human studies"
+      ],
+      "text": "A reference for standardised sampling, quantitative and functional metagenomics, and large human gut projects.",
+      "route": "/references#guide=testing",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "mit",
+      "name": "MIT — Center for Microbiome Informatics and Therapeutics",
+      "url": "https://microbiome.mit.edu/",
+      "kind": "Research centre",
+      "place": "United States",
+      "topics": [
+        "Methods",
+        "Therapeutics"
+      ],
+      "text": "Connects microbiome informatics with the development of microbial therapies and researcher training.",
+      "route": "/research",
+      "access": "Free",
+      "review_basis": "Official indexed centre page",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "baylor",
+      "name": "Baylor — Alkek Center for Metagenomics and Microbiome Research",
+      "url": "https://www.bcm.edu/research/research-centers/alkek-center-for-metagenomics-and-microbiome-research",
+      "kind": "Research centre",
+      "place": "United States",
+      "topics": [
+        "Methods",
+        "Immunity",
+        "Human studies"
+      ],
+      "text": "A centre for microbiome research using genomic technologies, microbial genetics and experimental models.",
+      "route": "/references#guide=testing",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "rutgers",
+      "name": "Rutgers University Microbiome Program",
+      "url": "https://microbiome.rutgers.edu/",
+      "kind": "Research centre",
+      "place": "United States",
+      "topics": [
+        "Nutrition",
+        "Human studies",
+        "Research networks"
+      ],
+      "text": "Combines research, education, clinical care and community outreach in a university-wide microbiome programme.",
+      "route": "/living-well",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "harvard",
+      "name": "Harvard Chan — Microbiome in Public Health Center",
+      "url": "https://hsph.harvard.edu/research/microbiome/",
+      "kind": "Research centre",
+      "place": "United States",
+      "topics": [
+        "Methods",
+        "Population health",
+        "Nutrition"
+      ],
+      "text": "Places microbiome research in a population-health setting, connecting epidemiology, nutrition and quantitative methods.",
+      "route": "/research",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "weizmann",
+      "name": "Weizmann Institute — Elinav Lab",
+      "url": "https://www.weizmann.ac.il/immunology/elinav/",
+      "kind": "Research centre",
+      "place": "Israel",
+      "topics": [
+        "Nutrition",
+        "Immunity",
+        "Human studies"
+      ],
+      "text": "Combines mechanistic biology, human trials and data analysis to investigate personalised microbiome medicine.",
+      "route": "/living-well",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "scelse",
+      "name": "SCELSE — Gut Microbiome and Human Health",
+      "url": "https://scelse.sg/case-studies/gut-microbiome-and-human-health/",
+      "kind": "Research centre",
+      "place": "Singapore",
+      "topics": [
+        "Ageing",
+        "Gut–brain",
+        "Metabolism",
+        "Early life"
+      ],
+      "text": "Research spans cardiovascular disease, Parkinson’s disease, ageing and infant health, broadening the geographic range of reference programmes.",
+      "route": "/mechanisms",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "riken",
+      "name": "RIKEN IMS — Laboratory for Metabolomics",
+      "url": "https://www.ims.riken.jp/labo/53/research.html",
+      "kind": "Research centre",
+      "place": "Japan",
+      "topics": [
+        "Metabolism",
+        "Methods",
+        "Immunity"
+      ],
+      "text": "Investigates microbial lipid metabolites, their production and their movement into host tissues using mass spectrometry.",
+      "route": "/mechanisms",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "unsw",
+      "name": "UNSW — Microbiome Research Centre",
+      "url": "https://www.unsw.edu.au/content/dam/pdfs/medicine-health/general/2024-07-ai-capability-statements/2024-07-MRC-UNSW-FMH-AI-Capability-Statement.pdf",
+      "kind": "Research centre",
+      "place": "Australia",
+      "topics": [
+        "Cancer",
+        "Early life",
+        "Gut–brain",
+        "Immunity"
+      ],
+      "text": "A clinical research programme spanning cancer, women and children, infection and immunity, critical care and mental health.",
+      "route": "/illness-recovery",
+      "access": "Free",
+      "review_basis": "Official 2024 capability statement",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "ahmp",
+      "name": "African Human Microbiome Portal — H3ABioNet",
+      "url": "https://microbiome.h3abionet.org/",
+      "kind": "Data & catalogues",
+      "place": "Africa",
+      "topics": [
+        "African research",
+        "Human studies",
+        "Methods"
+      ],
+      "text": "Search African study metadata by country, body site, disease and assay, then follow repository and publication links.",
+      "route": "/references#guide=food-cultures",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": [
+        "https://microbiome.h3abionet.org/microbiome/help/"
+      ]
+    },
+    {
+      "id": "amp",
+      "name": "African Microbiome Project",
+      "url": "https://africanmicrobiomeproject.org/",
+      "kind": "Research network",
+      "place": "Africa",
+      "topics": [
+        "African research",
+        "Population health",
+        "Research networks"
+      ],
+      "text": "African-led research and capacity building across clinical and environmental microbiomes. The human gut is one part of this broader programme.",
+      "route": "/references#guide=food-cultures",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "ceri",
+      "name": "Stellenbosch — CERI Microbiome",
+      "url": "https://ceri.africa/microbiome/",
+      "kind": "Research centre",
+      "place": "South Africa",
+      "topics": [
+        "African research",
+        "Methods",
+        "Research networks"
+      ],
+      "text": "A South African entry into microbiome research and the African Microbiome Project network.",
+      "route": "/references#guide=food-cultures",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "samrc",
+      "name": "SAMRC — Baobab and Cardiometabolic Research",
+      "url": "https://www.samrc.ac.za/annualreport/files/basic-html/page123.html",
+      "kind": "Research programme",
+      "place": "South Africa",
+      "topics": [
+        "African research",
+        "Nutrition",
+        "Metabolism"
+      ],
+      "text": "Describes a randomised baobab intervention investigating gut permeability, microbial composition and cardiometabolic health. The report describes a study in progress.",
+      "route": "/references#guide=food-cultures",
+      "access": "Free",
+      "review_basis": "SAMRC annual report 2024–2025",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "uct",
+      "name": "UCT / SAMRC — Pharmacogenomics and Drug Metabolism",
+      "url": "https://health.uct.ac.za/human-genetics/research/pharmacogenomics-overview",
+      "kind": "Research programme",
+      "place": "South Africa",
+      "topics": [
+        "African research",
+        "Drug metabolism",
+        "Human studies"
+      ],
+      "text": "Connects African population diversity, microbial profiles and variation in treatment response.",
+      "route": "/references#guide=medicines",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "niddk",
+      "name": "NIDDK — Digestive Diseases",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases",
+      "kind": "Medical education",
+      "place": "United States",
+      "topics": [
+        "Symptoms",
+        "Diagnostics",
+        "Illness"
+      ],
+      "text": "A clear symptom-to-condition reference, covering diagnosis, treatment and participation in research.",
+      "route": "/illness-recovery",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "acg",
+      "name": "American College of Gastroenterology — Patient Resources",
+      "url": "https://gi.org/patients/",
+      "kind": "Medical education",
+      "place": "United States",
+      "topics": [
+        "Symptoms",
+        "Illness",
+        "Diagnostics"
+      ],
+      "text": "Patient explanations and disease resources from a gastroenterology professional society.",
+      "route": "/illness-recovery",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "aga",
+      "name": "American Gastroenterological Association — Clinical Guidance",
+      "url": "https://gastro.org/clinical-guidance/",
+      "kind": "Clinical guidance",
+      "place": "United States",
+      "topics": [
+        "Therapeutics",
+        "Illness"
+      ],
+      "text": "Guidelines and accompanying tools connect clinical recommendations to systematic evidence reviews.",
+      "route": "/illness-recovery",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "aga-fmt",
+      "name": "AGA — Microbiota-Based Therapies Guideline",
+      "url": "https://gastro.org/clinical-guidance/fecal-microbiota-based-therapies-for-select-gastrointestinal-diseases/",
+      "kind": "Clinical guidance",
+      "place": "United States",
+      "topics": [
+        "Therapeutics",
+        "Illness"
+      ],
+      "text": "A focused reference for recurrent C. difficile and the clinical settings in which microbiota-based therapies have been evaluated.",
+      "route": "/illness-recovery#item=cdiff",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "nhs",
+      "name": "NHS — Irritable Bowel Syndrome",
+      "url": "https://www.nhs.uk/conditions/irritable-bowel-syndrome-ibs/",
+      "kind": "Medical education",
+      "place": "United Kingdom",
+      "topics": [
+        "Symptoms",
+        "Illness",
+        "Nutrition"
+      ],
+      "text": "A concise route from common symptoms to diagnosis, treatments and practical daily support.",
+      "route": "/illness-recovery",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "isapp",
+      "name": "ISAPP — Consumer Resources",
+      "url": "https://isappscience.org/for-consumers/",
+      "kind": "Medical education",
+      "place": "International",
+      "topics": [
+        "Fermentation",
+        "Nutrition",
+        "Therapeutics"
+      ],
+      "text": "Explains probiotics, prebiotics, synbiotics, postbiotics and fermented foods through accessible scientific resources.",
+      "route": "/fermentation",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "gmfh",
+      "name": "Gut Microbiota for Health — ESNM",
+      "url": "https://www.gutmicrobiotaforhealth.com/",
+      "kind": "Medical education",
+      "place": "International",
+      "topics": [
+        "Nutrition",
+        "Gut–brain",
+        "Human studies"
+      ],
+      "text": "An example of connecting public-facing explanations with professional research updates and paper references.",
+      "route": "/living-well",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "nccih",
+      "name": "NCCIH — Probiotics",
+      "url": "https://www.nccih.nih.gov/health/probiotics-usefulness-and-safety",
+      "kind": "Medical education",
+      "place": "United States",
+      "topics": [
+        "Therapeutics",
+        "Nutrition",
+        "Illness"
+      ],
+      "text": "A condition-by-condition public reference for probiotic research and product questions.",
+      "route": "/research?q=probiotic",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "monash",
+      "name": "Monash University — FODMAP and IBS",
+      "url": "https://www.monashfodmap.com/",
+      "kind": "Medical education",
+      "place": "Australia",
+      "topics": [
+        "Symptoms",
+        "Nutrition",
+        "Illness"
+      ],
+      "text": "Connects IBS research with food information, recipes, courses and practical dietary tools.",
+      "route": "/illness-recovery",
+      "access": "Mixed: free articles; paid app and courses",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "cochrane",
+      "name": "Cochrane — Evidence",
+      "url": "https://www.cochrane.org/evidence",
+      "kind": "Evidence synthesis",
+      "place": "International",
+      "topics": [
+        "Methods",
+        "Illness",
+        "Therapeutics"
+      ],
+      "text": "Systematic reviews and plain-language summaries provide a model for explaining results, outcomes and study quality.",
+      "route": "/research",
+      "access": "Mixed: public summaries; full-review access varies",
+      "review_basis": "Cochrane evidence service; direct automated access restricted",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "trials",
+      "name": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/",
+      "kind": "Trials & regulation",
+      "place": "International",
+      "topics": [
+        "Human studies",
+        "Therapeutics"
+      ],
+      "text": "Look up study registration, planned outcomes, eligibility, recruitment and posted results using trial identifiers.",
+      "route": "/research",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "vowst",
+      "name": "FDA — Vowst",
+      "url": "https://www.fda.gov/vaccines-blood-biologics/vowst",
+      "kind": "Trials & regulation",
+      "place": "United States",
+      "topics": [
+        "Therapeutics",
+        "Illness"
+      ],
+      "text": "The regulator’s product record links prescribing information and regulatory documents for an oral microbiota-based therapy.",
+      "route": "/illness-recovery#item=cdiff",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "rebyota",
+      "name": "FDA — Rebyota",
+      "url": "https://www.fda.gov/vaccines-blood-biologics/vaccines/rebyota",
+      "kind": "Trials & regulation",
+      "place": "United States",
+      "topics": [
+        "Therapeutics",
+        "Illness"
+      ],
+      "text": "Product and regulatory information for a microbiota-based therapy used in recurrent C. difficile care.",
+      "route": "/illness-recovery#item=cdiff",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "mgnify",
+      "name": "EMBL-EBI — MGnify",
+      "url": "https://www.ebi.ac.uk/metagenomics/",
+      "kind": "Data & catalogues",
+      "place": "International",
+      "topics": [
+        "Catalogues",
+        "Methods"
+      ],
+      "text": "A route from microbial genomes and study metadata to analysis outputs and source datasets.",
+      "route": "/explore",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "gtdb",
+      "name": "Genome Taxonomy Database",
+      "url": "https://gtdb.ecogenomic.org/",
+      "kind": "Data & catalogues",
+      "place": "International",
+      "topics": [
+        "Catalogues",
+        "Methods"
+      ],
+      "text": "A genome-based taxonomic framework for bacteria and archaea, useful when names differ across studies and catalogues.",
+      "route": "/explore",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "homd",
+      "name": "Expanded Human Oral Microbiome Database",
+      "url": "https://www.homd.org/",
+      "kind": "Data & catalogues",
+      "place": "International",
+      "topics": [
+        "Catalogues",
+        "Oral microbiome"
+      ],
+      "text": "Taxonomic and genomic references for the organisms encountered at the mouth end of the digestive tract.",
+      "route": "/#organ=mouth",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "ena",
+      "name": "European Nucleotide Archive",
+      "url": "https://www.ebi.ac.uk/ena/browser/home",
+      "kind": "Data & catalogues",
+      "place": "International",
+      "topics": [
+        "Methods",
+        "Human studies",
+        "Catalogues"
+      ],
+      "text": "Follow accession identifiers to original sequencing studies, sample metadata and deposited reads.",
+      "route": "/references#guide=testing",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "sra",
+      "name": "NCBI — Sequence Read Archive",
+      "url": "https://www.ncbi.nlm.nih.gov/sra",
+      "kind": "Data & catalogues",
+      "place": "International",
+      "topics": [
+        "Methods",
+        "Human studies",
+        "Catalogues"
+      ],
+      "text": "An archive for sequencing reads and study accessions, supporting independent reanalysis.",
+      "route": "/references#guide=testing",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "hmp",
+      "name": "NIH — Human Microbiome Project",
+      "url": "https://commonfund.nih.gov/hmp",
+      "kind": "Data & catalogues",
+      "place": "United States",
+      "topics": [
+        "Human studies",
+        "Catalogues",
+        "Methods"
+      ],
+      "text": "The official archived overview of a foundational human microbiome research programme. Use its institutional record to find project publications.",
+      "route": "/research",
+      "access": "Free",
+      "review_basis": "Official archived project page",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "ibdmdb",
+      "name": "Inflammatory Bowel Disease Multi’omics Database",
+      "url": "https://ibdmdb.org/",
+      "kind": "Data & catalogues",
+      "place": "United States",
+      "topics": [
+        "Human studies",
+        "Illness",
+        "Methods"
+      ],
+      "text": "An entry point for longitudinal IBD multi-omics research and its associated data and publications.",
+      "route": "/research?q=multi-omics",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "qiita",
+      "name": "Qiita",
+      "url": "https://qiita.ucsd.edu/",
+      "kind": "Data & catalogues",
+      "place": "International",
+      "topics": [
+        "Methods",
+        "Human studies"
+      ],
+      "text": "A research platform for microbiome study metadata, processed data and reproducible analysis.",
+      "route": "/references#guide=testing",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "microsetta",
+      "name": "UC San Diego — Microsetta Initiative",
+      "url": "https://microsetta.ucsd.edu/",
+      "kind": "Research programme",
+      "place": "International",
+      "topics": [
+        "Population health",
+        "Nutrition",
+        "Human studies"
+      ],
+      "text": "Citizen-science microbiome research and public project information. Its site currently reports a pause in new crowdfunded enrolment.",
+      "route": "/references#guide=food-cultures",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "qiime",
+      "name": "QIIME 2 — Amplicon Documentation",
+      "url": "https://amplicon-docs.qiime2.org/en/stable/",
+      "kind": "Methods & training",
+      "place": "International",
+      "topics": [
+        "Methods",
+        "Diagnostics"
+      ],
+      "text": "Worked tutorials explain how marker-gene sequencing becomes an analysed community profile.",
+      "route": "/references#guide=testing",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "dada2",
+      "name": "DADA2",
+      "url": "https://benjjneb.github.io/dada2/",
+      "kind": "Methods & training",
+      "place": "International",
+      "topics": [
+        "Methods",
+        "Diagnostics"
+      ],
+      "text": "Methods and tutorials for inferring amplicon sequence variants while modelling sequencing errors.",
+      "route": "/references#guide=testing",
+      "access": "Free",
+      "review_basis": "Official website",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "book-sa",
+      "name": "Gut Health: The South African Guide",
+      "url": "https://www.nb.co.za/en/view-book/?id=9780798185691",
+      "kind": "Books",
+      "place": "South Africa",
+      "topics": [
+        "African research",
+        "Fermentation",
+        "Nutrition"
+      ],
+      "text": "Vickie de Beer and Stephen Schmidt combine a South African gut-health introduction with food and home-fermentation recipes.",
+      "route": "/fermentation",
+      "access": "Book purchase / library",
+      "review_basis": "Publisher description; full book not reviewed",
+      "reviewed": "2026-10-21",
+      "sources": [
+        "https://www.jonathanball.co.za/wp-content/uploads/2026/02/FEB-26-Jonathan-Ball-LOCAL-Highlights.pdf"
+      ]
+    },
+    {
+      "id": "book-art",
+      "name": "The Art of Fermentation — Sandor Ellix Katz",
+      "url": "https://www.chelseagreen.com/product/the-art-of-fermentation/",
+      "kind": "Books",
+      "place": "International",
+      "topics": [
+        "Fermentation",
+        "Nutrition"
+      ],
+      "text": "A broad practical reference for fermentation traditions and processes, useful for expanding the range of vessels and foods explored here.",
+      "route": "/fermentation",
+      "access": "Book purchase / library",
+      "review_basis": "Publisher description; full book not reviewed",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "book-wild",
+      "name": "Wild Fermentation — Sandor Ellix Katz",
+      "url": "https://www.chelseagreen.com/product/wild-fermentation/",
+      "kind": "Books",
+      "place": "International",
+      "topics": [
+        "Fermentation",
+        "Nutrition"
+      ],
+      "text": "A practical route into home fermentation across food traditions.",
+      "route": "/fermentation",
+      "access": "Book purchase / library",
+      "review_basis": "Publisher description; full book not reviewed",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "book-multitudes",
+      "name": "I Contain Multitudes — Ed Yong",
+      "url": "https://www.harpercollins.com/products/i-contain-multitudes-ed-yong",
+      "kind": "Books",
+      "place": "International",
+      "topics": [
+        "Ecology",
+        "Human studies"
+      ],
+      "text": "A narrative entry into host–microbe relationships across the living world, widening the ecological frame around the human gut.",
+      "route": "/explore",
+      "access": "Book purchase / library",
+      "review_basis": "Publisher catalogue; full book not reviewed",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "book-mind",
+      "name": "The Mind-Gut Connection — Emeran Mayer",
+      "url": "https://www.harpercollins.com/products/the-mind-gut-connection-emeran-mayer",
+      "kind": "Books",
+      "place": "International",
+      "topics": [
+        "Gut–brain",
+        "Nutrition"
+      ],
+      "text": "A reader-facing introduction to communication between digestion, the nervous system and experience.",
+      "route": "/mechanisms#map=serotonin",
+      "access": "Book purchase / library",
+      "review_basis": "Publisher catalogue; full book not reviewed",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "book-children",
+      "name": "It Takes Guts — Jennifer Gardy",
+      "url": "https://greystonebooks.com/products/it-takes-guts",
+      "kind": "Books",
+      "place": "Canada",
+      "topics": [
+        "Early life",
+        "Ecology",
+        "Medical education"
+      ],
+      "text": "An illustrated digestion and microbiome introduction for younger readers, with a curriculum guide for parents and teachers.",
+      "route": "/",
+      "access": "Book purchase / library; curriculum guide available",
+      "review_basis": "Publisher description; full book not reviewed",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "cgf",
+      "name": "Cultivated Gut Fungi catalogue",
+      "url": "https://doi.org/10.1016/j.cell.2024.04.043",
+      "kind": "Data & catalogues",
+      "place": "International",
+      "topics": [
+        "Catalogues",
+        "Fungi"
+      ],
+      "text": "The source publication behind a reference collection explored in Microbes. Follow the paper for sampling, scope and methods.",
+      "route": "/explore#life=fungi",
+      "access": "Free",
+      "review_basis": "Catalogue source publication and existing reading note",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "catalogue-uhgv",
+      "name": "Unified Human Gut Virome",
+      "url": "https://doi.org/10.1101/2025.11.01.686033",
+      "kind": "Data & catalogues",
+      "place": "International",
+      "topics": [
+        "Catalogues",
+        "Viruses"
+      ],
+      "text": "The source publication behind a reference collection explored in Microbes. Follow the paper for sampling, scope and methods.",
+      "route": "/explore#life=viruses",
+      "access": "Free",
+      "review_basis": "Catalogue source publication and existing reading note",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "catalogue-gpd",
+      "name": "Gut Phage Database",
+      "url": "https://europepmc.org/articles/PMC7895897",
+      "kind": "Data & catalogues",
+      "place": "International",
+      "topics": [
+        "Catalogues",
+        "Viruses"
+      ],
+      "text": "The source publication behind a reference collection explored in Microbes. Follow the paper for sampling, scope and methods.",
+      "route": "/explore#life=viruses",
+      "access": "Free",
+      "review_basis": "Catalogue source publication and existing reading note",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "catalogue-mgv",
+      "name": "Metagenomic Gut Virus catalogue",
+      "url": "https://europepmc.org/articles/PMC8241571",
+      "kind": "Data & catalogues",
+      "place": "International",
+      "topics": [
+        "Catalogues",
+        "Viruses"
+      ],
+      "text": "The source publication behind a reference collection explored in Microbes. Follow the paper for sampling, scope and methods.",
+      "route": "/explore#life=viruses",
+      "access": "Free",
+      "review_basis": "Catalogue source publication and existing reading note",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "catalogue-eukdetect2",
+      "name": "EukDetect2 reference collection",
+      "url": "https://doi.org/10.64898/2026.06.24.734308",
+      "kind": "Data & catalogues",
+      "place": "International",
+      "topics": [
+        "Catalogues",
+        "Protists"
+      ],
+      "text": "The source publication behind a reference collection explored in Microbes. Follow the paper for sampling, scope and methods.",
+      "route": "/explore#life=protists",
+      "access": "Free",
+      "review_basis": "Catalogue source publication and existing reading note",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "catalogue-eukprot",
+      "name": "EukProt reference collection",
+      "url": "https://doi.org/10.24072/pcjournal.173",
+      "kind": "Data & catalogues",
+      "place": "International",
+      "topics": [
+        "Catalogues",
+        "Protists"
+      ],
+      "text": "The source publication behind a reference collection explored in Microbes. Follow the paper for sampling, scope and methods.",
+      "route": "/explore#life=protists",
+      "access": "Free",
+      "review_basis": "Catalogue source publication and existing reading note",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "gut-club-sa",
+      "name": "The Gut Club — Stephen Schmidt",
+      "url": "https://clarkesbooks.co.za/products/gut-health-the-south-african-guide-with-80-gut-healing-fermentation-recipes",
+      "kind": "Community & education",
+      "place": "South Africa",
+      "topics": [
+        "African research",
+        "Medical education"
+      ],
+      "text": "Stephen Schmidt’s continuing-education initiative for healthcare professionals, identified in his book’s author biography. This link opens that biography; the group’s own public address is being confirmed.",
+      "route": "/references#guide=food-cultures",
+      "access": "Public author biography",
+      "review_basis": "Bookseller author biography; independent group URL awaiting confirmation",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "fao-cereals",
+      "name": "FAO — Fermented cereals: a global perspective",
+      "url": "https://www.fao.org/4/x2184e/x2184e00.htm",
+      "kind": "Food culture & traditions",
+      "place": "Worldwide",
+      "topics": [
+        "Food traditions",
+        "Nutrition",
+        "Fermentation"
+      ],
+      "text": "A freely readable technical book with regional chapters on African, Asia-Pacific and Latin American cereal fermentations, their organisms and preparation methods.",
+      "route": "/references#guide=food-cultures",
+      "access": "Free",
+      "review_basis": "Official publication",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "fao-asia",
+      "name": "FAO — Cereal fermentations in Asia-Pacific",
+      "url": "https://www.fao.org/4/x2184e/x2184e09.htm",
+      "kind": "Food culture & traditions",
+      "place": "Asia-Pacific",
+      "topics": [
+        "Food traditions",
+        "Nutrition",
+        "Fermentation"
+      ],
+      "text": "Rice and grain fermentation traditions, including idli, koji and regional starters. Describes food processing, enzymes and microbial communities.",
+      "route": "/references#guide=food-cultures",
+      "access": "Free",
+      "review_basis": "Official publication",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "fao-americas",
+      "name": "FAO — Fermentations in Latin America",
+      "url": "https://www.fao.org/4/x2184e/x2184e10.htm",
+      "kind": "Food culture & traditions",
+      "place": "Latin America",
+      "topics": [
+        "Food traditions",
+        "Nutrition",
+        "Fermentation"
+      ],
+      "text": "Maize-based beverages and porridges, including pozol and chicha, with descriptions of preparation and microbial activity.",
+      "route": "/references#guide=food-cultures",
+      "access": "Free",
+      "review_basis": "Official publication",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "fao-africa",
+      "name": "FAO — Cereal fermentations in Africa",
+      "url": "https://www.fao.org/4/x2184e/x2184e07.htm",
+      "kind": "Food culture & traditions",
+      "place": "Africa",
+      "topics": [
+        "Food traditions",
+        "Nutrition",
+        "Fermentation"
+      ],
+      "text": "Regional accounts of ogi, injera, kisra, kenkey and other grain fermentations, with processing diagrams and research references.",
+      "route": "/references#guide=food-cultures",
+      "access": "Free",
+      "review_basis": "Official publication",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "fao-vegetables",
+      "name": "FAO — Fermented fruits and vegetables",
+      "url": "https://www.fao.org/4/x0560e/x0560e00.htm",
+      "kind": "Food culture & traditions",
+      "place": "Worldwide",
+      "topics": [
+        "Food traditions",
+        "Nutrition",
+        "Fermentation"
+      ],
+      "text": "An illustrated technical reading resource on vegetable and fruit fermentations, preservation and small-scale production across food cultures.",
+      "route": "/references#guide=food-cultures",
+      "access": "Free",
+      "review_basis": "Official publication",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "unesco-mediterranean",
+      "name": "UNESCO — Mediterranean diet",
+      "url": "https://ich.unesco.org/en/RL/mediterranean-diet-00884",
+      "kind": "Food culture & traditions",
+      "place": "Mediterranean",
+      "topics": [
+        "Food traditions",
+        "Nutrition",
+        "Fermentation"
+      ],
+      "text": "Food knowledge, seasonal practices, markets and shared meals in Cyprus, Croatia, Spain, Greece, Italy, Morocco and Portugal. A cultural account of an eating tradition.",
+      "route": "/references#guide=food-cultures",
+      "access": "Free",
+      "review_basis": "Official publication",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "pacific-food",
+      "name": "University of Hawai‘i — Pacific Food Guide",
+      "url": "https://manoa.hawaii.edu/ctahr/pacificfoodguide/",
+      "kind": "Food culture & traditions",
+      "place": "Pacific Islands",
+      "topics": [
+        "Food traditions",
+        "Nutrition",
+        "Fermentation"
+      ],
+      "text": "Regional food knowledge, local names, nutrition and preparation across Pacific communities. Its breadfruit entry includes traditional preservation by fermentation.",
+      "route": "/references#guide=food-cultures",
+      "access": "Free",
+      "review_basis": "Official publication",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "pasifika-plates",
+      "name": "Pacific Community — Pasifika Plates",
+      "url": "https://www.spc.int/sites/default/files/wordpresscontent/wp-content/uploads/2017/01/Pasifika-plates.pdf",
+      "kind": "Food culture & traditions",
+      "place": "Pacific Islands",
+      "topics": [
+        "Food traditions",
+        "Nutrition",
+        "Fermentation"
+      ],
+      "text": "A regional cookbook connecting everyday meals with locally available Pacific ingredients.",
+      "route": "/references#guide=food-cultures",
+      "access": "Free",
+      "review_basis": "Official publication",
+      "reviewed": "2026-10-21",
+      "sources": []
+    },
+    {
+      "id": "migration-study",
+      "name": "Hmong and Karen migration — diet and the gut microbiome",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6498444/",
+      "kind": "Research paper",
+      "place": "Thailand / United States",
+      "topics": [
+        "Food traditions",
+        "Nutrition",
+        "Fermentation"
+      ],
+      "text": "A human study following microbiome composition and function across migration and generations, with dietary records and a smaller before-and-after migration cohort.",
+      "route": "/references#guide=food-cultures",
+      "access": "Free",
+      "review_basis": "Official publication",
+      "reviewed": "2026-10-21",
+      "sources": []
+    }
+  ],
+  "guides": [
+    {
+      "id": "gut-brain",
+      "title": "Gut and brain, in conversation",
+      "lead": "The gut is a sensory, immune and chemical partner of the brain. Serotonin helps carry that conversation, alongside nerves, precursors, hormones and microbial products.",
+      "sections": [
+        {
+          "title": "One molecule, several jobs",
+          "text": "About 90–95% of body serotonin is made in the intestine, predominantly by enterochromaffin cells. The brain and a smaller population of enteric neurons also make serotonin. In the gut it helps coordinate movement, secretion, sensation and immune activity. Which receptor is activated, and where, determines the response.",
+          "studies": [
+            "serotonin-physiology"
+          ]
+        },
+        {
+          "title": "From local release to a message in a nerve",
+          "text": "An enterochromaffin cell releases serotonin near the intestinal lining. Serotonin activates receptors on a sensory fibre; electrical activity then carries information toward the brainstem. Vagal nerve recordings demonstrate serotonin-sensitive responses. Anatomical work in mouse small intestine supports local diffusion between serotonin-containing cells and vagal endings. A separate fast circuit connects neuropod cells to vagal neurons using glutamate.",
+          "studies": [
+            "serotonin-vagal",
+            "serotonin-anatomy",
+            "brain-vagus"
+          ]
+        },
+        {
+          "title": "Two serotonin pools, connected biology",
+          "text": "Brain serotonin is synthesised inside the nervous system. Serotonin itself does not meaningfully cross the blood–brain barrier, while its dietary precursor tryptophan can. Microbial and host metabolism influence precursor availability and its competing pathways. Germ-free mouse experiments show that plasma tryptophan and brain serotonin-related measures can change together, with effects depending on sex and developmental timing.",
+          "studies": [
+            "brain-tryptophan"
+          ]
+        },
+        {
+          "title": "Platelets carry the peripheral pool",
+          "text": "Platelets absorb serotonin from blood through the SERT transporter and store it, producing little themselves. Activation releases this reservoir into vascular, clotting and inflammatory responses. Its functions differ from serotonin released by brain neurons. Whole-blood serotonin therefore describes a different biological pool from serotonin activity within brain circuits.",
+          "studies": [
+            "serotonin-microbes"
+          ]
+        },
+        {
+          "title": "Immune signals, metabolites and hormones",
+          "text": "Microbes influence gut immune cells and barrier biology. Their products also affect distant tissues: short-chain fatty acid experiments in mice connect the microbial environment with microglial development and function. Enteroendocrine responses add chemical and neural routes. Together these pathways allow changes in gut activity to reach nervous-system biology without requiring serotonin to move from gut to brain.",
+          "studies": [
+            "immune-tlr2",
+            "brain-microglia",
+            "serotonin-sensing"
+          ]
+        },
+        {
+          "title": "The brain also changes the gut",
+          "text": "Autonomic nerves and the hormonal stress system influence motility, secretion and immune activity. These changes alter conditions experienced by gut microbes. Germ-free and colonisation studies in mice demonstrate a connection between early microbial exposure and the later hormonal stress response. A body–brain map is therefore a loop with several routes and timescales.",
+          "studies": [
+            "brain-stress"
+          ]
+        }
+      ],
+      "studies": [
+        "serotonin-physiology",
+        "serotonin-vagal",
+        "serotonin-anatomy",
+        "brain-vagus",
+        "brain-tryptophan",
+        "serotonin-microbes",
+        "brain-microglia",
+        "brain-stress"
+      ],
+      "sources": [
+        "ucla",
+        "apc",
+        "oxford",
+        "scelse"
+      ],
+      "links": [
+        {
+          "title": "Explore the communication map",
+          "url": "/mechanisms#map=gut-brain"
+        },
+        {
+          "title": "Explore serotonin",
+          "url": "/mechanisms#map=serotonin"
+        },
+        {
+          "title": "Tryptophan, indoles and kynurenine",
+          "url": "/mechanisms#map=tryptophan"
+        },
+        {
+          "title": "Movement and neural signalling",
+          "url": "/mechanisms#map=motility"
+        }
+      ]
+    },
+    {
+      "id": "food-cultures",
+      "title": "Food cultures around the world",
+      "lead": "Place belongs in the evidence. Food traditions, living conditions, medicines and access to care shape the communities that researchers measure.",
+      "sections": [
+        {
+          "title": "Grains, pulses and fermentation across Asia",
+          "text": "Rice, pulses and microbial starters make very different foods: idli in South Asia, koji-based fermentations in Japan, and fermented rice preparations across Southeast Asia. The FAO regional chapter follows the preparation methods and microbial chemistry. Our fermentation notes explore koji, miso and tempeh in more detail.",
+          "studies": [
+            "koji-growth",
+            "miso-spontaneous",
+            "tempeh-inoculum"
+          ],
+          "sources": [
+            "fao-asia"
+          ]
+        },
+        {
+          "title": "Mediterranean tables and European ferments",
+          "text": "Vegetables, pulses, grains, olive oil and shared meals sit within a wider tradition of growing, preserving and eating food. UNESCO follows that cultural setting across southern Europe and North Africa. Yoghurt, kefir and sourdough offer further routes into the organisms and enzymes involved in familiar foods.",
+          "studies": [
+            "yoghurt-lactose",
+            "kefir-succession",
+            "sourdough-landis"
+          ],
+          "sources": [
+            "unesco-mediterranean",
+            "fao-vegetables"
+          ]
+        },
+        {
+          "title": "Maize and microbial food traditions in the Americas",
+          "text": "Pozol and chicha show how maize becomes a substrate for mixed microbial communities. The FAO Latin American chapter describes preparation practices and the organisms studied in these foods, with references for deeper reading.",
+          "studies": [],
+          "sources": [
+            "fao-americas"
+          ]
+        },
+        {
+          "title": "Pacific foods, seasons and preservation",
+          "text": "Breadfruit, taro and other locally grown foods connect meals to island environments and seasonal harvests. The University of Hawai‘i guide describes regional food names and preparation, including fermented breadfruit preservation. Pasifika Plates brings local ingredients into everyday recipes.",
+          "studies": [],
+          "sources": [
+            "pacific-food",
+            "pasifika-plates"
+          ]
+        },
+        {
+          "title": "African food traditions and dietary experiments",
+          "text": "Injera, ogi, kisra and other grain fermentations offer distinct microbial ecosystems and food-processing techniques. A two-week dietary exchange between African American and rural South African adults measured changes in microbial chemistry and colonic tissue biomarkers. African research portals connect these questions with locally led studies and source data.",
+          "studies": [
+            "africa-diet",
+            "africa-children"
+          ],
+          "sources": [
+            "fao-africa",
+            "ahmp",
+            "amp",
+            "book-sa"
+          ]
+        },
+        {
+          "title": "Food cultures move with people",
+          "text": "Researchers studied Hmong and Karen communities in Thailand and the United States, including people sampled before and after migration. Microbial diversity and carbohydrate-processing functions changed across migration and generations. Following food, medicines and living conditions over time helps explain how a community changes as people make new homes.",
+          "studies": [],
+          "sources": [
+            "migration-study"
+          ]
+        }
+      ],
+      "sources": [
+        "fao-asia",
+        "unesco-mediterranean",
+        "fao-vegetables",
+        "fao-americas",
+        "pacific-food",
+        "pasifika-plates",
+        "fao-africa",
+        "ahmp",
+        "amp",
+        "book-sa",
+        "migration-study"
+      ],
+      "studies": [
+        "koji-growth",
+        "miso-spontaneous",
+        "tempeh-inoculum",
+        "yoghurt-lactose",
+        "kefir-succession",
+        "sourdough-landis",
+        "africa-diet",
+        "africa-children"
+      ],
+      "links": [
+        {
+          "title": "Fibre to microbial metabolites",
+          "url": "/mechanisms#map=scfa"
+        },
+        {
+          "title": "Beans, lentils and chickpeas",
+          "url": "/living-well#item=pulses"
+        },
+        {
+          "title": "Home fermentation",
+          "url": "/fermentation"
+        }
+      ]
+    },
+    {
+      "id": "early-life",
+      "title": "How a gut community grows",
+      "lead": "The microbiome develops alongside a child. Its changing functions connect feeding, microbial transmission, immune development and growth.",
+      "sections": [
+        {
+          "title": "A changing ecosystem",
+          "text": "Early communities assemble as infants encounter microbes from people and their surroundings. Feeding changes the resources available to those organisms. The developing gut, microbial community and immune system influence one another; age is part of the biological context of a sample.",
+          "studies": [],
+          "sources": [
+            "sanger"
+          ]
+        },
+        {
+          "title": "Follow children through time",
+          "text": "TEDDY followed 903 children from three to 46 months. Its repeated samples showed developmental, transitional and more stable phases over that period. Breast-milk exposure was a strong correlate of community structure, alongside birth mode, geography and household exposures. These are trajectories observed within the studied cohort, rather than a universal timetable for every child.",
+          "studies": [
+            "early-development"
+          ]
+        },
+        {
+          "title": "From describing development to supporting growth",
+          "text": "A trial in Bangladeshi children with moderate acute malnutrition tested a food designed around microbial development. The researchers measured growth, plasma proteins and stool taxa together. This gives a concrete route from a food formulation through community changes to an outcome that matters to a child.",
+          "studies": [
+            "nutrition-food"
+          ]
+        },
+        {
+          "title": "The next layer to explore",
+          "text": "Milk glycans, microbial sharing within families, antibiotic exposure and community recovery create several different research routes. A useful early-life reference records feeding, age, location and clinical setting alongside every study so that readers can follow the relevant population.",
+          "studies": [],
+          "sources": [
+            "sanger"
+          ]
+        }
+      ],
+      "sources": [
+        "sanger",
+        "ucsf",
+        "cedars",
+        "baylor",
+        "unsw"
+      ],
+      "studies": [
+        "early-development",
+        "nutrition-food"
+      ],
+      "links": [
+        {
+          "title": "Microbial immune signalling",
+          "url": "/mechanisms#map=immune"
+        },
+        {
+          "title": "Microbial vitamin exchange",
+          "url": "/mechanisms#map=b12"
+        },
+        {
+          "title": "The infant microbiome literature",
+          "url": "/research?q=infant"
+        }
+      ]
+    },
+    {
+      "id": "medicines",
+      "title": "Medicines meet the microbiome",
+      "lead": "A medicine enters a chemically active ecosystem. Gut microbes can transform the drug, while the drug can change the microbial community.",
+      "sections": [
+        {
+          "title": "An enzyme can change a dose’s journey",
+          "text": "Microbial enzymes can turn a medicine into a different molecule before or during absorption. The consequence depends on the particular reaction: activity, transport and toxicity can change. A systematic screen tested 271 oral drugs against 76 gut bacteria and connected transformations to microbial genes.",
+          "studies": [
+            "drug-map"
+          ]
+        },
+        {
+          "title": "Digoxin shows why strain-level detail matters",
+          "text": "Some Eggerthella lenta strains inactivate the cardiac drug digoxin. Researchers identified a cytochrome-encoding operon associated with this reaction; non-metabolising strains lacked it. In colonised mice, dietary protein changed microbial metabolism and measured drug concentrations. This makes a specific gene and reaction more informative than the species label alone.",
+          "studies": [
+            "drug-digoxin"
+          ]
+        },
+        {
+          "title": "The traffic runs both ways",
+          "text": "A laboratory screen of more than 1,000 marketed drugs found growth inhibition among gut strains from medicines aimed at human targets as well as antibiotics. The results identify candidate selective pressures worth investigating alongside the concentrations actually reached in the intestine.",
+          "studies": [
+            "drug-nonantibiotic"
+          ]
+        },
+        {
+          "title": "Connect the experiment to the patient",
+          "text": "Follow the parent drug, microbial product, responsible enzyme, intestinal compartment and measured host exposure. Then ask whether the transformation changes efficacy or adverse effects in people. UCT’s pharmacogenomics programme adds an African research perspective on differences in treatment response.",
+          "studies": [],
+          "sources": [
+            "uct"
+          ]
+        }
+      ],
+      "sources": [
+        "embl",
+        "uct",
+        "weizmann"
+      ],
+      "studies": [
+        "drug-map",
+        "drug-digoxin",
+        "drug-nonantibiotic"
+      ],
+      "links": [
+        {
+          "title": "After antibiotics",
+          "url": "/illness-recovery#item=antibiotics"
+        },
+        {
+          "title": "Bile circulation and transport",
+          "url": "/mechanisms#map=bile"
+        },
+        {
+          "title": "Drug–microbiome research",
+          "url": "/research?q=drug metabolism"
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "title": "Reading a microbiome test",
+      "lead": "Begin with the sample and the measurement. Then follow how a DNA sequence becomes a name, a percentage and a biological question.",
+      "sections": [
+        {
+          "title": "From stool to sequences",
+          "text": "A stool sample captures material leaving the bowel at a particular time. Extraction releases DNA, sequencing reads parts of it, and a reference database helps assign names. Sampling and laboratory methods shape the resulting profile. A stool sample does not give the same view as sampling mucus, the small intestine or a tissue surface.",
+          "studies": [
+            "testing-consensus"
+          ]
+        },
+        {
+          "title": "16S and shotgun answer different questions",
+          "text": "16S sequencing targets a marker gene used to profile bacteria and archaea. Short reads are commonly grouped as amplicon sequence variants, or ASVs, and then assigned taxonomic names. An ASV is a sequence feature: multiple variants can come from one organism, and some organisms share the measured sequence. A report containing thousands of features therefore does not establish thousands of distinct bacterial species in that person. Shotgun metagenomics samples DNA more broadly, supporting gene and finer taxonomic profiling when depth and reference coverage permit.",
+          "studies": [
+            "testing-dada2"
+          ]
+        },
+        {
+          "title": "A percentage needs its denominator",
+          "text": "Suppose a sample contains 10 units of one organism and 90 units of others: the first organism contributes 10%. If the others double while the first stays at 10, its reported share falls to about 5%. Nothing has removed those original 10 units. Cell counting, spike-ins and targeted quantitative assays offer routes to estimating absolute abundance. Sequencing alone mainly describes the sampled DNA mixture.",
+          "studies": [
+            "testing-quantitative"
+          ]
+        },
+        {
+          "title": "Connect a result to a question",
+          "text": "For a useful comparison, record the assay, sampled gene region, database version, collection conditions, recent medicines, symptoms, stool form and dietary changes. Gene detection describes metabolic capacity; a metabolite assay measures a chemical pool; an isotope experiment can trace movement. A proposed clinical use then needs a study showing that acting on the result improves the outcome of interest.",
+          "studies": [
+            "testing-consensus",
+            "scfa-flux"
+          ]
+        }
+      ],
+      "sources": [
+        "metagenopolis",
+        "oxford",
+        "qiime",
+        "dada2",
+        "ena",
+        "sra"
+      ],
+      "studies": [
+        "testing-consensus",
+        "testing-dada2",
+        "testing-quantitative",
+        "scfa-flux"
+      ],
+      "links": [
+        {
+          "title": "Where a stool sample comes from",
+          "url": "/#organ=rectum"
+        },
+        {
+          "title": "SCFA production and measurement",
+          "url": "/mechanisms#map=scfa"
+        },
+        {
+          "title": "Original sequencing methods",
+          "url": "https://amplicon-docs.qiime2.org/en/stable/"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "id": "anatomy",
+      "title": "Habitats and spatial ecology",
+      "sources": [
+        "stanford",
+        "cedars",
+        "oxford"
+      ],
+      "text": "Six anatomical habitats connect to organisms, chemistry and research. Direct intestinal sampling has an existing reading note.",
+      "next": "Add a common comparison of stool, mucus, tissue and capsule samples, with matching study populations.",
+      "links": [
+        {
+          "title": "Explore the anatomy",
+          "url": "/"
+        },
+        {
+          "title": "Direct intestinal sampling",
+          "url": "/research?paper=capsule"
+        }
+      ]
+    },
+    {
+      "id": "nutrition",
+      "title": "Everyday nutrition and fermentation",
+      "sources": [
+        "stanford",
+        "apc",
+        "quadram",
+        "isapp",
+        "monash",
+        "book-sa"
+      ],
+      "text": "Living well and fermentation connect foods with organisms and experiments; fibre and bile-acid mechanisms expose the underlying chemistry.",
+      "next": "Expand regional food traditions across the world, compare intervention duration and measured outcomes, and connect recipes to studies on the finished food.",
+      "links": [
+        {
+          "title": "Living well",
+          "url": "/living-well"
+        },
+        {
+          "title": "Fermentation",
+          "url": "/fermentation"
+        },
+        {
+          "title": "Food cultures around the world",
+          "url": "/references#guide=food-cultures"
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "title": "Testing and measurement",
+      "sources": [
+        "metagenopolis",
+        "oxford",
+        "qiime",
+        "dada2",
+        "niddk"
+      ],
+      "text": "A new guide connects samples, marker genes, ASVs, relative abundance and clinical questions. Mechanism maps explain several blood, breath and stool measurements.",
+      "next": "Build an interactive relative-versus-absolute abundance example and a side-by-side assay comparison including ITS, 18S, metatranscriptomics and metabolomics.",
+      "links": [
+        {
+          "title": "Read a microbiome test",
+          "url": "/references#guide=testing"
+        }
+      ]
+    },
+    {
+      "id": "early",
+      "title": "Early life and development",
+      "sources": [
+        "sanger",
+        "ucsf",
+        "cedars",
+        "baylor",
+        "unsw"
+      ],
+      "text": "A new guide links longitudinal childhood development with a microbiota-directed food trial.",
+      "next": "Add maternal transmission, human milk oligosaccharides, pregnancy and infant interventions as separate evidence-led routes.",
+      "links": [
+        {
+          "title": "How a community grows",
+          "url": "/references#guide=early-life"
+        }
+      ]
+    },
+    {
+      "id": "drugs",
+      "title": "Microbial drug metabolism",
+      "sources": [
+        "embl",
+        "uct",
+        "weizmann"
+      ],
+      "text": "A new guide traces drug transformation, strain-specific digoxin metabolism and medicines that affect bacterial growth.",
+      "next": "Build enzyme-to-drug maps for digoxin, levodopa and irinotecan, including host pharmacokinetics and human outcome studies.",
+      "links": [
+        {
+          "title": "Medicines meet microbes",
+          "url": "/references#guide=medicines"
+        }
+      ]
+    },
+    {
+      "id": "food-cultures",
+      "title": "Food cultures and population research",
+      "sources": [
+        "fao-asia",
+        "unesco-mediterranean",
+        "fao-vegetables",
+        "fao-americas",
+        "pacific-food",
+        "pasifika-plates",
+        "fao-africa",
+        "ahmp",
+        "amp",
+        "book-sa",
+        "migration-study"
+      ],
+      "text": "A worldwide reading route connects regional food traditions, fermentation science, population comparisons and migration research.",
+      "next": "Extend locally authored sources and attach country, recruitment setting and dietary context to more human reading notes.",
+      "links": [
+        {
+          "title": "Food cultures around the world",
+          "url": "/references#guide=food-cultures"
+        }
+      ]
+    },
+    {
+      "id": "immune",
+      "title": "Immunity and barrier biology",
+      "sources": [
+        "oxford",
+        "cedars",
+        "riken",
+        "ucsf"
+      ],
+      "text": "Mechanism maps connect mucus, microbial sensing, regulatory T cells, butyrate and bile-acid derivatives.",
+      "next": "Add IgA, complement, antigen presentation and microbial translocation with a clear view of the tissue being studied.",
+      "links": [
+        {
+          "title": "Immune sensing",
+          "url": "/mechanisms#map=immune"
+        },
+        {
+          "title": "Mucus and barrier",
+          "url": "/mechanisms#map=mucus"
+        }
+      ]
+    },
+    {
+      "id": "brain",
+      "title": "Gut–brain communication",
+      "sources": [
+        "ucla",
+        "apc",
+        "oxford",
+        "scelse"
+      ],
+      "text": "Serotonin and a dedicated gut–brain map connect neural, precursor, immune, metabolite and returning stress-control routes. A reading guide follows the experiments behind them.",
+      "next": "Extend human vagal, stress-axis and immune studies; link sleep and mood interventions to specific measured outcomes.",
+      "links": [
+        {
+          "title": "Gut–brain communication",
+          "url": "/mechanisms#map=gut-brain"
+        },
+        {
+          "title": "Serotonin",
+          "url": "/mechanisms#map=serotonin"
+        },
+        {
+          "title": "Tryptophan",
+          "url": "/mechanisms#map=tryptophan"
+        }
+      ]
+    },
+    {
+      "id": "metabolism",
+      "title": "Cardiometabolic, liver and kidney links",
+      "sources": [
+        "cleveland",
+        "cedars",
+        "scelse",
+        "weizmann"
+      ],
+      "text": "Bile-acid, SCFA and iron maps connect microbial chemistry to host transport and regulation.",
+      "next": "Add TMA/TMAO, microbial lipids and kidney clearance; distinguish metabolic experiments from prospective disease-outcome studies.",
+      "links": [
+        {
+          "title": "Bile acids",
+          "url": "/mechanisms#map=bile"
+        },
+        {
+          "title": "Short-chain fatty acids",
+          "url": "/mechanisms#map=scfa"
+        }
+      ]
+    },
+    {
+      "id": "therapies",
+      "title": "Microbial therapies and clinical use",
+      "sources": [
+        "mayo",
+        "mit",
+        "aga-fmt",
+        "vowst",
+        "rebyota"
+      ],
+      "text": "The C. difficile story includes a defined microbial therapy trial; the directory now links guidelines and regulator product records.",
+      "next": "Create a compact intervention comparison with trial identifiers, outcomes, duration, route of delivery and country-specific clinical status.",
+      "links": [
+        {
+          "title": "C. difficile",
+          "url": "/illness-recovery#item=cdiff"
+        }
+      ]
+    },
+    {
+      "id": "cancer",
+      "title": "Cancer and treatment response",
+      "sources": [
+        "cedars",
+        "cleveland",
+        "ucla",
+        "unsw"
+      ],
+      "text": "The illness directory and paper library provide starting points. This is still a short treatment of a large research area.",
+      "next": "Develop colorectal carcinogenesis, microbial genotoxins and immunotherapy-response routes with study-specific reading notes.",
+      "links": [
+        {
+          "title": "Cancer literature",
+          "url": "/research?q=cancer"
+        }
+      ]
+    },
+    {
+      "id": "ageing",
+      "title": "Ageing and later life",
+      "sources": [
+        "quadram",
+        "scelse",
+        "apc"
+      ],
+      "text": "The reference directory identifies ageing programmes, with shared metabolic and immune mechanisms already mapped.",
+      "next": "Add longitudinal ageing cohorts, frailty, medication burden and food interventions as a dedicated reading route.",
+      "links": [
+        {
+          "title": "Ageing references",
+          "url": "/references?topic=Ageing"
+        }
+      ]
+    },
+    {
+      "id": "kingdoms",
+      "title": "Viruses, fungi, protists and worms",
+      "sources": [
+        "sanger",
+        "cgf",
+        "catalogue-uhgv",
+        "catalogue-eukdetect2",
+        "catalogue-eukprot"
+      ],
+      "text": "Microbes connects catalogue records to named papers, reviewed findings and related learning routes. Genus research and predicted-host context are shown separately from organism-specific matches.",
+      "next": "Expand reviewed record-to-paper links, especially unnamed viral clusters and newly catalogued eukaryotes, and verify more taxonomic crosswalks.",
+      "links": [
+        {
+          "title": "Microbes",
+          "url": "/explore"
+        }
+      ]
+    },
+    {
+      "id": "methods",
+      "title": "Experimental methods and reproducibility",
+      "sources": [
+        "oxford",
+        "metagenopolis",
+        "harvard",
+        "baylor",
+        "qiime"
+      ],
+      "text": "Study settings distinguish human cohorts, trials, cell experiments and animal work. Methods references are now searchable together.",
+      "next": "Add worked comparisons of gnotobiotic experiments, organoids, culture collections and causal human interventions, with reusable study metadata.",
+      "links": [
+        {
+          "title": "Methods references",
+          "url": "/references?kind=Methods+%26+training"
+        },
+        {
+          "title": "Paper library",
+          "url": "/research"
+        }
+      ]
+    },
+    {
+      "id": "resistance",
+      "title": "Colonisation resistance and antimicrobial resistance",
+      "sources": [
+        "sanger",
+        "cedars",
+        "aga"
+      ],
+      "text": "Illness stories and antibiotic-recovery notes introduce community disturbance and pathogen expansion.",
+      "next": "Connect nutrient competition, resistance genes, phage transfer and pathogen reservoirs into a dedicated mechanism route.",
+      "links": [
+        {
+          "title": "After antibiotics",
+          "url": "/illness-recovery#item=antibiotics"
+        }
+      ]
+    },
+    {
+      "id": "discovery",
+      "title": "Trials, datasets and scientific questions",
+      "sources": [
+        "mcc",
+        "trials",
+        "ahmp",
+        "ena",
+        "sra",
+        "qiita"
+      ],
+      "text": "Canonical paper IDs connect reading notes, citation links, catalogue sources and targeted community edits.",
+      "next": "Add verified trial and dataset accessions directly to more notes, and curate open questions by mechanism and population.",
+      "links": [
+        {
+          "title": "Research map",
+          "url": "/research"
+        },
+        {
+          "title": "Trials registry",
+          "url": "https://clinicaltrials.gov/"
+        }
+      ]
+    }
+  ],
+  "benchmarks": [
+    {
+      "source": "stanford",
+      "text": "Human experiments connecting food and host responses",
+      "response": "Connect every nutrition claim to the intervention, measured outcome and named paper."
+    },
+    {
+      "source": "oxford",
+      "text": "A route from community associations to functional experiments",
+      "response": "Let readers move between organism, molecule, tissue response and experimental setting."
+    },
+    {
+      "source": "cedars",
+      "text": "Clinical breadth linked to cultivation and genetic experiments",
+      "response": "Use shared mechanism links across conditions while exposing early-life and cancer coverage gaps."
+    },
+    {
+      "source": "cuhk",
+      "text": "Translation into diagnostics and therapeutics",
+      "response": "Connect candidate biomarkers and interventions to validation cohorts, trials and clinical status."
+    },
+    {
+      "source": "cleveland",
+      "text": "Connections between microbes and health across the body",
+      "response": "Show the biochemical route to the target organ and the papers supporting each part."
+    },
+    {
+      "source": "mcc",
+      "text": "Discovery of researchers and centres across a distributed field",
+      "response": "Make centres searchable by the biological question, then connect them to the relevant learning and research routes."
+    },
+    {
+      "source": "apc",
+      "text": "Food science and gut–brain research within one centre",
+      "response": "Keep everyday foods, mechanisms and human experiments one or two links apart."
+    },
+    {
+      "source": "niddk",
+      "text": "Clear routes from symptoms to conditions and care",
+      "response": "Pair plain-language illness explanations with anatomy and the microbial processes involved."
+    },
+    {
+      "source": "isapp",
+      "text": "Accessible explanations of microbial food and product categories",
+      "response": "Connect definitions to particular organisms, processes, food preparations and measured outcomes."
+    },
+    {
+      "source": "ahmp",
+      "text": "Study discovery by country, sample and assay",
+      "response": "Carry population and sample context through research notes and regional learning routes."
+    }
+  ]
+}

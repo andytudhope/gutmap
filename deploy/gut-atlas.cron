@@ -1,0 +1,3 @@
+# Check daily; the importer runs only when 96 hours have elapsed since success.
+# Failed runs retry the next day without advancing the successful checkpoint.
+17 3 * * * gutatlas /opt/gut-atlas/deploy/ingest.sh >> /var/lib/gut-atlas/ingest.log 2>&1

@@ -1,0 +1,160 @@
+[
+  {
+    "id": "constipation",
+    "title": "Constipation",
+    "keywords": [
+      "constipat",
+      "slow transit",
+      "methane",
+      "motility",
+      "hard stool",
+      "bowel movement",
+      "poop"
+    ]
+  },
+  {
+    "id": "bloating",
+    "title": "Bloating",
+    "keywords": [
+      "bloat",
+      "distension",
+      "gas production",
+      "flatulence",
+      "ferment"
+    ]
+  },
+  {
+    "id": "ibs",
+    "title": "Irritable bowel syndrome",
+    "keywords": [
+      "irritable bowel",
+      "ibs",
+      "abdominal pain",
+      "stomach pain"
+    ]
+  },
+  {
+    "id": "gut-brain",
+    "title": "Mood & the gut–brain axis",
+    "keywords": [
+      "gut-brain",
+      "gut brain",
+      "depress",
+      "anxiety",
+      "mood",
+      "stress",
+      "psychobiotic",
+      "mental health",
+      "emotion",
+      "brain fog"
+    ]
+  },
+  {
+    "id": "immunity",
+    "title": "Immunity & inflammation",
+    "keywords": [
+      "immun",
+      "inflamm",
+      "autoimmun",
+      "allerg",
+      "barrier",
+      "ibd",
+      "crohn",
+      "colitis"
+    ]
+  },
+  {
+    "id": "fibre",
+    "title": "Fibre & fermentation",
+    "keywords": [
+      "fiber",
+      "fibre",
+      "prebiotic",
+      "dietary",
+      "ferment",
+      "nutrition",
+      "diet"
+    ]
+  },
+  {
+    "id": "butyrate",
+    "title": "Butyrate & microbial metabolites",
+    "keywords": [
+      "butyrate",
+      "short-chain fatty",
+      "short chain fatty",
+      "scfa"
+    ]
+  },
+  {
+    "id": "bifido",
+    "title": "Bifidobacterium",
+    "keywords": [
+      "bifidobacter",
+      "bifido"
+    ]
+  },
+  {
+    "id": "methane",
+    "title": "Methane & archaea",
+    "keywords": [
+      "methan",
+      "archaea",
+      "methanobrevibacter"
+    ]
+  },
+  {
+    "id": "metabolism",
+    "title": "Metabolism & the body",
+    "keywords": [
+      "metaboli",
+      "obesity",
+      "diabetes",
+      "insulin",
+      "bile acid",
+      "cardiovascular",
+      "tmao"
+    ]
+  },
+  {
+    "id": "diarrhoea",
+    "title": "Diarrhoea & disruption",
+    "keywords": [
+      "diarrh",
+      "antibiotic",
+      "clostridioides",
+      "clostridium difficile",
+      "dysbiosis"
+    ]
+  },
+  {
+    "id": "small-intestine",
+    "title": "The small-intestinal ecosystem",
+    "keywords": [
+      "small intestin",
+      "duoden",
+      "ileum",
+      "ileal",
+      "jejunu",
+      "sibo"
+    ]
+  },
+  {
+    "id": "fasting",
+    "title": "Fasting & meal timing",
+    "keywords": [
+      "intermittent fasting",
+      "time-restricted eating",
+      "time restricted eating",
+      "time-restricted feeding",
+      "time restricted feeding",
+      "ramadan",
+      "fasting-mimick",
+      "fasting mimick",
+      "alternate-day fasting",
+      "alternate day fasting",
+      "prolonged fasting",
+      "water-only fasting"
+    ]
+  }
+]

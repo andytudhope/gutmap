@@ -1,0 +1,1797 @@
+{
+  "oral": {
+    "paper": "MED:26811460",
+    "kind": "Human plaque · spatial imaging",
+    "finding": "Microscopy revealed organised, multi-species structures in dental plaque. Neighbourhoods follow gradients in oxygen and nutrients rather than assembling at random.",
+    "meaning": "Plaque has spatial organisation: neighbouring bacteria create gradients in oxygen and metabolites that shape who can grow beside them.",
+    "question": "How do changes in these neighbourhoods precede a shift from a stable biofilm to disease?",
+    "regions": [
+      "mouth",
+      "oesophagus"
+    ],
+    "source_title": "Biogeography of a human oral microbiome at the micron scale.",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "gastric": {
+    "paper": "MED:35364066",
+    "kind": "Human randomised trial · long-term follow-up",
+    "finding": "A trial of 1,630 H. pylori-positive participants followed the consequences of eradication treatment over 26.5 years and reported reduced gastric cancer incidence.",
+    "meaning": "Removing a persistent gastric infection changed a long-term cancer outcome. This connects a specific microorganism, chronic inflammation, and disease prevention.",
+    "question": "How do host risk, existing tissue changes, and the wider gastric community affect the benefit?",
+    "regions": [
+      "stomach"
+    ],
+    "source_title": "Effect of Helicobacter pylori Eradication on Gastric Cancer Prevention: Updated Report From a Randomized Controlled Trial With 26.5 Years of Follow-up.",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "capsule": {
+    "paper": "MED:37165188",
+    "kind": "Human study · ingestible sampling devices",
+    "finding": "Ingestible devices collected intestinal contents during normal digestion. Microbial, metabolite, and protein profiles differed along the intestine and from stool.",
+    "meaning": "The small intestine contains local microbial and chemical environments that are transformed before their contents appear in stool.",
+    "question": "Can repeat sampling reveal which local changes precede symptoms or responses to food?",
+    "regions": [
+      "stomach",
+      "small",
+      "colon",
+      "rectum"
+    ],
+    "source_title": "Profiling the human intestinal environment under physiological conditions.",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "fibre": {
+    "paper": "MED:34256014",
+    "kind": "Human randomised dietary intervention",
+    "finding": "The fermented-food arm increased microbial diversity and reduced several inflammatory markers. The high-fibre arm increased carbohydrate-degrading capacity, with immune responses differing between participants.",
+    "meaning": "Diet changed microbial functions and immune markers along different paths: the fibre-rich and fermented-food diets produced different biological responses.",
+    "question": "Which foods and microbial functions predict a durable response in different people?",
+    "regions": [
+      "small",
+      "colon",
+      "rectum"
+    ],
+    "source_title": "Gut-microbiota-targeted diets modulate human immune status.",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20",
+    "population": "Healthy adults"
+  },
+  "bifido": {
+    "paper": "MED:27379055",
+    "kind": "Review · microbial ecology and physiology",
+    "finding": "This review connects bifidobacterial carbohydrate use, host adaptation, and interactions with other gut organisms. Species and strains differ in the substrates they can use.",
+    "meaning": "Carbohydrate specialisation helps explain why bifidobacteria flourish at different life stages and how their fermentation products feed other organisms.",
+    "question": "Which combinations of strains and food substrates reliably support a desired function?",
+    "regions": [
+      "colon",
+      "rectum"
+    ],
+    "source_title": "Bifidobacteria and Their Role as Members of the Human Gut Microbiota.",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "faecali": {
+    "paper": "MED:18936492",
+    "kind": "Human association + cell and mouse experiments",
+    "finding": "Lower F. prausnitzii abundance was linked with postoperative Crohn disease recurrence. Bacterial products also showed anti-inflammatory effects in cell and mouse models.",
+    "meaning": "The study linked a human disease pattern with experimental anti-inflammatory activity. Secreted bacterial products reduced inflammatory signalling in cell and mouse experiments.",
+    "question": "Which products and strains matter most, and can their effects be reproduced in human interventions?",
+    "regions": [
+      "colon"
+    ],
+    "source_title": "Faecalibacterium prausnitzii is an anti-inflammatory commensal bacterium identified by gut microbiota analysis of Crohn disease patients.",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "akk": {
+    "paper": "MED:31263284",
+    "kind": "Human pilot · randomised, placebo-controlled",
+    "finding": "Forty insulin-resistant volunteers enrolled and 32 completed this pilot. Pasteurised A. muciniphila improved some metabolic measures compared with placebo.",
+    "meaning": "The trial brought a mucus-associated bacterium into a human metabolic intervention. Pasteurised cells changed some metabolic measures without requiring live colonisation.",
+    "question": "Which baseline microbial and host features predict who benefits?",
+    "regions": [
+      "colon"
+    ],
+    "source_title": "Supplementation with Akkermansia muciniphila in overweight and obese human volunteers: a proof-of-concept exploratory study.",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "transit": {
+    "paper": "MED:27562254",
+    "kind": "Human observational study · measured transit",
+    "finding": "Longer transit was associated with higher microbial richness and a shift toward protein breakdown products. Transit was measured with radio-opaque markers.",
+    "meaning": "Time in the bowel changes microbial fuel use. Longer transit was linked with a shift from carbohydrate fermentation toward protein breakdown.",
+    "question": "When transit improves, which microbial functions change first?",
+    "regions": [
+      "colon",
+      "rectum"
+    ],
+    "source_title": "Colonic transit time is related to bacterial metabolism and mucosal turnover in the gut.",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "archaea": {
+    "paper": "MED:34969981",
+    "kind": "Genome catalogue · global gut datasets",
+    "finding": "A genome catalogue expanded the known diversity of human gut archaea and characterised methanogen lineages beyond the few routinely cultivated representatives.",
+    "meaning": "The genome catalogue separated archaeal lineages with distinct genetic features, expanding the picture beyond the few methanogens routinely grown in laboratories.",
+    "question": "Which archaeal lineages have distinct metabolic and host interactions?",
+    "regions": [
+      "colon",
+      "rectum"
+    ],
+    "source_title": "A catalogue of 1,167 genomes from the human gut archaeome.",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "archaea-new": {
+    "paper": "MED:39217206",
+    "kind": "Cultivation study · human-derived archaea",
+    "finding": "Targeted enrichment and isolation expanded the collection of cultivated gut Methanobrevibacter strains, creating material for experiments beyond genome-based predictions.",
+    "meaning": "Cultivated strains make it possible to measure archaeal metabolism and test partnerships with bacterial neighbours directly.",
+    "question": "Can strain-level experiments explain the different relationships between methane production and transit?",
+    "regions": [
+      "colon",
+      "rectum"
+    ],
+    "source_title": "Targeted isolation of Methanobrevibacter strains from fecal samples expands the cultivated human archaeome.",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "brain": {
+    "paper": "MED:30718848",
+    "kind": "Human cohorts · metagenomic associations",
+    "finding": "Faecalibacterium and Coprococcus were associated with higher quality-of-life measures in human cohorts. Other microbial features and neuroactive metabolic potential were associated with depression.",
+    "meaning": "The analysis connected microbial composition and neuroactive metabolic potential with measured quality of life and depression in human cohorts.",
+    "question": "Which microbial pathways change psychological outcomes when deliberately modified?",
+    "regions": [
+      "colon"
+    ],
+    "source_title": "The neuroactive potential of the human gut microbiota in quality of life and depression.",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "phages-new": {
+    "paper": "MED:41299176",
+    "kind": "Human longitudinal study · six people, two years",
+    "finding": "Long-read sequencing followed integrated phages in six people over two years. Most remained stable within bacterial hosts; a smaller fraction were gained or lost, and some appeared in hosts from different bacterial families.",
+    "meaning": "Persistent bacterial populations carry changing viral genomes. Gene exchange can occur within a community whose broad bacterial labels remain similar.",
+    "question": "Which phage-driven genetic changes alter community function or host outcomes?",
+    "regions": [
+      "colon"
+    ],
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "fungi": {
+    "paper": "MED:35176228",
+    "kind": "Human and mouse biogeography + mouse intervention experiments",
+    "finding": "The study identified fungi associated with intestinal mucus in humans and mice. In mice, defined mucosal fungal communities supported barrier protection and affected social behaviour through distinct type 17 immune pathways.",
+    "meaning": "Mucus-associated fungi engaged distinct immune pathways: IL-22 supported barrier protection, while IL-17-related signalling affected behaviour in mouse experiments.",
+    "question": "Which fungal functions act on the human gut barrier, and how do bacteria modify those effects?",
+    "regions": [
+      "colon"
+    ],
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "gastric-community": {
+    "paper": "MED:16407106",
+    "kind": "Human gastric biopsies · 23 people",
+    "regions": [
+      "stomach"
+    ],
+    "finding": "Sequencing gastric biopsies found 128 bacterial phylotypes, including Streptococcus and other organisms alongside Helicobacter. The community differed from previously sampled oral and oesophageal communities.",
+    "meaning": "Acid does not make the stomach sterile. Its mucus-lined surface supports a microbial community with a composition of its own.",
+    "question": "Which gastric microbes grow at the lining, and how do acid suppression and H. pylori treatment change their activity?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "oesoph-community": {
+    "paper": "MED:15016918",
+    "kind": "Human oesophageal biopsies · four adults",
+    "regions": [
+      "oesophagus"
+    ],
+    "finding": "16S sequencing of normal distal oesophageal tissue detected 41 bacterial genera. Streptococcus, Prevotella, and Veillonella were the most common.",
+    "meaning": "The oesophagus carries a diverse bacterial community closely related to the oral microbiome. These organisms were sampled from tissue, rather than inferred from stool.",
+    "question": "How do reflux and changes in the lining alter these communities over time?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "lacto-gastric": {
+    "paper": "MED:11204805",
+    "kind": "Human randomised trial · 53 volunteers",
+    "regions": [
+      "stomach"
+    ],
+    "finding": "Lactobacillus johnsonii La1-acidified milk reduced H. pylori density and gastric inflammation. Both groups also received clarithromycin; the milk did not increase antibiotic eradication rates.",
+    "meaning": "Suppressing an organism and removing an infection are different biological outcomes. Here, bacterial density and inflammation fell without an added eradication benefit.",
+    "question": "Which compounds produced by L. johnsonii reduce H. pylori density and gastric inflammation?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "lacto-histamine": {
+    "paper": "MED:22384111",
+    "kind": "Bacterial genetics and human immune-cell experiments",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "finding": "L. reuteri 6475 converted histidine into histamine. That histamine activated H2 receptors in human monocytoid cells and reduced production of the inflammatory signal TNF.",
+    "meaning": "A bacterium can turn a dietary amino acid into a signal recognised by human immune cells. Removing histamine-pathway genes disrupted the effect.",
+    "question": "Where and at what concentrations does bacterial histamine alter immune activity inside a living intestine?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "veillonella-lactate": {
+    "paper": "MED:31235964",
+    "kind": "Marathon-runner observations + mouse experiments",
+    "regions": [
+      "colon"
+    ],
+    "finding": "Veillonella increased after a marathon. A V. atypica isolate from a runner converted lactate into propionate and increased treadmill endurance when given to mice.",
+    "meaning": "In mice, lactate moved from blood into the gut, where microbes converted it into a different metabolite. This connects exercising muscle, microbial metabolism, and physical performance.",
+    "question": "Does this lactate-to-propionate pathway improve endurance in a controlled human intervention?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "bifido-acetate": {
+    "paper": "MED:21270894",
+    "kind": "Defined bacterial strains in mice · infection model",
+    "regions": [
+      "colon"
+    ],
+    "finding": "Certain bifidobacterial strains protected mice during E. coli O157:H7 infection. Increased acetate production reduced the passage of Shiga toxin from the intestine into blood.",
+    "meaning": "Protection came through the gut barrier: a bacterial fermentation product changed how much toxin reached the body.",
+    "question": "Which acetate-producing communities strengthen the human intestinal barrier during infection?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "bifido-cognition": {
+    "paper": "MED:32623402",
+    "kind": "Human randomised trial · 80 older adults · 16 weeks",
+    "regions": [
+      "colon"
+    ],
+    "finding": "B. breve A1 supplementation improved the primary cognitive-test score compared with placebo in older adults with suspected mild cognitive impairment. Seventy-nine participants completed the trial.",
+    "meaning": "This tested a gut microbe against a measured brain-related outcome in people. The result concerns this preparation and population; it did not test dementia prevention.",
+    "question": "What biological pathway links the intervention to cognition, and does the effect persist after supplementation ends?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "bacteroides-glycans": {
+    "paper": "MED:15790854",
+    "kind": "Germ-free mice + bacterial gene-expression analysis",
+    "regions": [
+      "colon"
+    ],
+    "finding": "B. thetaiotaomicron changed its carbohydrate-use machinery with the available food. When dietary polysaccharides were absent, it turned to sugars in host mucus.",
+    "meaning": "Food changes what microbes eat, including whether they draw on the material lining the gut. The same organism can switch between dietary and host-derived resources.",
+    "question": "How do different food fibres change competition for mucus sugars in a mixed human community?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "bacteroides-immune": {
+    "paper": "MED:16009137",
+    "kind": "Germ-free animal colonisation · bacterial genetics",
+    "regions": [
+      "colon"
+    ],
+    "finding": "B. fragilis polysaccharide A altered T-cell development and immune balance in germ-free animals. Bacteria lacking the molecule failed to restore the same immune functions.",
+    "meaning": "A defined molecule on a gut bacterium helped shape the developing immune system, including effects beyond the intestinal surface.",
+    "question": "How does polysaccharide A influence immune development in human populations?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "bacteroides-brain": {
+    "paper": "MED:24315484",
+    "kind": "Maternal immune-activation mouse model",
+    "regions": [
+      "colon"
+    ],
+    "finding": "B. fragilis treatment improved gut permeability and several behavioural measures in a mouse model of maternal immune activation. It also changed circulating metabolites.",
+    "meaning": "The experiments connect intestinal barrier function, blood-borne metabolites, and behaviour. The intervention was tested in mice, not as an autism treatment in people.",
+    "question": "Which metabolites carry the signal from the altered intestinal community to the nervous system?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "faecali-protein": {
+    "paper": "MED:26045134",
+    "kind": "Protein identification · cell and mouse experiments",
+    "regions": [
+      "colon"
+    ],
+    "finding": "Researchers identified a protein called MAM in F. prausnitzii secretions. Expression of MAM reduced NF-κB signalling in epithelial cells; engineered delivery also reduced experimental colitis in mice.",
+    "meaning": "F. prausnitzii acts through more than butyrate. A secreted protein provides another route from a gut organism to inflammatory signalling.",
+    "question": "Can a defined MAM-based preparation reproduce the anti-inflammatory effect in human tissue and trials?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "akk-mucus": {
+    "paper": "MED:23671105",
+    "kind": "High-fat-diet mouse experiments",
+    "regions": [
+      "colon"
+    ],
+    "finding": "Live A. muciniphila improved mucus-layer thickness, insulin resistance, and several inflammatory and metabolic measures in high-fat-fed mice. Heat-killed bacteria did not reproduce those effects in this experiment.",
+    "meaning": "A bacterium living at the mucus boundary changed barrier and whole-body metabolic physiology. Later human work tested a different, pasteurised preparation.",
+    "question": "Which bacterial components explain the different effects of live, heat-killed, and pasteurised preparations?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "methane-transit": {
+    "paper": "MED:21286935",
+    "kind": "Systematic review and meta-analysis · nine studies, 1,277 people",
+    "regions": [
+      "colon",
+      "rectum"
+    ],
+    "finding": "Breath methane was associated with constipation across nine studies. The pooled odds ratio was 3.51; additional transit studies also linked methane with slower bowel movement.",
+    "meaning": "This connects a microbial gas with a physical symptom. Breath testing measures methane production, rather than the abundance of one archaeal species.",
+    "question": "Does a sustained change in methane production precede a sustained change in transit?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "methane-partners": {
+    "paper": "MED:35536023",
+    "kind": "Defined bacterial–archaeal cocultures",
+    "regions": [
+      "colon"
+    ],
+    "finding": "B. thetaiotaomicron fermentation products supported M. smithii growth. Under particular nutrient conditions, growing the organisms together produced more growth than their separate cultures combined.",
+    "meaning": "A bacterium and an archaeon can form a metabolic partnership: one organism’s fermentation products feed another.",
+    "question": "How do these partnerships change fermentation and gas production in a larger intestinal community?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "fungi-malassezia": {
+    "paper": "MED:30850233",
+    "kind": "Human Crohn’s tissue + immune-cell and mouse experiments",
+    "regions": [
+      "colon"
+    ],
+    "finding": "Malassezia restricta was enriched in Crohn’s-associated intestinal tissue. It triggered CARD9-dependent immune responses and worsened colitis in mouse experiments.",
+    "meaning": "A fungus best known from skin also interacts with the intestinal immune system. Host immune genetics influenced the inflammatory response.",
+    "question": "Which host and fungal features determine whether intestinal Malassezia contributes to inflammation?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "fungi-mutualism": {
+    "paper": "MED:34262174",
+    "kind": "Human and mouse antibodies · fungal colonisation experiments",
+    "regions": [
+      "colon"
+    ],
+    "finding": "Intestinal IgA antibodies preferentially targeted the invasive hyphal form of Candida albicans. Suppressing this form favoured less damaging colonisation; targeted immune stimulation protected mice during colitis.",
+    "meaning": "The immune system can change how a fungus grows. Keeping Candida in a less invasive form benefited both the host and the fungus’s ability to remain in the gut.",
+    "question": "Can this antibody response be strengthened to prevent fungal damage in people?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "phages-remission": {
+    "paper": "MED:39420033",
+    "kind": "Human metagenomics within two randomised FMT trials",
+    "regions": [
+      "colon"
+    ],
+    "finding": "Phage populations changed with antibiotics and faecal microbiota transplantation in ulcerative colitis trials. A donor-derived phage was associated with disease remission.",
+    "meaning": "Microbial transplantation transfers viral as well as bacterial ecosystems. The remission-associated phage was integrated into a bacterial host, linking their outcomes.",
+    "question": "Does this phage contribute to remission, or mark the transfer of a beneficial bacterial host?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "small-sugars": {
+    "paper": "MED:22258098",
+    "kind": "Human intestinal samples · metagenomics and gene expression",
+    "regions": [
+      "small"
+    ],
+    "finding": "Small-intestinal communities were enriched for rapid sugar uptake and conversion. Streptococcus carbohydrate-transport and metabolism genes were particularly active in the sampled community.",
+    "meaning": "The small intestine rewards fast access to food moving past the lining. Its microbes compete for brief pulses of sugars while the host absorbs nutrients.",
+    "question": "How do meals and transit change these active communities across a day?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "probiotic-colonisation": {
+    "paper": "MED:30193112",
+    "kind": "Human endoscopic sampling during an 11-strain probiotic intervention",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "finding": "Probiotic organisms survived passage through the gut, but their colonisation of the lining varied between people and intestinal regions. Their appearance in stool did not distinguish those colonisation patterns.",
+    "meaning": "Surviving digestion and establishing at the gut lining are separate events. Local host and community conditions influenced whether the introduced organisms settled.",
+    "question": "Which existing microbes and host conditions open or close a niche for an introduced organism?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "small-immune": {
+    "paper": "MED:25479553",
+    "kind": "Human intestinal isolates · human dendritic-cell experiments",
+    "regions": [
+      "small"
+    ],
+    "finding": "Small-intestinal Streptococcus and Veillonella isolates triggered different cytokine responses in human dendritic cells. Pairing the organisms changed the response: some combinations suppressed IL-12p70 while increasing several other cytokines.",
+    "meaning": "The immune system encounters microbial combinations. Neighbours can change the signal generated by an organism, linking community structure with immune activity.",
+    "question": "How do these combined responses operate at the intestinal lining during everyday digestion?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "cross-feeding": {
+    "paper": "MED:26420851",
+    "kind": "Defined bacterial cocultures",
+    "regions": [
+      "colon"
+    ],
+    "finding": "In defined cocultures, B. adolescentis L2-32 and F. prausnitzii strains showed lower acetate and higher butyrate concentrations than the relevant monocultures. Responses differed between fructooligosaccharide and starch substrates.",
+    "meaning": "These laboratory comparisons support substrate-dependent cross-feeding between the tested strains. They do not establish a clinical effect of a food or supplement.",
+    "question": "Which substrates sustain this exchange in mixed human gut communities, and how does the result vary by strain?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21",
+    "source_title": "Enhanced butyrate formation by cross-feeding between Faecalibacterium prausnitzii and Bifidobacterium adolescentis",
+    "population": "Defined bacterial strains in coculture",
+    "review_basis": "Published abstract"
+  },
+  "butyrate-acetate": {
+    "paper": "MED:12324374",
+    "kind": "Human gut bacterial isolates · enzyme and fermentation experiments",
+    "regions": [
+      "colon"
+    ],
+    "finding": "Roseburia and F. prausnitzii strains used acetate and possessed butyryl-CoA:acetate-CoA transferase, linking acetate uptake with butyrate formation.",
+    "meaning": "Butyrate production depends on the metabolic machinery of the organism and on substrates supplied by the surrounding community.",
+    "question": "How does changing acetate availability alter butyrate output in a living intestinal community?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "gastric-mucin": {
+    "paper": "MED:19706518",
+    "kind": "Purified gastric mucin · bacterial motility experiments",
+    "regions": [
+      "stomach"
+    ],
+    "finding": "In a gastric mucin model, H. pylori raised the local pH and changed the gel into a material it could swim through.",
+    "meaning": "Urease changes the physical environment as well as its acidity: a bacterium can alter the mucus that surrounds it.",
+    "question": "How does this movement change in living gastric mucus with continuing acid and bicarbonate secretion?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "gastric-urei": {
+    "paper": "MED:10642549",
+    "kind": "Bacterial gene deletion · channel expression in frog oocytes",
+    "regions": [
+      "stomach"
+    ],
+    "finding": "Acidity activated urea uptake through UreI. Deleting ureI prevented the acid-triggered activation of urease needed for acid resistance.",
+    "meaning": "An acid-sensitive membrane gate controls access to the substrate used by urease.",
+    "question": "How could the channel be blocked without disrupting the wider gastric community?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "gastric-urease": {
+    "paper": "MED:10639406",
+    "kind": "Bacterial deletion mutants · urease and membrane-potential measurements",
+    "regions": [
+      "stomach"
+    ],
+    "finding": "Wild-type bacteria activated urease in acidic conditions. UreI deletion removed this response and the urea-induced increase in membrane potential.",
+    "meaning": "Urea entry couples external acidity to internal enzyme activity and bacterial acid survival.",
+    "question": "How does this response vary across gastric Helicobacter species?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "colonocyte-butyrate": {
+    "paper": "MED:21531334",
+    "kind": "Germ-free mice · isolated colonocytes · butyrate rescue",
+    "regions": [
+      "colon"
+    ],
+    "finding": "Colonocytes from germ-free mice had depleted energy stores and reduced mitochondrial respiration. Butyrate restored oxidative metabolism and prevented the associated autophagy response.",
+    "meaning": "A bacterial fermentation product supplies fuel directly to the cells lining the colon.",
+    "question": "How do mixed diets and changing butyrate producers alter colonocyte fuel use in people?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "oral-nitrate": {
+    "paper": "MED:15693824",
+    "kind": "Ten human volunteers · tongue isolates",
+    "regions": [
+      "mouth"
+    ],
+    "finding": "Nitrate reduction was concentrated at the rear of the tongue. Cultured nitrate-reducing isolates included Veillonella, Actinomyces and Rothia species.",
+    "meaning": "Oral bacteria convert salivary nitrate into nitrite before it is swallowed.",
+    "question": "Which community interactions determine the amount of nitrite produced after a meal?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "gastric-nitric": {
+    "paper": "MED:9071933",
+    "kind": "Human dietary nitrate experiment",
+    "regions": [
+      "mouth",
+      "oesophagus",
+      "stomach"
+    ],
+    "finding": "A dietary nitrate load produced a large, sustained increase in gastric nitric oxide, following salivary nitrate concentration and bacterial conversion to nitrite.",
+    "meaning": "Chemistry in the stomach continues a transformation begun by microbes on the tongue.",
+    "question": "How does gastric acidity change nitric oxide production from swallowed nitrite?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "junction-nitric": {
+    "paper": "MED:11984511",
+    "kind": "Fifteen healthy volunteers · pH and nitric-oxide microsensors",
+    "regions": [
+      "oesophagus",
+      "stomach"
+    ],
+    "finding": "After nitrate ingestion, nitric oxide concentrations peaked where neutral oesophageal contents met acidic gastric juice.",
+    "meaning": "The chemical boundary between oesophagus and stomach determines where swallowed microbial products react.",
+    "question": "How do reflux and changes in acidity move this reaction zone?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "oral-sugar": {
+    "paper": "MED:27403051",
+    "kind": "Laboratory S. mutans biofilms on enamel slabs",
+    "regions": [
+      "mouth"
+    ],
+    "finding": "More frequent sucrose exposure increased the acid-producing behaviour and enamel-demineralising activity of the experimental biofilm.",
+    "meaning": "Sugar frequency changes the chemistry around a tooth as well as the behaviour of its biofilm.",
+    "question": "How do the same exposures play out in mixed communities with differing saliva flow?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "oral-lactate": {
+    "paper": "MED:20154130",
+    "kind": "Saliva-fed flow-cell biofilms · defined bacterial communities",
+    "regions": [
+      "mouth"
+    ],
+    "finding": "S. oralis produced lactate from saliva, and Veillonella consumed it. Two-species biofilms grew more when Veillonella was a partner.",
+    "meaning": "An organism using its neighbour’s fermentation product can help a larger biofilm community develop.",
+    "question": "Which partnerships dominate on different oral surfaces and at different stages of plaque growth?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "oral-sucrose": {
+    "paper": "MED:9286518",
+    "kind": "Human volunteers wearing appliances with enamel blocks",
+    "regions": [
+      "mouth"
+    ],
+    "finding": "Repeated sucrose exposure changed the composition of plaque developing on enamel blocks in volunteers’ mouths and increased its demineralising potential.",
+    "meaning": "The sugar–plaque relationship can be measured in the mouth, connecting bacterial changes with effects on enamel.",
+    "question": "How do fluoride exposure and meal patterns modify this relationship?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "cgf": {
+    "paper": "MED:38776919",
+    "kind": "Cultured stool fungi · 760 genomes · 206 species",
+    "regions": [
+      "colon",
+      "rectum"
+    ],
+    "finding": "Cultivation yielded 760 fungal genomes representing 206 species across 48 families, including 69 previously unidentified species. Genome and metabolic analyses expanded the reference for studying gut fungal activity.",
+    "meaning": "A genome catalogue opens fungal diversity beyond the familiar Candida, Saccharomyces and Malassezia examples.",
+    "question": "How do the metabolic activities of these fungal species change interactions with bacteria and the host?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "exercise-allen": {
+    "paper": "MED:29166320",
+    "kind": "Human exercise intervention",
+    "finding": "After six weeks of supervised exercise, lean participants had higher faecal short-chain fatty acid concentrations; obese participants did not. Many microbial changes reversed during the sedentary washout.",
+    "meaning": "Sustained movement changes the microbial ecosystem, with different responses across participants.",
+    "question": "Which changes in intestinal transit, substrate supply and host metabolism explain the difference?",
+    "regions": [
+      "colon"
+    ],
+    "population": "Adults without diagnosed gut disease",
+    "dose": "Three endurance sessions per week, progressing from 30 to 60 minutes",
+    "duration": "6 weeks, followed by 6 weeks of sedentary washout",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "exercise-hiit": {
+    "paper": "MED:32478429",
+    "kind": "Human exercise intervention",
+    "finding": "Three weeks of interval training improved fitness without a detectable change in gut bacterial diversity or composition.",
+    "meaning": "Fitness improvements can occur before a detectable community shift.",
+    "question": "How do training duration and baseline community influence the response?",
+    "regions": [
+      "colon"
+    ],
+    "population": "Adults without diagnosed gut disease",
+    "duration": "3 weeks",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "sleep-karl": {
+    "paper": "MED:36604516",
+    "kind": "Randomised crossover trial",
+    "finding": "In 19 healthy young men, three nights of severe sleep restriction reduced observed microbial richness. Intestinal permeability and overall community differences were unchanged.",
+    "meaning": "Sleep and the gut are connected through measurable processes; the outcomes differ across measurements.",
+    "question": "Does sustained moderate sleep loss produce the same pattern?",
+    "regions": [
+      "colon"
+    ],
+    "population": "Healthy adults",
+    "dose": "2 hours versus 7–9 hours of sleep per night",
+    "duration": "3 nights",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "stress-1714": {
+    "paper": "MED:27801892",
+    "kind": "Human within-participant study",
+    "finding": "In 22 healthy volunteers, B. longum 1714 consumption was associated with lower stress responses and subtle changes in memory performance.",
+    "meaning": "A named strain was studied against measured psychological and physiological outcomes.",
+    "question": "Can independent trials reproduce the effect in larger and more varied populations?",
+    "regions": [
+      "colon"
+    ],
+    "population": "Healthy adults",
+    "duration": "4-week supplementation phase",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "starch-keystone": {
+    "paper": "MED:22343308",
+    "kind": "Bacterial culture and stool-community experiments",
+    "finding": "R. bromii broke down resistant starch particles and enabled other bacteria to use the products.",
+    "meaning": "A community can gain access to a food through the activity of a specialist member.",
+    "question": "Which starch structures recruit different cross-feeding partnerships?",
+    "regions": [
+      "colon"
+    ],
+    "population": "Laboratory",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "kefir-succession": {
+    "paper": "MED:27822552",
+    "kind": "Food fermentation experiment",
+    "finding": "Bacterial and yeast communities changed during kefir fermentation alongside changes in flavour compounds.",
+    "meaning": "The same vessel contains a succession of microbial activities.",
+    "question": "Which interactions produce the differences between grain cultures?",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "population": "Laboratory",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "tempeh-inoculum": {
+    "paper": "MED:16350003",
+    "kind": "Food fermentation experiment",
+    "finding": "Rice-grown Rhizopus inoculum fermented soybeans into tempeh; preparation and storage affected starter performance.",
+    "meaning": "A defined fungal starter makes a repeatable food transformation possible.",
+    "question": "How do modern starter communities change texture and nutrient accessibility?",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "population": "Laboratory",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "noro-enteroids": {
+    "paper": "MED:27562956",
+    "kind": "Human intestinal cell culture",
+    "finding": "Human intestinal enteroids supported replication of several norovirus strains, with host and bile-dependent differences.",
+    "meaning": "Intestinal tissue models allow direct experiments on a human enteric virus.",
+    "question": "Which microbial products change susceptibility in these models?",
+    "regions": [
+      "small"
+    ],
+    "population": "Laboratory",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "noro-later": {
+    "paper": "MED:39404443",
+    "kind": "Human intestinal cell culture",
+    "finding": "Updated intestinal enteroid methods expanded the practical study of human norovirus replication.",
+    "meaning": "The research tools themselves open new routes to testing viral mechanisms.",
+    "question": "Which findings reproduce across donor tissues and viral genotypes?",
+    "regions": [
+      "small"
+    ],
+    "population": "Laboratory",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "giardia-after": {
+    "paper": "MED:25115874",
+    "kind": "Human prospective cohort",
+    "finding": "After a large Giardia outbreak, exposed participants had higher rates of irritable bowel syndrome and chronic fatigue six years later than controls.",
+    "meaning": "Clearing an infection and recovering everyday function can follow different timelines.",
+    "question": "Which host and microbial changes predict persistent symptoms?",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "population": "People after Giardia infection",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "antibiotic-suez": {
+    "paper": "MED:30193113",
+    "kind": "Human intervention and mouse experiments",
+    "finding": "In this experiment, a multi-strain probiotic delayed the return of the participants’ own mucosal community after antibiotics. Autologous stool transfer accelerated recovery.",
+    "meaning": "Restoring a community involves competition and colonisation, as well as adding organisms.",
+    "question": "Which recovery strategies improve symptoms and clinical outcomes?",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "population": "Healthy adults and mouse experiments",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "cdiff-ser109": {
+    "paper": "MED:35045228",
+    "kind": "Randomised trial",
+    "finding": "In adults with recurrent C. difficile infection, an oral purified spore preparation reduced recurrence compared with placebo after standard antibiotics.",
+    "meaning": "A targeted community treatment can improve a clinical outcome in a defined recurrent infection.",
+    "question": "Which functions of the transferred community provide lasting protection?",
+    "regions": [
+      "colon"
+    ],
+    "population": "Adults with recurrent C. difficile infection",
+    "duration": "8-week primary endpoint",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "sourdough-landis": {
+    "paper": "MED:33496265",
+    "finding": "A survey of 500 sourdough starters connected community composition to rise and aroma. Synthetic communities revealed interactions between yeasts and bacteria.",
+    "meaning": "Starter ecology contributes to baking properties.",
+    "question": "Which maintenance practices reliably change a starter’s function?",
+    "kind": "Food community survey and culture experiments",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "population": "Food or laboratory community",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "kimchi-succession": {
+    "paper": "MED:23550842",
+    "finding": "Over 120 days of kimchi storage, researchers followed changes in acidity, bacterial and yeast abundance, community composition and metabolites.",
+    "meaning": "A fermented vegetable continues changing during storage.",
+    "question": "Which temperature and ingredient choices shape useful differences in the finished food?",
+    "kind": "Food fermentation time series",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "population": "Food or laboratory community",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "koji-growth": {
+    "paper": "MED:32518660",
+    "finding": "Imaging followed Aspergillus oryzae growing into rice koji and documented changes in its hyphae and nuclei.",
+    "meaning": "Koji is a growing fungal structure as well as an enzyme source.",
+    "question": "How do substrate structure and strain affect enzyme delivery?",
+    "kind": "Fungal growth experiment",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "population": "Food or laboratory community",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "miso-spontaneous": {
+    "paper": "MED:41695945",
+    "finding": "A study of nesashi miso found a spontaneous community dominated by Mucor and other fungi, unlike the Aspergillus-dominated koji misos used for comparison.",
+    "meaning": "Different traditions can achieve fermentation through different fungal communities.",
+    "question": "Which microbial functions are shared across these distinct fermentation traditions?",
+    "kind": "Food metagenomics and isolate genomics",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "population": "Food or laboratory community",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "yoghurt-lactose": {
+    "paper": "MED:6417539",
+    "finding": "Human digestion experiments found that yoghurt supported lactose digestion, connecting the starter culture’s enzyme activity to the person eating it.",
+    "meaning": "Food microbes can act during digestion without becoming permanent residents.",
+    "question": "How do processing and storage affect the delivery of active microbial enzymes?",
+    "kind": "Human digestion experiment",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "population": "Human participants",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "catalogue-uhgv": {
+    "paper": "PPR:PPR1112695",
+    "kind": "Preprint · viral genome catalogue",
+    "finding": "The Unified Human Gut Virome combines 873,995 genomes into 168,536 species-level clusters. Uniform annotations connect genome quality, viral lineages, predicted hosts and lifestyle.",
+    "meaning": "A shared reference connects discoveries that previously lived in separate viral catalogues.",
+    "question": "Which predicted host relationships hold up in direct culture experiments?",
+    "regions": [
+      "colon",
+      "rectum"
+    ],
+    "population": "Genome or protein reference datasets",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "catalogue-gpd": {
+    "paper": "MED:33606979",
+    "kind": "Gut bacteriophage genome catalogue",
+    "finding": "The Gut Phage Database assembled 142,809 non-redundant phage genomes from 28,060 gut metagenomes. It expanded the sequence reference for studying interactions between phages and gut bacteria.",
+    "meaning": "Original GPD identifiers connect to the unified clusters through the imported UHGV crosswalk.",
+    "question": "Which phage–bacterium relationships explain changes in community function?",
+    "regions": [
+      "colon",
+      "rectum"
+    ],
+    "population": "Genome or protein reference datasets",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "catalogue-mgv": {
+    "paper": "MED:34168315",
+    "kind": "Gut viral genome catalogue",
+    "finding": "The Metagenomic Gut Virus catalogue collected 189,680 viral genomes and organised them into species-level groups. Most represented previously uncharacterised viral diversity.",
+    "meaning": "A genome reference makes a much larger part of the gut virome accessible to comparative research.",
+    "question": "Which genes and host relationships explain the ecological effects of these viral groups?",
+    "regions": [
+      "colon",
+      "rectum"
+    ],
+    "population": "Genome or protein reference datasets",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "catalogue-eukdetect2": {
+    "paper": "PPR:PPR1260594",
+    "kind": "Preprint · microbial eukaryote reference and profiling",
+    "finding": "EukDetect2 extends marker-based detection of microbial eukaryotes and analyses protists in public human-gut cohorts. The reference includes 989 representative protist genomes alongside fungal references.",
+    "meaning": "Genome-reference membership and detection in a human gut sample are two separately inspectable records.",
+    "question": "How do protist–bacterial relationships vary across cohorts and experimental systems?",
+    "regions": [
+      "colon",
+      "rectum"
+    ],
+    "population": "Genome or protein reference datasets",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "catalogue-eukprot": {
+    "paper": "DOI:10.24072/pcjournal.173",
+    "kind": "Eukaryotic protein dataset catalogue",
+    "finding": "EukProt v3 brings together 993 genome-scale protein datasets from genomes, transcriptomes and other sequence resources across eukaryotic diversity.",
+    "meaning": "The resource supplies deeper evolutionary context and sequence references for microbial eukaryotes.",
+    "question": "Which poorly sampled lineages would most improve the reference for human-associated protists?",
+    "regions": [
+      "colon",
+      "rectum"
+    ],
+    "population": "Genome or protein reference datasets",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-20"
+  },
+  "fasting-ramadan": {
+    "paper": "MED:33842951",
+    "kind": "Human longitudinal cohorts",
+    "population": "Adults observing Ramadan",
+    "finding": "Two cohorts studied across Ramadan showed changes in stool bacterial composition, including an increase in Lachnospiraceae. The investigators used 16S sequencing and compared physiological measures and matched controls.",
+    "meaning": "A month of changing the daily feeding rhythm reshaped the measured community. The proposed butyrate mechanism follows from the organisms detected; it is not a direct measurement of every organism’s activity.",
+    "question": "Which changes follow meal timing itself, and which follow changes in food, sleep or energy intake?",
+    "regions": [
+      "colon"
+    ],
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21",
+    "review_basis": "Published abstract"
+  },
+  "fasting-diet-context": {
+    "paper": "MED:33679680",
+    "kind": "Human before-and-after study",
+    "population": "Chinese and Pakistani adults",
+    "finding": "Ramadan-associated microbial changes differed between the two study populations. Food-intake analysis identified dietary composition as a major influence, and the bacterial groups that changed were not the same in both populations.",
+    "meaning": "A fasting schedule operates inside a food culture. Studies of the same calendar practice can produce different community changes when the meals differ.",
+    "question": "What happens when the same foods and energy intake are maintained while only their timing changes?",
+    "regions": [
+      "colon"
+    ],
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21",
+    "review_basis": "Published abstract"
+  },
+  "fasting-protein": {
+    "paper": "MED:38806467",
+    "kind": "Randomised dietary trial",
+    "population": "41 adults with overweight or obesity",
+    "finding": "Over eight weeks, intermittent fasting combined with protein pacing produced different microbial and plasma-metabolite profiles from continuous calorie restriction. The combined programme also improved reported gut symptoms.",
+    "meaning": "This tested a package of fasting and protein distribution. It establishes a response to that programme; it does not isolate fasting from protein pacing.",
+    "question": "How much of the response comes from timing, protein distribution, food composition and weight loss separately?",
+    "regions": [
+      "colon"
+    ],
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21",
+    "review_basis": "Published abstract"
+  },
+  "fasting-feeding-rct": {
+    "paper": "MED:39454570",
+    "kind": "Randomised controlled feeding trial",
+    "population": "96 adults with overweight or obesity",
+    "finding": "A 12-week factorial feeding trial compared lower-carbohydrate eating and time-restricted eating within calorie restriction. Microbiome and metabolite profiles changed. The time-restricted component also produced greater lean-mass loss.",
+    "meaning": "Feeding design helps separate meal timing from carbohydrate content. Body composition adds a second outcome alongside weight and stool measurements.",
+    "question": "Which schedules preserve muscle while producing sustained metabolic and microbial changes?",
+    "regions": [
+      "colon"
+    ],
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21",
+    "review_basis": "Published abstract"
+  },
+  "fasting-early-late": {
+    "paper": "MED:40732909",
+    "kind": "Secondary analysis of a randomised trial",
+    "population": "76 adults with obesity",
+    "finding": "Early and late time-restricted eating were compared with energy restriction alone. Overall community differences between groups were not significant, while diversity measures and particular genera changed differently. Follow-up stool data were available for 43 people.",
+    "meaning": "Different microbial measurements tell different parts of the result. A change in selected genera does not imply that the whole community moved in the same direction.",
+    "question": "Do the early-window changes reproduce in a larger trial with complete long-term follow-up?",
+    "regions": [
+      "colon"
+    ],
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21",
+    "review_basis": "Published abstract"
+  },
+  "fasting-liver-rct": {
+    "paper": "MED:42413768",
+    "kind": "Multicentre randomised trial",
+    "population": "197 adults with overweight or obesity",
+    "finding": "Participants received Mediterranean-diet education alone or with an early, late or self-selected eight-hour eating window. After 12 weeks, adding a time window produced no significant between-group differences in measured stool microbiota or liver outcomes.",
+    "meaning": "The trial gives a direct comparison against an active dietary programme. Liver fat fell within fasting groups, but the comparison did not establish an additional benefit over usual care.",
+    "question": "Which participants and microbial functions respond to meal timing when food quality and weight change are measured together?",
+    "regions": [
+      "colon"
+    ],
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21",
+    "review_basis": "Published abstract"
+  },
+  "fasting-blood-pressure": {
+    "paper": "MED:33785752",
+    "kind": "Randomised trial substudy · exploratory microbiome endpoints",
+    "population": "Adults with hypertension and metabolic syndrome",
+    "finding": "A five-day fast followed by a modified DASH diet reduced systolic blood pressure, medication need and body-mass index at three months compared with the diet alone. Stool profiles changed in taxa and gene modules related to short-chain-fatty-acid production.",
+    "meaning": "This was a structured clinical intervention with refeeding. The microbiome analysis explored biological pathways alongside a measured blood-pressure response.",
+    "question": "Which microbial functions predict a durable response, and does the prediction hold in an independent group?",
+    "regions": [
+      "colon"
+    ],
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21",
+    "review_basis": "Published abstract"
+  },
+  "fasting-autoimmunity": {
+    "paper": "MED:29874567",
+    "kind": "Mouse mechanism experiments and a human pilot",
+    "population": "Mice with experimental autoimmune encephalomyelitis; people with MS",
+    "finding": "Intermittent fasting reduced disease severity in a mouse model of central-nervous-system autoimmunity. Transferring microbes from fasting mice also improved the recipient mice’s disease. A small human pilot found changes in gut flora and blood adipokines.",
+    "meaning": "The transfer experiment supports a microbial contribution in the mouse model. The human pilot measured biological changes rather than establishing treatment efficacy for multiple sclerosis.",
+    "question": "Which transferred organisms or metabolites produce the mouse response, and can a human trial test the same pathway?",
+    "regions": [
+      "colon"
+    ],
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21",
+    "review_basis": "Published abstract"
+  },
+  "worms-deworming": {
+    "paper": "MED:29486796",
+    "kind": "Human cohorts and randomised deworming follow-up",
+    "population": "Participants in Indonesia and Liberia",
+    "finding": "Soil-transmitted helminth infections were associated with shared bacterial signatures across two countries. In longitudinal trial samples, deworming changed the microbiota without simply returning it to the profile of uninfected participants.",
+    "meaning": "Worms, bacteria and the host form an interacting ecosystem. Removing one member can change that system without rewinding its history.",
+    "question": "Which bacterial changes follow worm removal directly, and which persist because of diet, exposure or host immunity?",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21",
+    "review_basis": "Published abstract"
+  },
+  "worms-immune": {
+    "paper": "MED:31781154",
+    "kind": "Exploratory analysis within a placebo-controlled trial",
+    "population": "66 participants with paired samples",
+    "finding": "The study paired stool profiles with stimulated blood-cell cytokine responses over a deworming trial. Associations between bacterial composition and immune responses differed with helminth-infection status. Albendazole showed no clear direct effect on those associations.",
+    "meaning": "This links microbial community measurements to a measured immune response while retaining infection status as an important part of the comparison.",
+    "question": "Can controlled experiments identify which parasite products and bacterial metabolites change the immune response?",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21",
+    "review_basis": "Published abstract"
+  },
+  "acid-suppression": {
+    "paper": "MED:26657899",
+    "kind": "Human observational study · three cohorts",
+    "population": "1,815 participants, including 211 PPI users",
+    "finding": "Proton-pump-inhibitor use was associated with lower stool microbial diversity and differences in bacterial taxa across three cohorts. The study compared existing users with non-users.",
+    "meaning": "Changing gastric acid is associated with changes downstream in the gut community. This is an observational comparison, so medicine use and the reasons for taking it remain part of the interpretation.",
+    "question": "Which changes follow acid suppression directly, and which reflect the underlying illness or accompanying treatments?",
+    "regions": [
+      "stomach",
+      "small",
+      "colon"
+    ],
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21",
+    "review_basis": "Published abstract"
+  },
+  "fasting-diabetes-trial": {
+    "paper": "MED:29405359",
+    "kind": "Randomised clinical trial · hypoglycaemia",
+    "population": "41 adults with type 2 diabetes randomised; 37 analysed",
+    "finding": "Participants followed two very-low-calorie days each week, either consecutively or apart. Fasting days increased hypoglycaemia rates despite medicine reduction. The study did not establish a difference between the two schedules.",
+    "meaning": "Medication and the feeding schedule act together. This trial measured a clinical risk, not a microbiome endpoint, and belongs beside the metabolic studies when considering a fasting programme.",
+    "question": "Which medication adjustments and monitoring schedules maintain glucose stability during fasting?",
+    "regions": [
+      "colon"
+    ],
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21",
+    "review_basis": "Published abstract"
+  },
+  "iron-export": {
+    "paper": "MED:15514116",
+    "kind": "Cell experiments",
+    "finding": "Hepcidin bound ferroportin and triggered its internalisation and degradation, reducing cellular iron export.",
+    "meaning": "The liver controls entry of absorbed and recycled iron into blood by regulating the exporter.",
+    "question": "How does inflammation change this control in different gut disorders?",
+    "regions": [
+      "small"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "iron-inflammation": {
+    "paper": "MED:15124018",
+    "kind": "Human volunteers, mice and liver cells",
+    "finding": "IL-6 stimulated hepcidin production and was linked to a fall in circulating iron.",
+    "meaning": "Inflammation can restrict circulating iron even when iron remains in body stores.",
+    "question": "Which inflammatory signals explain persistent low iron availability?",
+    "regions": [
+      "small"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "iron-timing": {
+    "paper": "MED:29032957",
+    "kind": "Two randomised trials in iron-depleted women",
+    "finding": "Stable-isotope measurements found greater fractional absorption with alternate-day than consecutive-day iron dosing; split doses raised hepcidin.",
+    "meaning": "Timing changes the fraction absorbed, through the same regulatory system that controls everyday iron traffic.",
+    "question": "How do these absorption findings translate into longer-term correction of anaemia?",
+    "regions": [
+      "small"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "serotonin-microbes": {
+    "paper": "MED:25860609",
+    "kind": "Germ-free mice, colonisation experiments and cell culture",
+    "finding": "Spore-forming gut communities and their metabolites increased serotonin synthesis in colonic enterochromaffin cells. Mouse blood serotonin, transit and platelet function changed.",
+    "meaning": "Microbes can regulate host serotonin production without making the bulk of that serotonin themselves.",
+    "question": "Which metabolites drive the same pathway in people?",
+    "regions": [
+      "colon"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "serotonin-sensing": {
+    "paper": "MED:28648659",
+    "kind": "Intestinal organoids and sensory physiology",
+    "finding": "Enterochromaffin cells detected chemical signals, were electrically excitable and coupled to sensory nerves through serotonin.",
+    "meaning": "These epithelial cells translate luminal chemistry into a signal received by the nervous system.",
+    "question": "How do particular microbial compounds change sensory signalling in an intact human gut?",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "bile-bsh": {
+    "paper": "MED:30014852",
+    "kind": "Defined bacterial genetics and colonised mice",
+    "finding": "Deleting a bile salt hydrolase in B. thetaiotaomicron changed the bile-acid pool and host metabolic responses.",
+    "meaning": "A single microbial enzyme can change the chemical signals returning to the host.",
+    "question": "Which enzyme activities best predict bile-acid changes in a mixed human community?",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "bile-human": {
+    "paper": "MED:17116003",
+    "kind": "Human physiological study",
+    "finding": "Circulating FGF19 rose after meals, following the rise in serum bile acids; interventions that changed bile-acid circulation changed this feedback.",
+    "meaning": "The intestine sends an endocrine signal back to the liver to regulate bile-acid synthesis.",
+    "question": "How does microbial bile-acid transformation alter this feedback in people?",
+    "regions": [
+      "small"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "bile-tcells": {
+    "paper": "MED:31776512",
+    "kind": "Cell and mouse experiments",
+    "finding": "Two lithocholic-acid derivatives had different effects on T-cell differentiation: 3-oxoLCA inhibited Th17 differentiation and isoalloLCA promoted regulatory T cells.",
+    "meaning": "Closely related microbial products can engage different immune pathways.",
+    "question": "Which concentrations occur at human intestinal immune-cell surfaces?",
+    "regions": [
+      "colon"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "scfa-flux": {
+    "paper": "MED:27510655",
+    "kind": "Stable-isotope study in 12 healthy people",
+    "finding": "Labelled short-chain fatty acids delivered to the colon had different systemic availability: acetate 36%, propionate 9% and butyrate 2%. Substantial amounts were oxidised.",
+    "meaning": "Most colonic butyrate is used before reaching the wider circulation; the three acids have different destinations.",
+    "question": "How do food substrates and gut transit change these metabolic fluxes?",
+    "regions": [
+      "colon"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "indoles-ahr": {
+    "paper": "MED:23973224",
+    "kind": "Microbial metabolism and mouse experiments",
+    "finding": "Lactobacilli converted tryptophan to indole-3-aldehyde, engaging AhR and an IL-22-associated mucosal response.",
+    "meaning": "An amino acid can become a microbial signal that changes host barrier immunity.",
+    "question": "Which organisms supply the relevant AhR ligands in different human diets?",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "indoles-card9": {
+    "paper": "MED:27158904",
+    "kind": "Mouse transfer experiments and human IBD samples",
+    "finding": "CARD9 deficiency altered microbial tryptophan metabolism and AhR activity in mice; human IBD samples also showed differences in microbial AhR-ligand activity.",
+    "meaning": "Host genetics and microbial metabolism meet at a shared chemical signalling pathway.",
+    "question": "Which human interventions restore the missing activity?",
+    "regions": [
+      "colon"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "kynurenine": {
+    "paper": "MED:23843452",
+    "kind": "Human HIV cohort and bacterial culture",
+    "finding": "Mucosal microbial changes were associated with tryptophan catabolism and disease progression; cultured bacteria could produce kynurenine.",
+    "meaning": "Both host and microbial pathways contribute to the tryptophan-metabolism landscape.",
+    "question": "How much circulating kynurenine comes from microbes versus host enzymes in each setting?",
+    "regions": [
+      "colon"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "b12-competition": {
+    "paper": "MED:24439897",
+    "kind": "Bacterial transport genetics and mouse competition",
+    "finding": "B. thetaiotaomicron used multiple transporters to distinguish corrinoids, with different transporters affecting competitive fitness in the gut.",
+    "meaning": "Microbes compete for a family of vitamin-like cofactors, not one interchangeable resource.",
+    "question": "How does dietary corrinoid supply alter these competitions in humans?",
+    "regions": [
+      "colon"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "b12-host": {
+    "paper": "MED:14576052",
+    "kind": "Receptor biology and human genetic disease",
+    "finding": "Cubilin and amnionless formed a functional receptor complex for intrinsic-factor-bound vitamin B12.",
+    "meaning": "Absorption depends on a specialised host uptake system.",
+    "question": "How does impaired uptake change microbial competition for luminal B12?",
+    "regions": [
+      "small"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "b12-production": {
+    "paper": "MED:28928206",
+    "kind": "Defined intestinal microbial cocultures",
+    "finding": "Mucus-based cross-feeding supported butyrate production, while E. hallii supplied pseudovitamin B12 that supported Akkermansia metabolism.",
+    "meaning": "A microbial cofactor can support another organism without being equivalent to a useful human vitamin supply.",
+    "question": "Which microbial corrinoids enter host-accessible nutritional pathways?",
+    "regions": [
+      "colon"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "mucus-layers": {
+    "paper": "MED:18806221",
+    "kind": "Mouse colonic mucus experiments",
+    "finding": "An inner Muc2-dependent mucus layer excluded bacteria; an outer expanded layer was colonised. Muc2-deficient mice lost this separation.",
+    "meaning": "Mucus is organised habitat and physical protection, rather than an inert coating.",
+    "question": "How do human mucus properties vary along the colon and during recovery?",
+    "regions": [
+      "colon"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "mucus-fibre": {
+    "paper": "MED:27863247",
+    "kind": "Gnotobiotic mice with a defined human microbial community",
+    "finding": "Fibre deprivation increased microbial use of mucus glycans, eroded the mucus barrier and increased susceptibility to an intestinal pathogen.",
+    "meaning": "Microbial substrate availability can redirect feeding toward host mucus.",
+    "question": "Which fibre mixtures sustain barrier protection across different human communities?",
+    "regions": [
+      "colon"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "immune-tlr2": {
+    "paper": "MED:21512004",
+    "kind": "Bacterial colonisation and mouse immune experiments",
+    "finding": "B. fragilis polysaccharide A engaged TLR2 on regulatory T cells, supporting colonisation and restraining inflammatory Th17 responses.",
+    "meaning": "Recognition of a microbial molecule can promote accommodation and immune regulation.",
+    "question": "Which microbial signals cooperate or compete with this pathway in humans?",
+    "regions": [
+      "colon"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "immune-butyrate": {
+    "paper": "MED:24226770",
+    "kind": "Mouse and cell experiments",
+    "finding": "Butyrate promoted regulatory T-cell differentiation and histone acetylation at the Foxp3 locus, and reduced experimental colitis.",
+    "meaning": "A fermentation product can change immune-cell gene regulation.",
+    "question": "How does local butyrate exposure shape human tissue immune responses?",
+    "regions": [
+      "colon"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "hydrogen-sinks": {
+    "paper": "MED:2379871",
+    "kind": "Human faecal fermentation experiments",
+    "finding": "Methanogenesis, sulfate reduction and acetogenesis provided alternative routes for hydrogen disposal, with different responses to local conditions.",
+    "meaning": "Hydrogen consumption connects multiple competing microbial guilds.",
+    "question": "How do diet and transit shift these sinks within the same person?",
+    "regions": [
+      "colon"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "motility-macrophages": {
+    "paper": "MED:25036630",
+    "kind": "Mouse intestinal neuroimmune experiments",
+    "finding": "Muscularis macrophage BMP2 signalled to enteric neurons; neuronal CSF1 supported macrophages. Microbial stimuli affected this reciprocal system and motility.",
+    "meaning": "Gut movement is coordinated by immune cells and nerves as well as muscle.",
+    "question": "Which parts of this feedback explain human post-infectious motility changes?",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "motility-serotonin": {
+    "paper": "MED:29866843",
+    "kind": "Germ-free and colonised mice",
+    "finding": "Colonisation changed enteric nervous-system maturation and transit through serotonin-related pathways; experimental 5-HT4 manipulation altered responses.",
+    "meaning": "Microbial exposure can remodel the neural machinery controlling intestinal passage.",
+    "question": "Which changes persist when an adult human microbial community changes?",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "testing-consensus": {
+    "paper": "MED:39647502",
+    "kind": "International expert consensus",
+    "population": "Multidisciplinary microbiome-testing expert panel",
+    "regions": [
+      "colon"
+    ],
+    "finding": "The panel set out a framework covering test provision, indications, sample preparation, analytical methods, reporting and clinical value.",
+    "meaning": "A test report needs a defined measurement and a demonstrated connection to the clinical decision it is being used for.",
+    "question": "Which prospective trials show better patient outcomes when microbiome test results guide care?",
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "testing-dada2": {
+    "paper": "MED:27214047",
+    "kind": "Method development and benchmarking",
+    "population": "Mock communities and a human vaginal microbiome dataset",
+    "regions": [
+      "colon"
+    ],
+    "finding": "DADA2 modelled Illumina amplicon errors and resolved sequence differences as small as one nucleotide, recovering more real variants with fewer spurious sequences in mock-community comparisons.",
+    "meaning": "An amplicon sequence variant is an inferred DNA sequence. The paper establishes an analytical method, rather than a count of bacterial species in a human gut.",
+    "question": "How do primer region, reference database and sequencing depth change the taxonomic resolution of a gut sample?",
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "testing-quantitative": {
+    "paper": "MED:29143816",
+    "kind": "Quantitative stool profiling",
+    "population": "Healthy participants and a Crohn’s disease cohort",
+    "regions": [
+      "colon"
+    ],
+    "finding": "Combining sequencing with flow-cytometric cell counts revealed substantial differences in total microbial load and changed the interpretation of community variation.",
+    "meaning": "A percentage can change because its denominator changes. Combining relative profiles with cell counts makes absolute-abundance questions accessible.",
+    "question": "How do absolute microbial counts and metabolic activity change together during an intervention?",
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "drug-digoxin": {
+    "paper": "MED:23869020",
+    "kind": "Bacterial genetics, culture assays and gnotobiotic mice",
+    "population": "Eggerthella lenta strains and colonised mice",
+    "regions": [
+      "colon"
+    ],
+    "finding": "A cytochrome-encoding operon predicted digoxin inactivation; it was absent from non-metabolising strains. Dietary protein changed microbial digoxin metabolism and drug concentrations in mice.",
+    "meaning": "Species names alone missed a drug-metabolising capability carried by particular strains and genes.",
+    "question": "Can measurement of this microbial activity improve human digoxin treatment decisions?",
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "drug-map": {
+    "paper": "MED:31158845",
+    "kind": "Drug screen, microbial genetics and mouse experiments",
+    "population": "76 gut bacterial strains tested against 271 oral drugs",
+    "regions": [
+      "colon"
+    ],
+    "finding": "The screen identified microbial chemical modification of many drugs and linked particular transformations to microbial gene products. Selected enzymes altered intestinal and systemic drug metabolism in mice.",
+    "meaning": "Microbial genomes encode drug-transforming enzymes that can change the molecules reaching host tissues.",
+    "question": "Which transformations most affect efficacy or toxicity at doses used in human care?",
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "drug-nonantibiotic": {
+    "paper": "MED:29555994",
+    "kind": "In-vitro drug screen",
+    "population": "More than 1,000 drugs tested against 40 gut bacterial strains",
+    "regions": [
+      "colon"
+    ],
+    "finding": "About one quarter of the human-targeted drugs inhibited at least one bacterial strain in the screen. Susceptibility patterns overlapped with antibiotic susceptibility.",
+    "meaning": "Medicines aimed at host cells can also exert selective pressure on gut bacteria.",
+    "question": "How do these laboratory effects translate into changes in patients with different intestinal exposures?",
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "early-development": {
+    "paper": "MED:30356187",
+    "kind": "Longitudinal childhood cohort",
+    "population": "903 children followed from 3 to 46 months in TEDDY",
+    "regions": [
+      "colon"
+    ],
+    "finding": "Longitudinal sequencing identified developmental, transitional and more stable phases. Breast-milk exposure was strongly associated with community structure; birth mode, geography and household exposures also contributed.",
+    "meaning": "An infant community develops over time. Age, feeding and environment help explain a profile before it is compared with adult references.",
+    "question": "Which early microbial functions change later immune development, and which are markers of the same shared exposures?",
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "africa-diet": {
+    "paper": "MED:25919227",
+    "kind": "Supervised two-week dietary exchange",
+    "population": "African American and rural South African adults",
+    "regions": [
+      "colon"
+    ],
+    "finding": "Exchanging diets produced reciprocal changes in microbial metabolism and colonic mucosal biomarkers. The higher-fibre intervention increased butyrate-related fermentation and reduced secondary bile-acid synthesis in African American participants.",
+    "meaning": "Dietary change altered microbial chemistry and tissue biomarkers within weeks. The study measured these intermediate outcomes rather than later cancer incidence.",
+    "question": "Which changes persist after participants return to everyday eating, and which predict long-term disease outcomes?",
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "africa-children": {
+    "paper": "MED:20679230",
+    "kind": "Cross-sectional population comparison",
+    "population": "Children in Europe and rural Burkina Faso",
+    "regions": [
+      "colon"
+    ],
+    "finding": "The groups differed in microbial composition and stool short-chain fatty acids alongside contrasting dietary patterns.",
+    "meaning": "Diet and setting are central context for interpreting a community profile; the comparison did not isolate diet from every other environmental difference.",
+    "question": "Which effects recur in within-person dietary interventions and across more African populations?",
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "nutrition-food": {
+    "paper": "MED:33826814",
+    "kind": "Randomised nutritional intervention",
+    "population": "123 Bangladeshi children aged 12–18 months with moderate acute malnutrition",
+    "regions": [
+      "colon"
+    ],
+    "finding": "The microbiota-directed food group showed growth trajectories consistent with a benefit, alongside changes in bacterial taxa and plasma proteins associated with growth. A total of 118 children completed the intervention.",
+    "meaning": "The study connects a designed food intervention with clinical growth measurements and microbial changes in a defined population.",
+    "question": "How durable are the gains, and which components and microbial functions account for them?",
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "serotonin-physiology": {
+    "paper": "MED:28035530",
+    "kind": "Physiology review",
+    "population": "Review of experimental intestinal serotonin research",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "finding": "The review brings together evidence for intestinal serotonin in motility, inflammation and wider hormonal functions, and describes the intestine as the source of about 95% of body serotonin.",
+    "meaning": "Serotonin has several tissue-specific roles. Receptors and cellular location determine which response follows its release.",
+    "question": "Which receptor and tissue explain the outcome of a particular serotonin intervention?",
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "serotonin-vagal": {
+    "paper": "MED:26456775",
+    "kind": "Nerve recordings, electrophysiology and receptor imaging",
+    "population": "Control-fed and high-fat-fed rats",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "finding": "Serotonin increased gastric vagal afferent activity. Glucose amplified this response in control-fed animals; high-fat feeding altered that amplification before obesity developed.",
+    "meaning": "A local chemical signal can change the activity of a nerve carrying gut information toward the brain.",
+    "question": "Which food and microbial signals alter this receptor-mediated response in people?",
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "serotonin-anatomy": {
+    "paper": "MED:38625817",
+    "kind": "Anatomical tracing",
+    "population": "Mouse small-intestinal mucosa",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "finding": "Tracing found appreciable distances between serotonin-containing enterochromaffin cells and vagal afferent endings, without close contacts characteristic of synapses.",
+    "meaning": "The observed arrangement supports diffusion of local signals to these nerve endings. It distinguishes this route from direct synaptic circuits involving other epithelial cells.",
+    "question": "How do local concentrations and diffusion shape the timing of vagal activation?",
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "brain-vagus": {
+    "paper": "MED:30237325",
+    "kind": "Neural tracing and functional experiments",
+    "population": "Mouse enteroendocrine cells and vagal neurons",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "finding": "Enteroendocrine neuropod cells formed synapses with vagal neurons and used glutamate to transmit gut signals on a millisecond timescale.",
+    "meaning": "The gut has a fast epithelial-to-neural communication route using a transmitter other than serotonin.",
+    "question": "How do these circuits cooperate with slower endocrine and immune signals?",
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "brain-tryptophan": {
+    "paper": "MED:22688187",
+    "kind": "Germ-free and colonisation experiments",
+    "population": "Male and female mice studied across development",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "finding": "Male germ-free mice had increased plasma tryptophan and hippocampal serotonin-related measures. Later colonisation restored peripheral tryptophan without reversing all adult neurochemical changes.",
+    "meaning": "Microbial exposure, precursor supply, sex and developmental timing can influence the brain’s serotonergic system through distinct processes.",
+    "question": "Which precursor and developmental effects translate to human gut–brain communication?",
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "brain-microglia": {
+    "paper": "MED:26030851",
+    "kind": "Germ-free, recolonisation and receptor experiments",
+    "population": "Mouse brain microglia and microbial-metabolite interventions",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "finding": "Germ-free and microbiota-depleted mice showed altered microglial maturation and function. Recolonisation partly restored features; short-chain fatty acids and FFAR2 signalling were implicated.",
+    "meaning": "Microbial chemistry can shape brain immune-cell biology through pathways beyond serotonin.",
+    "question": "Which intermediary tissues and signals carry this effect in human neuroimmune conditions?",
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "brain-stress": {
+    "paper": "MED:15133062",
+    "kind": "Germ-free and colonisation experiments",
+    "population": "Mouse stress physiology",
+    "regions": [
+      "small",
+      "colon"
+    ],
+    "finding": "Germ-free mice showed an exaggerated ACTH and corticosterone response to restraint. Microbial colonisation and its timing altered this response.",
+    "meaning": "Microbial exposure influenced development of a host hormonal stress-control system.",
+    "question": "Which parts of this developmental mechanism remain modifiable in adult humans?",
+    "review_basis": "Published abstract",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-21"
+  },
+  "toilet-posture": {
+    "paper": "MED:12870773",
+    "kind": "Within-person comparison",
+    "population": "28 volunteers with normal bowel function",
+    "finding": "Volunteers reported less straining and faster satisfactory emptying while squatting than on either of two toilet seats.",
+    "meaning": "The outcomes were self-reported in healthy volunteers; this does not establish a treatment for constipation.",
+    "question": "Who benefits when mobility, stool consistency and pelvic-floor function differ?",
+    "regions": [
+      "rectum"
+    ],
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-22",
+    "review_basis": "Published abstract"
+  },
+  "toilet-footstool": {
+    "paper": "MED:36989181",
+    "kind": "Randomised-order physiological trial",
+    "population": "41 patients with constipation; 93% female",
+    "finding": "Footstools changed posture but did not improve balloon-expulsion time or perceived ease in this referred constipation group.",
+    "meaning": "Simulated evacuation differs from everyday stool passage. A footstool is not a universal constipation treatment.",
+    "question": "Can pelvic-floor assessment identify people who respond?",
+    "regions": [
+      "rectum"
+    ],
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-22",
+    "review_basis": "Published abstract"
+  },
+  "toilet-bidet-japan": {
+    "paper": "MED:27714679",
+    "kind": "Cross-sectional questionnaire",
+    "population": "4,963 respondents from a Japanese convenience sample",
+    "finding": "55% reported bidet use. Certain washing behaviours, including warmer water after defecation, were associated with anal itching.",
+    "meaning": "Self-selection and reverse causation limit causal conclusions; this is not a national prevalence estimate.",
+    "question": "Does gentle low-pressure use differ from frequent or intense washing?",
+    "regions": [
+      "rectum"
+    ],
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-22",
+    "review_basis": "Published abstract"
+  },
+  "toilet-culture-odisha": {
+    "paper": "MED:26357958",
+    "kind": "Qualitative interviews, observations and focus groups",
+    "population": "Rural communities in coastal Odisha, India",
+    "finding": "Participants described water-based cleansing routines; water access, privacy, social routines and unfinished latrines influenced toilet use.",
+    "meaning": "Sanitation design needs local knowledge. These communities cannot represent all of India or any religion.",
+    "question": "How can toilet design accommodate local practice and accessibility?",
+    "regions": [
+      "rectum"
+    ],
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-22",
+    "review_basis": "Published abstract"
+  },
+  "slow-eating": {
+    "paper": "MED:24847856",
+    "kind": "Systematic review and meta-analysis",
+    "population": "22 experimental eating-rate studies",
+    "finding": "Slower eating reduced intake during the studied meals, but hunger ratings did not differ reliably afterward.",
+    "meaning": "Meal experiments do not establish sustained weight loss or a direct microbiome benefit.",
+    "question": "Which ways of slowing down remain comfortable and useful in everyday meals?",
+    "regions": [
+      "mouth"
+    ],
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-22",
+    "review_basis": "Published abstract"
+  },
+  "cooking-bean-structure": {
+    "paper": "MED:3529917",
+    "kind": "Small random-order meal comparison and laboratory experiments",
+    "population": "Six weight-stable adults",
+    "finding": "Home-boiled beans produced flatter glucose and insulin responses than canned beans in this small study; laboratory starch digestion also differed.",
+    "meaning": "Processing changes the food matrix. This was not a slow-cooker trial and does not make canned beans unhealthy.",
+    "question": "Which combinations of texture, ingredients and cooking method matter in larger studies?",
+    "regions": [
+      "small"
+    ],
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-22",
+    "review_basis": "Published abstract"
+  },
+  "cooking-resistant-starch": {
+    "paper": "MED:9614157",
+    "kind": "Human ileal sampling with supporting pig experiments",
+    "population": "Six human volunteers",
+    "finding": "Part of the starch in cooked white beans escaped small-intestinal digestion; microscopy found starch enclosed within cell walls.",
+    "meaning": "Food structure can preserve starch for later fermentation. This does not show that longer cooking always increases resistant starch.",
+    "question": "How do cooking, cooling and chewing jointly change what reaches the colon?",
+    "regions": [
+      "small"
+    ],
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-22",
+    "review_basis": "Published abstract"
+  },
+  "fasting-trial-synthesis": {
+    "paper": "MED:40533200",
+    "kind": "Systematic review and network meta-analysis",
+    "population": "99 randomised trials; 6,582 adults",
+    "finding": "Most fasting approaches had weight and cardiometabolic effects similar to continuous energy restriction; alternate-day fasting had a small additional weight effect, mainly in shorter studies.",
+    "meaning": "The synthesis concerns metabolic outcomes, not proof of microbiome improvement or longer life.",
+    "question": "Which schedules remain sustainable beyond a year?",
+    "regions": [
+      "colon"
+    ],
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-22",
+    "review_basis": "Published abstract"
+  },
+  "fasting-year-trial": {
+    "paper": "MED:35443107",
+    "kind": "Randomised clinical trial",
+    "population": "139 adults with obesity",
+    "finding": "Adding an 8 a.m.–4 p.m. eating window to calorie restriction did not significantly improve 12-month weight loss or metabolic outcomes over calorie restriction alone.",
+    "meaning": "A feeding window can be a practical choice without being a superior treatment.",
+    "question": "Who finds timing easier to sustain than daily calorie targets?",
+    "regions": [
+      "colon"
+    ],
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-22",
+    "review_basis": "Published abstract"
+  },
+  "fasting-early-men": {
+    "paper": "MED:29754952",
+    "kind": "Controlled-feeding crossover trial",
+    "population": "Men with prediabetes; eight completers reported in the source figures",
+    "finding": "Five weeks of early eating improved insulin sensitivity and blood pressure in a small weight-maintenance experiment in men with prediabetes.",
+    "meaning": "The controlled design supports a timing effect in this group; the small male-only sample limits generalisation.",
+    "question": "Do comparable effects occur in women and in longer free-living trials?",
+    "regions": [
+      "colon"
+    ],
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-22",
+    "review_basis": "Published abstract"
+  },
+  "fasting-ketone-switch": {
+    "paper": "MED:29086496",
+    "kind": "Mechanistic narrative review",
+    "population": "Human and animal fasting literature",
+    "finding": "The review describes a shift toward fatty-acid use and liver-derived ketones as liver glycogen becomes depleted.",
+    "meaning": "Timing varies with prior diet, activity and individual physiology. Proposed mechanisms are not proof that more ketones mean greater clinical benefit.",
+    "question": "Which benefits require measured ketosis rather than calorie reduction or meal timing?",
+    "regions": [
+      "colon"
+    ],
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-22",
+    "review_basis": "Published abstract"
+  },
+  "fasting-women-hormones": {
+    "paper": "MED:36203273",
+    "kind": "Secondary analysis of a clinical trial",
+    "population": "12 premenopausal and 11 postmenopausal women with obesity",
+    "finding": "After eight weeks of 4–6-hour eating windows, several measured sex hormones were unchanged, while DHEA fell in both groups.",
+    "meaning": "No male comparison was included; cycle-related ovarian hormones were assessed only after menopause. Fertility and long-term reproductive safety were not established.",
+    "question": "How do responses vary by cycle stage, menopause and energy availability?",
+    "regions": [
+      "colon"
+    ],
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-22",
+    "review_basis": "Published abstract"
+  },
+  "fasting-sex-context": {
+    "paper": "MED:42196961",
+    "kind": "Narrative review",
+    "population": "Human and preclinical fasting literature",
+    "finding": "The review identifies sparse direct comparisons between women and men and highlights energy availability, reproductive stage and protocol as possible modifiers.",
+    "meaning": "A narrative synthesis cannot supply a validated fasting-hour prescription for each sex or menstrual phase.",
+    "question": "Which differences remain when calories, training and life stage are matched?",
+    "regions": [
+      "colon"
+    ],
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-22",
+    "review_basis": "Published abstract"
+  },
+  "ketosis-microbiome": {
+    "paper": "MED:32437658",
+    "kind": "Human dietary intervention with mouse and culture experiments",
+    "population": "Inpatient human dietary study plus experimental animal models",
+    "finding": "Ketogenic feeding changed human stool communities; experiments in mice and cultures linked ketones to reduced bifidobacteria and altered intestinal immune cells.",
+    "meaning": "A ketogenic diet changes nutrients as well as ketones. Mouse immune findings do not establish fasting benefits or an inflammation treatment in people.",
+    "question": "Do fasting-induced ketones have comparable effects when diet composition is held constant?",
+    "regions": [
+      "colon"
+    ],
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-22",
+    "review_basis": "Published abstract"
+  }
+}
