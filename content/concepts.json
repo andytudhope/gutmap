@@ -5592,5 +5592,86 @@
       "What time changes in the pot, in the mouth and during a meal."
     ],
     "attributes": {}
+  },
+  "mechanism:mitochondria-0": {
+    "id": "mechanism:mitochondria-0",
+    "name": "Fibre and butyrate",
+    "kind": "mechanism_component",
+    "definition": "Fibre-fermenting communities supply butyrate, a major oxidative fuel for the colon lining.",
+    "aliases": [],
+    "related_terms": [],
+    "mappings": []
+  },
+  "mechanism:mitochondria-1": {
+    "id": "mechanism:mitochondria-1",
+    "name": "Colon-cell mitochondria",
+    "kind": "mechanism_component",
+    "definition": "Butyrate is converted to acetyl-CoA. The citric acid cycle and electron transport chain use this fuel and oxygen to support ATP production.",
+    "aliases": [],
+    "related_terms": [],
+    "mappings": []
+  },
+  "mechanism:mitochondria-2": {
+    "id": "mechanism:mitochondria-2",
+    "name": "Low-oxygen habitat",
+    "kind": "mechanism_component",
+    "definition": "Oxygen consumption by the lining helps preserve the low-oxygen environment occupied by many gut fermenters.",
+    "aliases": [],
+    "related_terms": [],
+    "mappings": []
+  },
+  "mechanism:mitochondria-3": {
+    "id": "mechanism:mitochondria-3",
+    "name": "Microbial hydrogen sulfide",
+    "kind": "mechanism_component",
+    "definition": "Microbial sulfur metabolism supplies hydrogen sulfide at the epithelial surface.",
+    "aliases": [],
+    "related_terms": [],
+    "mappings": []
+  },
+  "mechanism:mitochondria-4": {
+    "id": "mechanism:mitochondria-4",
+    "name": "Sulfide oxidation",
+    "kind": "mechanism_component",
+    "definition": "SQOR transfers electrons from sulfide to the coenzyme Q pool. Further oxidation disposes of sulfide; excess sulfide inhibits complex IV.",
+    "aliases": [],
+    "related_terms": [],
+    "mappings": []
+  },
+  "mechanism:mitochondria-5": {
+    "id": "mechanism:mitochondria-5",
+    "name": "Food polyphenols",
+    "kind": "mechanism_component",
+    "definition": "Ellagitannins and ellagic acid in foods such as pomegranates, berries and walnuts provide substrates for urolithin-producing communities.",
+    "aliases": [],
+    "related_terms": [],
+    "mappings": []
+  },
+  "mechanism:mitochondria-6": {
+    "id": "mechanism:mitochondria-6",
+    "name": "Urolithin-producing community",
+    "kind": "mechanism_component",
+    "definition": "Gordonibacter species produce intermediates; additional community reactions complete conversion to urolithin A.",
+    "aliases": [],
+    "related_terms": [],
+    "mappings": []
+  },
+  "mechanism:mitochondria-7": {
+    "id": "mechanism:mitochondria-7",
+    "name": "Urolithin A",
+    "kind": "mechanism_component",
+    "definition": "A microbial metabolite links food transformation to experiments on mitochondrial quality control in distant tissues.",
+    "aliases": [],
+    "related_terms": [],
+    "mappings": []
+  },
+  "mechanism:mitochondria-8": {
+    "id": "mechanism:mitochondria-8",
+    "name": "Mitophagy and muscle",
+    "kind": "mechanism_component",
+    "definition": "Cells recycle damaged mitochondria through mitophagy. Animal experiments and human trials examine consequences for respiration and muscle performance.",
+    "aliases": [],
+    "related_terms": [],
+    "mappings": []
   }
 }

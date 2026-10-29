@@ -99,7 +99,7 @@ def submit(data):
     if data.get('website'):raise ValueError('Invalid submission')
     page=text(data.get('page'),2000,True)
     path=urlsplit(page).path
-    if '\\' in page or any(ord(c)<32 for c in page) or (path not in ('/','/explore','/explore','/research','/papers','/mechanisms','/references','/living-well','/fermentation','/illness-recovery') and not path.startswith(('/topics/','/concepts/','/claims/','/findings/','/guides/','/condition/'))):raise ValueError('Invalid page')
+    if '\\' in page or any(ord(c)<32 for c in page) or (path not in ('/','/explore','/explore','/research','/papers','/mechanisms','/references','/living-well','/fermentation','/illness-recovery','/inflammation','/infections') and not path.startswith(('/topics/','/concepts/','/claims/','/findings/','/guides/','/condition/'))):raise ValueError('Invalid page')
     anchor=data.get('anchor')
     if not isinstance(anchor,dict):raise ValueError('Missing text target')
     anchor={k:text(anchor.get(k),12000 if k in ('context','before','after') else 2000,k in ('context','selector')) for k in ('context','before','after','selector')}

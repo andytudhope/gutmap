@@ -1,7 +1,7 @@
 """Shared primary navigation and the three Explore views."""
 
 EXPLORE_VIEWS = (('/explore', 'Microbes & genomes'),
-                 ('/mechanisms', 'Mechanisms'), ('/conditions', 'Conditions'))
+                 ('/mechanisms', 'Mechanisms'), ('/inflammation', 'Inflammation'), ('/infections', 'Infections'))
 SECTIONS = (('/', 'Learn'), ('/explore', 'Explore'),
             ('/research', 'Research'), ('/references', 'References'))
 
@@ -23,6 +23,8 @@ def exploring(path='/explore'):
 
 
 def active_section(path):
+    if path in ('/conditions','/inflammation','/infections','/illness-recovery') or path.startswith('/condition/'):
+        return 'Learn'
     if path in ('/research', '/papers', '/evidence'):
         return 'Research'
     if path == '/references':

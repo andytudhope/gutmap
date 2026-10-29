@@ -12,3 +12,6 @@ body[data-layout="article"] .pathway-scene{display:none}body[data-layout="articl
 .atlas-reference-link{text-align:center;margin:0 auto 4rem;font:16px Georgia,serif}.atlas-reference-link a{color:inherit;text-underline-offset:5px}
 
 @media(max-width:760px){#stage-navigation.many-stages{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 24px}#stage-navigation.many-stages button{min-width:0;max-width:none;overflow-wrap:anywhere}}
+
+@media(min-width:761px){body[data-infections] #story-navigation{max-height:calc(100svh - 460px);min-height:280px;overflow-y:auto;scrollbar-width:thin}}
+.infection-arrow{fill:none;stroke:var(--accent);stroke-width:1.7}.infection-affected{fill:#a7633b20;stroke:var(--accent);stroke-width:1.2}.infection-caption{font:16px var(--serif);fill:var(--ink)}

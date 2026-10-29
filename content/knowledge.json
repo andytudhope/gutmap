@@ -1593,6 +1593,61 @@
         "MED:32437658"
       ],
       "independence": "Report-level grouping; check overlapping participants before pooling reports"
+    },
+    "study:mito-oxygen": {
+      "id": "study:mito-oxygen",
+      "title": "Microbiota-activated PPAR-γ signaling inhibits dysbiotic Enterobacteriaceae expansion.",
+      "design": "Mouse experiments · epithelial PPAR-γ and microbial respiration",
+      "system": "Experimental",
+      "population": "Mouse experiments · epithelial PPAR-γ and microbial respiration",
+      "source_ids": [
+        "MED:28798125"
+      ],
+      "independence": "One publication; experimental comparisons described in the reading note"
+    },
+    "study:mito-sulfide": {
+      "id": "study:mito-sulfide",
+      "title": "Hydrogen sulfide perturbs mitochondrial bioenergetics and triggers metabolic reprogramming in colon cells.",
+      "design": "Human colon tissue · cultured colon epithelial cells",
+      "system": "Experimental",
+      "population": "Human colon tissue · cultured colon epithelial cells",
+      "source_ids": [
+        "MED:31213529"
+      ],
+      "independence": "One publication; experimental comparisons described in the reading note"
+    },
+    "study:mito-urolithin-makers": {
+      "id": "study:mito-urolithin-makers",
+      "title": "Description of urolithin production capacity from ellagic acid of two human intestinal Gordonibacter species.",
+      "design": "Human gut bacterial isolates · anaerobic culture",
+      "system": "Experimental",
+      "population": "Human gut bacterial isolates · anaerobic culture",
+      "source_ids": [
+        "MED:24909569"
+      ],
+      "independence": "One publication; experimental comparisons described in the reading note"
+    },
+    "study:mito-mitophagy": {
+      "id": "study:mito-mitophagy",
+      "title": "Urolithin A induces mitophagy and prolongs lifespan in C. elegans and increases muscle function in rodents.",
+      "design": "Cultured cells · C. elegans · rodents",
+      "system": "Experimental",
+      "population": "Cultured cells · C. elegans · rodents",
+      "source_ids": [
+        "MED:27400265"
+      ],
+      "independence": "One publication; experimental comparisons described in the reading note"
+    },
+    "study:mito-human-trial": {
+      "id": "study:mito-human-trial",
+      "title": "Effect of Urolithin A Supplementation on Muscle Endurance and Mitochondrial Health in Older Adults: A Randomized Clinical Trial.",
+      "design": "Human double-blind randomised trial · 66 adults aged 65–90",
+      "system": "Human",
+      "population": "Human double-blind randomised trial · 66 adults aged 65–90",
+      "source_ids": [
+        "MED:35050355"
+      ],
+      "independence": "One publication; experimental comparisons described in the reading note"
     }
   },
   "findings": {
@@ -4885,6 +4940,126 @@
       ],
       "reviewed_by": "Codex source check",
       "reviewed_date": "2026-10-22"
+    },
+    "finding:mito-oxygen": {
+      "id": "finding:mito-oxygen",
+      "study": "study:mito-oxygen",
+      "note": "mito-oxygen",
+      "summary": "Depleting butyrate-producing microbes reduced epithelial PPAR-γ signalling. Colonocytes consumed less oxygen through oxidative metabolism, while oxygen and nitrate became more available to Enterobacteriaceae.",
+      "interpretation": "The lining helps engineer its microbial habitat: mitochondrial fuel use influences which organisms gain access to respiratory resources.",
+      "open_question": "How do diet, antibiotics and inflammation change this oxygen feedback loop in human colon tissue?",
+      "source_ids": [
+        "MED:28798125"
+      ],
+      "source_locator": "Published abstract",
+      "system": "Mouse experiments · epithelial PPAR-γ and microbial respiration",
+      "sample": "Mouse experiments · epithelial PPAR-γ and microbial respiration",
+      "outcome": "Depleting butyrate-producing microbes reduced epithelial PPAR-γ signalling. Colonocytes consumed less oxygen through oxidative metabolism, while oxygen and nitrate became more available to Enterobacteriaceae.",
+      "comparison": "See source abstract and reading note",
+      "timepoint": "Not extracted",
+      "effect_size": null,
+      "uncertainty": null,
+      "review": "needs_review",
+      "material_reviewed": "Published abstract",
+      "regions": [
+        "colon"
+      ]
+    },
+    "finding:mito-sulfide": {
+      "id": "finding:mito-sulfide",
+      "study": "study:mito-sulfide",
+      "note": "mito-sulfide",
+      "summary": "Sulfide-oxidation enzymes were concentrated at the luminal surface of human colonic crypts. Cell experiments identified sulfide quinone oxidoreductase as a defence against respiratory inhibition by hydrogen sulfide.",
+      "interpretation": "Mitochondria process sulfide as well as carbon fuels. Exposure and oxidation capacity determine when sulfide feeds electron transport or overwhelms it.",
+      "open_question": "Which microbial sulfide production rates exceed the oxidation capacity of an inflamed human lining?",
+      "source_ids": [
+        "MED:31213529"
+      ],
+      "source_locator": "Published abstract",
+      "system": "Human colon tissue · cultured colon epithelial cells",
+      "sample": "Human colon tissue · cultured colon epithelial cells",
+      "outcome": "Sulfide-oxidation enzymes were concentrated at the luminal surface of human colonic crypts. Cell experiments identified sulfide quinone oxidoreductase as a defence against respiratory inhibition by hydrogen sulfide.",
+      "comparison": "See source abstract and reading note",
+      "timepoint": "Not extracted",
+      "effect_size": null,
+      "uncertainty": null,
+      "review": "needs_review",
+      "material_reviewed": "Published abstract",
+      "regions": [
+        "colon"
+      ]
+    },
+    "finding:mito-urolithin-makers": {
+      "id": "finding:mito-urolithin-makers",
+      "study": "study:mito-urolithin-makers",
+      "note": "mito-urolithin-makers",
+      "summary": "Two Gordonibacter species transformed ellagic acid into intermediate urolithins through urolithin C. Neither produced urolithin A in pure culture.",
+      "interpretation": "Production is a community pathway. Detecting Gordonibacter alone does not establish that a person completes the conversion to urolithin A.",
+      "open_question": "Which partner organisms and enzymes complete the pathway in different human communities?",
+      "source_ids": [
+        "MED:24909569"
+      ],
+      "source_locator": "Published abstract",
+      "system": "Human gut bacterial isolates · anaerobic culture",
+      "sample": "Human gut bacterial isolates · anaerobic culture",
+      "outcome": "Two Gordonibacter species transformed ellagic acid into intermediate urolithins through urolithin C. Neither produced urolithin A in pure culture.",
+      "comparison": "See source abstract and reading note",
+      "timepoint": "Not extracted",
+      "effect_size": null,
+      "uncertainty": null,
+      "review": "needs_review",
+      "material_reviewed": "Published abstract",
+      "regions": [
+        "colon"
+      ]
+    },
+    "finding:mito-mitophagy": {
+      "id": "finding:mito-mitophagy",
+      "study": "study:mito-mitophagy",
+      "note": "mito-mitophagy",
+      "summary": "Urolithin A induced mitophagy in cell and animal experiments. Treated worms accumulated fewer dysfunctional mitochondria with age, and rodent experiments found improved muscle function.",
+      "interpretation": "Mitophagy removes damaged mitochondria for recycling. This provides an experimental route from a microbial food metabolite to mitochondrial quality control.",
+      "open_question": "How closely do the doses and tissue exposures in these models match ordinary food-derived production in humans?",
+      "source_ids": [
+        "MED:27400265"
+      ],
+      "source_locator": "Published abstract",
+      "system": "Cultured cells · C. elegans · rodents",
+      "sample": "Cultured cells · C. elegans · rodents",
+      "outcome": "Urolithin A induced mitophagy in cell and animal experiments. Treated worms accumulated fewer dysfunctional mitochondria with age, and rodent experiments found improved muscle function.",
+      "comparison": "See source abstract and reading note",
+      "timepoint": "Not extracted",
+      "effect_size": null,
+      "uncertainty": null,
+      "review": "needs_review",
+      "material_reviewed": "Published abstract",
+      "regions": [
+        "colon"
+      ]
+    },
+    "finding:mito-human-trial": {
+      "id": "finding:mito-human-trial",
+      "study": "study:mito-human-trial",
+      "note": "mito-human-trial",
+      "summary": "Participants received 1,000 mg urolithin A daily or placebo for four months. Hand and leg muscle endurance improved at two months. The primary outcomes, six-minute walk distance and maximal hand-muscle ATP production, did not differ significantly between groups.",
+      "interpretation": "The trial tests a supplied metabolite, bypassing microbial production from food. Endurance results and blood biomarkers identify human responses; direct ATP measurements tell a different part of the story.",
+      "open_question": "Who responds over longer follow-up, and how do direct supplementation and food-driven microbial production compare?",
+      "source_ids": [
+        "MED:35050355"
+      ],
+      "source_locator": "Published abstract",
+      "system": "Human double-blind randomised trial · 66 adults aged 65–90",
+      "sample": "Human double-blind randomised trial · 66 adults aged 65–90",
+      "outcome": "Participants received 1,000 mg urolithin A daily or placebo for four months. Hand and leg muscle endurance improved at two months. The primary outcomes, six-minute walk distance and maximal hand-muscle ATP production, did not differ significantly between groups.",
+      "comparison": "See source abstract and reading note",
+      "timepoint": "Four months",
+      "effect_size": null,
+      "uncertainty": null,
+      "review": "needs_review",
+      "material_reviewed": "Published abstract",
+      "regions": [
+        "colon"
+      ]
     }
   },
   "claims": {
@@ -8696,6 +8871,190 @@
       "evidence": [],
       "status": "needs_review",
       "clinical_certainty": "Not graded"
+    },
+    "mechanism:mitochondria:e0": {
+      "id": "mechanism:mitochondria:e0",
+      "subject": "mechanism:mitochondria-0",
+      "predicate": "converts_or_processes",
+      "object": "mechanism:mitochondria-1",
+      "text": "Fibre and butyrate → butyrate oxidation → Colon-cell mitochondria",
+      "context": {
+        "system": "Teaching synthesis; study systems specified in reading notes",
+        "compartment": "Colon lumen"
+      },
+      "limitations": "The diagram combines distinct experiments; inspect the linked findings for the tested system and outcome.",
+      "evidence": [
+        {
+          "finding": "finding:colonocyte-butyrate",
+          "relation": "candidate"
+        }
+      ],
+      "status": "needs_review",
+      "clinical_certainty": "Not assessed"
+    },
+    "mechanism:mitochondria:e1": {
+      "id": "mechanism:mitochondria:e1",
+      "subject": "mechanism:mitochondria-1",
+      "predicate": "converts_or_processes",
+      "object": "mechanism:mitochondria-2",
+      "text": "Colon-cell mitochondria → oxygen consumption → Low-oxygen habitat",
+      "context": {
+        "system": "Teaching synthesis; study systems specified in reading notes",
+        "compartment": "Colon lining"
+      },
+      "limitations": "The diagram combines distinct experiments; inspect the linked findings for the tested system and outcome.",
+      "evidence": [
+        {
+          "finding": "finding:mito-oxygen",
+          "relation": "candidate"
+        }
+      ],
+      "status": "needs_review",
+      "clinical_certainty": "Not assessed"
+    },
+    "mechanism:mitochondria:e2": {
+      "id": "mechanism:mitochondria:e2",
+      "subject": "mechanism:mitochondria-2",
+      "predicate": "influences",
+      "object": "mechanism:mitochondria-0",
+      "text": "Low-oxygen habitat → supports anaerobic ecology → Fibre and butyrate",
+      "context": {
+        "system": "Teaching synthesis; study systems specified in reading notes",
+        "compartment": "Lining → lumen"
+      },
+      "limitations": "The diagram combines distinct experiments; inspect the linked findings for the tested system and outcome.",
+      "evidence": [
+        {
+          "finding": "finding:mito-oxygen",
+          "relation": "candidate"
+        }
+      ],
+      "status": "needs_review",
+      "clinical_certainty": "Not assessed"
+    },
+    "mechanism:mitochondria:e3": {
+      "id": "mechanism:mitochondria:e3",
+      "subject": "mechanism:mitochondria-3",
+      "predicate": "converts_or_processes",
+      "object": "mechanism:mitochondria-4",
+      "text": "Microbial hydrogen sulfide → sulfide clearance → Sulfide oxidation",
+      "context": {
+        "system": "Teaching synthesis; study systems specified in reading notes",
+        "compartment": "Colon lumen"
+      },
+      "limitations": "The diagram combines distinct experiments; inspect the linked findings for the tested system and outcome.",
+      "evidence": [
+        {
+          "finding": "finding:mito-sulfide",
+          "relation": "candidate"
+        }
+      ],
+      "status": "needs_review",
+      "clinical_certainty": "Not assessed"
+    },
+    "mechanism:mitochondria:e4": {
+      "id": "mechanism:mitochondria:e4",
+      "subject": "mechanism:mitochondria-4",
+      "predicate": "converts_or_processes",
+      "object": "mechanism:mitochondria-1",
+      "text": "Sulfide oxidation → electron transfer → Colon-cell mitochondria",
+      "context": {
+        "system": "Teaching synthesis; study systems specified in reading notes",
+        "compartment": "Mitochondrial membrane"
+      },
+      "limitations": "The diagram combines distinct experiments; inspect the linked findings for the tested system and outcome.",
+      "evidence": [
+        {
+          "finding": "finding:mito-sulfide",
+          "relation": "candidate"
+        }
+      ],
+      "status": "needs_review",
+      "clinical_certainty": "Not assessed"
+    },
+    "mechanism:mitochondria:e5": {
+      "id": "mechanism:mitochondria:e5",
+      "subject": "mechanism:mitochondria-3",
+      "predicate": "inhibits",
+      "object": "mechanism:mitochondria-1",
+      "text": "Microbial hydrogen sulfide → excess inhibits complex IV → Colon-cell mitochondria",
+      "context": {
+        "system": "Teaching synthesis; study systems specified in reading notes",
+        "compartment": "Colon lumen"
+      },
+      "limitations": "The diagram combines distinct experiments; inspect the linked findings for the tested system and outcome.",
+      "evidence": [
+        {
+          "finding": "finding:mito-sulfide",
+          "relation": "candidate"
+        }
+      ],
+      "status": "needs_review",
+      "clinical_certainty": "Not assessed"
+    },
+    "mechanism:mitochondria:e6": {
+      "id": "mechanism:mitochondria:e6",
+      "subject": "mechanism:mitochondria-5",
+      "predicate": "converts_or_processes",
+      "object": "mechanism:mitochondria-6",
+      "text": "Food polyphenols → microbial transformation → Urolithin-producing community",
+      "context": {
+        "system": "Teaching synthesis; study systems specified in reading notes",
+        "compartment": "Food → colon"
+      },
+      "limitations": "The diagram combines distinct experiments; inspect the linked findings for the tested system and outcome.",
+      "evidence": [
+        {
+          "finding": "finding:mito-urolithin-makers",
+          "relation": "candidate"
+        }
+      ],
+      "status": "needs_review",
+      "clinical_certainty": "Not assessed"
+    },
+    "mechanism:mitochondria:e7": {
+      "id": "mechanism:mitochondria:e7",
+      "subject": "mechanism:mitochondria-6",
+      "predicate": "converts_or_processes",
+      "object": "mechanism:mitochondria-7",
+      "text": "Urolithin-producing community → community conversion → Urolithin A",
+      "context": {
+        "system": "Teaching synthesis; study systems specified in reading notes",
+        "compartment": "Colon lumen"
+      },
+      "limitations": "The diagram combines distinct experiments; inspect the linked findings for the tested system and outcome.",
+      "evidence": [
+        {
+          "finding": "finding:mito-urolithin-makers",
+          "relation": "candidate"
+        }
+      ],
+      "status": "needs_review",
+      "clinical_certainty": "Not assessed"
+    },
+    "mechanism:mitochondria:e8": {
+      "id": "mechanism:mitochondria:e8",
+      "subject": "mechanism:mitochondria-7",
+      "predicate": "influences",
+      "object": "mechanism:mitochondria-8",
+      "text": "Urolithin A → quality-control signalling → Mitophagy and muscle",
+      "context": {
+        "system": "Teaching synthesis; study systems specified in reading notes",
+        "compartment": "Gut → circulation"
+      },
+      "limitations": "The diagram combines distinct experiments; inspect the linked findings for the tested system and outcome.",
+      "evidence": [
+        {
+          "finding": "finding:mito-mitophagy",
+          "relation": "candidate"
+        },
+        {
+          "finding": "finding:mito-human-trial",
+          "relation": "candidate"
+        }
+      ],
+      "status": "needs_review",
+      "clinical_certainty": "Not assessed"
     }
   },
   "changes": [

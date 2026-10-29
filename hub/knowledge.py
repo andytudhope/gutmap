@@ -252,8 +252,17 @@ def search(query, limit=6):
         for story in view['stories']:
             n = score([story['title'], story['lead'], *story.get('aliases', []), *story.get('tags', [])])
             if n:
-                result['explanations'].append(dict(id=story['id'], title=story['title'], text=story['lead'], url='/'+page+'#item='+story['id'], score=n))
+                result['explanations'].append(dict(id=story['id'], title=story['title'], text=story['lead'], url='/'+('infections' if page=='illness-recovery' else page)+'#item='+story['id'], score=n))
+    for title, text, target in [
+        ('Inflammation', 'Cytokines IL-1 IL-6 IL-8 IL-10 IL-17 TNF-alpha IL-1Ra immune signals', '/inflammation#view=signals'),
+        ('Persistent pain', 'Back pain gut microbiome neuroimmune signalling', '/inflammation#view=stories&item=pain'),
+        ('Gut–lung axis', 'Lungs respiratory immunity microbial metabolites', '/inflammation#view=stories&item=lungs'),
+        ('Inflammatory bowel disease', 'IBD Crohn ulcerative colitis intestinal inflammation', '/inflammation#view=stories&item=ibd')]:
+        n=score([title,text])
+        if n:result['explanations'].append(dict(id=target,title=title,text=text,url=target,score=n))
     for c in m['concepts'].values():
+        if c['kind']=='condition' and c['id'] not in ('condition:ibs','condition:crohns','condition:ulcerative-colitis'):
+            continue
         n = score([c['name'], *c.get('aliases', []), *c.get('related_terms', [])])
         if n:
             related=any(q==normalise(t) for t in c.get('related_terms',[])) and q not in [normalise(c['name']),*[normalise(a) for a in c.get('aliases',[])]]

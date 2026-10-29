@@ -1793,5 +1793,205 @@
     "author": "Gut Atlas editorial",
     "reviewed": "2026-10-22",
     "review_basis": "Published abstract"
+  },
+  "mito-oxygen": {
+    "paper": "MED:28798125",
+    "kind": "Mouse experiments · epithelial PPAR-γ and microbial respiration",
+    "regions": [
+      "colon"
+    ],
+    "finding": "Depleting butyrate-producing microbes reduced epithelial PPAR-γ signalling. Colonocytes consumed less oxygen through oxidative metabolism, while oxygen and nitrate became more available to Enterobacteriaceae.",
+    "meaning": "The lining helps engineer its microbial habitat: mitochondrial fuel use influences which organisms gain access to respiratory resources.",
+    "question": "How do diet, antibiotics and inflammation change this oxygen feedback loop in human colon tissue?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-23"
+  },
+  "mito-sulfide": {
+    "paper": "MED:31213529",
+    "kind": "Human colon tissue · cultured colon epithelial cells",
+    "regions": [
+      "colon"
+    ],
+    "finding": "Sulfide-oxidation enzymes were concentrated at the luminal surface of human colonic crypts. Cell experiments identified sulfide quinone oxidoreductase as a defence against respiratory inhibition by hydrogen sulfide.",
+    "meaning": "Mitochondria process sulfide as well as carbon fuels. Exposure and oxidation capacity determine when sulfide feeds electron transport or overwhelms it.",
+    "question": "Which microbial sulfide production rates exceed the oxidation capacity of an inflamed human lining?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-23"
+  },
+  "mito-urolithin-makers": {
+    "paper": "MED:24909569",
+    "kind": "Human gut bacterial isolates · anaerobic culture",
+    "regions": [
+      "colon"
+    ],
+    "finding": "Two Gordonibacter species transformed ellagic acid into intermediate urolithins through urolithin C. Neither produced urolithin A in pure culture.",
+    "meaning": "Production is a community pathway. Detecting Gordonibacter alone does not establish that a person completes the conversion to urolithin A.",
+    "question": "Which partner organisms and enzymes complete the pathway in different human communities?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-23"
+  },
+  "mito-mitophagy": {
+    "paper": "MED:27400265",
+    "kind": "Cultured cells · C. elegans · rodents",
+    "regions": [
+      "colon"
+    ],
+    "finding": "Urolithin A induced mitophagy in cell and animal experiments. Treated worms accumulated fewer dysfunctional mitochondria with age, and rodent experiments found improved muscle function.",
+    "meaning": "Mitophagy removes damaged mitochondria for recycling. This provides an experimental route from a microbial food metabolite to mitochondrial quality control.",
+    "question": "How closely do the doses and tissue exposures in these models match ordinary food-derived production in humans?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-23"
+  },
+  "mito-human-trial": {
+    "paper": "MED:35050355",
+    "kind": "Human double-blind randomised trial · 66 adults aged 65–90",
+    "regions": [
+      "colon"
+    ],
+    "finding": "Participants received 1,000 mg urolithin A daily or placebo for four months. Hand and leg muscle endurance improved at two months. The primary outcomes, six-minute walk distance and maximal hand-muscle ATP production, did not differ significantly between groups.",
+    "meaning": "The trial tests a supplied metabolite, bypassing microbial production from food. Endurance results and blood biomarkers identify human responses; direct ATP measurements tell a different part of the story.",
+    "question": "Who responds over longer follow-up, and how do direct supplementation and food-driven microbial production compare?",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-10-23"
+  },
+  "pain-sima": {
+    "paper": "DOI:10.1002/jsp2.70174",
+    "kind": "Human matched case–control pilot",
+    "population": "28 people with chronic low back pain without advanced disc degeneration; 28 age-, sex- and BMI-matched controls",
+    "finding": "Stool 16S sequencing found lower alpha diversity and different community composition in the pain group. Prevotella and Faecalibacterium were more abundant; Parabacteroides was less abundant.",
+    "meaning": "A human association between persistent back pain and gut composition. Cytokines and short-chain fatty acids were not measured, and the cross-sectional design cannot determine causation.",
+    "question": "Which functional microbial and immune measurements predict pain over time?",
+    "regions": [
+      "unspecified"
+    ],
+    "source_title": "Patients With Chronic Low Back Pain Without Advanced Disk Degeneration Exhibit Gut Microbiome Dysbiosis: Evidence From an Age‐, Sex‐, and BMI ‐Matched Pilot Study",
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-29"
+  },
+  "pain-miso": {
+    "paper": "MED:40576768",
+    "kind": "Human prospective surgical pilot",
+    "population": "20 people undergoing one-level lumbar microdiscectomy; 16 improved and 4 had persistent postoperative problems",
+    "finding": "Preoperative community composition differed between outcome groups. Persistent postoperative pain was associated with more Prevotella and less Bacteroides and Faecalibacterium; alpha diversity did not differ significantly.",
+    "meaning": "A small prospective association with surgical outcome. Four poor outcomes cannot establish a reliable predictive biomarker or a microbial cause of surgical failure.",
+    "question": "Does the association replicate in a larger prospective cohort with independent validation?",
+    "regions": [
+      "unspecified"
+    ],
+    "source_title": "Microbiome impacts surgical outcomes- comparison of gut microbiome dysbiosis in patients undergoing lumbar microdiscectomy: results from the MISO pilot study.",
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-29"
+  },
+  "pain-nitert": {
+    "paper": "MED:32982987",
+    "kind": "Human observational cohort",
+    "population": "36 overweight or obese adults: 14 with recent back pain and 22 without",
+    "finding": "Adlercreutzia was more abundant in participants reporting back pain and correlated with BMI, adipsin and leptin. Several other nominal taxon differences did not survive false-discovery correction.",
+    "meaning": "Back-pain associations differ between cohorts; this study does not identify the same microbial signature as Sima. It does not test lowering a taxon as treatment.",
+    "question": "Which associations persist after accounting for adiposity, medicines and repeated sampling?",
+    "regions": [
+      "unspecified"
+    ],
+    "source_title": "Altered Gut Microbiota Composition Is Associated With Back Pain in Overweight and Obese Individuals.",
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-29"
+  },
+  "pain-spondylolisthesis": {
+    "paper": "MED:39398942",
+    "kind": "Human cross-sectional spine cohort",
+    "population": "21 symptomatic patients with lumbar degenerative spondylolisthesis and 12 symptomatic patients without it",
+    "finding": "Patients with spondylolisthesis had higher alpha diversity, more severe disc degeneration and different stool community composition than symptomatic patients without spondylolisthesis.",
+    "meaning": "A different phenotype and comparator from Sima. The direction of diversity differences is not universal across spinal conditions.",
+    "question": "Which differences track structural disease, pain, or changes in activity and medication?",
+    "regions": [
+      "unspecified"
+    ],
+    "source_title": "Gut microbiome dysbiosis is associated with lumbar degenerative spondylolisthesis in symptomatic patients.",
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-29"
+  },
+  "pain-modic": {
+    "paper": "MED:38925301",
+    "kind": "Human case–control disc-disease pilot",
+    "population": "40 surgical disc-disease patients, including 20 with Modic changes; 20 healthy volunteers",
+    "finding": "Gut community differences accompanied disc disease and Modic changes. The study also measured higher CRP and FABP5 in the diseased group and reported depletion of some SCFA-producing taxa.",
+    "meaning": "Adds inflammatory measurements to a human gut–disc association. Taxonomic assignments do not directly measure microbial metabolite production or establish a causal sequence.",
+    "question": "Do microbial functions and inflammatory markers change before disc disease develops?",
+    "regions": [
+      "unspecified"
+    ],
+    "source_title": "Does the gut microbiome influence disc health and disease? The interplay between dysbiosis, pathobionts, and disc inflammation: a pilot study.",
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-29"
+  },
+  "pain-widespread": {
+    "paper": "MED:33331911",
+    "kind": "Human cohort with genetic follow-up",
+    "population": "113 women with chronic widespread pain and 1,623 controls in TwinsUK",
+    "finding": "Widespread pain was associated with lower stool microbial diversity and depletion of Coprococcus comes after adjustment. A genetic follow-up did not support a causal role of that species in pain development.",
+    "meaning": "Broadens the human pain comparison while separating association from the genetic causal test. Widespread pain is a different phenotype from non-surgical low back pain.",
+    "question": "Which microbial functions, rather than a single species, explain reproducible associations?",
+    "regions": [
+      "unspecified"
+    ],
+    "source_title": "An association between chronic widespread pain and the gut microbiome.",
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-29"
+  },
+  "pain-biomarkers": {
+    "paper": "MED:38578280",
+    "kind": "Systematic review and meta-analysis",
+    "population": "20 studies: 4 randomised trials and 16 observational studies; 1,142 people with low back disorders",
+    "finding": "The synthesis examined IL-1β, IL-6, IL-8, IL-10, MCP-1 and other biomarkers alongside pain and disability. Biomarker relationships varied by outcome and treatment setting.",
+    "meaning": "This is evidence about inflammatory measurements in back disorders, not evidence that gut microbes produced those changes. It links the signals vocabulary to clinical pain research.",
+    "question": "Which cytokine trajectories consistently predict a meaningful change in pain or function?",
+    "regions": [
+      "unspecified"
+    ],
+    "source_title": "The association between inflammatory biomarkers and low back disorder: a systematic review and meta-analysis.",
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-29"
+  },
+  "pain-th17": {
+    "paper": "MED:23680281",
+    "kind": "Human disc-herniation study",
+    "population": "34 patients with lumbar disc herniation, including 19 ruptured and 15 non-ruptured discs; 17 healthy adults",
+    "finding": "Blood Th17-cell proportions and IL-17 concentrations were higher in patients with ruptured discs and correlated with pain intensity. Disc-tissue IL-17 expression was also examined.",
+    "meaning": "A direct human link between an immune-cell programme, IL-17 and pain. The study did not test gut microbiota or prove an intestinal origin for the signal.",
+    "question": "What drives the Th17 response, and does it precede or follow disc rupture?",
+    "regions": [
+      "unspecified"
+    ],
+    "source_title": "Th17 lymphocyte levels are higher in patients with ruptured than non-ruptured lumbar discs, and are correlated with pain intensity.",
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-29"
+  },
+  "pain-synthesis": {
+    "paper": "MED:38352865",
+    "kind": "Systematic review and meta-analysis",
+    "population": "21 chronic-pain studies in the review; 11 in quantitative synthesis",
+    "finding": "The synthesis found lower alpha diversity across several pooled metrics and inconsistent beta-diversity results. Reported taxon differences were not specific to a single pain disease.",
+    "meaning": "Provides context for the small cohorts. A pooled association across heterogeneous pain conditions does not validate a diagnostic microbiome signature.",
+    "question": "Which findings replicate within narrowly defined pain populations?",
+    "regions": [
+      "unspecified"
+    ],
+    "source_title": "Gut dysbiosis in patients with chronic pain: a systematic review and meta-analysis.",
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-29"
+  },
+  "pain-barrier-tnf": {
+    "paper": "MED:28407483",
+    "kind": "Mouse mechanistic experiments",
+    "population": "Germ-free, conventional and TNF-deficient mice; co-housing and anti-TNF experiments",
+    "finding": "Age-associated microbial communities increased circulating inflammatory signals in mouse experiments. TNF deficiency and anti-TNF intervention also affected age-associated microbial changes.",
+    "meaning": "Experimental evidence for a feedback loop between microbiota and inflammation. The model concerns ageing and immune function, not a demonstration that this mechanism causes human back pain.",
+    "question": "Which elements of this microbiota–TNF feedback loop are present in persistent pain?",
+    "regions": [
+      "unspecified"
+    ],
+    "source_title": "Age-Associated Microbial Dysbiosis Promotes Intestinal Permeability, Systemic Inflammation, and Macrophage Dysfunction.",
+    "author": "Gut Atlas editorial",
+    "reviewed": "2026-10-29"
   }
 }

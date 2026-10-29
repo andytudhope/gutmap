@@ -1203,6 +1203,10 @@
     "bean-lectins": {
       "title": "Hong Kong Centre for Food Safety · Kidney-bean lectin poisoning",
       "url": "https://www.cfs.gov.hk/english/multimedia/multimedia_pub/multimedia_pub_fsf_208_01.html"
+    },
+    "cholera-who": {
+      "title": "WHO · Cholera: transmission, prevention and treatment",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/cholera"
     }
   },
   "pages": {
@@ -3507,8 +3511,8 @@
       ]
     },
     "illness-recovery": {
-      "title": "Illness & recovery",
-      "intro": "Organisms, disturbances and the return to everyday health.",
+      "title": "Infections",
+      "intro": "Gut pathogens, oral biofilms and the mechanisms of infection and recovery.",
       "stories": [
         {
           "id": "helicobacter",
@@ -4084,6 +4088,1402 @@
           "featured": true,
           "category": "Recovery",
           "type": "guide"
+        },
+        {
+          "id": "cholera",
+          "title": "Cholera",
+          "lead": "A toxin turns the small intestine into a route for rapid water loss.",
+          "region": "small",
+          "organisms": [],
+          "featured": true,
+          "category": "Infection",
+          "tags": [
+            "Vibrio cholerae",
+            "water",
+            "toxin"
+          ],
+          "steps": [
+            {
+              "label": "Contaminated water",
+              "text": "Cholera spreads through food or water contaminated with Vibrio cholerae. Safe water and sanitation interrupt the route into the gut.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "cholera-who"
+              ]
+            },
+            {
+              "label": "A toxin changes transport",
+              "text": "Toxigenic bacteria colonise the small intestine. Cholera toxin increases cellular cAMP, driving chloride secretion; water follows into the intestinal lumen.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "cholera-who"
+              ]
+            },
+            {
+              "label": "Water leaves the body",
+              "text": "Profuse watery diarrhoea can cause life-threatening dehydration within hours. The immediate problem is loss of water and salts.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "cholera-who"
+              ]
+            },
+            {
+              "label": "Replace what is lost",
+              "text": "Oral rehydration solution uses glucose–sodium absorption to bring water back into the body. Severe dehydration needs urgent medical care and intravenous fluids. Antibiotics are used for severe cases; vaccination and safe water help prevent infection.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "cholera-who"
+              ]
+            }
+          ],
+          "practical": "Start oral rehydration promptly and seek urgent care for profuse watery diarrhoea or signs of dehydration. Use correctly prepared oral rehydration salts and safe water.",
+          "sources": [
+            "cholera-who"
+          ]
+        },
+        {
+          "id": "salmonellosis",
+          "title": "Salmonellosis",
+          "lead": "Non-typhoidal Salmonella commonly causes diarrhoea, fever and abdominal cramps after contaminated food or contact.",
+          "region": "small",
+          "category": "Bacterial infections",
+          "organisms": [],
+          "featured": false,
+          "aliases": [],
+          "tags": [
+            "Salmonella",
+            "Bacterial infections"
+          ],
+          "infection_diagram": {
+            "kind": "invasion",
+            "organism": "Salmonella",
+            "exposure": "Contaminated food / animal contact"
+          },
+          "steps": [
+            {
+              "label": "Exposure",
+              "text": "Non-typhoidal Salmonella reaches the intestine after contaminated food, water or animal contact. The organism must survive stomach acid before establishing itself at the intestinal surface.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-salmonellosis"
+              ],
+              "schematic": "Food → stomach → intestine"
+            },
+            {
+              "label": "Cross the surface",
+              "text": "Salmonella uses secretion machinery to manipulate host cells and enter intestinal tissue. Epithelial and immune-cell sensing triggers an inflammatory response.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-salmonellosis"
+              ],
+              "schematic": "Bacteria enter intestinal tissue"
+            },
+            {
+              "label": "Inflammation & competition",
+              "text": "Neutrophils enter the responding tissue, and fluid handling changes, producing diarrhoea and cramps. Inflammation also changes the microbial habitat, which Salmonella can exploit to compete with resident organisms.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-salmonellosis"
+              ],
+              "schematic": "Invasion → immune recruitment → diarrhoea"
+            },
+            {
+              "label": "Recovery",
+              "text": "Replacing fluid losses is central. Antibiotics are reserved for severe infection and people at risk of invasive disease; they generally do not shorten uncomplicated illness in otherwise healthy people.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-salmonellosis"
+              ],
+              "schematic": "Fluid replacement; treatment matched to severity"
+            }
+          ],
+          "practical": "Replacing lost fluids is central. Antibiotics are reserved for particular patients or severe infection; dehydration, blood in stool or persistent fever require assessment.",
+          "sources": [
+            "clinical-salmonellosis"
+          ]
+        },
+        {
+          "id": "campylobacteriosis",
+          "title": "Campylobacter infection",
+          "lead": "Campylobacter infection is a common foodborne cause of diarrhoea and abdominal pain.",
+          "region": "small",
+          "category": "Bacterial infections",
+          "organisms": [],
+          "featured": false,
+          "aliases": [],
+          "tags": [
+            "Campylobacter",
+            "Bacterial infections"
+          ],
+          "infection_diagram": {
+            "kind": "invasion",
+            "organism": "Campylobacter",
+            "exposure": "Undercooked poultry / unpasteurised milk"
+          },
+          "steps": [
+            {
+              "label": "Exposure",
+              "text": "Campylobacter commonly arrives through undercooked poultry, unpasteurised milk or contaminated water. Cross-contamination can move it from raw food onto ready-to-eat food.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-campylobacteriosis"
+              ],
+              "schematic": "Food exposure → intestinal tract"
+            },
+            {
+              "label": "Mucus & epithelium",
+              "text": "Motile bacteria reach the mucus and epithelial surface. Attachment, invasion and bacterial products stimulate local inflammation. The mechanism differs from cholera’s predominantly secretory toxin effect.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-campylobacteriosis"
+              ],
+              "schematic": "Motile bacteria → mucus → epithelium"
+            },
+            {
+              "label": "Inflammatory diarrhoea",
+              "text": "The inflamed lining produces abdominal pain, fever and diarrhoea that may be bloody. Immune activity is part of both controlling the infection and producing the symptoms.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-campylobacteriosis"
+              ],
+              "schematic": "Tissue inflammation → cramps / diarrhoea"
+            },
+            {
+              "label": "Recovery",
+              "text": "Most people recover without antibiotics. Replace fluid losses; severe disease or higher-risk patients may need antibiotics chosen with resistance in mind. Persistent neurological or joint symptoms after infection need assessment.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-campylobacteriosis"
+              ],
+              "schematic": "Hydration; selective antimicrobial treatment"
+            }
+          ],
+          "practical": "Most cases improve with supportive care. Severe illness or higher-risk patients may need antibiotics selected with local resistance in mind.",
+          "sources": [
+            "clinical-campylobacteriosis"
+          ]
+        },
+        {
+          "id": "shigellosis",
+          "title": "Shigellosis",
+          "lead": "Shigella spreads readily by the faecal–oral route and can cause fever, cramps and bloody diarrhoea.",
+          "region": "colon",
+          "category": "Bacterial infections",
+          "organisms": [],
+          "featured": false,
+          "aliases": [],
+          "tags": [
+            "Shigella",
+            "Bacterial infections"
+          ],
+          "infection_diagram": {
+            "kind": "invasion",
+            "organism": "Shigella",
+            "exposure": "Hands / food / contaminated water"
+          },
+          "steps": [
+            {
+              "label": "Low-dose transmission",
+              "text": "Very small numbers of Shigella can establish infection. Faecal–oral spread through hands, close contact, food or water makes household and childcare transmission important.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-shigellosis"
+              ],
+              "schematic": "Small inoculum → colon"
+            },
+            {
+              "label": "Enter colonic tissue",
+              "text": "Shigella crosses into the colonic lining, escapes into the inside of cells and can spread between neighbouring epithelial cells using host actin.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-shigellosis"
+              ],
+              "schematic": "Intracellular bacteria spread between cells"
+            },
+            {
+              "label": "Damage & dysentery",
+              "text": "Inflammation and epithelial injury produce frequent small stools, abdominal cramps and sometimes blood. Tissue invasion explains why this differs from a purely watery secretory diarrhoea.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-shigellosis"
+              ],
+              "schematic": "Cell injury → inflammation → bloody diarrhoea"
+            },
+            {
+              "label": "Interrupt transmission",
+              "text": "Fluids prevent dehydration. Many infections resolve without antibiotics; when antibiotics are needed, resistance testing matters. Avoid anti-diarrhoeal drugs such as loperamide when there is bloody diarrhoea.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-shigellosis"
+              ],
+              "schematic": "Hand hygiene + hydration; resistance-aware care"
+            }
+          ],
+          "practical": "Fluid replacement and infection control matter. Testing can help guide antibiotic treatment because resistance patterns vary and increasingly limit options.",
+          "sources": [
+            "clinical-shigellosis"
+          ]
+        },
+        {
+          "id": "stec",
+          "title": "Shiga toxin-producing E. coli infection",
+          "lead": "STEC infection can cause severe abdominal cramps and bloody diarrhoea.",
+          "region": "colon",
+          "category": "Bacterial infections",
+          "organisms": [],
+          "featured": false,
+          "aliases": [
+            "Escherichia coli"
+          ],
+          "tags": [
+            "Shiga toxin-producing E. coli",
+            "Bacterial infections"
+          ],
+          "infection_diagram": {
+            "kind": "toxin",
+            "organism": "Shiga toxin-producing E. coli",
+            "exposure": "Contaminated food / water / animal contact"
+          },
+          "steps": [
+            {
+              "label": "Acquire a toxigenic strain",
+              "text": "Some E. coli strains carry genes for Shiga toxin. Exposure can come from contaminated produce, undercooked meat, unpasteurised products, water or contact with animals.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-stec"
+              ],
+              "schematic": "Toxigenic E. coli reaches the colon"
+            },
+            {
+              "label": "Attachment & toxin",
+              "text": "Important STEC strains attach closely to intestinal epithelial cells and disrupt their absorptive surface. Shiga toxin inhibits protein synthesis in susceptible host cells.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-stec"
+              ],
+              "schematic": "Attachment + Shiga toxin → cell injury"
+            },
+            {
+              "label": "Beyond diarrhoea",
+              "text": "Bloody diarrhoea and severe cramps can be followed by haemolytic uraemic syndrome: red-cell destruction, low platelets and kidney injury. The toxin’s effects extend beyond the gut.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-stec"
+              ],
+              "schematic": "Intestinal toxin → blood → kidney injury"
+            },
+            {
+              "label": "Recognise the difference",
+              "text": "Prompt assessment and hydration matter. Antibiotics and anti-motility medicines can increase complications in STEC infection and should not be used as a generic response to bloody diarrhoea. Reduced urination is an urgent warning sign.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-stec"
+              ],
+              "schematic": "Hydration + assessment; avoid harmful empiric treatment"
+            }
+          ],
+          "practical": "Suspected infection needs clinical assessment and stool testing. Antibiotics and anti-diarrhoeal medicines can be inappropriate in STEC; hydration and monitoring for complications are important.",
+          "sources": [
+            "clinical-stec"
+          ]
+        },
+        {
+          "id": "rotavirus",
+          "title": "Rotavirus gastroenteritis",
+          "lead": "Rotavirus causes vomiting and diarrhoea, particularly in young children, and can produce dangerous dehydration.",
+          "region": "small",
+          "category": "Viral infections",
+          "organisms": [],
+          "featured": false,
+          "aliases": [],
+          "tags": [
+            "Rotavirus",
+            "Viral infections"
+          ],
+          "infection_diagram": {
+            "kind": "villus",
+            "organism": "Rotavirus",
+            "exposure": "Faecal–oral spread / contaminated surfaces"
+          },
+          "steps": [
+            {
+              "label": "Exposure",
+              "text": "Rotavirus spreads through faecal contamination of hands and surfaces. Young children are particularly vulnerable to severe dehydration during their first infections.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-rotavirus"
+              ],
+              "schematic": "Hands / surfaces → small intestine"
+            },
+            {
+              "label": "Infect absorptive cells",
+              "text": "The virus infects mature absorptive cells on small-intestinal villi. Cell injury reduces absorption; viral proteins also alter intestinal secretion and signalling.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-rotavirus"
+              ],
+              "schematic": "Virus → villus epithelial cells"
+            },
+            {
+              "label": "Fluid loss",
+              "text": "Reduced absorption and increased secretion produce watery diarrhoea, often with vomiting and fever. A child can lose fluid faster than it is replaced.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-rotavirus"
+              ],
+              "schematic": "Less absorption + secretion → dehydration"
+            },
+            {
+              "label": "Replace & prevent",
+              "text": "Oral rehydration replaces water and salts; severe dehydration needs urgent care. Antibiotics do not treat rotavirus. Vaccination is a major preventive measure.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-rotavirus"
+              ],
+              "schematic": "Oral rehydration + vaccination"
+            }
+          ],
+          "practical": "Oral rehydration is central, with urgent care for significant dehydration. Vaccination is an effective preventive measure according to the local childhood schedule.",
+          "sources": [
+            "clinical-rotavirus"
+          ]
+        },
+        {
+          "id": "cryptosporidiosis",
+          "title": "Cryptosporidiosis",
+          "lead": "Cryptosporidium is a protozoal parasite that causes watery diarrhoea, often after contaminated water or contact.",
+          "region": "small",
+          "category": "Protozoal infections",
+          "organisms": [],
+          "featured": false,
+          "aliases": [
+            "Crypto"
+          ],
+          "tags": [
+            "Cryptosporidium",
+            "Protozoal infections"
+          ],
+          "infection_diagram": {
+            "kind": "villus",
+            "organism": "Cryptosporidium",
+            "exposure": "Oocysts in contaminated water"
+          },
+          "steps": [
+            {
+              "label": "Swallow oocysts",
+              "text": "Cryptosporidium oocysts spread through contaminated water, food, hands and animal contact. They tolerate chlorine levels normally used in pools, so routine chlorination alone does not remove the risk.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-cryptosporidiosis"
+              ],
+              "schematic": "Waterborne oocyst → intestine"
+            },
+            {
+              "label": "Attach to the surface",
+              "text": "The parasite develops at the brush border of intestinal epithelial cells in a specialised compartment. It occupies and damages the absorptive surface.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-cryptosporidiosis"
+              ],
+              "schematic": "Parasite at the epithelial brush border"
+            },
+            {
+              "label": "Persistent watery diarrhoea",
+              "text": "Changes to absorption and secretion produce watery diarrhoea. Illness can be prolonged and especially severe in people with impaired immune function.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-cryptosporidiosis"
+              ],
+              "schematic": "Surface injury → poor absorption → fluid loss"
+            },
+            {
+              "label": "Recovery & prevention",
+              "text": "Replace fluid losses and seek care for prolonged illness or immune suppression. Treatment depends on age and immune status. Safe water and avoiding swimming while infectious help interrupt spread.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-cryptosporidiosis"
+              ],
+              "schematic": "Hydration + immune assessment + safe water"
+            }
+          ],
+          "practical": "Treatment addresses dehydration, the parasite when indicated and immune status. Persistent or severe diarrhoea warrants assessment; water and hygiene measures reduce transmission.",
+          "sources": [
+            "clinical-cryptosporidiosis"
+          ]
+        },
+        {
+          "id": "amoebiasis",
+          "title": "Amoebiasis",
+          "lead": "Entamoeba histolytica can cause colitis and bloody diarrhoea and sometimes spreads to the liver.",
+          "region": "colon",
+          "category": "Protozoal infections",
+          "organisms": [],
+          "featured": false,
+          "aliases": [],
+          "tags": [
+            "Entamoeba histolytica",
+            "Protozoal infections"
+          ],
+          "infection_diagram": {
+            "kind": "invasion",
+            "organism": "Entamoeba histolytica",
+            "exposure": "Cysts in faecally contaminated food / water"
+          },
+          "steps": [
+            {
+              "label": "Swallow cysts",
+              "text": "Entamoeba histolytica is acquired by swallowing cysts. After excystation in the intestine, feeding forms called trophozoites can colonise the large bowel.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-amoebiasis"
+              ],
+              "schematic": "Cyst → trophozoite → colon"
+            },
+            {
+              "label": "Invade the lining",
+              "text": "Some infections remain within the lumen; invasive trophozoites adhere to and destroy colonic tissue. Ulceration can produce abdominal pain and bloody diarrhoea.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-amoebiasis"
+              ],
+              "schematic": "Trophozoites → colonic ulcers"
+            },
+            {
+              "label": "Reach the liver",
+              "text": "Organisms can enter portal blood and reach the liver, where an abscess may form. Fever and right-upper abdominal pain can therefore follow an infection whose entry point was intestinal.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-amoebiasis"
+              ],
+              "schematic": "Colon → portal blood → liver abscess"
+            },
+            {
+              "label": "Treat both locations",
+              "text": "Diagnosis needs to distinguish E. histolytica from look-alike species. Invasive disease requires treatment of tissue infection followed by a medicine that clears organisms remaining in the intestinal lumen.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-amoebiasis"
+              ],
+              "schematic": "Tissue treatment → luminal clearance"
+            }
+          ],
+          "practical": "Diagnosis uses appropriate stool or other tests. Treatment targets invasive infection and organisms remaining in the bowel, with regimens chosen by a clinician.",
+          "sources": [
+            "clinical-amoebiasis"
+          ]
+        },
+        {
+          "id": "ascariasis",
+          "title": "Ascariasis",
+          "lead": "Ascaris roundworms are acquired by swallowing eggs from contaminated soil or food.",
+          "region": "small",
+          "category": "Intestinal worms",
+          "organisms": [],
+          "featured": false,
+          "aliases": [],
+          "tags": [
+            "Ascaris",
+            "Intestinal worms"
+          ],
+          "infection_diagram": {
+            "kind": "worm",
+            "organism": "Ascaris",
+            "exposure": "Swallowed eggs from contaminated soil"
+          },
+          "steps": [
+            {
+              "label": "Swallow mature eggs",
+              "text": "Ascaris eggs reach soil through faecal contamination and must develop there before becoming infectious. Ingestion on contaminated hands or food starts the human infection.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-ascariasis"
+              ],
+              "schematic": "Soil → infective egg → intestine"
+            },
+            {
+              "label": "Larval migration",
+              "text": "Larvae hatch, cross the intestinal wall and travel through the circulation to the lungs. They ascend the airways, are swallowed and return to the small intestine.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-ascariasis"
+              ],
+              "schematic": "Intestine → lungs → swallowed larvae"
+            },
+            {
+              "label": "Adult worms",
+              "text": "Adults live within the small-intestinal lumen. Heavy burdens can obstruct the intestine; wandering worms can enter the biliary tract. Eggs leave in stool and continue the environmental cycle.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-ascariasis"
+              ],
+              "schematic": "Adult worms in lumen → eggs in stool"
+            },
+            {
+              "label": "Clear & prevent reinfection",
+              "text": "Anthelmintic treatment clears the worms. Sanitation prevents eggs reaching soil; washing hands and produce reduces ingestion. Severe abdominal pain or signs of obstruction need urgent assessment.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-ascariasis"
+              ],
+              "schematic": "Deworming + sanitation"
+            }
+          ],
+          "practical": "Diagnosis and deworming address established infection. Sanitation and preventing soil contamination interrupt transmission; severe abdominal symptoms need assessment.",
+          "sources": [
+            "clinical-ascariasis"
+          ]
+        },
+        {
+          "id": "hookworm",
+          "title": "Hookworm infection",
+          "lead": "Hookworm larvae usually enter through contaminated soil and develop into worms attached to the intestine.",
+          "region": "small",
+          "category": "Intestinal worms",
+          "organisms": [],
+          "featured": false,
+          "aliases": [],
+          "tags": [
+            "Hookworm",
+            "Intestinal worms"
+          ],
+          "infection_diagram": {
+            "kind": "bloodloss",
+            "organism": "Hookworm",
+            "exposure": "Larvae penetrate exposed skin"
+          },
+          "steps": [
+            {
+              "label": "Larvae enter skin",
+              "text": "Infective larvae in contaminated soil commonly penetrate exposed skin. Footwear and sanitation act at this entry point. Some hookworm species can also be acquired by ingestion.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-hookworm"
+              ],
+              "schematic": "Soil larvae → skin"
+            },
+            {
+              "label": "Migrate to the intestine",
+              "text": "Larvae travel through circulation and the lungs, ascend the airway and are swallowed. They mature in the small intestine.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-hookworm"
+              ],
+              "schematic": "Skin → lungs → swallowed larvae"
+            },
+            {
+              "label": "Feed on blood",
+              "text": "Adult worms attach to the intestinal lining and feed on blood. Continued loss can deplete iron, connecting the infection directly to anaemia, fatigue and impaired growth.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-hookworm"
+              ],
+              "schematic": "Attached worm → blood loss → iron depletion"
+            },
+            {
+              "label": "Repair the deficit",
+              "text": "Anthelmintic treatment removes the source of ongoing loss. Iron and nutritional recovery address what has already been depleted. Preventing soil contamination reduces repeated exposure.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-hookworm"
+              ],
+              "schematic": "Treat worms + restore iron / nutrition"
+            }
+          ],
+          "practical": "Anthelmintic treatment and correction of iron deficiency address different parts of recovery. Footwear and sanitation reduce exposure in endemic settings.",
+          "sources": [
+            "clinical-hookworm"
+          ]
+        },
+        {
+          "id": "trichuriasis",
+          "title": "Whipworm infection",
+          "lead": "Trichuris whipworms infect the large intestine after eggs are swallowed.",
+          "region": "colon",
+          "category": "Intestinal worms",
+          "organisms": [],
+          "featured": false,
+          "aliases": [],
+          "tags": [
+            "Trichuris whipworm",
+            "Intestinal worms"
+          ],
+          "infection_diagram": {
+            "kind": "worm",
+            "organism": "Trichuris whipworm",
+            "exposure": "Swallowed mature eggs from contaminated soil"
+          },
+          "steps": [
+            {
+              "label": "Environmental eggs",
+              "text": "Whipworm eggs mature in contaminated soil. People acquire infection by swallowing infective eggs on hands or food.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-trichuriasis"
+              ],
+              "schematic": "Soil → egg ingestion"
+            },
+            {
+              "label": "Embed in the colon",
+              "text": "Larvae hatch and develop into adults in the large intestine. The thin front end of the worm embeds in the mucosal lining.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-trichuriasis"
+              ],
+              "schematic": "Adult worm embedded in colonic mucosa"
+            },
+            {
+              "label": "Heavy worm burden",
+              "text": "Light infection may cause few symptoms. Heavy burdens can produce abdominal pain, diarrhoea, blood loss, impaired growth and, in severe cases, rectal prolapse.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-trichuriasis"
+              ],
+              "schematic": "Persistent mucosal attachment → inflammation / loss"
+            },
+            {
+              "label": "Clear the burden",
+              "text": "Deworming and nutritional support address different parts of recovery. Sanitation and washing hands and produce reduce repeated ingestion of infective eggs.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-trichuriasis"
+              ],
+              "schematic": "Deworming + nutritional recovery"
+            }
+          ],
+          "practical": "Deworming and nutritional recovery are central. Safe sanitation and reducing soil contamination prevent repeated exposure.",
+          "sources": [
+            "clinical-trichuriasis"
+          ]
+        },
+        {
+          "id": "strongyloidiasis",
+          "title": "Strongyloidiasis",
+          "lead": "Strongyloides can maintain infection through an internal reinfection cycle for years.",
+          "region": "small",
+          "category": "Intestinal worms",
+          "organisms": [],
+          "featured": false,
+          "aliases": [],
+          "tags": [
+            "Strongyloides",
+            "Intestinal worms"
+          ],
+          "infection_diagram": {
+            "kind": "autoinfection",
+            "organism": "Strongyloides",
+            "exposure": "Soil larvae penetrate skin"
+          },
+          "steps": [
+            {
+              "label": "Entry & migration",
+              "text": "Strongyloides larvae penetrate skin exposed to contaminated soil, migrate through the body and reach the small intestine. Adult females live in the intestinal mucosa.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-strongyloidiasis"
+              ],
+              "schematic": "Soil → skin → small intestine"
+            },
+            {
+              "label": "An internal cycle",
+              "text": "Eggs hatch within the intestine. Some larvae develop into infective forms before leaving the host and penetrate intestinal or perianal tissue, creating autoinfection.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-strongyloidiasis"
+              ],
+              "schematic": "Larva → tissue penetration → intestine again"
+            },
+            {
+              "label": "Persistence & hyperinfection",
+              "text": "Autoinfection can maintain the parasite for decades without another environmental exposure. Corticosteroids and other immune suppression can accelerate the cycle into dangerous hyperinfection and dissemination.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-strongyloidiasis"
+              ],
+              "schematic": "Autoinfection loop accelerates under immune suppression"
+            },
+            {
+              "label": "Find & clear infection",
+              "text": "Exposure history and appropriate testing matter before immunosuppression in at-risk people. Ivermectin is central to treatment; severe infection requires urgent specialist management.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-strongyloidiasis"
+              ],
+              "schematic": "Assess exposure → test → targeted treatment"
+            }
+          ],
+          "practical": "Exposure history and appropriate testing matter before immunosuppression in at-risk people. Ivermectin-based treatment is prescribed for confirmed or clinically relevant infection.",
+          "sources": [
+            "clinical-strongyloidiasis"
+          ]
+        },
+        {
+          "id": "pinworm",
+          "title": "Pinworm infection",
+          "lead": "Pinworms commonly affect children and households, causing night-time itching around the anus.",
+          "region": "colon",
+          "category": "Intestinal worms",
+          "organisms": [],
+          "featured": false,
+          "aliases": [
+            "Enterobiasis",
+            "Oxyuriasis",
+            "Seatworm infection",
+            "Threadworm infection"
+          ],
+          "tags": [
+            "Enterobius pinworm",
+            "Intestinal worms"
+          ],
+          "infection_diagram": {
+            "kind": "eggs",
+            "organism": "Enterobius pinworm",
+            "exposure": "Eggs on hands / bedding / surfaces"
+          },
+          "steps": [
+            {
+              "label": "Swallow eggs",
+              "text": "Pinworm eggs spread on hands, under fingernails, bedding and household surfaces. Swallowing eggs starts the intestinal cycle.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-pinworm"
+              ],
+              "schematic": "Hands / surfaces → swallowed eggs"
+            },
+            {
+              "label": "Mature in the bowel",
+              "text": "Larvae hatch in the small intestine. Adults establish themselves mainly in the caecum and adjacent large bowel.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-pinworm"
+              ],
+              "schematic": "Egg → larva → adult in large bowel"
+            },
+            {
+              "label": "Night-time egg laying",
+              "text": "Female worms migrate to perianal skin to lay eggs, often at night. Itching encourages scratching, transferring eggs to fingers and allowing reinfection or household spread.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-pinworm"
+              ],
+              "schematic": "Colon → perianal eggs → fingers"
+            },
+            {
+              "label": "Break household spread",
+              "text": "Treatment commonly involves a repeat dose and coordinated household measures. Handwashing, short nails and washing bedding interrupt egg transfer; care should follow local age and pregnancy guidance.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-pinworm"
+              ],
+              "schematic": "Treatment + repeat-dose plan + household hygiene"
+            }
+          ],
+          "practical": "Treatment often addresses household transmission as well as the infected person. Handwashing, short nails and washing bedding help reduce reinfection.",
+          "sources": [
+            "clinical-pinworm"
+          ]
+        },
+        {
+          "id": "hepatitis-a",
+          "title": "Hepatitis A",
+          "lead": "Hepatitis A is a liver infection spread through contaminated food, water or close contact.",
+          "region": "small",
+          "category": "Enteric viruses",
+          "organisms": [],
+          "featured": false,
+          "aliases": [
+            "HAV"
+          ],
+          "tags": [
+            "Hepatitis A virus",
+            "Enteric viruses"
+          ],
+          "infection_diagram": {
+            "kind": "liver",
+            "organism": "Hepatitis A virus",
+            "exposure": "Faecal–oral exposure through food / water"
+          },
+          "steps": [
+            {
+              "label": "Enteric exposure",
+              "text": "Hepatitis A spreads when virus from faecal contamination is swallowed. Food, water and close contact can carry the virus into the digestive tract.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-hepatitis-a"
+              ],
+              "schematic": "Food / water → digestive tract"
+            },
+            {
+              "label": "The liver is the target",
+              "text": "After enteric acquisition, the virus reaches the liver. Hepatocytes are the main site of replication, and the immune response contributes to liver injury.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-hepatitis-a"
+              ],
+              "schematic": "Enteric entry → liver"
+            },
+            {
+              "label": "Return through bile",
+              "text": "Virus is shed into bile and then stool, allowing transmission before or during illness. Liver dysfunction can cause jaundice and dark urine. Hepatitis A does not establish chronic infection.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-hepatitis-a"
+              ],
+              "schematic": "Liver → bile → stool → new exposure"
+            },
+            {
+              "label": "Support & prevent",
+              "text": "Care is supportive, with assessment for dehydration or severe liver disease. Vaccination prevents infection; prompt post-exposure vaccination or immunoglobulin is used when indicated.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-hepatitis-a"
+              ],
+              "schematic": "Supportive care + vaccination"
+            }
+          ],
+          "practical": "Supportive care and monitoring address illness. Vaccination and post-exposure measures prevent infection in relevant settings; severe vomiting or worsening jaundice needs assessment.",
+          "sources": [
+            "clinical-hepatitis-a"
+          ]
+        },
+        {
+          "id": "typhoid",
+          "title": "Typhoid fever",
+          "lead": "Typhoid is a systemic infection caused by Salmonella Typhi, usually acquired through contaminated food or water.",
+          "region": "small",
+          "category": "Bacterial infections",
+          "organisms": [],
+          "featured": false,
+          "aliases": [],
+          "tags": [
+            "Salmonella Typhi",
+            "Bacterial infections"
+          ],
+          "infection_diagram": {
+            "kind": "systemic",
+            "organism": "Salmonella Typhi",
+            "exposure": "Human faecal contamination of food / water"
+          },
+          "steps": [
+            {
+              "label": "Enter through the gut",
+              "text": "Salmonella Typhi is acquired from contaminated food or water. Humans are its reservoir, so sanitation and carrier detection are central to transmission.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-typhoid"
+              ],
+              "schematic": "Contaminated food → intestine"
+            },
+            {
+              "label": "Cross into the body",
+              "text": "Bacteria cross the intestinal surface and survive within phagocytic cells. They spread beyond the gut, producing systemic infection rather than only local gastroenteritis.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-typhoid"
+              ],
+              "schematic": "Intestine → immune cells → bloodstream"
+            },
+            {
+              "label": "Persistence & shedding",
+              "text": "Systemic spread causes prolonged fever and illness. The gallbladder can support persistent carriage, with organisms returning through bile to the intestine and stool.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-typhoid"
+              ],
+              "schematic": "Blood / liver → gallbladder → bile → stool"
+            },
+            {
+              "label": "Treat resistance-aware",
+              "text": "Effective antibiotics are essential and must reflect resistance patterns and travel history. Vaccination, safe water and sanitation reduce acquisition and onward spread.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-typhoid"
+              ],
+              "schematic": "Diagnosis + effective antibiotics + prevention"
+            }
+          ],
+          "practical": "Diagnosis and effective antibiotics are essential. The regimen depends on local resistance and travel history; vaccination and safe water reduce risk.",
+          "sources": [
+            "clinical-typhoid"
+          ]
+        },
+        {
+          "id": "oral-thrush",
+          "title": "Oral thrush",
+          "lead": "Oral thrush is overgrowth of Candida in the mouth, producing white patches or soreness.",
+          "region": "mouth",
+          "category": "Oral infections & biofilms",
+          "organisms": [],
+          "featured": false,
+          "aliases": [],
+          "tags": [
+            "Candida",
+            "Oral infections & biofilms"
+          ],
+          "infection_diagram": {
+            "kind": "fungus",
+            "organism": "Candida",
+            "exposure": "Resident yeast expands in altered oral conditions"
+          },
+          "steps": [
+            {
+              "label": "A resident organism",
+              "text": "Candida can be present in the mouth without causing illness. Antibiotics, dentures, inhaled steroids, immune suppression and metabolic conditions can change the local environment.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-oral-thrush"
+              ],
+              "schematic": "Changed oral habitat → Candida expansion"
+            },
+            {
+              "label": "Growth on the surface",
+              "text": "Yeast growth and filament formation support attachment and biofilm formation on oral surfaces. Visible plaques can develop on mucosal tissue.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-oral-thrush"
+              ],
+              "schematic": "Yeast / filaments → attached surface growth"
+            },
+            {
+              "label": "Local symptoms",
+              "text": "Oral candidiasis can produce white patches, soreness and altered taste. This is a disease of the mouth; it does not by itself demonstrate an intestinal Candida infection.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-oral-thrush"
+              ],
+              "schematic": "Local growth → mucosal irritation"
+            },
+            {
+              "label": "Treat the habitat too",
+              "text": "Antifungal treatment addresses the infection. Denture hygiene, mouth rinsing after inhaled steroids and assessment of recurrent episodes address contributing conditions.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-oral-thrush"
+              ],
+              "schematic": "Antifungal care + contributing-factor control"
+            }
+          ],
+          "practical": "Care addresses the local infection and contributing factors, with antifungal treatment when needed. Recurrent episodes can prompt assessment of medicines or underlying conditions.",
+          "sources": [
+            "clinical-oral-thrush"
+          ]
+        },
+        {
+          "id": "periodontitis",
+          "title": "Periodontitis",
+          "lead": "Periodontitis is inflammatory destruction of tissues supporting the teeth.",
+          "region": "mouth",
+          "category": "Oral infections & biofilms",
+          "organisms": [],
+          "featured": false,
+          "aliases": [
+            "Periodontal disease"
+          ],
+          "tags": [
+            "Dental plaque community",
+            "Oral infections & biofilms"
+          ],
+          "infection_diagram": {
+            "kind": "gum",
+            "organism": "Dental plaque community",
+            "exposure": "Persistent biofilm at the gum margin"
+          },
+          "steps": [
+            {
+              "label": "A biofilm at the tooth",
+              "text": "Oral bacteria attach to a stable tooth surface and form plaque. Around the gum margin, that community is in direct contact with host tissue and its inflammatory response.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-periodontitis"
+              ],
+              "schematic": "Tooth surface → organised plaque biofilm"
+            },
+            {
+              "label": "An inflamed pocket",
+              "text": "Inflammation and periodontal pocket formation alter oxygen, nutrients and access to tissue-derived material. The changed habitat supports a different microbial community.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-periodontitis"
+              ],
+              "schematic": "Gum pocket ↔ changed microbial habitat"
+            },
+            {
+              "label": "Supporting tissue is lost",
+              "text": "Periodontitis destroys connective attachment and alveolar bone supporting the tooth. The mechanism combines a biofilm with host-mediated tissue damage.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-periodontitis"
+              ],
+              "schematic": "Persistent response → attachment / bone loss"
+            },
+            {
+              "label": "Disrupt the biofilm",
+              "text": "Professional periodontal treatment and ongoing plaque control act on the local cause. Smoking and diabetes affect healing. This local mechanism is why oral ecology belongs in a digestive atlas.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-periodontitis"
+              ],
+              "schematic": "Professional care + sustained plaque control"
+            }
+          ],
+          "practical": "Professional periodontal treatment and sustained daily plaque control are central. Smoking, diabetes and other contributing factors affect disease and healing.",
+          "sources": [
+            "clinical-periodontitis"
+          ]
+        },
+        {
+          "id": "dental-caries",
+          "title": "Dental caries",
+          "lead": "Dental caries develops when repeated acid production in dental plaque causes mineral loss from teeth.",
+          "region": "mouth",
+          "category": "Oral infections & biofilms",
+          "organisms": [],
+          "featured": false,
+          "aliases": [
+            "Cavities",
+            "Dental caries"
+          ],
+          "tags": [
+            "Acid-producing plaque community",
+            "Oral infections & biofilms"
+          ],
+          "infection_diagram": {
+            "kind": "acid",
+            "organism": "Acid-producing plaque community",
+            "exposure": "Repeated fermentable carbohydrate exposure"
+          },
+          "steps": [
+            {
+              "label": "A retained community",
+              "text": "Dental plaque retains microbes on tooth surfaces. Saliva, food exposure and cleaning shape this habitat. Caries is a community-and-chemistry process, not simply the presence of one organism.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-dental-caries"
+              ],
+              "schematic": "Tooth surface + plaque community"
+            },
+            {
+              "label": "Sugar becomes acid",
+              "text": "Plaque microbes ferment available carbohydrate into organic acids. Local pH falls, favouring acid-tolerant organisms when exposures are frequent.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-dental-caries"
+              ],
+              "schematic": "Carbohydrate → microbial acids → lower pH"
+            },
+            {
+              "label": "Mineral balance shifts",
+              "text": "Acid dissolves tooth mineral. Saliva and fluoride support remineralisation, but repeated acid exposure can make net mineral loss accumulate into a cavity.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-dental-caries"
+              ],
+              "schematic": "Repeated low pH → enamel mineral loss"
+            },
+            {
+              "label": "Change the balance",
+              "text": "Fluoride, plaque control and reducing frequent sugar exposure support prevention. Established lesions need dental assessment and treatment matched to their stage.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-dental-caries"
+              ],
+              "schematic": "Fluoride + cleaning + exposure pattern"
+            }
+          ],
+          "practical": "Fluoride, effective cleaning, sugar-exposure patterns and dental treatment address different stages. Pain, swelling or a dental abscess need prompt care.",
+          "sources": [
+            "clinical-dental-caries"
+          ]
+        },
+        {
+          "id": "gingivitis",
+          "title": "Gingivitis",
+          "lead": "Gingivitis is inflammation of the gums, often causing bleeding with cleaning.",
+          "region": "mouth",
+          "category": "Oral infections & biofilms",
+          "organisms": [],
+          "featured": false,
+          "aliases": [
+            "Periodontal disease"
+          ],
+          "tags": [
+            "Dental plaque community",
+            "Oral infections & biofilms"
+          ],
+          "infection_diagram": {
+            "kind": "gum",
+            "organism": "Dental plaque community",
+            "exposure": "Plaque accumulation at the gum margin"
+          },
+          "steps": [
+            {
+              "label": "Plaque accumulates",
+              "text": "A biofilm builds up where tooth and gum meet. Changes in cleaning and local plaque retention increase contact between the community and the gum tissue.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-gingivitis"
+              ],
+              "schematic": "Plaque at the tooth–gum boundary"
+            },
+            {
+              "label": "Gum immune response",
+              "text": "Microbial products stimulate local immune cells and blood vessels. Increased blood flow and immune-cell recruitment produce swollen, red gums.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-gingivitis"
+              ],
+              "schematic": "Biofilm → immune recruitment → swollen gums"
+            },
+            {
+              "label": "Bleeding with cleaning",
+              "text": "Inflamed tissue bleeds more easily. Gingivitis is distinguished from periodontitis by the absence of the supporting attachment and bone loss that defines periodontitis.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-gingivitis"
+              ],
+              "schematic": "Inflamed gum → easy bleeding"
+            },
+            {
+              "label": "Remove the stimulus",
+              "text": "Effective daily cleaning and professional plaque removal can reverse plaque-induced gingivitis. Persistent bleeding needs dental assessment, including checking for periodontitis.",
+              "chain": [
+                "gut"
+              ],
+              "studies": [],
+              "sources": [
+                "clinical-gingivitis"
+              ],
+              "schematic": "Plaque removal → reduced gum inflammation"
+            }
+          ],
+          "practical": "Daily plaque control and professional cleaning support recovery. Persistent bleeding should be checked for periodontal disease and other contributors.",
+          "sources": [
+            "clinical-gingivitis"
+          ]
         }
       ]
     }
@@ -4167,6 +5567,37 @@
         }
       ],
       "author": "Gut Atlas seed",
+      "revision": 1
+    },
+    "topic:pain": {
+      "title": "Gut microbiome, cytokines and persistent pain",
+      "paragraphs": [
+        "Start with the Sima matched pilot, then compare non-surgical pain with surgical outcomes and structural spine disease. These cohorts do not share one universal diversity pattern or bacterial signature.",
+        "Follow the cytokines separately: the inflammatory-biomarker synthesis and Th17 study measured immune signals in back disorders. The mouse TNF experiments test microbiota–inflammation feedback, rather than human back-pain treatment."
+      ],
+      "studies": [
+        "pain-sima",
+        "pain-miso",
+        "pain-nitert",
+        "pain-spondylolisthesis",
+        "pain-modic",
+        "pain-widespread",
+        "pain-biomarkers",
+        "pain-th17",
+        "pain-synthesis",
+        "pain-barrier-tnf"
+      ],
+      "links": [
+        {
+          "title": "Persistent Pain · the illustrated story",
+          "url": "/inflammation#view=stories&item=pain"
+        },
+        {
+          "title": "Inflammation signals",
+          "url": "/inflammation#view=signals"
+        }
+      ],
+      "author": "Gut Atlas editorial",
       "revision": 1
     }
   }

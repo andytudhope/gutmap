@@ -23,16 +23,29 @@ class AtlasTest(unittest.TestCase):
                     self.assertTrue(set(step['studies'])<=set(notes))
                     self.assertTrue(set(step['chain'])<=set(editorial.document('pathways')['entities']))
                     self.assertTrue(set(step['sources'])<=set(paths['sources']))
-    def test_condition_collection(self):
-        conditions=editorial.read('conditions');self.assertGreaterEqual(len(conditions),100)
-        sources=editorial.read('pathways')['sources']
-        for s in conditions.values():
-            self.assertEqual(len(s['paragraphs']),3)
-            self.assertTrue(all(p.strip() for p in s['paragraphs']))
-            self.assertTrue(s['clinical_sources']);self.assertTrue(set(s['clinical_sources'])<=set(sources))
-        items=editorial.document('pathways')['pages']['illness-recovery']['stories']
-        self.assertGreaterEqual(sum(s['type']=='condition' for s in items),104)
-        self.assertNotIn('paragraphs',next(s for s in items if s['id']=='ibs'))
+    def test_focused_infection_collection(self):
+        items=editorial.document('pathways')['pages']['infections']['stories']
+        self.assertEqual(len(items),25)
+        self.assertTrue({'salmonellosis','campylobacteriosis','shigellosis','stec','rotavirus','cryptosporidiosis','amoebiasis','ascariasis','hookworm','trichuriasis','strongyloidiasis','pinworm','hepatitis-a','typhoid','oral-thrush','periodontitis','dental-caries','gingivitis'} <= {s['id'] for s in items})
+        self.assertFalse({'breast-cancer','acne','vaginal-candidiasis','bacterial-vaginosis'} & {s['id'] for s in items})
+        self.assertTrue(all(s.get('infection_diagram') for s in items if s['id'] in {'salmonellosis','stec','strongyloidiasis','periodontitis'}))
+        self.assertTrue(all(s.get('steps') for s in items))
+        self.assertFalse(any(s.get('layout')=='article' for s in items))
+        signals=json.loads((ROOT/'static/inflammation-signals.json').read_text())
+        self.assertGreaterEqual(len(signals),25)
+        self.assertTrue(all(s['application'] in ('pain','lungs','ibd') for s in signals))
+    def test_pain_research_route(self):
+        route=editorial.read('pain_research')
+        self.assertEqual(len(route['bibliography']),57)
+        self.assertEqual(len(route['records']),22)
+        self.assertTrue(all('abstractText' not in r['metadata'] for r in route['records']))
+        m=research.model();seed=m['aliases']['doi:10.1002/jsp2.70174']
+        self.assertTrue(m['papers'][seed]['annotated'])
+        self.assertIn('pain',m['papers'][seed]['topics'])
+        for doi in ('10.1007/s00586-025-09046-x','10.1016/j.injury.2013.04.010','10.3389/fimmu.2024.1342833'):
+            self.assertIn((seed,m['aliases']['doi:'+doi]),m['edges'])
+        self.assertTrue(research.collection({'topic':['pain']})['cluster_summary'])
+
     def test_catalogue_queries(self):
         for kind in ['viruses','protists','fungi']:
             data=atlas.catalogues({'kind':[kind],'limit':['1']})

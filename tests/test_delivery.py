@@ -34,6 +34,20 @@ class Delivery(unittest.TestCase):
                 self.assertGreater(path['length'],0)
                 self.assertGreater(len(path['points']),1)
 
+    def test_inflammation_data_and_cache(self):
+        with urlopen(self.url+'/inflammation-signals.json') as response:
+            self.assertEqual(response.headers['Cache-Control'],'no-cache')
+            signals=json.load(response)
+        ids={s['id'] for s in signals}
+        self.assertEqual(len(ids),len(signals))
+        with urlopen(self.url+'/inflammation-stories.json') as response:
+            stories=json.load(response)
+        self.assertTrue(all(set(step['signals'])<=ids for story in stories for step in story['steps']))
+        with urlopen(self.url+'/inflammation') as response:
+            html=response.read().decode()
+        self.assertIn('>Stories</a>',html)
+        self.assertIn('>Signals</a>',html)
+
     def test_primary_navigation_and_explore_views(self):
         from hub import navigation
         for path in ('/', '/explore', '/mechanisms', '/conditions', '/condition/ibs', '/research', '/references'):

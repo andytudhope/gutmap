@@ -18,43 +18,30 @@ function microbeRows(ids){return ids.map(id=>{const m=habitatMicrobe(id);return`
 function setLegend(text){$('#focus-legend span:last-child').textContent=text;}
 function syncURL(){if(!S.organ)return;const p=new URLSearchParams({organ:S.organ});if(X.mode!=='organ')p.set('view',X.mode);if(X.mode==='chemistry'&&X.story)p.set('story',X.story);if(X.mode==='body')p.set('connection',X.connection);history.replaceState(null,'','#'+p);}
 async function ensure(){if(X.data)return X.data;if(!X.ready)X.ready=fetch('/api/learn?view=exploration').then(r=>{if(!r.ok)throw Error('Could not load ecosystem notes.');return r.json();}).then(d=>X.data=d).catch(e=>{X.ready=null;throw e;});return X.ready;}
-function stopClock(){X.clock?.stop();X.clock=null;}
-function clearPlot(){stopClock();plot.selectAll('*').interrupt();plot.selectAll('*').remove();}
+function stopClock(){X.clock?.stop();X.clock=null;X.habitatScene?.stop();}
+function clearPlot(){stopClock();X.habitatScene=null;plot.selectAll('*').interrupt();plot.selectAll('*').remove();}
 function onOrgan(id){X.request++;stopClock();X.mode='organ';X.story=null;document.body.dataset.explore='organ';nav.hidden=false;d3.select('#anatomy').style('opacity',1).style('pointer-events',null);plot.style('display','none');nav.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.explore==='organ')));setLegend('Microbial positions are illustrative.');const p=new URLSearchParams(location.hash.slice(1));const mode=p.get('view');if(modes.some(([m])=>m===mode)&&mode!=='organ'){X.story=p.get('story')||X.story;X.connection=p.get('connection')||X.connection;setTimeout(()=>switchView(mode),0);}}
 function reset(){X.request++;stopClock();X.mode='organ';plot.style('display','none');document.body.dataset.explore='organ';nav.hidden=true;d3.select('#anatomy').style('opacity',1).style('pointer-events',null);}
 async function switchView(mode){if(!S.organ||!modes.some(([id])=>id===mode))return;const request=++X.request;stopClock();X.mode=mode;document.body.dataset.explore=mode;nav.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.explore===mode)));syncURL();
  if(mode==='organ'){plot.style('display','none');d3.select('#anatomy').style('opacity',1).style('pointer-events',null);renderHabitat(region(S.organ));setLegend('Microbial positions are illustrative.');return;}
- d3.select('#anatomy').style('opacity',.035).style('pointer-events','none');plot.style('display','block');resizePlot();clearPlot();
+ d3.select('#anatomy').style('opacity',mode==='habitats'?0:.035).style('pointer-events','none');plot.style('display','block');resizePlot();clearPlot();
  $('#habitat-panel').innerHTML=header('EXPLORING','Opening the ecosystem…');
  try{await ensure();if(request!==X.request)return;if(mode==='habitats')drawHabitats();if(mode==='chemistry'){if(S.organ==='mouth'&&!X.story)drawMouthChemistry();else{if(!X.data.stories.some(s=>s.id===X.story))X.story=X.data.stories.find(s=>s.regions.includes(S.organ))?.id||'butyrate';drawChemistry();}}if(mode==='body')drawBody();}catch(e){$('#habitat-panel').innerHTML=header('EXPLORATION',e.message)+`<button class="text-link" data-explore="${mode}">Try again ↗</button>`;}
 }
 function label(g,text,x,y,cls='eco-label'){return g.append('text').attr('x',x).attr('y',y).attr('class',cls).text(text);}
 function gentleReveal(){plot.attr('opacity',reduced?1:0).transition().duration(reduced?0:650).attr('opacity',1);}
 
-// 1. Habitats: food islands, moving contents, mucus and the host surface.
-function drawHabitats(){clearPlot();const h=X.data.habitats[S.organ];if(!h.zones.some(z=>z.id===X.zone))X.zone='food';
- const g=plot.append('g');
- g.append('path').attr('d','M355 195H935V765H355Z').attr('class','eco-frame');
- for(let i=0;i<18;i++){const y=225+i*20;g.append('path').attr('d',`M365 ${y} C535 ${y-15} 715 ${y+20} 925 ${y-3}`).attr('class','fluid-line');}
- const mucus='M355 593C470 555 600 623 725 580S855 581 935 567L935 714C815 740 710 688 590 718S440 696 355 731Z';
- const mucusGroup=g.append('g').attr('class','habitat-zone').attr('data-zone-id','mucus');mucusGroup.append('path').attr('d',mucus).attr('class','mucus-layer');
- for(let i=0;i<13;i++){const off=i*9;mucusGroup.append('path').attr('d',`M355 ${590+off}C470 ${555+off} 600 ${623+off} 725 ${580+off}S855 ${581+off} 935 ${567+off}`).attr('class','mucus-strand');}
- keyable(mucusGroup,()=>selectZone('mucus'));
- const cells=g.append('g');for(let i=0;i<23;i++){const x=356+i*25,y=718+Math.sin(i*.6)*13;cells.append('path').attr('d',`M${x} ${y+69}L${x} ${y+8}Q${x+12} ${y-11} ${x+24} ${y+8}L${x+24} ${y+69}Z`).attr('class','epithelial-cell');cells.append('ellipse').attr('cx',x+12).attr('cy',y+45).attr('rx',4).attr('ry',8).attr('class','cell-nucleus');}
- label(g,h.surface,365,822,'eco-caption');label(g,h.mucus,365,674,'eco-caption');label(g,'Contents',365,226,'eco-caption');
- const food=g.append('g').attr('class','habitat-zone').attr('data-zone-id','food');const blob=d3.line().curve(d3.curveCatmullRomClosed.alpha(.6));
- food.append('path').attr('d',blob([[421,300],[464,265],[514,281],[551,262],[595,300],[581,341],[604,372],[560,405],[507,389],[468,409],[424,372],[439,335]])).attr('class','food-island');
- food.append('path').attr('d',blob([[767,260],[812,248],[839,273],[824,308],[842,335],[794,348],[760,325],[773,292]])).attr('class','food-island');
- const rng=d3.randomLcg(.411);for(let i=0;i<65;i++){const x=443+rng()*123,y=292+rng()*85;food.append('path').attr('d',`M${x} ${y}q12 -15 26 1t25 2`).attr('class','food-fibre');}keyable(food,()=>selectZone('food'));
- const fluid=g.append('rect').attr('x',365).attr('y',425).attr('width',560).attr('height',122).attr('fill','transparent').attr('class','habitat-zone').attr('data-zone-id','fluid');keyable(fluid,()=>selectZone('fluid'));
- const all=[];h.zones.forEach(z=>{for(let i=0;i<(mobile()?90:155);i++){const id=z.residents[i%z.residents.length];let x,y;if(z.id==='food'){const angle=rng()*Math.PI*2,r=55+rng()*65;x=510+Math.cos(angle)*r;y=338+Math.sin(angle)*r*.62;}else if(z.id==='fluid'){x=385+rng()*520;y=418+rng()*125;}else{x=385+rng()*520;y=590+rng()*95;}all.push({id,zone:z.id,x,y,a:rng()*180,phase:rng()*6,scale:.3+rng()*.35});}});
- const life=g.append('g').selectAll('g').data(all).join('g').attr('class','habitat-organism').attr('transform',d=>`translate(${d.x},${d.y}) rotate(${d.a}) scale(${d.scale})`).attr('data-life-zone',d=>d.zone).html(d=>glyph(S.data.microbes[d.id].group,16)).attr('aria-label',d=>S.data.microbes[d.id].name);
- life.append('title').text(d=>S.data.microbes[d.id].name);life.on('click',(e,d)=>{e.stopPropagation();showMicrobe(d.id);});
- // Larger specimens make the scene reachable by keyboard and touch.
- h.zones.forEach((z,zi)=>{z.residents.forEach((id,i)=>{const x=zi===0?440+i*61:zi===1?445+i*102:457+i*120,y=zi===0?350:zi===1?485:633;const m=S.data.microbes[id];const cell=g.append('g').attr('class','habitat-specimen').attr('transform',`translate(${x},${y})`).attr('aria-label',m.name).html(glyph(m.group,27));keyable(cell,()=>showMicrobe(id));});});
- setLegend('An ecological schematic. Microbial positions and numbers are illustrative.');selectZone(X.zone);gentleReveal();
- if(!reduced){X.clock=d3.timer(t=>{if(document.hidden)return;life.attr('transform',d=>`translate(${d.x+Math.sin(t/3400+d.phase)*3},${d.y+Math.cos(t/4200+d.phase)*2}) rotate(${d.a}) scale(${d.scale})`);});}}
-function selectZone(id){X.zone=id;const h=X.data.habitats[S.organ],z=h.zones.find(z=>z.id===id);if(!z)return;plot.selectAll('.habitat-zone').classed('zone-selected',function(){return this.dataset.zoneId===id;});plot.selectAll('.habitat-organism').attr('opacity',d=>d.zone===id?.75:.23);$('#habitat-panel').innerHTML=header('HABITATS / '+region(S.organ).name,h.title,h.description)+`<div class="eco-tabs" role="group" aria-label="Microbial habitats">${h.zones.map(z=>`<button data-zone="${z.id}" aria-pressed="${z.id===id}">${esc(z.name)}</button>`).join('')}</div><h3 class="eco-panel-title">${esc(z.name)}</h3><p class="habitat-role">${esc(z.text)}</p>${microbeRows(z.residents)}<h3 class="eco-panel-title">Research</h3>${paperButtons(z.papers)}`;}
+// 1. Habitats: each organ has its own anatomy, transport and ecological niches.
+function drawHabitats(){clearPlot();const h=X.data.habitats[S.organ];if(!h.zones.some(z=>z.id===X.zone))X.zone=h.zones[0].id;
+ plot.attr('aria-label',region(S.organ).name+': '+h.visual.description);
+ X.habitatScene=window.habitatScenes.render(plot,S.organ,h,{onZone:selectZone,onMicrobe:showMicrobe,glyph,reduced,microbes:S.data.microbes});
+ setLegend('Schematic, not to scale. Motion, cell positions and numbers are illustrative.');selectZone(X.zone);gentleReveal();
+}
+function selectZone(id){X.zone=id;const h=X.data.habitats[S.organ],z=h.zones.find(z=>z.id===id);if(!z)return;
+ X.habitatScene?.highlight(id);
+ $('#habitat-panel').innerHTML=header('HABITATS / '+region(S.organ).name,h.title,h.description)+`<div class="habitat-motion"><button type="button" data-habitat-motion aria-pressed="${X.habitatScene?.isPlaying()||false}">${X.habitatScene?.isPlaying()?'Pause motion':'Play motion'}</button><span>Illustrative process</span></div><div class="eco-tabs" role="group" aria-label="Microbial habitats">${h.zones.map(z=>`<button data-zone="${z.id}" aria-pressed="${z.id===id}">${esc(z.name)}</button>`).join('')}</div><h3 class="eco-panel-title">${esc(z.name)}</h3><p class="habitat-role">${esc(z.text)}</p><aside class="habitat-takeaway"><span class="tiny-heading">WHAT TO NOTICE</span><p>${esc(h.visual.takeaway)}</p></aside>${microbeRows(z.residents)}<details class="habitat-structure-sources"><summary>About this anatomical schematic</summary><p>${esc(h.visual.description)}</p>${h.visual.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a>`).join('')}</details><h3 class="eco-panel-title">Research</h3>${paperButtons(z.papers)}`;
+}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-habitat-motion]');if(!b||!X.habitatScene)return;if(X.habitatScene.isPlaying())X.habitatScene.stop();else X.habitatScene.play();b.setAttribute('aria-pressed',String(X.habitatScene.isPlaying()));b.textContent=X.habitatScene.isPlaying()?'Pause motion':'Play motion';});
 
 // 2. Chemistry: discrete, sourced transformations with a controllable particle.
 const mouthRoutes=[

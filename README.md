@@ -1,6 +1,6 @@
 # Gut Atlas
 
-An open, visual guide to the human gut: clear explanations, biological mechanisms and inspectable research evidence.
+An open, visual guide to the human gut: clear explanations, biological mechanisms and inspectable research evidence. Opinionated and direct. Neither exhaustive, nor neutral.
 
 ## Run
 
@@ -30,3 +30,5 @@ Scientific contributions target a concept, claim, finding or topic. They can cla
 
 Bibliographic metadata and versioned source catalogues live in SQLite. No PDFs, full article texts, abstracts or sequences are stored by the site. Update discovery with `python3 -m hub.ingest --force`. Audit source identities with `python3 scripts/audit_sources.py`; its optional abstract inspection output should be a temporary path outside the project. Keep the database when publishing code changes because it also holds contributions and decisions.
 
+
+The selected gut–pain citation route is recorded in `content/pain_research.json`. Run `python3 scripts/import_pain_research.py` to import its checked metadata and citation edges; set `HUB_DB=data/preview.sqlite` to update the local preview. The import is repeatable and deduplicates by DOI. Reading notes and source checks live in the shared evidence and audit files.

@@ -674,7 +674,12 @@
           ]
         }
       ],
-      "links": []
+      "links": [
+        {
+          "title": "Microbial fuel and mitochondrial energy",
+          "url": "/mechanisms#map=mitochondria"
+        }
+      ]
     },
     {
       "id": "tryptophan",
@@ -1822,6 +1827,283 @@
         {
           "title": "Read the gut–brain guide",
           "url": "/references#guide=gut-brain"
+        }
+      ]
+    },
+    {
+      "id": "mitochondria",
+      "title": "Microbes, mitochondria and cellular energy",
+      "lead": "Gut microbes feed and influence the tiny energy-converting structures inside our cells. Mitochondria turn microbial products into fuel, process sulfur compounds and help shape the gut habitat through their oxygen use. Other microbial products reach distant tissues and influence mitochondrial maintenance.",
+      "regions": [
+        "colon"
+      ],
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Fibre and butyrate",
+          "compartment": "Colon lumen",
+          "role": "Fibre-fermenting communities supply butyrate, a major oxidative fuel for the colon lining.",
+          "concept": "mechanism:mitochondria-0"
+        },
+        {
+          "id": "1",
+          "name": "Colon-cell mitochondria",
+          "compartment": "Colon lining",
+          "role": "Butyrate is converted to acetyl-CoA. The citric acid cycle and electron transport chain use this fuel and oxygen to support ATP production.",
+          "concept": "mechanism:mitochondria-1"
+        },
+        {
+          "id": "2",
+          "name": "Low-oxygen habitat",
+          "compartment": "Lining → lumen",
+          "role": "Oxygen consumption by the lining helps preserve the low-oxygen environment occupied by many gut fermenters.",
+          "concept": "mechanism:mitochondria-2"
+        },
+        {
+          "id": "3",
+          "name": "Microbial hydrogen sulfide",
+          "compartment": "Colon lumen",
+          "role": "Microbial sulfur metabolism supplies hydrogen sulfide at the epithelial surface.",
+          "concept": "mechanism:mitochondria-3"
+        },
+        {
+          "id": "4",
+          "name": "Sulfide oxidation",
+          "compartment": "Mitochondrial membrane",
+          "role": "SQOR transfers electrons from sulfide to the coenzyme Q pool. Further oxidation disposes of sulfide; excess sulfide inhibits complex IV.",
+          "concept": "mechanism:mitochondria-4"
+        },
+        {
+          "id": "5",
+          "name": "Food polyphenols",
+          "compartment": "Food → colon",
+          "role": "Ellagitannins and ellagic acid in foods such as pomegranates, berries and walnuts provide substrates for urolithin-producing communities.",
+          "concept": "mechanism:mitochondria-5"
+        },
+        {
+          "id": "6",
+          "name": "Urolithin-producing community",
+          "compartment": "Colon lumen",
+          "role": "Gordonibacter species produce intermediates; additional community reactions complete conversion to urolithin A.",
+          "concept": "mechanism:mitochondria-6"
+        },
+        {
+          "id": "7",
+          "name": "Urolithin A",
+          "compartment": "Gut → circulation",
+          "role": "A microbial metabolite links food transformation to experiments on mitochondrial quality control in distant tissues.",
+          "concept": "mechanism:mitochondria-7"
+        },
+        {
+          "id": "8",
+          "name": "Mitophagy and muscle",
+          "compartment": "Host tissues",
+          "role": "Cells recycle damaged mitochondria through mitophagy. Animal experiments and human trials examine consequences for respiration and muscle performance.",
+          "concept": "mechanism:mitochondria-8"
+        }
+      ],
+      "edges": [
+        {
+          "id": "e0",
+          "source": "0",
+          "target": "1",
+          "label": "butyrate oxidation",
+          "kind": "conversion",
+          "claim": "mechanism:mitochondria:e0"
+        },
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2",
+          "label": "oxygen consumption",
+          "kind": "conversion",
+          "claim": "mechanism:mitochondria:e1"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "0",
+          "label": "supports anaerobic ecology",
+          "kind": "signal",
+          "claim": "mechanism:mitochondria:e2"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4",
+          "label": "sulfide clearance",
+          "kind": "conversion",
+          "claim": "mechanism:mitochondria:e3"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "1",
+          "label": "electron transfer",
+          "kind": "conversion",
+          "claim": "mechanism:mitochondria:e4"
+        },
+        {
+          "id": "e5",
+          "source": "3",
+          "target": "1",
+          "label": "excess inhibits complex IV",
+          "kind": "inhibition",
+          "claim": "mechanism:mitochondria:e5"
+        },
+        {
+          "id": "e6",
+          "source": "5",
+          "target": "6",
+          "label": "microbial transformation",
+          "kind": "conversion",
+          "claim": "mechanism:mitochondria:e6"
+        },
+        {
+          "id": "e7",
+          "source": "6",
+          "target": "7",
+          "label": "community conversion",
+          "kind": "conversion",
+          "claim": "mechanism:mitochondria:e7"
+        },
+        {
+          "id": "e8",
+          "source": "7",
+          "target": "8",
+          "label": "quality-control signalling",
+          "kind": "signal",
+          "claim": "mechanism:mitochondria:e8"
+        }
+      ],
+      "steps": [
+        {
+          "id": "0",
+          "title": "Microbial fuel becomes cellular energy",
+          "text": "Mitochondria convert chemical energy into ATP, the molecule that powers cellular work. In the colon lining, butyrate enters oxidative metabolism. Germ-free mouse colonocytes have an energy deficit that butyrate can reverse. This is a direct biochemical connection between a microbial fermentation product and host energy supply.",
+          "edges": [
+            "e0"
+          ],
+          "studies": [
+            "colonocyte-butyrate"
+          ]
+        },
+        {
+          "id": "1",
+          "title": "Energy use shapes the microbial neighbourhood",
+          "text": "Colonocytes consume oxygen while oxidising butyrate. In mouse experiments, microbial activation of epithelial PPAR-γ helps maintain this metabolism and restricts oxygen and nitrate available to organisms such as Escherichia and Salmonella. A change inside host cells therefore changes competition outside them.",
+          "edges": [
+            "e1",
+            "e2"
+          ],
+          "studies": [
+            "mito-oxygen"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Sulfur meets the respiratory chain",
+          "text": "Hydrogen sulfide reaches the lining from microbial metabolism. Mitochondrial SQOR initiates its oxidation and passes electrons into the respiratory chain. When exposure overwhelms disposal, sulfide inhibits complex IV and disrupts respiration. Cell experiments show how oxidation capacity changes the response to the same compound.",
+          "edges": [
+            "e3",
+            "e4",
+            "e5"
+          ],
+          "studies": [
+            "mito-sulfide"
+          ]
+        },
+        {
+          "id": "3",
+          "title": "Food becomes a different molecule",
+          "text": "Gut microbes transform ellagic acid into urolithins. The cultured Gordonibacter species studied here stop at intermediate urolithins, including urolithin C; completing the pathway to urolithin A requires additional reactions. Different microbial communities therefore turn the same food substrates into different metabolite mixtures.",
+          "edges": [
+            "e6",
+            "e7"
+          ],
+          "studies": [
+            "mito-urolithin-makers"
+          ]
+        },
+        {
+          "id": "4",
+          "title": "Recycling mitochondria",
+          "text": "Mitophagy is the selective removal and recycling of mitochondria. Experiments with supplied urolithin A stimulated this process in cells and animals, reduced accumulation of dysfunctional mitochondria in ageing worms and improved muscle performance in rodents. This branch connects microbial chemistry with maintenance of the mitochondrial population.",
+          "edges": [
+            "e8"
+          ],
+          "studies": [
+            "mito-mitophagy"
+          ]
+        },
+        {
+          "id": "5",
+          "title": "Following the mechanism into people",
+          "text": "A four-month trial in 66 older adults tested supplied urolithin A against placebo. Muscle endurance improved at two months, while the primary walking-distance and ATP-production outcomes showed no significant between-group improvement. Giving the finished metabolite bypasses the gut conversion step; comparing food, microbial production, tissue exposure and direct mitochondrial measurements is the next experiment to connect these routes.",
+          "edges": [
+            "e8"
+          ],
+          "studies": [
+            "mito-human-trial"
+          ]
+        }
+      ],
+      "measurements": [
+        {
+          "name": "Oxygen consumption and ATP",
+          "text": "Respirometry measures oxygen use by cells or isolated mitochondria. ATP assays and magnetic resonance spectroscopy address energy production. These measurements distinguish a metabolic change from a change in performance.",
+          "nodes": [
+            "1",
+            "4",
+            "8"
+          ]
+        },
+        {
+          "name": "Epithelial oxygen and microbial respiration",
+          "text": "Tissue oxygen measurements, epithelial metabolic markers and microbial respiratory genes track the feedback between the lining and its residents.",
+          "nodes": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "name": "Sulfide exposure and disposal",
+          "text": "Sulfide concentration, SQOR activity and respiratory-chain function together describe production, clearance and inhibition at the lining. Stool sulfide alone misses the tissue exposure and oxidation rate.",
+          "nodes": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "name": "Urolithin production and exposure",
+          "text": "Metabolite measurements after a defined food challenge show which urolithins a community produces. Blood and urine measurements follow exposure; a bacterial name alone does not measure the finished product.",
+          "nodes": [
+            "5",
+            "6",
+            "7"
+          ]
+        },
+        {
+          "name": "Mitophagy and muscle function",
+          "text": "Cellular mitophagy assays, muscle tissue measurements, fatigue tests and walking tests answer different questions. Changes in circulating acylcarnitines are indirect metabolic indicators rather than direct measurements of mitochondrial recycling.",
+          "nodes": [
+            "7",
+            "8"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "title": "How microbes make short-chain fatty acids",
+          "url": "/mechanisms#map=scfa"
+        },
+        {
+          "title": "Hydrogen exchange and microbial gases",
+          "url": "/mechanisms#map=hydrogen"
+        },
+        {
+          "title": "Explore food and fermentation",
+          "url": "/living-well"
         }
       ]
     }

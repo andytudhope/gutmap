@@ -22,7 +22,7 @@ def model():
     path=ROOT/'content/anatomy.json'
     pathway_path=ROOT/'content/pathways.json'
     with connect() as db:
-        stamp=(edits.revision(),str(DB_PATH),tuple(db.execute('SELECT COUNT(*),MAX(updated),SUM(refs_checked) FROM papers').fetchone()),db.execute('SELECT COUNT(*) FROM citations').fetchone()[0],db.execute('SELECT COUNT(*) FROM references_pending').fetchone()[0],path.stat().st_mtime_ns,pathway_path.stat().st_mtime_ns,(ROOT/'content/mechanisms.json').stat().st_mtime_ns,(ROOT/'content/references.json').stat().st_mtime_ns,(ROOT/'content/evidence.json').stat().st_mtime_ns,(ROOT/'content/concepts.json').stat().st_mtime_ns,(ROOT/'content/source_audit.json').stat().st_mtime_ns,tuple(db.execute("SELECT COUNT(*),MAX(id) FROM knowledge_contributions WHERE status='accepted'").fetchone()))
+        stamp=(edits.revision(),str(DB_PATH),tuple(db.execute('SELECT COUNT(*),MAX(updated),SUM(refs_checked) FROM papers').fetchone()),db.execute('SELECT COUNT(*) FROM citations').fetchone()[0],db.execute('SELECT COUNT(*) FROM references_pending').fetchone()[0],path.stat().st_mtime_ns,pathway_path.stat().st_mtime_ns,(ROOT/'content/mechanisms.json').stat().st_mtime_ns,(ROOT/'content/references.json').stat().st_mtime_ns,(ROOT/'content/evidence.json').stat().st_mtime_ns,(ROOT/'content/concepts.json').stat().st_mtime_ns,(ROOT/'content/source_audit.json').stat().st_mtime_ns,(ROOT/'content/pain_research.json').stat().st_mtime_ns,tuple(db.execute("SELECT COUNT(*),MAX(id) FROM knowledge_contributions WHERE status='accepted'").fetchone()))
         if _cache and _cache[0]==stamp:return _cache[1]
         rows=[dict(r) for r in db.execute('SELECT * FROM papers ORDER BY year DESC')]
         overrides=edits.published()
@@ -88,6 +88,10 @@ def model():
             if pid in papers:
                 entry=dict(title='Reading routes · '+guide['title'],url='/references#guide='+guide['id'])
                 if entry not in papers[pid]['pathways']:papers[pid]['pathways'].append(entry)
+    for entry in editorial.read('pain_research')['records']:
+        pid=aliases.get('doi:'+entry['metadata']['doi'])
+        if pid in papers:
+            papers[pid]['pathways'].append(dict(title='Inflammation · Persistent Pain',url='/inflammation#view=stories&item=pain'))
     dataset_links={
       '10.1101/2025.11.01.686033':('UHGV clusters','/explore#life=viruses'),
       '10.1016/j.cell.2021.01.029':('GPD source crosswalk','/explore#life=viruses&source=gpd'),
@@ -115,7 +119,8 @@ def model():
     for p in papers.values():
         p['references']=len(refs[p['id']]);p['cited_by']=len(cited[p['id']]);p['pending_references']=pending[p['id']]
         p['regions']=[r for r in p['regions'] if r in region_names] or ['unspecified']
-    result=dict(papers=papers,aliases=aliases,edges=edges,refs=refs,cited=cited,regions=region_names,topics={t['id']:t['title'] for t in TOPICS},entities=entities,clusters=pathway.get('clusters',{}),refreshed=refreshed)
+    selectors={field:sorted({value for p in papers.values() for value in (p[field] if isinstance(p[field],list) else [p[field]]) if value}) for field in ('taxa','functions','study_type','year')}
+    result=dict(selectors=selectors,papers=papers,aliases=aliases,edges=edges,refs=refs,cited=cited,regions=region_names,topics={t['id']:t['title'] for t in TOPICS},entities=entities,clusters=pathway.get('clusters',{}),refreshed=refreshed)
     _cache=(stamp,result)
     return result
 
@@ -147,7 +152,7 @@ def collection(args):
     total=len(papers);limit=min(1500,max(1,int(arg('limit') or 1000)));offset=max(0,int(arg('offset') or 0));papers=papers[offset:offset+limit];ids={p['id'] for p in papers}
     summary=next((m['clusters'][key+':'+arg(key)] for key in ('entity','function','taxon','topic') if key+':'+arg(key) in m['clusters']),None)
     if summary:summary={**summary,'papers':[m['papers'][m['aliases'][slug]] for slug in summary['studies'] if slug in m['aliases']]}
-    return dict(cluster_summary=summary,offset=offset,has_more=offset+len(papers)<total,papers=papers,edges=[e for e in m['edges'] if e[0] in ids and e[1] in ids],total=total,library_total=len(m['papers']),library_edges=len(m['edges']),references_checked=sum(bool(p.get('refs_checked')) for p in m['papers'].values()),annotated=sum(p['annotated'] for p in m['papers'].values()),regions=m['regions'],topics=m['topics'],entities=m['entities'],populations=sorted({p['population'] for p in m['papers'].values() if p['population']!='Not reviewed'}),evidence=sorted({p['study_type'] for p in m['papers'].values()}),refreshed=m['refreshed'])
+    return dict(selectors=m['selectors'],cluster_summary=summary,offset=offset,has_more=offset+len(papers)<total,papers=papers,edges=[e for e in m['edges'] if e[0] in ids and e[1] in ids],total=total,library_total=len(m['papers']),library_edges=len(m['edges']),references_checked=sum(bool(p.get('refs_checked')) for p in m['papers'].values()),annotated=sum(p['annotated'] for p in m['papers'].values()),regions=m['regions'],topics=m['topics'],entities=m['entities'],populations=sorted({p['population'] for p in m['papers'].values() if p['population']!='Not reviewed'}),evidence=sorted({p['study_type'] for p in m['papers'].values()}),refreshed=m['refreshed'])
 
 def paper_detail(ident):
     m=model();ident=m['aliases'].get(ident,ident);p=m['papers'].get(ident)

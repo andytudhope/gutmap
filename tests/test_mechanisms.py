@@ -4,7 +4,7 @@ from hub import editorial,research
 class Mechanisms(unittest.TestCase):
     def test_routes_have_resolved_evidence_and_compartments(self):
         data=editorial.document('mechanisms');maps=data['mechanisms']
-        self.assertEqual(len({m['id'] for m in maps}),11)
+        self.assertEqual(len({m['id'] for m in maps}),12)
         for m in maps:
             nodes={n['id'] for n in m['nodes']};edges={e['id'] for e in m['edges']}
             for n in m['nodes']:self.assertTrue(n['role'] and n['compartment'])
@@ -25,3 +25,18 @@ class Mechanisms(unittest.TestCase):
         model=research.model()
         # The notes remain canonical paper records; map arrows never become citation edges.
         self.assertTrue(any('/mechanisms#map=iron' in x['url'] for p in model['papers'].values() for x in p['pathways']))
+
+    def test_mitochondrial_map_connects_to_canonical_evidence(self):
+        from hub import knowledge
+        data=editorial.document('mechanisms')
+        route=next(m for m in data['mechanisms'] if m['id']=='mitochondria')
+        model=knowledge.model()
+        for node in route['nodes']:
+            self.assertIn(node['concept'],model['concepts'])
+        for edge in route['edges']:
+            claim=model['claims'][edge['claim']]
+            self.assertTrue(claim['evidence'])
+            self.assertTrue(all(e['finding'] in model['findings'] for e in claim['evidence']))
+        self.assertEqual(data['studies']['mito-human-trial']['paper'],'MED:35050355')
+        self.assertIn('did not differ significantly',data['studies']['mito-human-trial']['finding'])
+        self.assertGreater(research.collection({'mechanism':['mitochondria']})['total'],0)

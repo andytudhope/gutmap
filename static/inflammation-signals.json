@@ -1,0 +1,759 @@
+[
+  {
+    "id": "il1a",
+    "name": "IL-1α",
+    "role": "Damage signalling",
+    "source": "Epithelial cells and tissue macrophages",
+    "trigger": "Cell damage or necrosis releases IL-1α already present inside many tissue cells.",
+    "receptor": "IL-1R1 + IL-1RAcP",
+    "target": "Endothelium, fibroblasts and immune cells",
+    "pathway": "MyD88 → NF-κB / MAPK",
+    "action": "Activates nearby cells to produce inflammatory mediators and adhesion molecules. Blood-vessel lining becomes more able to recruit circulating white blood cells.",
+    "gut": "At a damaged gut surface, IL-1α helps turn tissue injury into an immune response. IL-1Ra blocks the receptor used by both IL-1α and IL-1β.",
+    "related": [
+      "il1b",
+      "il1ra",
+      "tnf"
+    ],
+    "application": "pain",
+    "sources": [
+      {
+        "title": "IL-1α · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/P01583/entry"
+      }
+    ],
+    "stimulus": "Tissue damage",
+    "cell_change": "Adhesion molecules & inflammatory mediators",
+    "outcome": "Vessels recruit white blood cells"
+  },
+  {
+    "id": "il1b",
+    "name": "IL-1β",
+    "role": "Inflammasome-linked inflammation",
+    "source": "Monocytes, macrophages and other activated cells",
+    "trigger": "Microbial sensing increases production of inactive pro-IL-1β. Inflammasome activation can then activate caspase-1, which cuts it into a mature cytokine.",
+    "receptor": "IL-1R1 + IL-1RAcP",
+    "target": "Immune cells, endothelium and nerve-associated tissues",
+    "pathway": "MyD88 → NF-κB / MAPK",
+    "action": "Promotes fever, inflammatory mediator production and increased pain sensitivity. Production and activation are separate steps: having the precursor does not mean mature IL-1β has been released.",
+    "gut": "Microbial products and damaged tissue can feed this pathway. In the pain story, IL-1β connects immune activation with changes in how pain pathways respond.",
+    "related": [
+      "il1a",
+      "il1ra",
+      "il6",
+      "il18"
+    ],
+    "application": "pain",
+    "sources": [
+      {
+        "title": "IL-1β · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/P01584/entry"
+      }
+    ],
+    "stimulus": "Microbial sensing + inflammasome",
+    "cell_change": "Inflammatory mediator production",
+    "outcome": "Fever & increased pain sensitivity"
+  },
+  {
+    "id": "il1ra",
+    "name": "IL-1Ra",
+    "role": "Block IL-1 signalling",
+    "source": "Monocytes, macrophages and other tissue cells",
+    "trigger": "Inflammatory stimulation and feedback signals, including IL-6 in human infusion experiments, can increase IL-1Ra production.",
+    "receptor": "IL-1R1",
+    "target": "Cells that would otherwise respond to IL-1α or IL-1β",
+    "pathway": "Receptor occupied → no activating complex",
+    "action": "Binds IL-1R1 without recruiting the accessory protein needed to start IL-1 signalling. IL-1α and IL-1β therefore have fewer available receptors to activate.",
+    "gut": "This is a direct example of an inflammatory response recruiting its own inhibition. IL-1Ra is a naturally produced protein; anakinra is a recombinant medicine based on it.",
+    "related": [
+      "il1a",
+      "il1b",
+      "il6",
+      "il10"
+    ],
+    "application": "pain",
+    "sources": [
+      {
+        "title": "IL-1Ra · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/P18510/entry"
+      }
+    ],
+    "stimulus": "Inflammatory feedback",
+    "cell_change": "IL-1 receptor remains inactive",
+    "outcome": "IL-1α / IL-1β signalling blocked"
+  },
+  {
+    "id": "tnf",
+    "name": "TNF-α",
+    "role": "Vascular activation and immune defence",
+    "source": "Activated macrophages, T cells and other immune cells",
+    "trigger": "Recognition of microbes and activation of immune cells stimulate TNF production; membrane TNF can be cleaved into a soluble form.",
+    "receptor": "TNFR1 / TNFR2",
+    "target": "Blood-vessel lining, immune cells and intestinal tissue",
+    "pathway": "NF-κB / MAPK; cell-death pathways in some settings",
+    "action": "Makes blood vessels more receptive to white-cell recruitment and stimulates inflammatory gene expression. Receptor and cellular state determine whether signalling supports survival or contributes to cell death.",
+    "gut": "Persistent TNF activity can contribute to intestinal tissue damage. Anti-TNF medicines are established treatments for selected patients with IBD, connecting this signalling pathway to clinical care.",
+    "related": [
+      "il1b",
+      "il6",
+      "il10"
+    ],
+    "application": "pain",
+    "sources": [
+      {
+        "title": "TNF-α · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/P01375/entry"
+      }
+    ],
+    "stimulus": "Microbial sensing",
+    "cell_change": "Vascular activation",
+    "outcome": "White blood cells enter tissue"
+  },
+  {
+    "id": "il6",
+    "name": "IL-6",
+    "role": "Acute-phase and metabolic responses",
+    "source": "Macrophages, stromal cells and exercising muscle",
+    "trigger": "Microbial sensing, tissue injury and other cytokines stimulate production. Contracting muscle also releases IL-6 during exercise.",
+    "receptor": "IL-6R + gp130",
+    "target": "Liver cells, immune cells and other responsive tissues",
+    "pathway": "JAK → STAT3",
+    "action": "Stimulates liver production of acute-phase proteins such as CRP and changes immune-cell behaviour. Soluble IL-6 receptor can extend responsiveness to cells carrying gp130.",
+    "gut": "IL-6 links local inflammation to whole-body responses. In a human experiment, IL-6 infusion increased IL-10 and IL-1Ra, showing a route from an activating signal into regulatory feedback.",
+    "related": [
+      "il1b",
+      "il10",
+      "il1ra"
+    ],
+    "application": "ibd",
+    "sources": [
+      {
+        "title": "IL-6 · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/P05231/entry"
+      },
+      {
+        "title": "IL-6 increases IL-10 and IL-1Ra in humans",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12857678/"
+      }
+    ],
+    "stimulus": "Injury / microbes / muscle contraction",
+    "cell_change": "Acute-phase gene expression",
+    "outcome": "Liver produces CRP"
+  },
+  {
+    "id": "cxcl8",
+    "name": "IL-8 / CXCL8",
+    "role": "Recruit neutrophils",
+    "source": "Stimulated epithelial cells, macrophages and endothelium",
+    "trigger": "Microbial products and cytokines such as IL-1 and TNF stimulate CXCL8 release.",
+    "receptor": "CXCR1 / CXCR2",
+    "target": "Neutrophils",
+    "pathway": "G-protein signalling → cell movement",
+    "action": "Creates a chemical gradient that neutrophils can follow towards a site of infection or damage. It also helps activate these cells when they arrive. CXCL8 is a chemokine: a cytokine specialised in directing cell movement.",
+    "gut": "At intestinal or lung surfaces, recruited neutrophils can kill microbes but also release enzymes and oxidants that injure tissue. Recruitment is a concrete mechanism connecting cytokines to local damage.",
+    "related": [
+      "il1b",
+      "tnf",
+      "il17a"
+    ],
+    "application": "lungs",
+    "sources": [
+      {
+        "title": "IL-8 / CXCL8 · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/P10145/entry"
+      }
+    ],
+    "stimulus": "IL-1 / TNF / microbial products",
+    "cell_change": "Neutrophil follows gradient",
+    "outcome": "Neutrophils arrive at the responding site"
+  },
+  {
+    "id": "il10",
+    "name": "IL-10",
+    "role": "Restrain immune-cell activation",
+    "source": "Regulatory T cells, macrophages, B cells and other lymphocytes",
+    "trigger": "Microbial stimulation and immune activation recruit IL-10-producing responses alongside inflammatory pathways.",
+    "receptor": "IL-10Rα / IL-10Rβ",
+    "target": "Macrophages, dendritic cells and other immune cells",
+    "pathway": "JAK1 / TYK2 → STAT3",
+    "action": "Reduces production of inflammatory mediators and limits antigen-presenting cell activation. This helps prevent a defensive response from continually amplifying itself.",
+    "gut": "Gut immune cells encounter microbial material every day. IL-10 helps contain their response; mice lacking IL-10 develop chronic enterocolitis, while human IL-10 pathway defects can cause very early-onset IBD.",
+    "related": [
+      "tnf",
+      "il1b",
+      "tgfb"
+    ],
+    "application": "ibd",
+    "sources": [
+      {
+        "title": "IL-10 · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/P22301/entry"
+      },
+      {
+        "title": "IL-10 deficiency and chronic enterocolitis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8402911/"
+      }
+    ],
+    "stimulus": "Immune activation",
+    "cell_change": "Inflammatory genes restrained",
+    "outcome": "Less IL-1 / TNF production"
+  },
+  {
+    "id": "il17a",
+    "name": "IL-17A",
+    "role": "Barrier defence and neutrophil recruitment",
+    "source": "Th17 cells, γδ T cells and group 3 innate lymphoid cells",
+    "trigger": "IL-1 and IL-23 support responses from IL-17-producing cells; antigen recognition also activates Th17 cells.",
+    "receptor": "IL-17RA / IL-17RC",
+    "target": "Epithelial and stromal cells",
+    "pathway": "ACT1 → NF-κB / MAPK",
+    "action": "Induces chemokines and antimicrobial responses in tissue cells. It often works with TNF to increase signals that recruit neutrophils.",
+    "gut": "Supports defence against extracellular bacteria and fungi at barriers. Blocking IL-17A failed in a Crohn’s trial: removing an inflammatory signal can also remove useful intestinal defence.",
+    "related": [
+      "il23",
+      "il17f",
+      "cxcl8",
+      "tnf"
+    ],
+    "application": "ibd",
+    "sources": [
+      {
+        "title": "IL-17A · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/Q16552/entry"
+      }
+    ],
+    "stimulus": "IL-1 / IL-23 + lymphocyte activation",
+    "cell_change": "Chemokines & antimicrobial proteins",
+    "outcome": "Neutrophil recruitment / barrier defence"
+  },
+  {
+    "id": "il17f",
+    "name": "IL-17F",
+    "role": "A second IL-17 barrier signal",
+    "source": "Th17 cells and innate lymphocytes",
+    "trigger": "Inflammatory and antigen-driven activation of IL-17-producing lymphocytes.",
+    "receptor": "IL-17RA / IL-17RC",
+    "target": "Epithelial and stromal cells",
+    "pathway": "ACT1 → NF-κB / MAPK",
+    "action": "Promotes epithelial inflammatory mediators and neutrophil-recruiting signals. IL-17F can act as a paired IL-17F molecule or pair with IL-17A.",
+    "gut": "IL-17A and IL-17F share receptors and some functions but are separate proteins. Keeping them distinct makes studies of barrier inflammation and cytokine-targeted medicines easier to understand.",
+    "related": [
+      "il17a",
+      "il23",
+      "cxcl8"
+    ],
+    "application": "ibd",
+    "sources": [
+      {
+        "title": "IL-17F · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/Q96PD4/entry"
+      }
+    ],
+    "stimulus": "Type 17 lymphocyte activation",
+    "cell_change": "Epithelial chemokine production",
+    "outcome": "Neutrophil recruitment"
+  },
+  {
+    "id": "il23",
+    "name": "IL-23",
+    "role": "Sustain type 17 immune responses",
+    "source": "Activated dendritic cells and macrophages",
+    "trigger": "Microbial recognition at tissue surfaces stimulates antigen-presenting cells to produce IL-23.",
+    "receptor": "IL-23R + IL-12Rβ1",
+    "target": "Th17 cells and other IL-23-responsive lymphocytes",
+    "pathway": "JAK2 / TYK2 → STAT3",
+    "action": "Supports expansion and inflammatory activity of type 17 lymphocytes, which can produce IL-17 and IL-22. IL-23 contains p19 and p40 subunits; p40 is shared with IL-12.",
+    "gut": "IL-23 is a major link between microbial sensing and sustained intestinal immune responses. Experimental intestinal inflammation and clinical targeting of this pathway make it central to the IBD story.",
+    "related": [
+      "il17a",
+      "il17f",
+      "il22",
+      "il12"
+    ],
+    "application": "ibd",
+    "sources": [
+      {
+        "title": "IL-23 · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/Q9NPF7/entry"
+      },
+      {
+        "title": "IL-23 and experimental intestinal inflammation",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17030949/"
+      }
+    ],
+    "stimulus": "Microbial recognition",
+    "cell_change": "Type 17 cell activity sustained",
+    "outcome": "IL-17 / IL-22 production"
+  },
+  {
+    "id": "il22",
+    "name": "IL-22",
+    "role": "Act directly on the epithelial barrier",
+    "source": "Group 3 innate lymphoid cells, Th17 and Th22 cells",
+    "trigger": "Signals including IL-23 activate IL-22-producing lymphocytes.",
+    "receptor": "IL-22R1 + IL-10Rβ",
+    "target": "Intestinal and other epithelial cells",
+    "pathway": "JAK → STAT3",
+    "action": "Stimulates antimicrobial proteins, epithelial survival and tissue regeneration. Its main targets are barrier cells rather than the immune cells that produce it.",
+    "gut": "This closes a useful loop: immune cells detect a problem, then tell the intestinal lining to strengthen defence and repair. Mouse experiments link epithelial STAT3 to IL-22-dependent mucosal healing.",
+    "related": [
+      "il23",
+      "il17a",
+      "il18"
+    ],
+    "application": "ibd",
+    "sources": [
+      {
+        "title": "IL-22 · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/Q9GZX6/entry"
+      },
+      {
+        "title": "IL-22, STAT3 and mucosal wound healing",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19564350/"
+      }
+    ],
+    "stimulus": "IL-23-responsive lymphocytes",
+    "cell_change": "Epithelial defence & growth genes",
+    "outcome": "Antimicrobial proteins / tissue repair"
+  },
+  {
+    "id": "il12",
+    "name": "IL-12",
+    "role": "Promote intracellular-pathogen defence",
+    "source": "Dendritic cells and macrophages",
+    "trigger": "Microbial recognition and interactions with activated T cells increase IL-12 production.",
+    "receptor": "IL-12Rβ1 / IL-12Rβ2",
+    "target": "Natural killer cells and T cells",
+    "pathway": "JAK2 / TYK2 → STAT4",
+    "action": "Promotes IFN-γ production and differentiation of helper T cells towards a Th1 response. This helps organise defence against pathogens living inside cells.",
+    "gut": "IL-12 and IL-23 share p40 but activate different receptor complexes. This distinction explains how one molecular target can affect more than one intestinal immune pathway.",
+    "related": [
+      "ifng",
+      "il23",
+      "il18"
+    ],
+    "application": "ibd",
+    "sources": [
+      {
+        "title": "IL-12 · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/P29459/entry"
+      }
+    ],
+    "stimulus": "Microbial recognition",
+    "cell_change": "NK / T-cell activation",
+    "outcome": "IFN-γ production"
+  },
+  {
+    "id": "ifng",
+    "name": "IFN-γ",
+    "role": "Activate macrophage antimicrobial activity",
+    "source": "Natural killer cells, Th1 cells and cytotoxic T cells",
+    "trigger": "IL-12 and IL-18 stimulate innate production; antigen recognition stimulates activated T cells.",
+    "receptor": "IFNGR1 / IFNGR2",
+    "target": "Macrophages, epithelial cells and other nucleated cells",
+    "pathway": "JAK1 / JAK2 → STAT1",
+    "action": "Increases macrophage antimicrobial activity and antigen presentation. It changes how infected cells and neighbouring tissue participate in cellular immunity.",
+    "gut": "The gut needs this machinery to control invasive pathogens. Sustained activation can also contribute to epithelial dysfunction and intestinal inflammation.",
+    "related": [
+      "il12",
+      "il18",
+      "tnf"
+    ],
+    "application": "ibd",
+    "sources": [
+      {
+        "title": "IFN-γ · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/P01579/entry"
+      }
+    ],
+    "stimulus": "IL-12 / IL-18 / antigen recognition",
+    "cell_change": "Macrophage antimicrobial genes",
+    "outcome": "Intracellular microbes controlled"
+  },
+  {
+    "id": "type1ifn",
+    "name": "IFN-α / IFN-β",
+    "role": "Induce antiviral defences",
+    "source": "Virus-sensing cells; plasmacytoid dendritic cells are major IFN-α producers",
+    "trigger": "Recognition of viral nucleic acids by cellular sensors triggers type I interferon production.",
+    "receptor": "IFNAR1 / IFNAR2",
+    "target": "Infected and neighbouring cells",
+    "pathway": "JAK1 / TYK2 → STAT1 / STAT2",
+    "action": "Switches on interferon-stimulated genes that interfere with viral replication and spread. Neighbouring cells can prepare antiviral machinery before becoming infected.",
+    "gut": "An important bridge between gut and respiratory infection: antiviral protection involves a different programme from simply recruiting inflammatory cells. Type I interferons and IFN-γ use different receptors.",
+    "related": [
+      "ifng",
+      "il6",
+      "il10"
+    ],
+    "application": "lungs",
+    "sources": [
+      {
+        "title": "IFN-α / IFN-β · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/P01574/entry"
+      }
+    ],
+    "stimulus": "Viral nucleic-acid sensing",
+    "cell_change": "Interferon-stimulated genes",
+    "outcome": "Viral replication restricted"
+  },
+  {
+    "id": "il2",
+    "name": "IL-2",
+    "role": "Expand T cells and maintain regulation",
+    "source": "Activated T cells",
+    "trigger": "Antigen recognition together with co-stimulation induces IL-2 release.",
+    "receptor": "IL-2Rα / IL-2Rβ / common γ chain",
+    "target": "Activated T cells and regulatory T cells",
+    "pathway": "JAK1 / JAK3 → STAT5",
+    "action": "Supports T-cell proliferation. Regulatory T cells express a high-affinity IL-2 receptor that helps them obtain the IL-2 needed for survival and suppressive function.",
+    "gut": "Intestinal immunity needs both responsive T cells and cells that restrain them. IL-2 feeds both sides of that organisation through receptor expression and local availability.",
+    "related": [
+      "il10",
+      "tgfb",
+      "il7"
+    ],
+    "application": "ibd",
+    "sources": [
+      {
+        "title": "IL-2 · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/P60568/entry"
+      }
+    ],
+    "stimulus": "T-cell antigen recognition",
+    "cell_change": "T-cell survival & proliferation",
+    "outcome": "Effector / regulatory T cells maintained"
+  },
+  {
+    "id": "il4",
+    "name": "IL-4",
+    "role": "Organise type 2 immunity",
+    "source": "Th2 cells, basophils and other activated immune cells",
+    "trigger": "Allergen- and parasite-associated responses activate IL-4-producing cells.",
+    "receptor": "IL-4Rα + common γ chain or IL-13Rα1",
+    "target": "T cells, B cells and tissue cells",
+    "pathway": "JAK → STAT6",
+    "action": "Promotes Th2 differentiation and antibody switching towards IgE. It also changes macrophage behaviour and works with IL-13 in type 2 responses.",
+    "gut": "Provides a route into intestinal worm defence and allergic disease. This is a different immune programme from the IL-12–IFN-γ response to intracellular pathogens.",
+    "related": [
+      "il5",
+      "il13",
+      "il33"
+    ],
+    "application": "ibd",
+    "sources": [
+      {
+        "title": "IL-4 · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/P05112/entry"
+      }
+    ],
+    "stimulus": "Type 2 immune activation",
+    "cell_change": "Th2 differentiation / B-cell switching",
+    "outcome": "Type 2 cells / IgE antibodies"
+  },
+  {
+    "id": "il5",
+    "name": "IL-5",
+    "role": "Develop and sustain eosinophils",
+    "source": "Th2 cells and group 2 innate lymphoid cells",
+    "trigger": "Type 2 responses, including stimulation by epithelial alarm signals, increase IL-5 production.",
+    "receptor": "IL-5Rα + common β chain",
+    "target": "Eosinophil precursors and mature eosinophils",
+    "pathway": "JAK / STAT and other survival pathways",
+    "action": "Promotes eosinophil development, activation and survival. Eosinophils contain granules whose contents can act against parasites and damage host tissue.",
+    "gut": "Connects parasite defence with eosinophilic inflammation in the digestive tract and airways. It supplies a different kind of cellular reinforcement from CXCL8-driven neutrophil recruitment.",
+    "related": [
+      "il4",
+      "il13",
+      "il33"
+    ],
+    "application": "ibd",
+    "sources": [
+      {
+        "title": "IL-5 · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/P05113/entry"
+      }
+    ],
+    "stimulus": "Type 2 / ILC2 activation",
+    "cell_change": "Eosinophil survival & activation",
+    "outcome": "More active eosinophils"
+  },
+  {
+    "id": "il13",
+    "name": "IL-13",
+    "role": "Increase mucus and alter barrier tissue",
+    "source": "Th2 cells and group 2 innate lymphoid cells",
+    "trigger": "Type 2 immune activation, including signals from IL-25 and IL-33, stimulates production.",
+    "receptor": "IL-13Rα1 + IL-4Rα",
+    "target": "Epithelial cells, smooth muscle and stromal cells",
+    "pathway": "JAK → STAT6",
+    "action": "Promotes mucus-producing cell responses and alters tissue function, including smooth-muscle activity. Prolonged activity can contribute to tissue remodelling.",
+    "gut": "Mucus and intestinal contraction help expel worms. Related tissue programmes contribute to mucus production and airway dysfunction in allergic lung disease.",
+    "related": [
+      "il4",
+      "il5",
+      "il25",
+      "il33"
+    ],
+    "application": "ibd",
+    "sources": [
+      {
+        "title": "IL-13 · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/P35225/entry"
+      }
+    ],
+    "stimulus": "IL-25 / IL-33 → type 2 cells",
+    "cell_change": "Mucus-cell & tissue responses",
+    "outcome": "Mucus / parasite expulsion"
+  },
+  {
+    "id": "il18",
+    "name": "IL-18",
+    "role": "Link inflammasomes to IFN-γ",
+    "source": "Macrophages and epithelial cells",
+    "trigger": "Inactive pro-IL-18 can be cleaved by caspase-1 after inflammasome activation.",
+    "receptor": "IL-18Rα / IL-18Rβ",
+    "target": "Natural killer cells and T cells",
+    "pathway": "MyD88 → NF-κB / MAPK",
+    "action": "Works with IL-12 to stimulate IFN-γ production. IL-18-binding protein captures released IL-18 and limits the amount available to its receptor.",
+    "gut": "Links intracellular danger sensing in intestinal cells to lymphocyte responses. IL-18 and IL-1β can share an activation enzyme while producing different downstream effects.",
+    "related": [
+      "il1b",
+      "il12",
+      "ifng"
+    ],
+    "application": "ibd",
+    "sources": [
+      {
+        "title": "IL-18 · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/Q14116/entry"
+      }
+    ],
+    "stimulus": "Inflammasome → caspase-1",
+    "cell_change": "Works alongside IL-12",
+    "outcome": "IFN-γ production"
+  },
+  {
+    "id": "il33",
+    "name": "IL-33",
+    "role": "Signal epithelial injury",
+    "source": "Epithelial, endothelial and stromal cells",
+    "trigger": "Tissue injury can release IL-33 from cells where it is normally associated with the nucleus.",
+    "receptor": "ST2 + IL-1RAcP",
+    "target": "Group 2 innate lymphoid cells, mast cells and some T cells",
+    "pathway": "MyD88 → NF-κB / MAPK",
+    "action": "Activates cells that produce IL-5 and IL-13, connecting barrier injury to eosinophil and mucus responses. It also participates in tissue repair programmes.",
+    "gut": "A useful gut–lung connection: both surfaces contain cells able to turn injury into type 2 immune activation. Soluble ST2 can capture IL-33 before it reaches cell-bound receptors.",
+    "related": [
+      "il5",
+      "il13",
+      "il25"
+    ],
+    "application": "lungs",
+    "sources": [
+      {
+        "title": "IL-33 · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/O95760/entry"
+      }
+    ],
+    "stimulus": "Epithelial damage",
+    "cell_change": "ILC2 activation",
+    "outcome": "IL-5 / IL-13 production"
+  },
+  {
+    "id": "il25",
+    "name": "IL-25 / IL-17E",
+    "role": "Activate type 2 barrier responses",
+    "source": "Epithelial cells, including intestinal tuft cells",
+    "trigger": "Tuft cells can detect intestinal parasites and release IL-25 as part of an epithelial sensing response.",
+    "receptor": "IL-17RA / IL-17RB",
+    "target": "Group 2 innate lymphoid cells and other responsive cells",
+    "pathway": "ACT1-dependent signalling",
+    "action": "Stimulates ILC2 production of IL-5 and IL-13. IL-13 then increases epithelial tuft and goblet cell responses, forming a feedback circuit for worm expulsion.",
+    "gut": "Despite belonging to the IL-17 family, IL-25 drives a type 2 programme rather than the same response as IL-17A. Family names alone do not tell you the biological effect.",
+    "related": [
+      "il13",
+      "il5",
+      "il33"
+    ],
+    "application": "ibd",
+    "sources": [
+      {
+        "title": "IL-25 / IL-17E · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/Q9H293/entry"
+      },
+      {
+        "title": "Tuft-cell IL-25 → ILC2 → epithelial response",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26675736/"
+      }
+    ],
+    "stimulus": "Tuft-cell sensing",
+    "cell_change": "ILC2 activation",
+    "outcome": "IL-13 → tuft / goblet cells"
+  },
+  {
+    "id": "tgfb",
+    "name": "TGF-β1",
+    "role": "Regulate T cells and tissue repair",
+    "source": "Regulatory T cells, macrophages, platelets and tissue cells",
+    "trigger": "Produced in a latent complex that must be activated locally, for example through integrin-mediated processes.",
+    "receptor": "TGF-βRII / TGF-βRI",
+    "target": "Immune cells, fibroblasts and epithelial cells",
+    "pathway": "SMAD2 / SMAD3",
+    "action": "Contributes to regulatory T-cell development and tissue repair. It also stimulates extracellular-matrix production by fibroblasts; persistent activity can contribute to fibrosis.",
+    "gut": "Connects immune tolerance to the physical structure of gut tissue. Repair includes rebuilding a barrier, but excessive matrix deposition can stiffen and narrow tissue.",
+    "related": [
+      "il10",
+      "il2",
+      "il6"
+    ],
+    "application": "ibd",
+    "sources": [
+      {
+        "title": "TGF-β1 · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/P01137/entry"
+      }
+    ],
+    "stimulus": "Local activation of latent TGF-β",
+    "cell_change": "Regulatory / matrix-building genes",
+    "outcome": "Immune regulation / tissue repair"
+  },
+  {
+    "id": "il7",
+    "name": "IL-7",
+    "role": "Maintain lymphocyte populations",
+    "source": "Stromal and epithelial cells",
+    "trigger": "Steady tissue production supports lymphocyte maintenance; availability changes with tissue state and the number of consuming cells.",
+    "receptor": "IL-7Rα + common γ chain",
+    "target": "Developing and mature T cells and some innate lymphoid cells",
+    "pathway": "JAK1 / JAK3 → STAT5",
+    "action": "Provides survival signals that maintain immune-cell populations between episodes of infection. It helps determine which cells are available when a response begins.",
+    "gut": "The immune system at a barrier is maintained continuously. IL-7 illustrates the supporting biology underneath more visible inflammatory cytokine bursts.",
+    "related": [
+      "il2",
+      "il15"
+    ],
+    "application": "ibd",
+    "sources": [
+      {
+        "title": "IL-7 · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/P13232/entry"
+      }
+    ],
+    "stimulus": "Stromal-cell production",
+    "cell_change": "Lymphocyte survival genes",
+    "outcome": "T-cell populations maintained"
+  },
+  {
+    "id": "il15",
+    "name": "IL-15",
+    "role": "Support NK and memory CD8 T cells",
+    "source": "Dendritic cells, monocytes and tissue cells",
+    "trigger": "Microbial and inflammatory stimulation can increase IL-15 availability on producing cells.",
+    "receptor": "IL-15Rα presents IL-15 to IL-2Rβ / common γ chain",
+    "target": "Natural killer cells and memory CD8 T cells",
+    "pathway": "JAK1 / JAK3 → STAT5",
+    "action": "Often delivered across direct cell contact: IL-15 bound to IL-15Rα on one cell stimulates receptor components on a neighbouring lymphocyte. Supports survival and cytotoxic responses.",
+    "gut": "Shows that immune messages need not diffuse freely through blood. Local IL-15 signalling can shape intestinal lymphocytes and contributes to the immune biology of coeliac disease.",
+    "related": [
+      "il2",
+      "il7",
+      "ifng"
+    ],
+    "application": "ibd",
+    "sources": [
+      {
+        "title": "IL-15 · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/P40933/entry"
+      },
+      {
+        "title": "IL-15 trans-presentation and lymphocyte survival",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15452177/"
+      }
+    ],
+    "stimulus": "Presentation by neighbouring cell",
+    "cell_change": "NK / CD8 T-cell survival genes",
+    "outcome": "NK / memory T cells maintained"
+  },
+  {
+    "id": "il21",
+    "name": "IL-21",
+    "role": "Support antibody and T-cell responses",
+    "source": "Activated helper T cells, particularly follicular helper T cells",
+    "trigger": "Antigen-driven T-cell activation and helper-cell differentiation induce IL-21 production.",
+    "receptor": "IL-21R + common γ chain",
+    "target": "B cells and several T-cell populations",
+    "pathway": "JAK1 / JAK3 → STAT3",
+    "action": "Helps B cells differentiate into antibody-producing cells and shapes helper T-cell responses. Its effects depend on the other signals arriving at the same cell.",
+    "gut": "Connects intestinal adaptive immunity with antibody responses and inflammatory T-cell circuits. It adds the B-cell branch that a macrophage-only picture would miss.",
+    "related": [
+      "il2",
+      "il17a",
+      "il23"
+    ],
+    "application": "ibd",
+    "sources": [
+      {
+        "title": "IL-21 · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/Q9HBE4/entry"
+      }
+    ],
+    "stimulus": "Activated helper T cells",
+    "cell_change": "B-cell differentiation",
+    "outcome": "Antibody-producing cells"
+  },
+  {
+    "id": "gmcsf",
+    "name": "GM-CSF",
+    "role": "Support myeloid-cell responses",
+    "source": "Activated T cells, innate lymphoid cells and tissue cells",
+    "trigger": "Inflammatory or tissue-derived stimulation induces granulocyte–macrophage colony-stimulating factor.",
+    "receptor": "GM-CSFRα + common β chain",
+    "target": "Monocytes, macrophages and granulocyte-lineage cells",
+    "pathway": "JAK2 → STAT5",
+    "action": "Supports survival and activation of myeloid cells. In the lungs it is required for normal alveolar macrophage function and handling of surfactant.",
+    "gut": "Adds an important gut–lung distinction: cytokines shape the resident cells that maintain each organ, as well as recruiting new cells during inflammation.",
+    "related": [
+      "il5",
+      "tnf",
+      "il23"
+    ],
+    "application": "lungs",
+    "sources": [
+      {
+        "title": "GM-CSF · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/P04141/entry"
+      }
+    ],
+    "stimulus": "Tissue / immune activation",
+    "cell_change": "Myeloid-cell survival & activation",
+    "outcome": "Functional tissue macrophages"
+  },
+  {
+    "id": "ccl2",
+    "name": "CCL2 / MCP-1",
+    "role": "Recruit monocytes",
+    "source": "Activated macrophages, endothelium, fibroblasts and epithelial cells",
+    "trigger": "Tissue injury and inflammatory signals such as TNF stimulate chemokine production.",
+    "receptor": "CCR2",
+    "target": "Circulating monocytes",
+    "pathway": "G-protein signalling → cell movement",
+    "action": "Helps monocytes leave circulation and enter responding tissue, where they can become macrophages or related inflammatory cells.",
+    "gut": "Complements CXCL8: different chemokines recruit different cells. Monocyte recruitment is one route by which an intestinal or lung response changes its cellular composition.",
+    "related": [
+      "cxcl8",
+      "tnf",
+      "il1b"
+    ],
+    "application": "ibd",
+    "sources": [
+      {
+        "title": "CCL2 / MCP-1 · protein function and signalling (UniProt)",
+        "url": "https://www.uniprot.org/uniprotkb/P13500/entry"
+      }
+    ],
+    "stimulus": "TNF / tissue injury",
+    "cell_change": "Monocyte follows gradient",
+    "outcome": "Monocytes enter responding tissue"
+  }
+]

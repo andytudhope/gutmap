@@ -1,10 +1,10 @@
 {
   "habitats": {
     "mouth": {
-      "title": "An oral biofilm",
-      "description": "Sugars enter the plaque; neighbouring organisms exchange the acids they produce.",
-      "surface": "Oral surface",
-      "mucus": "Biofilm matrix",
+      "title": "A biofilm on a tooth",
+      "description": "A stable tooth surface supports attached plaque; saliva carries sugars past it. Follow resource delivery and acid exposure separately.",
+      "surface": "Tooth enamel",
+      "mucus": "Attached plaque matrix",
       "zones": [
         {
           "id": "food",
@@ -41,7 +41,27 @@
             "oral"
           ]
         }
-      ]
+      ],
+      "visual": {
+        "kicker": "TOOTH SURFACE · BIOFILM DETAIL",
+        "description": "A tooth provides a non-shedding attachment surface. Saliva transports nutrients above an attached plaque biofilm; sugar and acid particles illustrate transport, not a measured rate of tooth decay.",
+        "takeaway": "Unlike a passing meal, attached plaque can remain on a tooth. Saliva moves resources around it; acid exposure at the enamel is a different process from digestion in the stomach.",
+        "process": [
+          "Saliva delivers sugars",
+          "Attached microbes ferment sugars",
+          "Acids reach the enamel"
+        ],
+        "sources": [
+          {
+            "title": "NIDDK · Your digestive system and how it works",
+            "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works"
+          },
+          {
+            "title": "Composition and development of oral bacterial communities · review",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3876289/"
+          }
+        ]
+      }
     },
     "oesophagus": {
       "title": "A living passage",
@@ -76,7 +96,7 @@
         {
           "id": "mucus",
           "name": "At the surface",
-          "text": "Biopsies recovered Streptococcus and Veillonella from distal oesophageal tissue.",
+          "text": "The layered squamous lining tolerates passage and abrasion. Organisms recovered from distal oesophageal tissue include Streptococcus and Veillonella; their presence does not establish the dense biofilm shown on teeth.",
           "residents": [
             "streptococcus",
             "veillonella"
@@ -85,7 +105,27 @@
             "oesoph-community"
           ]
         }
-      ]
+      ],
+      "visual": {
+        "kicker": "LONGITUDINAL SECTION · PROPULSION",
+        "description": "A longitudinal view of a muscular passage, showing a contraction behind a swallowed bolus and a layered squamous lining. The wave illustrates peristalsis; microbial icons represent swallowed organisms, not dense permanent colonies.",
+        "takeaway": "This is primarily a transport passage. A contraction moves behind the bolus; its lining is not covered in absorptive villi.",
+        "process": [
+          "A bolus enters the passage",
+          "Contraction travels behind the bolus",
+          "Contents move toward the stomach"
+        ],
+        "sources": [
+          {
+            "title": "NIDDK · Your digestive system and how it works",
+            "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works"
+          },
+          {
+            "title": "OpenStax · The mouth, pharynx and esophagus",
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus"
+          }
+        ]
+      }
     },
     "stomach": {
       "title": "Life at an acid boundary",
@@ -127,7 +167,27 @@
             "gastric"
           ]
         }
-      ]
+      ],
+      "visual": {
+        "kicker": "MIXING CHAMBER + ENLARGED WALL DETAIL",
+        "description": "The stomach mixes contents among folds and meters them toward the duodenum. The separate wall detail shows gastric pits and the mucus–bicarbonate boundary, with H. pylori depicted in mucus rather than inside epithelial cells. The two views use independent scales.",
+        "takeaway": "The acidic contents and the protected cell surface are different environments within the same organ. Mucus-associated H. pylori is not a model for every organism swallowed with food.",
+        "process": [
+          "Meals enter a mixing chamber",
+          "Mixing brings food into contact with gastric contents",
+          "Mucus and bicarbonate protect the lining"
+        ],
+        "sources": [
+          {
+            "title": "NIDDK · Your digestive system and how it works",
+            "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works"
+          },
+          {
+            "title": "OpenStax · The stomach",
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach"
+          }
+        ]
+      }
     },
     "small": {
       "title": "A moving food landscape",
@@ -160,8 +220,8 @@
         },
         {
           "id": "mucus",
-          "name": "At the lining",
-          "text": "Introduced probiotic organisms settle unevenly across people and intestinal sites.",
+          "name": "Villi & lining",
+          "text": "Villi increase the absorptive surface; nutrients enter blood or lymph through the lining. Microbial settlement is a separate question: introduced probiotic organisms settle unevenly across people and intestinal sites.",
           "residents": [
             "lactobacillus"
           ],
@@ -169,7 +229,27 @@
             "probiotic-colonisation"
           ]
         }
-      ]
+      ],
+      "visual": {
+        "kicker": "VILLI · DIGESTION AND ABSORPTION",
+        "description": "Enlarged villi project into the small-intestinal lumen. Blood capillaries and central lymph vessels illustrate two routes of nutrient transport. Animated dots represent nutrients, not bacteria crossing the epithelial barrier. This generic view does not depict every difference between duodenum, jejunum and ileum.",
+        "takeaway": "Absorptive villi distinguish this scene from the colon. Nutrients pass through the lining into blood or lymph; microbial cells stay in the lumen in this schematic.",
+        "process": [
+          "Food mixes with digestive secretions",
+          "Villi present a large absorptive surface",
+          "Absorbed nutrients enter blood or lymph"
+        ],
+        "sources": [
+          {
+            "title": "NIDDK · Your digestive system and how it works",
+            "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works"
+          },
+          {
+            "title": "OpenStax · The small and large intestines",
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines"
+          }
+        ]
+      }
     },
     "colon": {
       "title": "A landscape of exchange",
@@ -207,7 +287,7 @@
         {
           "id": "mucus",
           "name": "Mucus & lining",
-          "text": "Akkermansia uses mucin. Fungi and bacterial products interact with the barrier and its immune cells.",
+          "text": "Mucus separates microbial habitats from host cells. Akkermansia can use mucin; a denser inner layer helps keep microbes away from the epithelium. This schematic shows an intact barrier, not every disease state.",
           "residents": [
             "akkermansia",
             "fungi",
@@ -219,11 +299,35 @@
             "faecali-protein"
           ]
         }
-      ]
+      ],
+      "visual": {
+        "kicker": "CRYPTS · FERMENTATION AND MUCUS SEPARATION",
+        "description": "A healthy-colon teaching schematic with food-associated microbes, an outer mucus habitat, a denser inner mucus barrier and crypts descending into the lining. Villi are absent. The influential two-layer mucus experiment was performed in mice; thickness and microbial distribution vary with site, species and disease.",
+        "takeaway": "Colon crypts descend into the tissue instead of projecting as villi. Microbes use substrates in the lumen and outer mucus; fermentation products can reach host cells without the organisms doing so.",
+        "process": [
+          "Microbes break down remaining substrates",
+          "Fermentation products leave microbial communities",
+          "Mucus separates the community from the lining"
+        ],
+        "sources": [
+          {
+            "title": "NIDDK · Your digestive system and how it works",
+            "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works"
+          },
+          {
+            "title": "OpenStax · The small and large intestines",
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines"
+          },
+          {
+            "title": "Johansson et al. · Colonic mucus separation in mice (2008)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2567493/"
+          }
+        ]
+      }
     },
     "rectum": {
-      "title": "The downstream community",
-      "description": "Stool carries cells and fermentation products from colonic communities into the final passage.",
+      "title": "Storage and the outlet",
+      "description": "Stool fills a distensible reservoir. Stretch contributes to the urge to pass stool, while coordinated relaxation allows it to leave.",
       "surface": "Rectal lining",
       "mucus": "Mucus",
       "zones": [
@@ -241,8 +345,8 @@
         },
         {
           "id": "fluid",
-          "name": "Cells & gases",
-          "text": "Transit changes how long substrates remain available. Breath methane is associated with constipation.",
+          "name": "Filling & sensation",
+          "text": "Rectal filling and wall stretch contribute to the urge to defecate. Transit and stool consistency also reflect upstream processes; breath methane associations do not show where in the gut methane was produced.",
           "residents": [
             "methanobrevibacter",
             "bifidobacterium"
@@ -253,8 +357,8 @@
         },
         {
           "id": "mucus",
-          "name": "The final surface",
-          "text": "A stool sample is a downstream collection of a spatially varied gut ecosystem.",
+          "name": "Lining & outlet",
+          "text": "The lining is protected by mucus, and the outlet is controlled by internal and external sphincters. Passing stool requires coordination with pelvic-floor relaxation; this is not another absorptive-villus landscape.",
           "residents": [
             "bacteroides",
             "methanobrevibacter"
@@ -263,7 +367,27 @@
             "transit"
           ]
         }
-      ]
+      ],
+      "visual": {
+        "kicker": "AMPULLA · STORAGE, SENSATION AND PASSAGE",
+        "description": "A longitudinal schematic of rectal storage and the anal outlet, showing wall stretch, an urge signal, and the internal and external sphincters. The repeating sequence condenses filling and coordinated relaxation; it is not a transit-time measurement or a complete account of neural control.",
+        "takeaway": "The rectum stores stool and senses filling. Evacuation requires coordinated relaxation of the outlet; the presence of microbes in stool does not reveal where upstream activity occurred.",
+        "process": [
+          "Stool is held in the rectal ampulla",
+          "Stretch contributes to the urge to pass stool",
+          "Coordinated relaxation permits passage"
+        ],
+        "sources": [
+          {
+            "title": "NIDDK · Your digestive system and how it works",
+            "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works"
+          },
+          {
+            "title": "OpenStax · The small and large intestines",
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines"
+          }
+        ]
+      }
     }
   },
   "stories": [

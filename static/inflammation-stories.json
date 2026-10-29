@@ -1,0 +1,429 @@
+[
+  {
+    "id": "pain",
+    "title": "Persistent Pain",
+    "lead": "Microbial products, immune activation and sensitised pain pathways.",
+    "steps": [
+      {
+        "label": "The gut observation",
+        "heading": "A microbiome difference in people with back pain",
+        "paragraphs": [
+          "In the Sima study, 28 people with persistent low back pain were compared with 28 healthy people matched for age, sex and BMI. The pain group did not have advanced disc degeneration. Researchers sequenced bacterial 16S rRNA genes in stool to compare the microbial communities.",
+          "The pain group had lower within-sample microbial diversity. Prevotella was more abundant and Parabacteroides less abundant. These are measurements of community composition—not measurements of cytokines, intestinal permeability or pain-causing bacterial activity.",
+          "The next biological question is how an altered community could influence pain outside the intestine. The following stages trace the immune and neural mechanisms proposed in the lecture."
+        ],
+        "route": [
+          "Stool community",
+          "Microbial products",
+          "Host immune cells"
+        ],
+        "signals": [
+          "il1b",
+          "tnf",
+          "il6"
+        ],
+        "diagram": "gut",
+        "note": "Human observation · 28 cases + 28 controls. The causal route remains to be tested in this population.",
+        "sources": [
+          {
+            "title": "Sima et al. · research map, reading note and citations",
+            "url": "/research?paper=DOI%3A10.1002%2Fjsp2.70174"
+          },
+          {
+            "title": "Sima et al., 2026 · matched back-pain pilot study",
+            "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jsp2.70174"
+          }
+        ]
+      },
+      {
+        "label": "Microbial sensing",
+        "heading": "How microbial material becomes an immune signal",
+        "paragraphs": [
+          "LPS is a component of the outer membrane of many Gram-negative bacteria. When it reaches responsive host cells, it can activate the TLR4 receptor system. This turns on transcription factors including NF-κB, increasing production of inflammatory mediators such as TNF, IL-6 and the IL-1β precursor.",
+          "IL-1β has another processing step. Inflammasomes can activate caspase-1, which cleaves its precursor into mature IL-1β. This separates making the raw protein from releasing an active signal.",
+          "The intestinal barrier controls contact between the microbial community and deeper tissues. The lecture proposes that increased passage of microbial material could sustain immune stimulation. The back-pain pilot did not measure that passage."
+        ],
+        "route": [
+          "Microbial LPS",
+          "TLR4 on immune cell",
+          "TNF · IL-6 · pro-IL-1β"
+        ],
+        "signals": [
+          "tnf",
+          "il6",
+          "il1b",
+          "il18"
+        ],
+        "diagram": "sensing",
+        "note": "Mechanistic route · microbial sensing is established biology; its contribution to this back-pain cohort was not measured.",
+        "sources": [
+          {
+            "title": "Protein mechanism · UniProt",
+            "url": "https://www.uniprot.org/uniprotkb/P01375/entry"
+          },
+          {
+            "title": "Protein mechanism · UniProt",
+            "url": "https://www.uniprot.org/uniprotkb/P01584/entry"
+          },
+          {
+            "title": "Sima et al., 2026 · matched back-pain pilot study",
+            "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jsp2.70174"
+          }
+        ]
+      },
+      {
+        "label": "Pain sensitivity",
+        "heading": "Cytokines can change how pain pathways respond",
+        "paragraphs": [
+          "Pain-sensing neurons convert potentially damaging stimuli into electrical signals. Inflammatory mediators can lower their activation threshold: a smaller stimulus can then produce a stronger response. That is one route from immune activation to increased pain sensitivity.",
+          "In spinal pain circuits, microglia and astrocytes interact with neurons. Experimental pain research examines how IL-1β, TNF and other mediators alter excitatory and inhibitory signalling within these circuits. Continued immune–neural interaction can help maintain sensitisation.",
+          "This explains why the lecture follows a gut–immune–nerve route. It does not require assuming that bacteria themselves travelled into a disc, or that every case of persistent pain began in the gut."
+        ],
+        "route": [
+          "Immune / glial cells",
+          "IL-1β · TNF",
+          "Sensitised pain pathway"
+        ],
+        "signals": [
+          "il1b",
+          "tnf",
+          "il6"
+        ],
+        "diagram": "nerve",
+        "note": "Proposed connection in persistent back pain · stool sequencing alone does not demonstrate neural sensitisation by gut-derived signals.",
+        "sources": [
+          {
+            "title": "Protein mechanism · UniProt",
+            "url": "https://www.uniprot.org/uniprotkb/P01584/entry"
+          },
+          {
+            "title": "Protein mechanism · UniProt",
+            "url": "https://www.uniprot.org/uniprotkb/P01375/entry"
+          },
+          {
+            "title": "Sima et al., 2026 · matched back-pain pilot study",
+            "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jsp2.70174"
+          },
+          {
+            "title": "Human Th17 / IL-17 measurements and disc pain",
+            "url": "/research?paper=MED%3A23680281"
+          },
+          {
+            "title": "Inflammatory biomarkers in low back disorders · evidence synthesis",
+            "url": "/research?paper=MED%3A38578280"
+          }
+        ]
+      },
+      {
+        "label": "Immune restraint",
+        "heading": "IL-1Ra blocks a receptor; IL-10 changes cell behaviour",
+        "paragraphs": [
+          "IL-1Ra binds the receptor used by IL-1α and IL-1β but does not assemble the activating signalling complex. It therefore blocks an entry point into the IL-1 response.",
+          "IL-10 works differently. It activates its own receptor on immune cells and changes their gene expression, reducing production of inflammatory mediators. One regulator competes at a receptor; the other tells responding cells to reduce inflammatory activity.",
+          "The lecture also follows butyrate from microbial fermentation into immune regulation, including the HCAR2 receptor. This is a mechanistic research direction. The back-pain study did not test butyrate, fasting, probiotics or a treatment targeting these pathways."
+        ],
+        "route": [
+          "IL-1Ra / IL-10",
+          "Receptor blockade / STAT3",
+          "Reduced inflammatory signalling"
+        ],
+        "signals": [
+          "il1ra",
+          "il10",
+          "il6"
+        ],
+        "diagram": "control",
+        "note": "Human feedback example · IL-6 infusion increased IL-1Ra and IL-10. Whether manipulating these routes improves gut-associated back pain is a separate experiment.",
+        "sources": [
+          {
+            "title": "Human IL-6 infusion increases IL-1Ra and IL-10",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12857678/"
+          },
+          {
+            "title": "Protein mechanism · UniProt",
+            "url": "https://www.uniprot.org/uniprotkb/P18510/entry"
+          },
+          {
+            "title": "Protein mechanism · UniProt",
+            "url": "https://www.uniprot.org/uniprotkb/P22301/entry"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ibd",
+    "title": "IBD",
+    "lead": "Microbial sensing, intestinal tissue and a response that persists.",
+    "steps": [
+      {
+        "label": "The barrier",
+        "heading": "Intestinal tissue separates microbes from immune cells",
+        "paragraphs": [
+          "The gut lining is a single layer of epithelial cells, supported by mucus, antimicrobial proteins and immune cells underneath. It allows nutrients to cross while controlling access of microbes and their products to deeper tissue.",
+          "Crohn’s disease can involve different parts of the digestive tract and deeper layers of its wall. Ulcerative colitis affects the colon and rectum, with inflammation centred on the mucosal lining. Both involve interacting changes in tissue, immunity and the microbial environment.",
+          "Inflammation changes that environment: oxygen availability, mucus, nutrient sources and transit can all shift. Microbial changes can therefore be both an influence on inflammation and a consequence of damaged tissue."
+        ],
+        "route": [
+          "Microbes & mucus",
+          "Epithelial barrier",
+          "Underlying immune cells"
+        ],
+        "signals": [
+          "il1b",
+          "tnf",
+          "il10"
+        ],
+        "diagram": "gut",
+        "note": "IBD = inflammatory bowel disease. IBS is a different condition and does not mean the same tissue inflammation.",
+        "sources": [
+          {
+            "title": "NIDDK · inflammatory bowel disease",
+            "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/inflammatory-bowel-disease"
+          }
+        ]
+      },
+      {
+        "label": "The IL-23 circuit",
+        "heading": "Microbial sensing can sustain IL-17-producing cells",
+        "paragraphs": [
+          "Dendritic cells and macrophages respond to microbial material and can produce IL-23. IL-23 acts on responsive lymphocytes, including Th17 cells and group 3 innate lymphoid cells.",
+          "These cells can produce IL-17 and IL-22. IL-17 acts on epithelial and stromal cells to increase antimicrobial responses and chemokines that recruit neutrophils. IL-22 acts directly on epithelial cells, supporting antimicrobial protein production and repair.",
+          "This creates a chain from microbial sensing to immune-cell behaviour to barrier function. IL-23 is important in experimental intestinal inflammation and is a target of IBD medicines."
+        ],
+        "route": [
+          "Macrophage / dendritic cell",
+          "IL-23 → lymphocytes",
+          "IL-17 / IL-22 → epithelium"
+        ],
+        "signals": [
+          "il23",
+          "il17a",
+          "il17f",
+          "il22"
+        ],
+        "diagram": "lymphocyte",
+        "note": "Experimental mechanism · IL-23 has been tested in models of innate and T-cell-mediated intestinal inflammation.",
+        "sources": [
+          {
+            "title": "IL-23 drives intestinal inflammation · experimental models",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17030949/"
+          },
+          {
+            "title": "IL-22 → epithelial STAT3 → mucosal wound healing",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19564350/"
+          }
+        ]
+      },
+      {
+        "label": "Regulation",
+        "heading": "IL-10 restrains the cells that produce inflammation",
+        "paragraphs": [
+          "Macrophages and dendritic cells help decide how strongly to respond to microbial material. IL-10 activates receptor-linked STAT3 signalling in these and other immune cells, limiting inflammatory mediator production.",
+          "Without effective regulation, repeated contact with the microbial environment can provoke sustained responses. IL-10-deficient mice develop chronic enterocolitis, making this an unusually clear experimental demonstration of lost immune restraint.",
+          "TNF provides a complementary clinical connection: suppressing TNF can improve disease in selected people with IBD. The treatment acts on a defined signalling pathway rather than removing all immune activity."
+        ],
+        "route": [
+          "IL-10-producing cell",
+          "IL-10R → STAT3",
+          "Less macrophage activation"
+        ],
+        "signals": [
+          "il10",
+          "tnf",
+          "tgfb"
+        ],
+        "diagram": "control",
+        "note": "Mouse experiment · removing IL-10 leads to intestinal disease. The human treatment example targets a different molecule, TNF.",
+        "sources": [
+          {
+            "title": "IL-10-deficient mice develop chronic enterocolitis",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8402911/"
+          },
+          {
+            "title": "Protein mechanism · UniProt",
+            "url": "https://www.uniprot.org/uniprotkb/P22301/entry"
+          },
+          {
+            "title": "Protein mechanism · UniProt",
+            "url": "https://www.uniprot.org/uniprotkb/P01375/entry"
+          }
+        ]
+      },
+      {
+        "label": "Defence & repair",
+        "heading": "IL-17 and IL-22 act at the barrier",
+        "paragraphs": [
+          "IL-17 helps intestinal tissue recruit neutrophils and defend against extracellular bacteria and fungi. IL-22 helps epithelial cells produce antimicrobial proteins and regenerate damaged tissue through STAT3 signalling.",
+          "These functions explain why the next step cannot simply be “block every inflammatory cytokine.” In a randomised Crohn’s trial, the IL-17A-blocking medicine secukinumab was ineffective, with adverse outcomes raising concern.",
+          "The useful distinction is between the signal-producing immune cell, the receiving tissue cell and the response being changed. IL-23, IL-17 and IL-22 are connected, but blocking one is not biologically equivalent to blocking another."
+        ],
+        "route": [
+          "IL-17 / IL-22",
+          "Epithelial receptors",
+          "Defence & tissue repair"
+        ],
+        "signals": [
+          "il17a",
+          "il22",
+          "il23"
+        ],
+        "diagram": "barrier",
+        "note": "Human trial + mouse mechanism · IL-17A blockade and IL-22-dependent epithelial healing test different parts of this circuit.",
+        "sources": [
+          {
+            "title": "IL-17A blockade in Crohn’s disease · randomised trial",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4902107/"
+          },
+          {
+            "title": "IL-22 → epithelial STAT3 → mucosal wound healing",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19564350/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lungs",
+    "title": "Gut–Lung Axis",
+    "lead": "How gut metabolites influence immune responses in the airways.",
+    "steps": [
+      {
+        "label": "Microbial metabolism",
+        "heading": "Fibre fermentation makes circulating immune inputs",
+        "paragraphs": [
+          "Some dietary carbohydrates reach the colon, where microbes ferment them into short-chain fatty acids including acetate, propionate and butyrate. These molecules can act locally and some enter the circulation.",
+          "Short-chain fatty acids affect host cells through receptors and changes in gene regulation. Their influence can extend to immune-cell development and function outside the gut.",
+          "This is the starting point of a gut–lung mechanism: the intestine changes the chemical inputs reaching the immune system, which can change the response to a challenge in the lungs."
+        ],
+        "route": [
+          "Fibre → gut microbes",
+          "Short-chain fatty acids",
+          "Immune-cell responses"
+        ],
+        "signals": [
+          "il6",
+          "il10",
+          "gmcsf"
+        ],
+        "diagram": "axis",
+        "note": "Mouse experiments connect microbial fibre metabolism with allergic airway responses and influenza outcomes.",
+        "sources": [
+          {
+            "title": "Microbial fibre metabolism and allergic airway disease · mouse experiment",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24390308/"
+          },
+          {
+            "title": "Dietary fibre, microbial metabolites and influenza · mouse experiment",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29768180/"
+          }
+        ]
+      },
+      {
+        "label": "Recruitment",
+        "heading": "Airway cells recruit specific kinds of white blood cell",
+        "paragraphs": [
+          "Airway epithelial cells and resident immune cells sense infection or injury. Signals including IL-1 and TNF stimulate further cytokine and chemokine production in the tissue.",
+          "CXCL8 guides neutrophils towards a responding site. CCL2 helps recruit monocytes. These cells bring antimicrobial activity, but their enzymes, oxidants and inflammatory signals can also contribute to injury.",
+          "Gut-derived influences can change the cells available to participate and how strongly they respond. In mouse influenza experiments, dietary fibre altered myeloid-cell responses and reduced damaging neutrophil-associated inflammation."
+        ],
+        "route": [
+          "Airway sensing",
+          "Chemokine gradient",
+          "Neutrophils / monocytes"
+        ],
+        "signals": [
+          "il1b",
+          "tnf",
+          "cxcl8",
+          "ccl2"
+        ],
+        "diagram": "lung",
+        "note": "Species detail · mice use other neutrophil chemokines, including CXCL1; CXCL8 is shown here as a human recruitment signal.",
+        "sources": [
+          {
+            "title": "Dietary fibre, microbial metabolites and influenza · mouse experiment",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29768180/"
+          },
+          {
+            "title": "Protein mechanism · UniProt",
+            "url": "https://www.uniprot.org/uniprotkb/P10145/entry"
+          },
+          {
+            "title": "Protein mechanism · UniProt",
+            "url": "https://www.uniprot.org/uniprotkb/P13500/entry"
+          }
+        ]
+      },
+      {
+        "label": "Antiviral defence",
+        "heading": "Interferons prepare cells to resist viruses",
+        "paragraphs": [
+          "Cells detect viral nucleic acids and produce type I interferons, including IFN-α and IFN-β. These bind IFNAR receptors on infected and neighbouring cells.",
+          "Receptor signalling activates STAT proteins, which switch on interferon-stimulated genes. The resulting proteins interfere with viral replication and spread. This antiviral programme is distinct from bringing neutrophils into tissue.",
+          "The fibre–influenza mouse study also found changes in CD8 T-cell metabolism and antiviral responses. The gut can influence several branches of defence at once; it is not only a source of inflammatory material."
+        ],
+        "route": [
+          "Virus-sensing cell",
+          "IFN-α / IFN-β → IFNAR",
+          "Antiviral gene expression"
+        ],
+        "signals": [
+          "type1ifn",
+          "ifng",
+          "il12",
+          "il15"
+        ],
+        "diagram": "antiviral",
+        "note": "Animal mechanism · the dietary experiment does not establish a fibre or probiotic treatment for human respiratory infection.",
+        "sources": [
+          {
+            "title": "Dietary fibre, microbial metabolites and influenza · mouse experiment",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29768180/"
+          },
+          {
+            "title": "Protein mechanism · UniProt",
+            "url": "https://www.uniprot.org/uniprotkb/P01574/entry"
+          }
+        ]
+      },
+      {
+        "label": "Allergy & mucus",
+        "heading": "Epithelial alarms activate a different immune circuit",
+        "paragraphs": [
+          "Damaged or stimulated barrier cells can release IL-33 and IL-25. These signals activate group 2 innate lymphoid cells, which can produce IL-5 and IL-13.",
+          "IL-5 supports eosinophils. IL-13 increases mucus-producing responses and alters tissue function. The same general programme contributes to intestinal worm expulsion and allergic airway inflammation.",
+          "The gut–lung axis therefore contains several routes: microbial metabolites, immune-cell development, antiviral responses and type 2 barrier signalling. Following a specific cell and receptor makes each route understandable."
+        ],
+        "route": [
+          "IL-33 / IL-25",
+          "ILC2 → IL-5 / IL-13",
+          "Eosinophils & mucus"
+        ],
+        "signals": [
+          "il33",
+          "il25",
+          "il5",
+          "il13",
+          "il4"
+        ],
+        "diagram": "type2",
+        "note": "Selected mechanism · use the signals view to follow each ligand, receptor and responding cell.",
+        "sources": [
+          {
+            "title": "Microbial fibre metabolism and allergic airway disease · mouse experiment",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24390308/"
+          },
+          {
+            "title": "Protein mechanism · UniProt",
+            "url": "https://www.uniprot.org/uniprotkb/O95760/entry"
+          },
+          {
+            "title": "Protein mechanism · UniProt",
+            "url": "https://www.uniprot.org/uniprotkb/P35225/entry"
+          }
+        ]
+      }
+    ]
+  }
+]

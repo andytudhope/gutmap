@@ -1,0 +1,36 @@
+/* Histological shapes and process signals share the atlas palette. */
+#ecology .habitat-scene{color:var(--green)}
+.habitat-scene path,.habitat-scene circle,.habitat-scene ellipse,.habitat-scene rect{vector-effect:non-scaling-stroke}
+#ecology .hs-kicker{font:10px var(--sans);letter-spacing:1.7px;fill:var(--muted)}
+#ecology .hs-label{font:17px var(--serif);fill:var(--ink)}
+#ecology .hs-small-label{font:13px var(--serif);fill:var(--ink)}
+#ecology .hs-process{font:18px var(--serif);fill:var(--ink)}
+#ecology .hs-footnote{font:10px var(--sans);fill:var(--muted);letter-spacing:.2px}
+.hs-zone{cursor:pointer;transition:opacity .25s}.hs-zone:not(.hs-selected){opacity:.65}.hs-zone.hs-selected{opacity:1}.hs-zone:focus-visible{outline:none;filter:drop-shadow(0 0 3px #9a572e99)}
+.hs-zone.hs-selected .hs-outline{stroke:var(--accent)}
+.hs-outline,.hs-dentine,.hs-ruga,.hs-squamous,.hs-cell-junction,.hs-leader{fill:none;stroke:var(--green);stroke-width:1.1}
+.hs-outline{stroke-width:1.8}.hs-leader{stroke:var(--muted);stroke-width:.7}
+.hs-tissue,.hs-villus,.hs-rectal-wall{fill:#dedcc8;stroke:#8c9474;stroke-width:1.2}
+.hs-villus{fill:var(--paper)}.hs-villus-mucus{fill:none;stroke:#b6c39d;stroke-width:12;opacity:.38}
+.hs-rectal-wall{fill:#e4e1cf;stroke-width:8}
+.hs-fluid-field{fill:#c6d5d01a;stroke:none}.hs-flow{fill:none;stroke:#9aafa2;stroke-width:.7;opacity:.65}
+.hs-arrow,.hs-flow-arrow{fill:none;stroke:#839f91;stroke-width:1;stroke-dasharray:3 4}
+.hs-hit{fill:transparent;stroke:none}.hs-enamel{fill:#f8f5e9;stroke:#8a8f75;stroke-width:1.6}
+.hs-biofilm{fill:#c1c6a7;stroke:#8c9b70;stroke-width:1;fill-opacity:.55}
+.hs-microbe{fill:none;stroke:var(--green);stroke-width:1.1;cursor:pointer}.hs-microbe:focus-visible{outline:none;stroke:var(--accent);stroke-width:2.5}
+.hs-cell{fill:#87986624;stroke:var(--green);stroke-width:1.1}
+.hs-fat{fill:#b19b51;stroke:var(--paper);stroke-width:.6}.hs-sugar,.hs-nutrient{fill:#a56535;stroke:none}.hs-acid{fill:#ae7052;stroke:none}
+.hs-food-bit,.hs-bolus,.hs-stool{fill:#b4a47988;stroke:#938460;stroke-width:1}
+.hs-muscle{fill:none;stroke:#7f8c6c;stroke-width:7;stroke-linecap:round}
+.hs-gastric-lumen{fill:#b58b6e0b;stroke:none}.hs-gastric-mucus{fill:none;stroke:#adbc92;stroke-width:18;stroke-opacity:.35}
+.hs-acid-field{fill:#b77c5628;stroke:none}.hs-mucus-band,.hs-outer-mucus{fill:#b0c29248;stroke:#a0af88;stroke-width:.5}
+.hs-inner-mucus{fill:#d2ddbe99;stroke:#96a67f;stroke-width:.5}
+.hs-capillary{fill:none;stroke:#a66e5d;stroke-width:1.6}.hs-lymph{fill:none;stroke:#b19b51;stroke-width:2.3}
+#ecology .hs-blood-label{font:14px var(--serif);fill:#98614f}#ecology .hs-lymph-label{font:14px var(--serif);fill:#8a783e}
+.hs-food-island{fill:#c4b3803a;stroke:#ac996d;stroke-width:1}.hs-fibre{fill:none;stroke:#a99564;stroke-width:.8}
+.hs-goblet{fill:#a9bd8c88;stroke:none}.hs-sphincter{fill:none;stroke:#8c9774;stroke-width:9}.hs-pelvic-floor{fill:none;stroke:#a2997e;stroke-width:10}.hs-sensory{fill:none;stroke:#ac9661;stroke-width:1.4;stroke-dasharray:3 6}
+.habitat-motion{display:flex;align-items:center;gap:16px;margin:20px 0;font-size:10px}.habitat-motion button{padding:8px 13px;border:1px solid var(--line);min-height:36px}.habitat-motion span{color:var(--muted)}
+.habitat-takeaway{padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:24px 0}.habitat-takeaway p{font:17px/1.65 var(--serif);margin:9px 0 0}
+.habitat-structure-sources{font-size:11px;line-height:1.8;margin:24px 0}.habitat-structure-sources a{display:block;margin:12px 0}.habitat-structure-sources summary{cursor:pointer}
+@media(max-width:760px){#ecology .hs-label{font-size:19px}#ecology .hs-small-label{font-size:15px}#ecology .hs-kicker{font-size:12px}#ecology .hs-process{font-size:20px}#ecology .hs-footnote{font-size:12px}.habitat-motion{font-size:12px}.habitat-takeaway p{font-size:20px}}
+@media(prefers-reduced-motion:reduce){.hs-zone{transition:none}}

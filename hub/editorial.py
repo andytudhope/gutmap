@@ -41,7 +41,8 @@ def document(view):
         data['mechanisms']=read('mechanisms')['mechanisms']
         data['guides']=[{k:g[k] for k in ('id','title','lead')} for g in read('references')['guides']]
         fields=('id','title','lead','category','type','layout','organisms','aliases','connection','affected_sites','gut_evidence_status')
-        data['pages']['illness-recovery']['stories']=data['pages']['illness-recovery']['stories']+[{**{k:v for k,v in item.items() if k in fields},'region':item['navigation_region']} for item in read('conditions').values()]
+        data['pages']['infections']={**data['pages']['illness-recovery'], 'title':'Infections', 'intro':data['pages']['illness-recovery']['intro']}
+        data['pages']['illness-recovery']=data['pages']['infections']
         from .knowledge import model
         data['entities']=model()['concepts']
     if view in ('anatomy','pathways','mechanisms'):

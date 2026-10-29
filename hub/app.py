@@ -7,7 +7,7 @@ from urllib.parse import parse_qs,urlsplit,unquote
 from .db import ROOT,initialize,connect
 from . import atlas,editorial,research,edits,microbes,knowledge,contributions,pages,navigation
 
-PAGES={'/':'index.html','/learn':'index.html','/references':'references.html','/mechanisms':'mechanisms.html','/edits':'edits.html','/explore':'index.html','/research':'research.html','/papers':'research.html',**{path:'pathways.html' for path in ['/living-well','/fermentation','/illness-recovery']}}
+PAGES={'/':'index.html','/learn':'index.html','/references':'references.html','/mechanisms':'mechanisms.html','/edits':'edits.html','/explore':'index.html','/research':'research.html','/papers':'research.html','/inflammation':'inflammation.html',**{path:'pathways.html' for path in ['/living-well','/fermentation','/illness-recovery','/infections']}}
 ASSETS={p.relative_to(ROOT/'static').as_posix():p for p in (ROOT/'static').rglob('*') if p.is_file()}
 
 _attempts=defaultdict(list)
@@ -89,6 +89,13 @@ class Handler(BaseHTTPRequestHandler):
 
     def get(self):
         url=urlsplit(self.path);path=unquote(url.path).rstrip('/') or '/';args=parse_qs(url.query)
+        if path in ('/illness-recovery','/conditions'):
+            return self.send(b'',302,ctype='text/html',headers={'Location':'/inflammation'})
+        if path.startswith('/condition/'):
+            ident=path.split('/')[-1]
+            infection_ids={s['id'] for s in editorial.read('pathways')['pages']['illness-recovery']['stories']}
+            target=('/infections#item='+ident if ident in infection_ids else '/topics/ibs' if ident=='ibs' else '/inflammation#view=stories&item=ibd' if ident in ('crohns','ulcerative-colitis') else '/inflammation')
+            return self.send(b'',302,ctype='text/html',headers={'Location':target})
         if path=='/api/contributions/review':
             if not self.authorized():return self.send({'error':'Sign in to review contributions'},401)
             return self.send({'items':contributions.queue(args.get('status',['pending'])[0])},headers={'Cache-Control':'no-store'})
@@ -140,7 +147,7 @@ class Handler(BaseHTTPRequestHandler):
                     return self.send(html.encode(),ctype='text/html; charset=utf-8')
                 stat=asset.stat();etag='"'+str(stat.st_mtime_ns)+'-'+str(stat.st_size)+'"'
                 immutable=bool(re.search(r'\.[a-f0-9]{12}\.',asset.name))
-                headers={'ETag':etag,'Cache-Control':'public, max-age='+('31536000, immutable' if immutable or 'v' in args else '3600')}
+                headers={'ETag':etag,'Cache-Control':('no-cache' if asset.suffix=='.json' and not immutable else 'public, max-age='+('31536000, immutable' if immutable or 'v' in args else '3600'))}
                 if self.headers.get('If-None-Match')==etag:return self.send(b'',status=304,headers=headers)
                 return self.send(asset.read_bytes(),ctype=(mimetypes.guess_type(asset)[0] or 'application/octet-stream')+'; charset=utf-8',headers=headers)
             return self.send({'error':'Not found'},404)
