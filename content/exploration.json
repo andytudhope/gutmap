@@ -388,6 +388,57 @@
           }
         ]
       }
+    },
+    "cecum": {
+      "title": "A junction, a pouch, a side branch",
+      "description": "The ileum enters from the side. The cecum lies below the ascending colon; the appendix branches from it.",
+      "surface": "Cecal lining",
+      "mucus": "Mucus & lining",
+      "zones": [
+        {
+          "id": "food",
+          "name": "Through the valve",
+          "text": "The ileocecal valve joins the terminal ileum to the cecum. Food continues through the large bowel, not through the appendix.",
+          "residents": [],
+          "papers": []
+        },
+        {
+          "id": "fluid",
+          "name": "Inside the pouch",
+          "text": "The cecum is the first chamber of the large bowel. Its contents continue upward into the ascending colon.",
+          "residents": [],
+          "papers": []
+        },
+        {
+          "id": "mucus",
+          "name": "At the lining",
+          "text": "Regional biopsies reveal a distinct immune environment. What signals maintain it?",
+          "residents": [],
+          "papers": [
+            "cecum-immune"
+          ]
+        }
+      ],
+      "visual": {
+        "kicker": "ILEUM · VALVE · CECUM · ASCENDING COLON",
+        "description": "The terminal ileum enters a cecal pouch through the ileocecal valve. The ascending colon continues above it; the appendix is a blind-ended side branch.",
+        "takeaway": "The cecum is a pouch at the entrance to the large bowel. The appendix branches off the route.",
+        "process": [
+          "Contents arrive from the terminal ileum",
+          "The valve opens into the cecum",
+          "Contents continue into the ascending colon"
+        ],
+        "sources": [
+          {
+            "title": "NIDDK · Digestive anatomy",
+            "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works"
+          },
+          {
+            "title": "Wolff et al. · Immune cells in the human cecum (2012)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3400627/"
+          }
+        ]
+      }
     }
   },
   "stories": [

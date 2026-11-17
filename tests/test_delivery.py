@@ -26,8 +26,11 @@ class Delivery(unittest.TestCase):
         with urlopen(self.url+'/learn.js?v=1') as response:self.assertIn('max-age=31536000',response.headers['Cache-Control'])
         with urlopen(self.url+'/api/edits/session') as response:self.assertEqual(response.headers['Cache-Control'],'no-store')
     def test_prepared_art_has_all_paths_and_particles(self):
+        from hub import editorial
         art=json.loads(next((ROOT/'static').glob('anatomy-art.*.json')).read_text())
-        self.assertEqual(set(art['geometry']),{'mouth','oesophagus','stomach','small','colon','rectum'})
+        regions=[r['id'] for r in editorial.read('anatomy')['regions']]
+        self.assertEqual(set(art['geometry']),set(regions))
+        self.assertEqual(art['order'],regions)
         self.assertEqual(len(art['points']),3600)
         for g in art['geometry'].values():
             for path in g.values():

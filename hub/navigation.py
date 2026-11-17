@@ -1,7 +1,7 @@
 """Shared primary navigation and the three Explore views."""
 
 EXPLORE_VIEWS = (('/explore', 'Microbes & genomes'),
-                 ('/mechanisms', 'Mechanisms'), ('/inflammation', 'Inflammation'), ('/infections', 'Infections'))
+                 ('/mechanisms', 'Mechanisms'), ('/inflammation', 'Inflammation'))
 SECTIONS = (('/', 'Learn'), ('/explore', 'Explore'),
             ('/research', 'Research'), ('/references', 'References'))
 

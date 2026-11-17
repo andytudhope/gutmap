@@ -44,3 +44,5 @@ a.search-hit{display:block;text-decoration:none;color:var(--ink)}
 /* Keep the library visible without squeezing the anatomy search. */
 @media(min-width:761px){.masthead-note{display:none}.site-nav{gap:16px}#symptom-search{position:static;transform:none;left:auto;width:auto;max-width:330px;flex:1;margin:0 16px}.wordmark{flex-shrink:0}}
 @media(max-width:760px){.masthead,body[data-page=microbes] .masthead{height:100px;flex-wrap:wrap;align-content:center;gap:0 15px}.masthead .site-nav{order:3;width:100%;justify-content:space-between;gap:8px!important;margin:0}.masthead .site-nav a{font-size:11px;padding:7px 0}.masthead .wordmark{height:42px}#symptom-search{top:110px}#search-hits{top:148px}#experience{height:calc(100svh - 100px)}body[data-mode=focus] #experience{min-height:calc(100svh - 100px)}}
+
+@media(max-width:760px){.anatomy-label.appendix-label{display:block}.appendix-label text{font-size:20px}.appendix-label .label-latin{font-size:8px}}

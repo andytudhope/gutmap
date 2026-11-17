@@ -3319,5 +3319,29 @@
       "study_type": "Animal / preclinical",
       "retracted": 0
     }
+  },
+  "cecum-immune": {
+    "paper": "MED:22829946",
+    "checked": "2026-11-17",
+    "identity_status": "resolved",
+    "title": "TH17, TH22 and Treg cells are enriched in the healthy human cecum",
+    "doi": "10.1371/journal.pone.0041373",
+    "provider": "PubMed and PLOS ONE",
+    "support_status": "abstract_checked",
+    "material_reviewed": "Abstract and full-text Results: recruitment and regional immune-cell comparisons",
+    "reviewed_finding": "Biopsies from 26 screening-colonoscopy participants showed more Th17, Th22 and regulatory T cells in the cecum than in the terminal ileum and sigmoid colon.",
+    "review_note": "Regional human biopsy comparison; 26 participants, predominantly older men.",
+    "bibliography": {
+      "id": "MED:22829946",
+      "title": "TH17, TH22 and Treg cells are enriched in the healthy human cecum",
+      "authors": "Wolff MJ, Leung JM, Davenport M, Poles MA, Cho I, Loke P.",
+      "year": 2012,
+      "journal": "PLoS ONE",
+      "doi": "10.1371/journal.pone.0041373",
+      "pmid": "22829946",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3400627/",
+      "study_type": "Research article",
+      "retracted": 0
+    }
   }
 }

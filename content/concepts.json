@@ -5673,5 +5673,31 @@
     "aliases": [],
     "related_terms": [],
     "mappings": []
+  },
+  "cecum": {
+    "id": "cecum",
+    "name": "Cecum & ileocecal junction",
+    "kind": "place",
+    "definition": "The ileum opens through the ileocecal valve into the cecum, a pouch at the start of the large intestine. Contents continue into the ascending colon; the appendix branches from the pouch.",
+    "aliases": [
+      "cecum",
+      "caecum",
+      "ileocecal junction",
+      "ileocaecal junction"
+    ],
+    "related_terms": [
+      "ileocecal valve",
+      "appendix",
+      "terminal ileum"
+    ],
+    "mappings": [],
+    "subtype": "anatomical habitat",
+    "regions": [
+      "cecum"
+    ],
+    "summary": [
+      "The ileum opens through the ileocecal valve into the cecum, a pouch at the start of the large intestine. Contents continue into the ascending colon; the appendix branches from the pouch.",
+      "This junction brings the small bowel’s contents into the large bowel’s microbial ecosystem. Flow, food and the lining connect here with local immune activity."
+    ]
   }
 }

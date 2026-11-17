@@ -102,6 +102,24 @@ function render(svg,organ,data,options){
   arrow(fluid,'M855 460V495');text(root,'Products reach the host',905,485,'hs-small-label','end');
   motions.push(t=>products.forEach((n,i)=>{const u=(t*.12+i/9)%1;n.attr('cx',448+i*49).attr('cy',405+u*268).attr('opacity',u>.9?.35:.85);}));
  }
+ function cecum(){
+  const food=zone('food'),fluid=zone('fluid'),wall=zone('mucus');
+  const pouch='M500 250V590Q490 700 585 735Q690 770 745 665Q770 625 755 550V250Z';
+  path(fluid,pouch,'hs-fluid-field');path(wall,pouch,'hs-outline');
+  path(food,'M910 460H800Q765 460 748 500L708 525M910 540H810Q780 540 755 560','hs-outline');
+  path(food,'M738 488L708 525L746 553','hs-muscle');
+  arrow(food,'M875 500H800Q770 500 745 525');
+  arrow(fluid,'M665 603Q592 628 584 557V337');
+  path(wall,'M577 731C557 749 553 768 563 787C570 800 578 809 575 818C568 819 563 805 556 794C543 773 544 749 563 727Z','hs-tissue');path(wall,'M570 734C551 755 551 775 562 793Q573 810 575 818','hs-outline').attr('opacity',.4);
+  leader(root,'Terminal ileum',915,424,'M880 435L855 460','end');
+  leader(food,'Ileocecal valve',920,605,'M883 590L740 530','end');
+  text(fluid,'Cecum',625,682,'hs-label','middle');
+  text(root,'Ascending colon',625,228,'hs-label','middle');
+  leader(wall,'Appendix',420,784,'M435 770L552 771');
+  text(root,'A side branch',420,810,'hs-small-label');
+  const contents=d3.range(5).map(()=>circle(food,0,0,3.5,'hs-sugar'));
+  motions.push(t=>contents.forEach((n,i)=>{const u=(t*.12+i/5)%1;n.attr('cx',880-u*135).attr('cy',500+u*u*25);}));
+ }
  function rectum(){
   const food=zone('food'),fluid=zone('fluid'),wall=zone('mucus');
   const chamber=(y,outlet=0)=>`M565 230V310C420 340 ${435-y} 465 485 552Q525 625 ${602-outlet} 662V780H${698+outlet}V662Q775 625 815 552C${865+y} 465 880 340 735 310V230`;
@@ -116,7 +134,7 @@ function render(svg,organ,data,options){
   text(root,'Stretch → urge',920,294,'hs-label','end');
   motions.push(t=>{const u=(t/12)%1,release=Math.max(0,(u-.6)/.4);lining.attr('d',chamber(release<.05?Math.sin(u*4)*8:0,release*28));stool.attr('transform',`translate(650,${450+release*375}) scale(${1-release*.25},${1+release*.15})`).attr('opacity',release>.92?0:1);inner.attr('rx',72+release*18);outer.attr('rx',85+release*15);signal.attr('opacity',u<.6?.25+u:.25);phase=release>0?2:u>.26?1:0;});
  }
- ({mouth,oesophagus,stomach,small,colon,rectum}[organ])();
+ ({mouth,oesophagus,stomach,small,cecum,colon,rectum}[organ])();
  let clock=null,playing=false,elapsed=0;
  function frame(seconds){motions.forEach(fn=>fn(seconds));const i=phase??Math.floor(seconds/4)%data.visual.process.length;phaseLabel.text(data.visual.process[i]);}
  function stop(){if(clock)clock.stop();clock=null;playing=false;}

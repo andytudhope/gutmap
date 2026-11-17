@@ -19,7 +19,7 @@ QUERY = '(' + QUERY + ' OR ' + FASTING_QUERY + ')'
 
 TAXA = {'Bifidobacterium':['bifidobacter'], 'Lactobacillus':['lactobacill','lacticaseibacill'], 'Akkermansia':['akkermansia'], 'Faecalibacterium':['faecalibacter'], 'Roseburia':['roseburia'], 'Bacteroides':['bacteroides'], 'Archaea':['methan','archaea'], 'Viruses & phages':['bacteriophag','virome','viral'], 'Fungi':['fung','mycobiom','candida']}
 FUNCTIONS = {'Fermentation':['ferment','fiber','fibre'], 'Immune signalling':['immun','inflamm'], 'Gut–brain signalling':['gut-brain','gut brain','neuro','depress','anxiety'], 'Metabolites':['metabol','butyrate','bile acid','short-chain'], 'Transit':['transit','motility','constipat'], 'Barrier function':['barrier','permeability','mucin']}
-REGION_WORDS = {'stomach':['gastric','stomach','helicobacter'], 'small':['small intestin','duoden','jejunu','ileal','ileum'], 'colon':['colon','colonic','colorectal'], 'rectum':['rectal','rectum']}
+REGION_WORDS = {'cecum':['cecum','caecum','cecal','caecal','ileocecal','ileocaecal'], 'stomach':['gastric','stomach','helicobacter'], 'small':['small intestin','duoden','jejunu','ileal','ileum'], 'colon':['colon','colonic','colorectal'], 'rectum':['rectal','rectum']}
 TAXA.update({'Streptococcus':['streptococc'], 'Veillonella':['veillonella'], 'Helicobacter':['helicobacter'],
  'Candida':['candida'], 'Saccharomyces':['saccharomyces'], 'Malassezia':['malassezia'],
  'Protists':['protist','blastocystis','dientamoeba','giardia','cryptosporid','entamoeba'],

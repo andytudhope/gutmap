@@ -1993,5 +1993,21 @@
     "source_title": "Age-Associated Microbial Dysbiosis Promotes Intestinal Permeability, Systemic Inflammation, and Macrophage Dysfunction.",
     "author": "Gut Atlas editorial",
     "reviewed": "2026-10-29"
+  },
+  "cecum-immune": {
+    "paper": "MED:22829946",
+    "kind": "Human study · regional biopsies",
+    "finding": "Biopsies from 26 screening-colonoscopy participants showed more Th17, Th22 and regulatory T cells in the cecum than in the terminal ileum and sigmoid colon.",
+    "meaning": "Immune communities differ across neighbouring gut regions. Sampling location matters when studying gut immunity.",
+    "question": "Which local microbial signals shape these immune communities?",
+    "regions": [
+      "small",
+      "cecum",
+      "colon"
+    ],
+    "source_title": "TH17, TH22 and Treg cells are enriched in the healthy human cecum",
+    "population": "26 adults undergoing screening colonoscopy",
+    "author": "Gut Atlas seed",
+    "reviewed": "2026-11-17"
   }
 }

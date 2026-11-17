@@ -5,12 +5,12 @@
     "lead": "Microbial products, immune activation and sensitised pain pathways.",
     "steps": [
       {
-        "label": "The gut observation",
-        "heading": "A microbiome difference in people with back pain",
+        "label": "Gut communities & back pain",
+        "heading": "Back pain is associated with altered gut communities",
         "paragraphs": [
-          "In the Sima study, 28 people with persistent low back pain were compared with 28 healthy people matched for age, sex and BMI. The pain group did not have advanced disc degeneration. Researchers sequenced bacterial 16S rRNA genes in stool to compare the microbial communities.",
-          "The pain group had lower within-sample microbial diversity. Prevotella was more abundant and Parabacteroides less abundant. These are measurements of community composition—not measurements of cytokines, intestinal permeability or pain-causing bacterial activity.",
-          "The next biological question is how an altered community could influence pain outside the intestine. The following stages trace the immune and neural mechanisms proposed in the lecture."
+          "Persistent low back pain is associated with changes in the gut’s microbial community. In Sima’s study, 28 people with back pain and no advanced disc degeneration had lower microbial diversity than 28 controls matched for age, sex and body mass index.",
+          "Diversity describes both the variety of organisms and how evenly they are represented. The pain group had more Prevotella and Faecalibacterium, and less Parabacteroides. These names identify genera: groups of related bacterial species.",
+          "In a separate study of 40 people with disc disease and 20 healthy volunteers, researchers found fewer bacteria associated with production of short-chain fatty acids. These products of microbial fermentation connect dietary fibre with gut-lining metabolism and immune-cell activity."
         ],
         "route": [
           "Stool community",
@@ -23,7 +23,7 @@
           "il6"
         ],
         "diagram": "gut",
-        "note": "Human observation · 28 cases + 28 controls. The causal route remains to be tested in this population.",
+        "note": "Sima et al. · Stool bacterial DNA sequencing · 28 people with persistent back pain and 28 matched controls.",
         "sources": [
           {
             "title": "Sima et al. · research map, reading note and citations",
@@ -32,16 +32,20 @@
           {
             "title": "Sima et al., 2026 · matched back-pain pilot study",
             "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jsp2.70174"
+          },
+          {
+            "title": "Gut communities, short-chain-fatty-acid producers and disc disease",
+            "url": "/research?paper=MED%3A38925301"
           }
         ]
       },
       {
         "label": "Microbial sensing",
-        "heading": "How microbial material becomes an immune signal",
+        "heading": "Gut bacteria activate immune-cell receptors",
         "paragraphs": [
-          "LPS is a component of the outer membrane of many Gram-negative bacteria. When it reaches responsive host cells, it can activate the TLR4 receptor system. This turns on transcription factors including NF-κB, increasing production of inflammatory mediators such as TNF, IL-6 and the IL-1β precursor.",
-          "IL-1β has another processing step. Inflammasomes can activate caspase-1, which cleaves its precursor into mature IL-1β. This separates making the raw protein from releasing an active signal.",
-          "The intestinal barrier controls contact between the microbial community and deeper tissues. The lecture proposes that increased passage of microbial material could sustain immune stimulation. The back-pain pilot did not measure that passage."
+          "LPS is a molecule in the outer membrane of many bacteria. Immune cells recognise it through a receptor system called TLR4. This activates NF-κB, a switch that turns on genes for inflammatory signals including TNF, IL-6 and the precursor of IL-1β.",
+          "IL-1β is first made as an inactive protein. A sensor complex called an inflammasome activates the enzyme caspase-1, which cuts that precursor into its active form. Recognising a disturbance and releasing an active cytokine are separate steps.",
+          "Mucus and the intestinal lining regulate contact between microbes and the immune cells beneath them. Increased passage of microbial material exposes those cells to more stimulation. In mouse experiments, age-associated gut communities increased circulating inflammatory signals; TNF also changed the microbial community, forming a feedback loop."
         ],
         "route": [
           "Microbial LPS",
@@ -55,7 +59,7 @@
           "il18"
         ],
         "diagram": "sensing",
-        "note": "Mechanistic route · microbial sensing is established biology; its contribution to this back-pain cohort was not measured.",
+        "note": "LPS → TLR4 → inflammatory gene activation. Inflammasome → caspase-1 → active IL-1β.",
         "sources": [
           {
             "title": "Protein mechanism · UniProt",
@@ -66,18 +70,18 @@
             "url": "https://www.uniprot.org/uniprotkb/P01584/entry"
           },
           {
-            "title": "Sima et al., 2026 · matched back-pain pilot study",
-            "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jsp2.70174"
+            "title": "Microbiota–TNF feedback and intestinal permeability · mouse experiments",
+            "url": "/research?paper=MED%3A28407483"
           }
         ]
       },
       {
         "label": "Pain sensitivity",
-        "heading": "Cytokines can change how pain pathways respond",
+        "heading": "Inflammatory signals increase pain sensitivity",
         "paragraphs": [
-          "Pain-sensing neurons convert potentially damaging stimuli into electrical signals. Inflammatory mediators can lower their activation threshold: a smaller stimulus can then produce a stronger response. That is one route from immune activation to increased pain sensitivity.",
-          "In spinal pain circuits, microglia and astrocytes interact with neurons. Experimental pain research examines how IL-1β, TNF and other mediators alter excitatory and inhibitory signalling within these circuits. Continued immune–neural interaction can help maintain sensitisation.",
-          "This explains why the lecture follows a gut–immune–nerve route. It does not require assuming that bacteria themselves travelled into a disc, or that every case of persistent pain began in the gut."
+          "Pain-sensing nerve cells turn potentially damaging stimuli into electrical signals. IL-1β, TNF and other inflammatory mediators can lower the threshold for activating these cells. A smaller stimulus then produces a response, and an existing painful stimulus can feel stronger.",
+          "Microglia are immune cells within the nervous system. Astrocytes help regulate the chemical environment around neurons. Both interact with spinal pain circuits: cytokines can strengthen excitatory signalling and weaken the inhibition that normally limits it. This increased responsiveness is called sensitisation.",
+          "In a study of 34 people with lumbar disc herniation, blood levels of IL-17 and the proportion of Th17 immune cells correlated with pain intensity. Patients with ruptured discs had higher levels than those with non-ruptured discs. This connects a specific immune signal with measured human pain."
         ],
         "route": [
           "Immune / glial cells",
@@ -90,7 +94,7 @@
           "il6"
         ],
         "diagram": "nerve",
-        "note": "Proposed connection in persistent back pain · stool sequencing alone does not demonstrate neural sensitisation by gut-derived signals.",
+        "note": "Sensitisation: nerve pathways respond more strongly because activation thresholds and excitatory or inhibitory signalling have changed.",
         "sources": [
           {
             "title": "Protein mechanism · UniProt",
@@ -101,26 +105,26 @@
             "url": "https://www.uniprot.org/uniprotkb/P01375/entry"
           },
           {
-            "title": "Sima et al., 2026 · matched back-pain pilot study",
-            "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jsp2.70174"
-          },
-          {
             "title": "Human Th17 / IL-17 measurements and disc pain",
             "url": "/research?paper=MED%3A23680281"
           },
           {
             "title": "Inflammatory biomarkers in low back disorders · evidence synthesis",
             "url": "/research?paper=MED%3A38578280"
+          },
+          {
+            "title": "Cytokines, disc tissue and pain pathways",
+            "url": "/research?paper=MED%3A24166242"
           }
         ]
       },
       {
         "label": "Immune restraint",
-        "heading": "IL-1Ra blocks a receptor; IL-10 changes cell behaviour",
+        "heading": "IL-1Ra blocks IL-1; IL-10 reduces inflammatory activity",
         "paragraphs": [
-          "IL-1Ra binds the receptor used by IL-1α and IL-1β but does not assemble the activating signalling complex. It therefore blocks an entry point into the IL-1 response.",
-          "IL-10 works differently. It activates its own receptor on immune cells and changes their gene expression, reducing production of inflammatory mediators. One regulator competes at a receptor; the other tells responding cells to reduce inflammatory activity.",
-          "The lecture also follows butyrate from microbial fermentation into immune regulation, including the HCAR2 receptor. This is a mechanistic research direction. The back-pain study did not test butyrate, fasting, probiotics or a treatment targeting these pathways."
+          "IL-1Ra binds the receptor used by IL-1α and IL-1β without activating it. By occupying the receptor, it prevents those cytokines from starting the same inflammatory signal inside the receiving cell.",
+          "IL-10 acts through its own receptor. It activates an internal signalling protein called STAT3, which changes gene expression and reduces production of inflammatory mediators. IL-1Ra blocks a message at its receptor; IL-10 changes how an immune cell behaves.",
+          "An activating signal can also recruit these controls. In a human experiment, a three-hour IL-6 infusion increased circulating IL-1Ra and IL-10. Immune responses contain feedback mechanisms that regulate their own intensity."
         ],
         "route": [
           "IL-1Ra / IL-10",
@@ -133,7 +137,7 @@
           "il6"
         ],
         "diagram": "control",
-        "note": "Human feedback example · IL-6 infusion increased IL-1Ra and IL-10. Whether manipulating these routes improves gut-associated back pain is a separate experiment.",
+        "note": "IL-1Ra competes for the IL-1 receptor. IL-10 activates a separate receptor and changes inflammatory gene expression.",
         "sources": [
           {
             "title": "Human IL-6 infusion increases IL-1Ra and IL-10",

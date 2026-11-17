@@ -301,13 +301,54 @@
       ]
     },
     {
+      "id": "cecum",
+      "name": "Cecum & ileocecal junction",
+      "latin": "Caecum",
+      "number": "V",
+      "tagline": "Where the small bowel meets the large.",
+      "role": "The ileum opens through the ileocecal valve into the cecum, a pouch at the start of the large intestine. Contents continue into the ascending colon; the appendix branches from the pouch.",
+      "habitat": "This junction brings the small bowel’s contents into the large bowel’s microbial ecosystem. Flow, food and the lining connect here with local immune activity.",
+      "residents": [],
+      "connections": [
+        "Intestinal flow",
+        "Microbial geography",
+        "Mucosal immunity"
+      ],
+      "papers": [
+        "cecum-immune"
+      ],
+      "question": "How do local microbes and metabolites shape immune activity at this junction?",
+      "caption": "Ileum → valve → cecum → ascending colon. The appendix is a side branch.",
+      "research": [
+        {
+          "id": "immune",
+          "title": "Immunity at the junction",
+          "description": "Compare immune cells at the cecum, terminal ileum and sigmoid colon.",
+          "terms": "Th17 OR Th22 OR regulatory T cells",
+          "papers": [
+            "cecum-immune"
+          ]
+        },
+        {
+          "id": "ecology",
+          "title": "A boundary between habitats",
+          "description": "Follow local microbes, metabolites and sampling methods.",
+          "terms": "microbiota OR metabolite OR sampling",
+          "papers": [
+            "cecum-immune"
+          ]
+        }
+      ],
+      "shortName": "Cecum"
+    },
+    {
       "id": "colon",
       "name": "Colon",
-      "latin": "Intestinum crassum",
-      "number": "V",
+      "latin": "Colon",
+      "number": "VI",
       "tagline": "A world built on exchange.",
       "role": "Microbes ferment substrates that escape earlier digestion. The colon absorbs water and microbial products while preparing the remaining material for passage.",
-      "habitat": "The colon receives what remains after the small intestine has absorbed most readily available nutrients. It recovers water and salts while a dense microbial community breaks down fibres and other food that has reached this far. This fermentation produces compounds used by microbes and the body. Food supply, the mucus lining and the time contents spend here shape a rich landscape of microbial partnerships.",
+      "habitat": "The ascending colon receives contents from the cecum after the small intestine has absorbed most readily available nutrients. It recovers water and salts while a dense microbial community breaks down fibres and other food that has reached this far. This fermentation produces compounds used by microbes and the body. Food supply, the mucus lining and the time contents spend here shape a rich landscape of microbial partnerships.",
       "residents": [
         "bacteroides",
         "bifidobacterium",
@@ -396,7 +437,7 @@
       "id": "rectum",
       "name": "Rectum",
       "latin": "Rectum",
-      "number": "VI",
+      "number": "VII",
       "tagline": "Where the journey ends.",
       "role": "The rectum stores stool before coordinated evacuation. Transit through the bowel changes microbial resources, fermentation, and the material that is eventually sampled.",
       "habitat": "The rectum is the final holding area before a bowel movement. It receives stool from the colon, senses when it is filling and works with the pelvic floor and anal sphincters to control its release. The arriving stool carries microbes and products of digestion from upstream. The lining and mucus form a local habitat too, connecting this final chamber to the wider intestinal ecosystem.",
@@ -1021,6 +1062,10 @@
     "trichinella": {
       "label": "CDC · Trichinella spiralis",
       "url": "https://www.cdc.gov/dpdx/trichinellosis/index.html"
+    },
+    "digestive-anatomy": {
+      "label": "NIDDK: digestive anatomy",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works"
     }
   },
   "community": [
@@ -1756,5 +1801,47 @@
         "description": "Blastocystis subtypes, genome resources, detection methods and cultivation information."
       }
     ]
+  },
+  "structures": {
+    "appendix": {
+      "name": "Appendix",
+      "tagline": "A small side branch with an active immune community.",
+      "sections": [
+        {
+          "title": "A meeting place for microbes and immunity",
+          "text": "The appendix opens into the cecum. Its lining contains organised immune tissue and microbial communities.",
+          "sources": [
+            {
+              "title": "Human appendix immune tissue",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1433016/"
+            }
+          ]
+        },
+        {
+          "title": "The microbial refuge idea",
+          "text": "Its sheltered shape and biofilms led to the proposal that it helps reseed the colon after diarrhoea. This remains a research question.",
+          "sources": [
+            {
+              "title": "Bollinger et al. · The microbial refuge hypothesis (2007)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/17936308/"
+            }
+          ]
+        },
+        {
+          "title": "What researchers are finding",
+          "text": "A 2026 study of 15 children found altered appendix microbes and immune-related activity in inflammatory bowel disease. The 2025 ACCURE trial tested removal in adults with ulcerative colitis in remission: one-year relapse was 36% with surgery plus medication and 56% with medication alone.",
+          "sources": [
+            {
+              "title": "Appendix microbes in childhood IBD (2026)",
+              "url": "https://doi.org/10.1152/ajpgi.00080.2026"
+            },
+            {
+              "title": "ACCURE · Ulcerative colitis trial (2025)",
+              "url": "https://doi.org/10.1016/S2468-1253(25)00026-3"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
